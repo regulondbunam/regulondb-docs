@@ -5,7 +5,7 @@
 
 <br>
 
-![](images/overview.png)
+![](./assets/img/overview.png)
 
 ## Purpose and Mission
 
