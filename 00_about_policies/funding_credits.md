@@ -16,27 +16,7 @@ The development of RegulonDB is funded by:
 
 <br>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Tabla con imágenes</title>
-  <style>
-    table {
-      width: 60%;
-      border-collapse: collapse;
-      margin: 30px auto;
-    }
-    td {
-      border: none;
-      padding: 10px;
-      text-align: center;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-</head>
 
-<center>
  <table style="border:0px">
   <tr>
     <th><img src="./assets/img/conacytlogo.gif" alt="drawing" width="210"/></th>
@@ -44,7 +24,5 @@ The development of RegulonDB is funded by:
     <th><img src="./assets/img/unam_logo.gif" alt="drawing" width="110"/></th>
   </tr>
  </table> 
-</center>
-
 
 
