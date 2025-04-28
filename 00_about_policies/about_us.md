@@ -5,7 +5,6 @@
 
 <br>
 
-![](./assets/img/overview.png)
 
 ## Purpose and Mission
 
@@ -37,7 +36,7 @@ Each item is annotated with specific **evidence codes**, capturing the method (e
 
 <br>
 
-
+![](./assets/img/overview.png)
 
 ## Curation and Methodology
 

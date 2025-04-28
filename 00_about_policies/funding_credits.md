@@ -39,9 +39,9 @@ The development of RegulonDB is funded by:
 <center>
  <table style="border:0px">
   <tr>
-    <th><img src="./images/conacytlogo.gif" alt="drawing" width="210"/></th>
-    <th><img src="./images/nihlogo.gif" alt="drawing" width="90"/></th>
-    <th><img src="./images/unam_logo.gif" alt="drawing" width="110"/></th>
+    <th><img src="./assets/img/conacytlogo.gif" alt="drawing" width="210"/></th>
+    <th><img src="./assets/img/nihlogo.gif" alt="drawing" width="90"/></th>
+    <th><img src="./assets/img/unam_logo.gif" alt="drawing" width="110"/></th>
   </tr>
  </table> 
 </center>
