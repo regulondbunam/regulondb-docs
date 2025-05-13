@@ -1,15 +1,17 @@
-# RegulonDB Team - Credits
+# Credits
 
 This page provides recognition to the individuals and teams who have contributed to the development, maintenance, and continued success of the RegulonDB project. Their collaborative work spans biocuration, software development, scientific guidance, and infrastructure support.
 
 This page summarizes the different contributors to the RegulonDB project.
 
-## Project Leadership
+## RegulonDB Team
+
+### Project Leadership
 
 - [Dr. Julio Collado Vides.](http://www.ccg.unam.mx/en/ComputationalGenomics) **Project Leader.**
 
 
-## Biocuration Team
+### Biocuration Team
 
 - [M.Sc. Socorro Gama Castro](https://orcid.org/0000-0001-7708-5143)
 - [Dr. Paloma Lara Figueroa](https://orcid.org/0000-0002-0532-0949)
@@ -17,18 +19,17 @@ This page summarizes the different contributors to the RegulonDB project.
 
 
 
-## Software and Infrastructure Team
+### Software and Infrastructure Team
 
 - [Heladia Salgado](https://orcid.org/0000-0002-3166-5801) ( Software Project manager)
-- [Gabriel Alarcón-Carranza](https://orcid.org/0000-0002-7512-4337) ( Web Developer)
 - [Andrés G. López-Almazo](https://orcid.org/0000-0002-8739-705X) ( Datamarts and Web Service Developer)
-- [Felipe Betancourt-Figueroa](https://orcid.org/0000-0001-7781-1125) ( DB Developer)
+- [Felipe Betancourt-Figueroa](https://orcid.org/0000-0001-7781-1125) ( DB Developer, Web Developer)
 - [Shirley Alquicira Hernández](https://orcid.org/0000-0002-4709-2008) ( FAIR data and software)
 - [Víctor del Moral Chávez](https://orcid.org/0000-0003-2015-3779) (Manager of information technology infrastructure)
 - [César Bonavides Martínez](https://orcid.org/0000-0003-4966-138X) (Information technology assistant)
+- [Gabriel Alarcón-Carranza](https://orcid.org/0000-0002-7512-4337) ( Web Developer)
 
-
-## International Advisory Board
+## Scientific Advisory Board
 
 We acknowledge the support on all sort of questions regarding knowledge representation in RegulonDB to the following colleagues: 
 
@@ -37,6 +38,28 @@ We acknowledge the support on all sort of questions regarding knowledge represen
 - [Dr. James Galagan](https://www.galaganlab.org/) (Boston University, USA)
 - [Dr. Daniela Ledezma Tejeida](https://www.ccg.unam.mx/daniela-elizabeth-ledezma-tejeida/) (Center for Genomics Science, Mexico)
 - [Dr. Ernesto Pérez Rueda](https://pcyt.unam.mx/index.php/erueda/) (UNAM, México)
+
+
+### **Function and Activities**
+The Scientific Advisory Board (SAB) of RegulonDB plays a central role in ensuring the scientific quality, strategic direction, and community alignment of the resource. The board includes members from diverse institutions across North America, Europe, and Latin America, offering broad geographic and disciplinary representation.
+
+**Function:**
+
+-   To provide expert guidance on scientific priorities, technical developments, and conceptual frameworks.
+-   To ensure that RegulonDB continues to address current and emerging needs of the microbial regulation research community.   
+-   To contribute to long-term visioning, including international positioning and sustainability strategies.
+    
+
+**Activities:**
+
+-   The SAB convenes at least twice a year in structured meetings to: 
+    -   Review progress since the previous meeting.       
+    -   Evaluate scientific objectives and their implementation.       
+    -   Advise on opportunities for funding and strategic collaborations.       
+    -   Discuss mechanisms for community engagement and responsiveness.       
+-   Members may also be consulted on an **ad hoc basis**, depending on their specific area of expertise, particularly when novel challenges or opportunities arise.
+
+
 
 
 ### Former Advisors: 
