@@ -8,7 +8,7 @@ Our goal is to provide clear, structured, and FAIR-aligned documentation to supp
 
 ---
 
-## 📚 Documentation Structure
+## Documentation Structure
 
 The documentation is organized into the following main sections:
 
