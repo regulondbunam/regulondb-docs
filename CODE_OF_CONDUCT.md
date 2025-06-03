@@ -1,5 +1,6 @@
 # 💊 Code of Conduct for RegulonDB Documentation
 
+
 ## 1. Purpose
 
 The purpose of this Code of Conduct is to ensure that RegulonDB Documentation remains a welcoming, respectful, and inclusive space for all contributors and users, regardless of background, experience, or role.
@@ -63,3 +64,5 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 ---
 
 Thank you for helping us build a respectful and collaborative community! 🌟
+
+
