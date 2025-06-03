@@ -4,7 +4,7 @@ Welcome to the **Gene Search Guide** of RegulonDB.
 
 This guide explains how to retrieve gene-related information using the **global search bar** in the RegulonDB web interface.
 
----
+
 
 ## 📚 How Gene Search Works
 
@@ -33,7 +33,7 @@ You can search using partial matches, full terms, or combine multiple fields usi
 
 ➡️ See [Using Logical Operators](logical_operators_search.md) for advanced search techniques.
 
----
+
 
 ## 🔎 How to Perform a Gene Search
 
@@ -50,7 +50,7 @@ You can search using partial matches, full terms, or combine multiple fields usi
 ![](./assets/img/search_results.png)
 
 
----
+
 ## 📋 Information Available on a Gene Page
 
 When selecting a gene from the search results, you will see the following sections:
@@ -77,7 +77,7 @@ When selecting a gene from the search results, you will see the following sectio
 
 ![](./assets/img/gene_page.png)
 
----
+
 
 ## 📑 Detailed Sections in the Gene Page
 
@@ -113,7 +113,7 @@ When selecting a gene from the search results, you will see the following sectio
 ### 📚 Citations
 - Scientific references supporting the gene annotation.
 
----
+
 
 ## 🛠️ Tips for Effective Gene Searches
 
@@ -121,7 +121,7 @@ When selecting a gene from the search results, you will see the following sectio
 - Try synonyms or functional keywords if the primary name does not yield results.
 - Explore the gene page fully to discover all regulatory and functional contexts.
 
----
+
 
 ## 📬 Need Help?
 

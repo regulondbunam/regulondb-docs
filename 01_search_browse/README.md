@@ -6,7 +6,7 @@ This section provides detailed instructions on how to search for biological enti
 
 Whether you are a new visitor, a researcher, or a student, this guide will help you effectively find and retrieve the information you need.
 
----
+
 
 ## 📚 Contents
 
@@ -15,7 +15,7 @@ Whether you are a new visitor, a researcher, or a student, this guide will help 
 - **[Special Collections](collections.md):** Accessing curated High-Throughput and Coexpression datasets.
 - **[Ontologies - Microbial Condition Ontology (MCO)](ontologies_mco.md):** Using controlled vocabularies to describe experimental conditions.
 
----
+
 
 ## 🎯 Purpose
 
@@ -25,7 +25,7 @@ The purpose of this guide is to:
 - Support reproducibility by allowing users to download ready-to-use datasets.
 - Promote good practices in data discovery and retrieval according to FAIR principles.
 
----
+
 
 ## 🛠️ Requirements
 
@@ -33,7 +33,7 @@ The purpose of this guide is to:
 - Basic knowledge of biological terms (genes, promoters, operons, transcription factors).
 - No programming skills required.
 
----
+
 
 Thank you for exploring RegulonDB!  
 If you need further assistance, visit our [Help and FAQs](../00_about_policies/contact_us.md) page. 🌟
