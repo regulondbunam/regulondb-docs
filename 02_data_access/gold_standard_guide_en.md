@@ -18,8 +18,8 @@ This tool allows you to explore a dataset table and filter by columns. It is use
 ### Confidence Level Calculator Tool
 This tool lets you exclude specific types of evidence and then recalculates the confidence level for each interaction. Ideal for omitting HT methods (e.g., ChIP-seq) from the analysis.
 
-> ![Confidence Level Calculator Interface](attachment:file-JapnC4LcdTWkamKyE4S4Wr)
-> **Figure 1.** Interface of the Confidence Level Calculator showing the selection and exclusion of evidence types.
+![Confidence Level Calculator Interface](./assets/img/confidence-level.png)
+   > *Figure 1.* Interface of the Confidence Level Calculator showing the selection and exclusion of evidence types.
 
 The image above shows how users can exclude evidence types from the calculation. Selected items are moved from the left panel to the "Evidence removed" list on the right.
 
@@ -48,9 +48,9 @@ The **Confidence Level Calculator Tool** lets users exclude one or more of these
 
 1. Go to [https://regulondb.ccg.unam.mx/datasets](https://regulondb.ccg.unam.mx/datasets)
 2. Locate the dataset **TF-RISet**.
-3. Click the magnifying glass icon (**Browse & Filter Tool**).
+3. Click the magnifying glass icon (**Browse & Filter Tool**). ![](./assets/img/browse-filter.png)
 
-   > **[Suggested Image]**: screenshot of the "Browse & Filter" button.
+  ![](./assets/img/datasets.png)
    > **Figure 2.** Entry point to the Browse & Filter tool from the TF-RISet interface.
 
 4. In the interactive table:
