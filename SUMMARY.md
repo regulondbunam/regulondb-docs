@@ -10,13 +10,16 @@
   - [Ontologies - Microbial Condition Ontology (MCO)](01_search_browse/ontologies_mco.md)
 
 - 📂 Data Access
-  - [Dataset Downloads](02_data_access/dataset_downloads.md)
-  - [Database Dumps (MongoDB, Docker)](02_data_access/database_dumps.md)
-  - [API Access (GraphQL, REST)](02_data_access/api_access.md)
+  - DownLoads
+      - [Dataset Downloads](02_data_access/dataset_downloads.md)
+      - [Creating Gold Standard Datasets](02_data_access/gold_standard_guide_en.md)
+      - [Database Dumps (MongoDB, Docker)](02_data_access/database_dumps.md)
+  - Programatic Access
+      - [API Access (GraphQL, REST)](02_data_access/api_access.md)
   - Technical Resources
-    - [Docker Installation Guide](02_data_access/technical_resources/docker_installation.md)
-    - [MongoDB Local Installation Guide](02_data_access/technical_resources/mongodb_installation.md)
-    - [Web Services Usage Guide (API)](02_data_access/technical_resources/web_services_usage.md)
+      - [Docker Installation Guide](02_data_access/technical_resources/docker_installation.md)
+      - [MongoDB Local Installation Guide](02_data_access/technical_resources/mongodb_installation.md)
+      - [Web Services Usage Guide (API)](02_data_access/technical_resources/web_services_usage.md)
     - [Database Collections Structure](02_data_access/technical_resources/database_collections/README.md)
       - [Genes Collection](02_data_access/technical_resources/database_collections/genes_collection.md)
       - [Promoters Collection](02_data_access/technical_resources/database_collections/promoters_collection.md)
