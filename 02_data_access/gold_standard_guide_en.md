@@ -15,11 +15,16 @@ This guide is for users with basic knowledge of molecular biology who want to ge
 ### Browse & Filter Tool
 This tool allows you to explore a dataset table and filter by columns. It is useful for selecting subsets based on confidence level, transcription factor (TF), evidence type, etc. The filtered result can be downloaded in TSV format.
 
+![Browse and Filter Interface](./assets/img/browse-filter-tool.png)
+
+   > *Figure 1.* Interface of the *Browse and Filter* Tool showing the dataset and the filters by columns.
+
+
 ### Confidence Level Calculator Tool
 This tool lets you exclude specific types of evidence and then recalculates the confidence level for each interaction. Ideal for omitting HT methods (e.g., ChIP-seq) from the analysis.
 
 ![Confidence Level Calculator Interface](./assets/img/confidence-level.png)
-   > *Figure 1.* Interface of the Confidence Level Calculator showing the selection and exclusion of evidence types.
+   > *Figure 2.* Interface of the Confidence Level Calculator showing the selection and exclusion of evidence types.
 
 The image above shows how users can exclude evidence types from the calculation. Selected items are moved from the left panel to the "Evidence removed" list on the right.
 
@@ -51,7 +56,7 @@ The **Confidence Level Calculator Tool** lets users exclude one or more of these
 3. Click the magnifying glass icon (**Browse & Filter Tool**). ![](./assets/img/browse-filter.png)
 
   ![](./assets/img/datasets.png)
-   > **Figure 2.** Entry point to the Browse & Filter tool from the TF-RISet interface.
+   > **Figure 3.** Entry point to the Browse & Filter tool from the TF-RISet interface.
 
 4. In the interactive table:
     - Locate column "20) confidenceLevel".
