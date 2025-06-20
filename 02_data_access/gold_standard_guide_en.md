@@ -97,13 +97,11 @@ Before choosing a tool, consider these guiding questions. The table below presen
 | Subset Name               | Tool Used           | Filters Applied                                  | Question Answered                                    |
 |--------------------------|---------------------|--------------------------------------------------|-------------------------------------------------------|
 | Confirmed RIs            | Browse & Filter     | Column 20 = C                                     | Do I want only the highest-confidence interactions?   |
-| Strong + Confirmed       | Browse & Filter + merge | Column 20 = S or C                             | Should I include strong but not confirmed RIs too?    |
+| Strong + Confirmed       | Browse & Filter + merge | Column 20 = S or C                             | Should I include strong and confirmed RIs too?    |
 | Confirmed excluding ChIP-seq | Confidence Calculator | Uncheck ChIP-seq + Column 20 = C             | Do I want to exclude HT evidence like ChIP-seq?       |
 | Classical method RIs     | Browse & Filter     | Use columns 21/22                                 | Do I want only manually curated/classical methods?    |
 | Custom-defined confidence| Confidence Calculator | Customize evidence selection                    | Do I have my own criteria for experimental reliability?|
 
-> **[Suggested Image]**: example filtered table showing evidence annotations.
-> **Figure 3.** Example of filtered results table using RegulonDB's interactive tools.
 
 ---
 
