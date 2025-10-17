@@ -58,8 +58,10 @@ With over **2,400 citations** in **more than 600 journals**, RegulonDB is a corn
 - Systems biology and network inference  
 - Gene expression and promoter analysis  
 - Machine learning and AI model validation  
-- Synthetic biology and bioengineering  
-- Comparative genomics and predictive modeling  
+- Synthetic biology and bioengineering
+- Topological properties of transcriptional regulatory networks  
+- Comparative genomics and predictive modeling
+- Benchmarking new high throughput methods 
 
 It is used globally by researchers in **microbiology**, **bioinformatics**, **computational biology**, **data science**, and **education**, and it plays a central role in validating tools, training models, and benchmarking pipelines.
 
