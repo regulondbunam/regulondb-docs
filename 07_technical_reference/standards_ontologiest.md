@@ -31,9 +31,13 @@ All promoters, regulatory interactions and transcription units are assigned a **
 
 see [Evidence Classification Document](https://regulondb.ccg.unam.mx/manual/help/evidenceclassification) for details.
 
-Also check the reference:
+Also check the initial reference:
 
 - Weiss, V., Medina-Rivera, A., Huerta, A. M., Santos-Zavaleta, A., Salgado, H., Morett, E., & Collado-Vides, J. (2013). Evidence classification of high-throughput protocols and confidence integration in RegulonDB. Database : the journal of biological databases and curation, 2013, bas059. [https://doi.org/10.1093/database/bas059](https://doi.org/10.1093/database/bas059)
+
+as well as a more recent update: 
+
+- Lara P, Gama-Castro S, Salgado H, Rioualen C, Tierrafría VH, Muñiz-Rascado LJ, Bonavides-Martínez C, Collado-Vides J. Flexible gold standards for transcription factor regulatory interactions in Escherichia coli K-12: architecture of evidence types. Front Genet. 2024 Mar 5;15:1353553. doi: 10.3389/fgene.2024.1353553. PMID: 38505828; PMCID: PMC10949920. (https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2024.1353553/full)
 
 
 ## 3. Microbial Conditions Ontology (MCO)
@@ -46,7 +50,7 @@ For datasets derived from experimental evidence (e.g., ChIP-seq), metadata inclu
 
 This allows integration with GEO datasets (e.g., GSM1010219) and reproducibility of experimental context.
 
-For details see the cite:
+For details see the paper:
 
 - Tierrafría, V. H., Mejía-Almonte, C., Camacho-Zaragoza, J. M., Salgado, H., Alquicira, K., Ishida, C., Gama-Castro, S., & Collado-Vides, J. (2019). MCO: towards an ontology and unified vocabulary for a framework-based annotation of microbial growth conditions. Bioinformatics (Oxford, England), 35(5), 856–864. [https://doi.org/10.1093/bioinformatics/bty689](https://doi.org/10.1093/bioinformatics/bty689)
 
