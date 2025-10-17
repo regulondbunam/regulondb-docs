@@ -26,7 +26,7 @@ These evidence types are displayed for each object, providing traceability and e
 
 
 ### Confidence Classification System
-All regulatory objects (e.g., interactions, operons) are assigned a **confidence level** (e.g., weak, strong, confirmed), based on the supporting evidence codes.
+All promoters, regulatory interactions and transcription units are assigned a **confidence level** (e.g., weak, strong, confirmed), based on the supporting evidence codes.
 
 
 see [Evidence Classification Document](https://regulondb.ccg.unam.mx/manual/help/evidenceclassification) for details.
