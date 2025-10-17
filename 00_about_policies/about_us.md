@@ -1,7 +1,7 @@
 
 # What is RegulonDB?
 
-**RegulonDB** is a comprehensive and expertly curated knowledge base dedicated to the **transcriptional regulatory network of *Escherichia coli* K-12**, a model organism in molecular biology and systems biology. It has been developed and maintained by the *Computational Genomics Program* at the **Centro de Ciencias Genómicas (UNAM)** for over two decades.
+**RegulonDB** is a comprehensive and expertly curated knowledge base dedicated to the **transcriptional regulatory network of *Escherichia coli* K-12**, a model organism in molecular biology and systems biology. It has been developed and maintained by the *Computational Genomics Program* at the **Centro de Ciencias Genómicas (UNAM)** for over three decades.
 
 <br>
 
@@ -22,7 +22,7 @@ Its **mission is to organize and disseminate high-quality regulatory knowledge**
 
 RegulonDB integrates detailed information on:
 
-- **Genes, operons, and transcription units**, organized into functional transcriptional modules
+- **Genes, operons, transcription units, operons and regulons**, organized into functional transcriptional modules
 
 - **Promoters and transcription start sites (TSSs)**, annotated with experimental evidence
 
