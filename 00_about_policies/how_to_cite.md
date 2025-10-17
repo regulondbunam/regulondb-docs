@@ -1,4 +1,4 @@
-# 📖 How to Cite RegulonDB
+# 📖 How to cite RegulonDB
 
 If you use **RegulonDB** in your research, presentations, or other academic work, please cite the following most recent publication:
 
