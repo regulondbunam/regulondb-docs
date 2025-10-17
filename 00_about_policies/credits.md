@@ -34,8 +34,9 @@ This page summarizes the different contributors to the RegulonDB project.
 We acknowledge the support on all sort of questions regarding knowledge representation in RegulonDB to the following colleagues: 
 
 - [Dr. Steve Busby](https://research.birmingham.ac.uk/en/persons/steve-busby) (University of Birgminham, UK)
+- - [Dr. James Galagan](https://www.galaganlab.org/) (Boston University, USA)
 - [Dr. Jacques van Helden](https://tagc.univ-amu.fr/fr/annuaire/van-helden-jacques) (Aix-Marseille Université, France)
-- [Dr. James Galagan](https://www.galaganlab.org/) (Boston University, USA)
+- Dr Julia Koblitz (https://research.dsmz.de/person/651cecd8b3c97f11cc28cfc2) DSMZ-German Collection of Microorganisms and Cell Cultures GmbH, Leibniz Institute,  Braunschweig, Germany
 - [Dr. Daniela Ledezma Tejeida](https://www.ccg.unam.mx/daniela-elizabeth-ledezma-tejeida/) (Center for Genomics Science, Mexico)
 - [Dr. Ernesto Pérez Rueda](https://pcyt.unam.mx/index.php/erueda/) (UNAM, México)
 
@@ -176,6 +177,7 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Irma Martínez Flores : The small RNA curated dataset.
 - Dr. Enrique Merino. The set of transcriptional attenuators in E. coli (PMID:15851059).
 - Dr. Cei Abreu. A set of predicted riboswitches ( RNA sequence that can adopt two structural arrangements, one of which has a transcription terminator or inhibitor of translation initiation).
+
 
 
 
