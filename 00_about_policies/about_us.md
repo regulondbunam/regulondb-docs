@@ -32,7 +32,7 @@ RegulonDB integrates detailed information on:
 
 - **GENSOR Units (Genetic Sensory Response Units)**, which integrate environmental signals, regulatory proteins, and downstream gene expression responses to capture signal-to-function regulatory logic
 
-Each item is annotated with specific **evidence codes**, capturing the method (e.g., EMSA, footprinting, RNA-seq, ChIP-seq) and strength of support (strong, weak, confirmed). Data are derived from peer-reviewed scientific literature and undergo manual curation by domain experts.
+Each item is annotated with specific **evidence codes**, capturing the method (e.g., EMSA, footprinting, RNA-seq, ChIP-seq) and level of confidence (strong, weak, confirmed). Data are derived from peer-reviewed scientific literature and undergo manual curation by domain experts.
 
 <br>
 
