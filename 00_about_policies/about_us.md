@@ -24,9 +24,9 @@ RegulonDB integrates detailed information on:
 
 - **Genes, operons, transcription units, operons and regulons**, organized into functional transcriptional modules
 
-- **Promoters and transcription start sites (TSSs)**, annotated with experimental evidence
+- **Promoters and transcription start sites (TSSs)**, annotated with experimental evidence, and their associated sigma factors
 
-- **Regulatory elements**, including transcription factors (TFs), small RNAs, their binding sites, and regulatory interactions
+- **Regulatory elements**, including transcription factors (TFs) with their active and inactive conformations, small RNAs, their binding sites, and regulatory interactions
 
 - **Transcription terminators**, supporting transcriptional boundaries
 
