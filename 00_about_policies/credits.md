@@ -24,9 +24,9 @@ This page summarizes the different contributors to the RegulonDB project.
 - [Heladia Salgado](https://orcid.org/0000-0002-3166-5801) ( Software Project manager)
 - [Andrés G. López-Almazo](https://orcid.org/0000-0002-8739-705X) ( Datamarts and Web Service Developer)
 - [Felipe Betancourt-Figueroa](https://orcid.org/0000-0001-7781-1125) ( DB Developer, Web Developer)
-- [Shirley Alquicira Hernández](https://orcid.org/0000-0002-4709-2008) ( FAIR data and software)
+- [Shirley Alquicira Hernández](https://orcid.org/0000-0002-4709-2008) (FAIR data, software and licensing)
 - [Víctor del Moral Chávez](https://orcid.org/0000-0003-2015-3779) (Manager of information technology infrastructure)
-- [César Bonavides Martínez](https://orcid.org/0000-0003-4966-138X) (Information technology assistant)
+- [César Bonavides Martínez](https://orcid.org/0000-0003-4966-138X) (Administration and Information technology assistant)
 - [Gabriel Alarcón-Carranza](https://orcid.org/0000-0002-7512-4337) ( Web Developer)
 
 ## Scientific Advisory Board
@@ -73,6 +73,7 @@ We acknowledge the following members for their contribution to RegulonDB:
 - Dr. Enrique Merino (Biotechnology Institute, UNAM, Mexico)
 - Dr. Jay Gralla (UCLA)
 - Dr. Tyrrell Conway (Advanced Center for Genome Technology, Oklahoma University)
+
 
 
 
