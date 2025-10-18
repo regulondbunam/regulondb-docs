@@ -145,7 +145,6 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Ma. Cecilia Ishida G.
 - M.Sc. José Manuel Camacho-Zaragoza
 - Dr. Martín Peralta Gil
-- Dr. Verena Weiss
 - Dr. Irma Martínez Flores
 - Mónica Peñaloza Spínola
 
@@ -174,6 +173,8 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Enrique Merino. The set of transcriptional attenuators in E. coli (PMID:15851059).
 - Dr. Denis Thieffry
 - Dr. Luis Gerardo Treviño
+- - Dr. Verena Weiss
+
 
 
 
