@@ -105,7 +105,8 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 #### Our tool Collaborators
  
 - The tool and concept that integrates metabolism and transcriptional regulation of transcription factors called **GENSOR UNIT** was developed by **Dr.Daniela Ledezma-Tejeida** "https://github.com/user-attachments/assets/38e9fdea-62cb-43c2-aa05-28f5b7004318" /> (PMID: 28824593 and 31194874).
-- The cluster analysis of PWMs and the Transcription Factor Family Browser was provided by Dr. Jaime Castro Mondragon.   
+- Knowledge extraction using natural language processing has been performed by the group of **Dr. Carlos Francisco-Méndez** (PMID: 33306798; 35584008).
+- The cluster analysis of PWMs and the Transcription Factor Family Browser was provided by **Dr. Jaime Castro-Mondragon**   
 
 #### Other collaborators
 
@@ -172,6 +173,7 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Enrique Merino. The set of transcriptional attenuators in E. coli (PMID:15851059).
 - Dr. Denis Thieffry
 - Dr. Luis Gerardo Treviño
+
 
 
 
