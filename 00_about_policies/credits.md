@@ -59,7 +59,7 @@ The Scientific Advisory Board (SAB) of RegulonDB plays a central role in ensurin
     -   Evaluate scientific objectives and their implementation.       
     -   Advise on opportunities for funding and strategic collaborations.       
     -   Discuss mechanisms for community engagement and responsiveness.       
--   Members may also be consulted on an **ad hoc basis**, depending on their specific area of expertise, particularly when novel challenges or opportunities arise.
+-   Members may also be consulted on an _ad hoc basis_, depending on their specific area of expertise, particularly when novel challenges or opportunities arise.
 
 
 
@@ -172,3 +172,4 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Enrique Merino. The set of transcriptional attenuators in E. coli (PMID:15851059).
 - Dr. Denis Thieffry
 - Dr. Luis Gerardo Treviño
+
