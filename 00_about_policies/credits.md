@@ -8,7 +8,7 @@ This page summarizes the different contributors to the RegulonDB project.
 
 ### Project Leadership
 
-- [Dr. Julio Collado Vides.](http://www.ccg.unam.mx/en/ComputationalGenomics) (https://orcid.org/0000-0001-8780-7664) <img width="442" height="26" alt="image" src="https://github.com/user-attachments/assets/fab28a77-286c-486c-abe0-a49d3ea37496" />
+- [Dr. Julio Collado Vides.](http://www.ccg.unam.mx/en/ComputationalGenomics) (https://orcid.org/0000-0001-8780-7664)
  **Project Leader.**
 
 
@@ -172,5 +172,6 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Enrique Merino. The set of transcriptional attenuators in E. coli (PMID:15851059).
 - Dr. Denis Thieffry
 - Dr. Luis Gerardo Treviño
+
 
 
