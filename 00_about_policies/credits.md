@@ -1,4 +1,4 @@
-# Credits
+co# Credits
 
 This page provides recognition to the individuals and teams who have contributed to the development, maintenance, and continued success of the RegulonDB project. Their collaborative work spans biocuration, software development, scientific guidance, and infrastructure support.
 
@@ -43,7 +43,7 @@ We acknowledge the support on all sort of questions regarding knowledge represen
 
 
 ### **Function and Activities**
-The Scientific Advisory Board (SAB) of RegulonDB plays a central role in ensuring the scientific quality, strategic direction, and community alignment of the resource. The board includes members from diverse institutions across North America, Europe, and Latin America, offering broad geographic and disciplinary representation.
+The Scientific Advisory Board (SAB) of RegulonDB plays a central role in ensuring the scientific quality, strategic direction, and community alignment of the resource. The board includes members from diverse institutions from Mexico, USA and Europe, offering broad geographic and disciplinary representation.
 
 **Function:**
 
@@ -172,4 +172,5 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Enrique Merino. The set of transcriptional attenuators in E. coli (PMID:15851059).
 - Dr. Denis Thieffry
 - Dr. Luis Gerardo Treviño
+
 
