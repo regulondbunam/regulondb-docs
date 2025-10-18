@@ -19,8 +19,10 @@ We support the **FAIR guiding principles**:
 
 - **Findability** through persistent identifiers,
 - **Accessibility** via open APIs and downloads,
-- **Interoperability** via standard formats (e.g., JSON, GFF),
+- **Interoperability** via standard formats (e.g., JSON, GFF), and the use of several ontologies such as: ECO, MCO, the Ontology of Bacterial Gene Expression and Regulation (OBAGRE) under development.
 - **Reusability** via clear licensing and metadata.
+
+For additional details see section "RegulonDB FAIRification" in PMID: 37971353. https://doi.org/10.1093/nar/gkad1072
 
 We encourage **data reuse for scientific and educational purposes**, while maintaining clear provenance and citation guidelines.
 
