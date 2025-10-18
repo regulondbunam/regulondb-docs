@@ -97,12 +97,14 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 #### Computational Predictions
 
 - The promoter predictions and the promoter evolutionary conservation come from **Dr. Araceli Huerta Moreno** (PMID: 14529615).  
-- Operon predictions come from our collaborator Dr. Gabriel Moreno Hagelsieb (PMID:12169563). -  The transcription factor weight matrix datasets version 5.0 using RegulonDB v12.0 by **Dr. Laura Gómez Romero**, [INMEGEN](https://www.inmegen.gob.mx/investigacion/investigadores/curriculum-vitae/?perfil=6105), ITESM.    
-- The transcription factor binding site (TFBSs) predictions, the transcription factor weight matrix datasets v3.0 and the TFBSs evolutionary conservation were and have been updated by **Dr. Alejandra Medina Rivera** (PMID: 20923783).   
+- Operon predictions come from our collaborator Dr. Gabriel Moreno Hagelsieb (PMID:12169563).
+- The transcription factor binding site (TFBSs) predictions, the transcription factor weight matrix datasets v3.0 and the TFBSs evolutionary conservation were and have been updated by **Dr. Alejandra Medina Rivera** (PMID: 20923783).  
+-  The transcription factor weight matrix datasets version 5.0 using RegulonDB v12.0 by **Dr. Laura Gómez Romero**, [INMEGEN](https://www.inmegen.gob.mx/investigacion/investigadores/curriculum-vitae/?perfil=6105), ITESM.    
+ 
 
 #### Our tool Collaborators
  
-- The tool and concept that integrates metabolism and transcriptional regulation of transcription factors called **GENSOR UNIT** was developed by **Dr.Daniela Ledezma-Tejeida** src="https://github.com/user-attachments/assets/38e9fdea-62cb-43c2-aa05-28f5b7004318" /> (PMID: 28824593 and 31194874).
+- The tool and concept that integrates metabolism and transcriptional regulation of transcription factors called **GENSOR UNIT** was developed by **Dr.Daniela Ledezma-Tejeida** "https://github.com/user-attachments/assets/38e9fdea-62cb-43c2-aa05-28f5b7004318" /> (PMID: 28824593 and 31194874).
 - The cluster analysis of PWMs and the Transcription Factor Family Browser was provided by Dr. Jaime Castro Mondragon.   
 
 #### Other collaborators
@@ -118,20 +120,19 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Steve Busby (University of Birgminham, UK).   
 - Dr. Jacques van Helden (Aix-Marseille Université, France)
 
-
 <hr>
 
 ### PAST contributors
 
 #### Past Advisors in Gene Regulation
 
-- Dr. Rick Gourse (University of Wisconsin) 
+- Dr. Sankar Adhya (National Institute of Health)
+- Dr. Tyrrell Conway (Advanced Center for Genome Technology, Oklahoma University)
+- Dr. Rick Gourse (University of Wisconsin)
+- Dr. Jay Gralla (UCLA)
 - Dr. Rob Gunsalus (University of California, Los Angeles)
 - Dr. Jim Hu (Texas A&M University)
-- Dr. Sankar Adhya (National Institute of Health)
-- Dr. Enrique Merino (Biotechnology Institute, UNAM, Mexico)
-- Dr. Jay Gralla (UCLA)
-- Dr. Tyrrell Conway (Advanced Center for Genome Technology, Oklahoma University)
+- Dr. Enrique Merino (Institute of Biotechnology, UNAM, Mexico)
 
 
 #### Past Biocurators
@@ -162,18 +163,12 @@ The advisors contribute to supervise the quality of the data curated into the da
 
 #### Past Collaborators
 
-- Dr. Luis Gerardo Treviño
-- Dr. Rosa María Gutierrez Ríos
-- Dr. Agustino Martínez Antonio
+- Dr. Cei Abreu. A set of predicted riboswitches (RNA sequence that can adopt two structural arrangements, one of which has a transcription terminator or inhibitor of translation initiation).
 - Dr. Sarath Chandra Janga
+- Dr. Rosa María Gutierrez Ríos
 - Dr. Ingrid Keseler (SRI International)
-- Dr. Denis Thieffry
-- Dr. Irma Martínez Flores : The small RNA curated dataset.
+- Dr. Agustino Martínez-Antonio
+- Dr. Irma Martínez Flores: The small RNA curated dataset.
 - Dr. Enrique Merino. The set of transcriptional attenuators in E. coli (PMID:15851059).
-- Dr. Cei Abreu. A set of predicted riboswitches ( RNA sequence that can adopt two structural arrangements, one of which has a transcription terminator or inhibitor of translation initiation).
-
-
-
-
-
-
+- Dr. Denis Thieffry
+- Dr. Luis Gerardo Treviño
