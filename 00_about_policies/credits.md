@@ -110,6 +110,7 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 
 #### Other collaborators
 
+- **Dr. Salvador Capella-Gutierrez and Dr.Josep Lluis Gelpe** from the Barcelona Supercomputing Center were instrumental in the FAIRification of RegulonDB (PMID 37971353).
 - [Jair García Sotelo](https://orcid.org/0000-0002-9462-2737) mantainer of the [RegulonDB mirror site at LIIGH Laboratory](https://regulondb.liigh.unam.mx/).   
 - **Claire Rioualen** designed the "Bacteria and the operon regulation image"  shown on the main page of RegulonDB. The image is licesed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
 
@@ -173,6 +174,7 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Enrique Merino. The set of transcriptional attenuators in E. coli (PMID:15851059).
 - Dr. Denis Thieffry
 - Dr. Luis Gerardo Treviño
+
 
 
 
