@@ -5,11 +5,11 @@
 
 ## 1. Overview
 
-RegulonDB is a curated knowledge base focused on the transcriptional regulation of *Escherichia coli* and related bacterial species. Although we do not manage sensitive human data or geolocation data of endangered species, we are committed to **ethical data stewardship**, **transparency**, and **responsible reuse** of scientific information.
+RegulonDB is a curated knowledge base focused on the transcriptional regulation of *Escherichia coli* and related bacterial strains. We may include in the near future knowledge of pathogenic E.coli strains. Although we do not manage sensitive human data or geolocation data of endangered species, we are committed to **ethical data stewardship**, **transparency**, and **responsible reuse** of scientific information.
 
 ## 2. Data Sources and Responsibility
 
-- All data integrated into RegulonDB is obtained from **peer-reviewed scientific publications**.
+- All data integrated into RegulonDB is obtained from **peer-reviewed scientific publications or from public repositories such as the Gene Expression Omnibus (GEO)**.
 - Each annotated object (e.g., promoter, transcription factor, regulatory interaction) is **linked to the original source**, allowing traceability and verification.
 - We respect the **ethical approvals and consent procedures** of the original research; we do not include data from unpublished, proprietary, or unethically obtained studies.
 
