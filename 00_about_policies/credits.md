@@ -1,4 +1,4 @@
-co# Credits
+# Credits
 
 This page provides recognition to the individuals and teams who have contributed to the development, maintenance, and continued success of the RegulonDB project. Their collaborative work spans biocuration, software development, scientific guidance, and infrastructure support.
 
@@ -17,7 +17,6 @@ This page summarizes the different contributors to the RegulonDB project.
 - [M.Sc. Socorro Gama Castro](https://orcid.org/0000-0001-7708-5143)
 - [Dr. Paloma Lara Figueroa](https://orcid.org/0000-0002-0532-0949)
 - [Fanny A. Flores-Gallegos](https://orcid.org/0009-0002-5738-0262)
-
 
 
 ### Software and Infrastructure Team
@@ -62,8 +61,6 @@ The Scientific Advisory Board (SAB) of RegulonDB plays a central role in ensurin
 -   Members may also be consulted on an _ad hoc basis_, depending on their specific area of expertise, particularly when novel challenges or opportunities arise.
 
 
-
-
 ### Former Advisors: 
 
 We acknowledge the following members for their contribution to RegulonDB:
@@ -76,10 +73,24 @@ We acknowledge the following members for their contribution to RegulonDB:
 - Dr. Enrique Merino (Biotechnology Institute, UNAM, Mexico)
 - Dr. Tyrrell Conway (Advanced Center for Genome Technology, Oklahoma University)
 
+## Current Collaborators
+
+### Strategies, Concepts and Tools
+
+- The tool and concept that integrates metabolism and transcriptional regulation of transcription factors called **GENSOR UNIT** was developed by **Dr.Daniela Ledezma-Tejeida** "https://github.com/user-attachments/assets/38e9fdea-62cb-43c2-aa05-28f5b7004318" /> (PMID: 28824593 and 31194874).
+- Knowledge extraction using natural language processing has been performed by the group of **Dr. Carlos Francisco-Méndez** (PMID: 33306798; 35584008).
+- Lisen & Curate: A platform to facilitate gathering textual evidence for curation of regulation of transcription initiation in bacteria   by the group of **Dr. Carlos Francisco-Méndez** (https://doi.org/10.1016/j.bbagrm.2021.194753)
+- Gold Standards Datasets: Flexible gold standards for transcription factor regulatory interactions in Escherichia coli K-12: architecture of evidence types by  Paloma Lara.
+
+### Ontology Development
+
+- Ontology of Bacterial Gene Regulation (OBAGER) developed by Citlalli Mejía-Almonte.
+- Microbial Condition Ontology (MCO)  developed by Citlalli Mejía-Almonte and Victor Tierrafria  (PMCID: PMC7963087  PMID: 30137210).
+
+
 ## Acknowledgments
 
 We are grateful to all contributors, past and present, who have supported RegulonDB with their expertise, commitment, and creativity. Their dedication ensures the ongoing growth and excellence of this project.
-
 
 #### Experimental and curated datasets
 
@@ -87,7 +98,6 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 
 - The Transcription Factor families came from  **Dr. Ernesto Pérez Rueda** (PMID: 10641039 and 26094112).
 - The initial set of global regulators came from **Dr. Agustino Martínez-Antonio** (PMID: 16311037).
-- The classification of the regulatory network of E.coli in different systems of sensing came from **Dr.Agustino Martínez-Antonio** (PMID: 16311037).
 - The initial set of active and inactive Transcription Factor Conformations was provided by [**Dr. Yalbi Balderas Martínez**](https://mx.linkedin.com/in/yalbi-i-balderas-martinez) (PMID:23776535).
 - The coexpression matrix of genes and the coexpresion browser is a contribution of **Dr. Lucie Pannier** (see  PMID: [28419102](https://pubmed.ncbi.nlm.nih.gov/28419102/)).
 - A set of promoters with evidence "High-throughput transcription initiation mapping" wee provided by the laboratory of **Dr. Enrique Morett**. (PMID: 19838305).
@@ -97,15 +107,13 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 #### Computational Predictions
 
 - The promoter predictions and the promoter evolutionary conservation come from **Dr. Araceli Huerta Moreno** (PMID: 14529615).  
-- Operon predictions come from our collaborator Dr. Gabriel Moreno Hagelsieb (PMID:12169563).
+- Operon predictions come from our collaborator **Dr. Gabriel Moreno Hagelsieb** (PMID:12169563).
 - The transcription factor binding site (TFBSs) predictions, the transcription factor weight matrix datasets v3.0 and the TFBSs evolutionary conservation were and have been updated by **Dr. Alejandra Medina Rivera** (PMID: 20923783).  
 -  The transcription factor weight matrix datasets version 5.0 using RegulonDB v12.0 by **Dr. Laura Gómez Romero**, [INMEGEN](https://www.inmegen.gob.mx/investigacion/investigadores/curriculum-vitae/?perfil=6105), ITESM.    
  
 
 #### Our tool Collaborators
  
-- The tool and concept that integrates metabolism and transcriptional regulation of transcription factors called **GENSOR UNIT** was developed by **Dr.Daniela Ledezma-Tejeida** "https://github.com/user-attachments/assets/38e9fdea-62cb-43c2-aa05-28f5b7004318" /> (PMID: 28824593 and 31194874).
-- Knowledge extraction using natural language processing has been performed by the group of **Dr. Carlos Francisco-Méndez** (PMID: 33306798; 35584008).
 - The cluster analysis of PWMs and the Transcription Factor Family Browser was provided by **Dr. Jaime Castro-Mondragon**   
 
 #### Other collaborators
@@ -114,13 +122,6 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 - [Jair García Sotelo](https://orcid.org/0000-0002-9462-2737) mantainer of the [RegulonDB mirror site at LIIGH Laboratory](https://regulondb.liigh.unam.mx/).   
 - **Claire Rioualen** designed the "Bacteria and the operon regulation image"  shown on the main page of RegulonDB. The image is licesed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
 
-
-#### Advisors in Gene Regulation
-
-The advisors contribute to supervise the quality of the data curated into the database, and help to adress specific issues of their expertise.
-
-- Dr. Steve Busby (University of Birgminham, UK).   
-- Dr. Jacques van Helden (Aix-Marseille Université, France)
 
 <hr>
 
@@ -173,7 +174,8 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Enrique Merino. The set of transcriptional attenuators in E. coli (PMID:15851059).
 - Dr. Denis Thieffry
 - Dr. Luis Gerardo Treviño
-- - Dr. Verena Weiss
+- Dr. Verena Weiss
+
 
 
 
