@@ -77,7 +77,7 @@ We acknowledge the following members for their contribution to RegulonDB:
 
 ### Strategies, Concepts and Tools
 
-- The tool and concept that integrates metabolism and transcriptional regulation of transcription factors called **GENSOR UNIT** was developed by **Dr.Daniela Ledezma-Tejeida** "https://github.com/user-attachments/assets/38e9fdea-62cb-43c2-aa05-28f5b7004318" /> (PMID: 28824593 and 31194874).
+- The tool and concept that integrates metabolism and transcriptional regulation of transcription factors called **GENSOR UNIT** was developed by **Dr.Daniela Ledezma-Tejeida** "https://github.com/user-attachments/assets/38e9fdea-62cb-43c2-aa05-28f5b7004318" (PMID: 28824593 and 31194874).
 - Knowledge extraction using natural language processing has been performed by the group of **Dr. Carlos Francisco-Méndez** (PMID: 33306798; 35584008).
 - Lisen & Curate: A platform to facilitate gathering textual evidence for curation of regulation of transcription initiation in bacteria   by the group of **Dr. Carlos Francisco-Méndez** (https://doi.org/10.1016/j.bbagrm.2021.194753)
 - Gold Standards Datasets: Flexible gold standards for transcription factor regulatory interactions in Escherichia coli K-12: architecture of evidence types by  Paloma Lara.
@@ -175,6 +175,7 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 - Dr. Denis Thieffry
 - Dr. Luis Gerardo Treviño
 - Dr. Verena Weiss
+
 
 
 
