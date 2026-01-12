@@ -13,7 +13,7 @@ Through the years it has been funded by:
  
    - RegulonDB Development: GM071962,   
    - RegulonDB Curation: RegulonDB grant GM071962 and EcoCyc grant GM077678.  
-   - New grants numbers GM077678 and 5RO1GM131643.   
+   - Additional NIH grants: GM077678 and 5RO1GM131643.   
 
 - Consejo Nacional de Ciencia y Tecnologia (CONACyT), Mexico (83686 G.I., CB2008-103686-Q, PROINNOVA-134817) and Funding for open access charge: Consejo Nacional de Ciencia y Tecnologia (CONACyT), Mexico (CB2008-103686-Q). RegulonDB has also benefited from fellowships to Ph.D. and posdocs by CONACyT.
 
