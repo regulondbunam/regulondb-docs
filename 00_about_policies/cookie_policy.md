@@ -1,6 +1,6 @@
 # 🍪 Cookie Policy
 
-_Last updated: [Insert Date]_
+_Last updated: 2026-02-10_
 
 ---
 
@@ -79,3 +79,4 @@ If you have any questions about our use of cookies, please contact us at:
 
 ---
 
+**Responsible area:** RegulonDB Documentation and Governance Team

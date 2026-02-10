@@ -54,7 +54,7 @@ You may also include the main publication reference, for example:
 
 ## Need to cite a previous version?
 
-Please check our [version history](https://regulondb.ccg.unam.mx/releasesNote) to find older releases and their corresponding publications. If your work used a version prior to v12.0, we recommend citing the specific version and the appropriate publication.
+Please check our [Version History](../05_releases_updates/version_history.md) and [Release Notes](../05_releases_updates/release_notes.md) to find older releases and their corresponding publications. If your work used a version prior to v12.0, we recommend citing the specific version and the appropriate publication.
 
 
 #### RegulonDB 11.0
@@ -98,6 +98,10 @@ Salgado, H., Santos, A., Garza-Ramos, U., van Helden, J., Díaz, E., & Collado-V
 Huerta, A. M., Salgado, H., Thieffry, D., & Collado-Vides, J. (1998). *RegulonDB: a database on transcriptional regulation in Escherichia coli*. Nucleic acids research, 26(1), 55–59. https://doi.org/10.1093/nar/26.1.55
 
 
+## Last Review
+
+- Last updated: 2026-02-10
+- Responsible area: RegulonDB Documentation and Governance Team
 
 
 

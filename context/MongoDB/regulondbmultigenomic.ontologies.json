@@ -1,0 +1,5 @@
+[{
+  "_id": "RDBONTOLGON00001",
+  "description": "Class Gene-Ontology-Terms is the root of the Gene Ontology (GO).  In a PGDB,\ngene products (including monomers, multimers, and chemically modified forms\nthereof) are assigned to GO terms in this hierarchy.  Note that a PGDB does not contain\nthe entire GO ontology, it contains only those terms (and their parents) to which gene products have been\nassigned.  To browse the entire GO ontology, visit the <a href=\"http://www.geneontology.org\">GO website</a>.",
+  "name": "Gene Ontology Terms"
+}]

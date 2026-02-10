@@ -1,0 +1,689 @@
+[{
+  "_id": "RDBECOLISFC00001",
+  "abbreviatedName": "sigma28",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00059",
+      "objectId": "P0AEM6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00037",
+      "objectId": "6PMJ"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00038",
+      "objectId": "PF04545"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00022",
+      "objectId": "IPR014284"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00052",
+      "objectId": "P0AEM6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00008",
+      "objectId": "DIP-47959N"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00043",
+      "objectId": "PS00715"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00039",
+      "objectId": "P0AEM6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00040",
+      "objectId": "PR00046"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00041",
+      "objectId": "PRO_000022654"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00016",
+      "objectId": "b1922"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00031",
+      "objectId": "P0AEM6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00056",
+      "objectId": "P0AEM6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00048",
+      "objectId": "NP_416432"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "EG11355-MONOMER"
+    }
+  ],
+  "genes_id": "RDBECOLIGNC01323",
+  "internalComment": "; Source: EcoCyc",
+  "name": "RNA polymerase sigma factor FliA",
+  "note": "&sigma;<sup>28</sup> is a minor sigma factor that is responsible for initiation of transcription of a number of genes involved in motility and flagellar synthesis |CITS: [3536871][2644646][7590326][8866483]|.  &sigma;<sup>28</sup> competes with &sigma;<sup>70</sup> for |FRAME: APORNAP-CPLX|, binding to it more tightly than &sigma;<sup>70</sup> |CITS: [9209042]|.\nA distinguishing feature of &sigma;<sup>28</sup> promoters is a long -10 region (GCCGATAA); in addition, its upstream GC is highly conserved |CITS: [19400790]|.  Thus, &sigma;<sup>28</sup> not only uses extended -10 recognition but also requires three recognition regions, -35, extended -10, and -10, for successful utilization of the core &sigma;<sup>28</sup> promoter |CITS: [19400790]|.\nBoth GC and the CG motifs are functionally important in the -10 region of &sigma;<sup>28</sup>, and this is a composite element.  Based on mutational and biochemical analyses, it was shown that the upstream GC constitutes an extended -10 motif and is recognized by R91 (which recognizes both 14G and 13C), a residue in domain 3 of &sigma;<sup>28</sup>.  The downstream CG is the upstream edge of the -10 region of the promoter; two residues in region 2.4 of domain 2, D81 (which recognizes 11G) and R84 (which recognizes 12C), participate in its recognition |CITS: [19400790]|.\nR91, D81, and R84 are universally conserved in &sigma;<sup>28</sup> orthologues |CITS: [19400790]|.\nThe dependence of &sigma;<sup>28</sup> on promoter sequence has been tested using the <i>Chlamydia trachomatis</i> <i>hctB</i> promoter |CITS: [16855242]|. \n&sigma;<sup>28</sup> is required for flagellin production |CITS: [6993282][6374380]|.  The structural consequences of <i>fliA</i> mutation have been examined via electron microscopy |CITS: [7007337]|. \n&sigma;<sup>28</sup> is half as abundant as &sigma;<sup>70</sup> under most growth conditions, but drops in abundance following heat shock |CITS: [8808934]|. \nBiofilm formation depends on the level of <i>fliA</i> expression |CITS: [16317765][16397770]|.\nA global antagonistic effect on gene expression was perceived between &sigma;<sup>S</sup>, &sigma;<sup>54</sup>, and &sigma;<sup>28</sup>, based on transcriptome expression analysis, and this resulted in many physiological traits, including flagellum-mediated motility and utilization of nitrogen sources; as many as 60% of genes in the RpoN regulon are under reciprocal RpoS control |CITS: [21219458]|.  In addition, there is a complex regulatory interaction of the three &sigma; factors: &sigma;<sup>S</sup>, &sigma;<sup>54</sup>, and &sigma;<sup>28</sup> |CITS: [21219458]|.\nThe FliA regulon was comprehensively mapped using ChIP-seq and RNA-seq |CITS: [25275371][26379184]|.\nBased on transcriptional fusion of intragenic binding sites of FliA (&sigma;<sup>28</sup>) previously identified by ChIP-seq |CITS: [25275371]|, it was determined that the most intragenic FliA binding sites are active promoters that transcribe highly unstable RNAs, and the genetic locations of intragenic FliA promoters are generally not conserved. FliA promoters are not conserved across species nor across <i>Escherichia coli</i> strains |CITS: [29476659]|.\nFliA appears not be able to induce pauses during transcription elongation in vitro |CITS: [31228934]|.\nDeletion of the &sigma; finger of FliA, formed by region 3.2, decreased the overall RNAP holoenzyme activity <i>in vitro</i>, increasing the stability of the promoter complex |CITS: [33573428]|. However, this deletion makes the promoter complex less sensitive to the stringent response factor DksA in presence of ppGpp |CITS: [33573428]|.\nIt was reported that RNAP holoenzyme containing FliA &sigma; factor can incorporate NADH during transcription initiation |CITS: [33573428]|.\nThe <i>fliA</i> gene expression was upregulated in a mutant deficient for the |FRAME:EG11495-MONOMER| HdeD |CITS:[34694904]|.  \nReviews: |CITS: [19400790][28904250]|",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "sigma 28",
+    "FlaD",
+    "sigma F factor",
+    "RpoF",
+    "RNA polymerase, sigma 28 (sigma F) factor",
+    "FliA",
+    "sigma 28 factor"
+  ]
+},
+{
+  "_id": "RDBECOLISFC00002",
+  "abbreviatedName": "sigma19",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC04041"
+    },
+    {
+      "publications_id": "RDBECOLIPRC07209"
+    },
+    {
+      "publications_id": "RDBECOLIPRC12819"
+    },
+    {
+      "publications_id": "RDBECOLIPRC15260"
+    },
+    {
+      "publications_id": "RDBECOLIPRC25216"
+    },
+    {
+      "evidences_id": "RDBECOLIEVC00065",
+      "publications_id": "RDBECOLIPRC27042"
+    },
+    {
+      "publications_id": "RDBECOLIPRC28861"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00059",
+      "objectId": "P23484"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00022",
+      "objectId": "IPR014284"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00036",
+      "objectId": "PTHR43133"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00038",
+      "objectId": "PF08281"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00039",
+      "objectId": "P23484"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00052",
+      "objectId": "P23484"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00008",
+      "objectId": "DIP-9588N"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00043",
+      "objectId": "PS01063"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00016",
+      "objectId": "b4293"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00031",
+      "objectId": "P23484"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00048",
+      "objectId": "NP_418713"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00056",
+      "objectId": "P23484"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "PD00440"
+    }
+  ],
+  "genes_id": "RDBECOLIGNC00285",
+  "internalComment": "; Source: EcoCyc",
+  "name": "RNA polymerase sigma factor FecI",
+  "note": "FecI (&sigma;<sup>19</sup>) belongs to the subfamily of \"iron starvation sigmas\" within the Extracytoplasmic Function (ECF) family of sigma factors |CITS: [8596456][12207687]|.  The only known target for transcription initiation by |FRAME: CPLX0-221| is the <i>fecABCDE</i> operon promoter |CITS: [10648550]|.  This limited role is typical for the minor sigma factors.  \nFecI was first described as a protein that regulates the expression of genes involved in the transport of ferric citrate |CITS: [2836368]| and was later shown to be the sigma factor that enables transcription from the <i>fec</i> transport operon promoter upstream of <i>fecA</i> |CITS: [2254251][7752886][7557462][8596456]|.  <i>In vitro</i>, transcription by |FRAME: CPLX0-221| is highest at 25&deg;C and is stimulated by the presence of potassium glutamate |CITS: [10648550]|.\nThree proteins, |FRAME: EG10286-MONOMER FecA| in the outer membrane, |FRAME: EG10292-MONOMER FecR| in the cytoplasmic membrane, and FecI in the cytoplasm, form a signaling pathway that responds to the presence of iron(III) dicitrate and induces expression of ferric citrate transport genes (most recently reviewed in |CITS: [31187912][17673165]|).  The periplasmic N terminus of FecA interacts with the C terminus of FecR, and the cytoplasmic N terminus of FecR binds FecI |CITS: [10633096]|.  Mutations in FecR can be compensated by missense mutations in the putative RNA polymerase-binding region 2.1 of FecI; these mutations don't restore the FecR-FecI interaction |CITS: [11114913]|.  The FecI-FecR interaction site maps to region 4 of FecI |CITS: [12057967]|.  The cytoplasmic domain of FecR stimulates the interaction of FecI with |FRAME:  RPOC-MONOMER| |CITS: [12618442]|.\nTranscription of <i>fecI</i> is not autoregulated |CITS: [8602163]|, but may be upregulated by RpoS during exponential growth |CITS: [18158608]|.  Under iron-replete conditions, expression of <i>fecIR</i> and <i>fecABCDE</i> is repressed by Fur-Fe<sup>2+</sup> |CITS: [9575233][17921503]|.  FecI levels appear to decrease in stationary phase cells |CITS: [10648550]|.  FecI belongs to the polyamine modulon; its expression is enhanced by polyamines at the level of translation |CITS: [15326188][17220219]|.\n<i>fecI</i> mutants are unable to grow with iron(III) dicitrate as the sole source of iron |CITS: [2254251]| and do not express the <i>fecABCDE</i> ferric citrate transport genes |CITS: [8602163]|.\nReviews: |CITS: [31187912][17673165][17370038][16718597][16428314][16333751][16102597][12732308][12207687][9148773]|\n",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "RNA polymerase, sigma 19 factor",
+    "sigma 19",
+    "FecI"
+  ],
+  "confidenceLevel": "W"
+},
+{
+  "_id": "RDBECOLISFC00003",
+  "abbreviatedName": "sigma70",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC05346"
+    },
+    {
+      "publications_id": "RDBECOLIPRC30925"
+    },
+    {
+      "publications_id": "RDBECOLIPRC22206"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00037",
+      "objectId": "1SIG"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00059",
+      "objectId": "P00579"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00022",
+      "objectId": "IPR014284"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00038",
+      "objectId": "PF04545"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00052",
+      "objectId": "P00579"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00008",
+      "objectId": "DIP-10773N"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00043",
+      "objectId": "PS00715"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00039",
+      "objectId": "P00579"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00040",
+      "objectId": "PR00046"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00041",
+      "objectId": "PRO_000023847"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00016",
+      "objectId": "b3067"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00031",
+      "objectId": "P00579"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00054",
+      "objectId": "P00579"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00048",
+      "objectId": "NP_417539"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00056",
+      "objectId": "P00579"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "RPOD-MONOMER"
+    }
+  ],
+  "genes_id": "RDBECOLIGNC00886",
+  "internalComment": "; Source: EcoCyc",
+  "name": "RNA polymerase sigma factor RpoD",
+  "note": "Sigma 70 is the primary sigma factor during exponential growth, targeting\n|FRAME: RNAP70-CPLX| to a wide range of promoters that are essential\nfor normal growth. E&sigma;<sup>70</sup>  transcribes,  in the absence of any additional transcription factor, with higher efficiency genes encoding ribosomal proteins and other protein synthesis-related genes, such as rRNA- and tRNA-encoding genes and <i>prfB</i>, which encodes release factor 2 |CITS:[21398637]|.\nSigma 70 accounts for 60-95% of the total pool of cellular sigma factors\nduring normal exponential growth |CITS: [8808934]|. \nChanges away from typical growth conditions, such as heat shock or growth\ninto stationary phase, lead to the replacement of sigma 70 with other sigma factors in\nthe RNA polymerase holoenzyme complex |CITS: [7588636][1745227][15596728]|. \nWhen this occurs, the holoenzyme no longer recognizes the same transcription targets,\nleading to a decline in many RNA and protein levels, including components of\nthe protein synthesis machinery |CITS: [7035833][3543015][12421813]|.  Alternatively, under osmotic stress sigma 70 seems to be responsible for RNAP redistribution to transcribe stress-responsive genes |CITS: [30843055]|.\nSigma 70 has the strongest interaction with the RNA polymerase core complex of all\nthe known sigma factors |CITS: [10982868]|. This interaction may in fact be\nrequired for sigma 70 to bind DNA, as its amino-terminal portion normally blocks such binding\nin the absence of core complex |CITS: [1643661]|. When it does bind\npromoter DNA, sigma 70 contacts both the -10 and -35 regions simultaneously, with a binding affinity\ndepending on the spacing between these points |CITS: [8799117]|. In promoters\nwith a -35 site, sigma 70 is more effective when there is also a proximal half-site or a complete\nUP element, whereas the stationary phase sigma, |FRAME: RPOS-MONOMER|, has opposite selectivity |CITS: [15612932]|. \nBoth sigma 70 and |FRAME: RPOS-MONOMER| compete for available core complex during stationary phase growth |CITS: [9767572]|.\nSigma 70 also competes with NusA for binding to |FRAME: APORNAP-CPLX|, though\nsigma 70's affinity for the core drops off dramatically during the change from transcriptional\ninitiation to elongation |CITS: [1856862][10625443]|. Sigma 70 even competes with the nascent RNA strand\nfor binding to |FRAME: APORNAP-CPLX| |CITS: [10411885]|. The majority of early elongation complexes\ndo appear to retain sigma 70 for a while, with this retention being promoted by promoter-like sequences in\nthe initial transcribed region |CITS: [16285917]|. These sequences, bearing similarity to -10\npromoters, can induce sigma 70-mediated pausing of |FRAME: RNAP70-CPLX| |CITS: [14630944][15122345]|, misincorporation-induced pausing |CITS:[28442761]|. Notably, promoters recognized by sigma 70 occur in regions rife with such promoter-like sequences |CITS: [14529615]|. \nGenes with promoters recognized by &sigma;<sup>70</sup> and not by other &sigma; factors are weakly downregulated in stationary phase compared to exponential-phase cells growing in LB medium |CITS:[35338024]|. <i>In vivo</i> during stationary phase, the activity of RNA polymerase:&sigma;<sup>70</sup> is inhibited when it forms a complex with 6S RNA (6S RNA:RNAP:&sigma;<sup>70</sup>), and it is released when levels of nutrients are high by accumulation of a complex of 6S RNA with a short product of RNA (6S RNA:pRNA) synthesized from 6S RNA:RNAP:&sigma;<sup>70</sup> |CITS: [36198425][38692564]|. \nBased on an XACT-seq method, cross-link-between-active-center-and-template sequencing, which directly defines the RNAP active center position relative to DNA with single-nucleotide resolution, detection and quantification of pausing in initial transcription at 4<sup>11</sup> (~4,000,000) promoter sequences <i>in vivo</i> showed that initial transcription pausing can occur with each nucleotide addition during initial transcription, particularly the first 4 to 5 nucleotide additions in sequences that resemble the consensus sequence element for transcription-elongaton pausing |CITS:[32750314]|.\nBased on nascent elongating transcript sequencing (NET-seq) combined with RNase I footprinting (RNET-seq), genome-wide identification of &sigma;<sup>70</sup>-dependent transcription pauses in <i> E. coli</i> was performed |CITS: [33568644]|. In these studies, &sigma;<sup>70</sup> induced backtracked pauses at a 10- to 20-bp distance from many promoters |CITS: [33568644]|. Promoters with &sigma;<sup>70</sup>-induced pauses at bp 10 to 15 have a canonical 10 element, 6- to 7-nt spacer, and YR+1Y motif, where the purine (R) corresponds to the transcription start site |CITS: [33568644]|. By contrast, promoters with &sigma;<sup>70</sup>-induced pauses at bp 16 to 20 contain all these elements and, additionally, a 10-like sequence |CITS: [33568644]|. <i>In vivo</i> and <i>in vitro</i> analyses showed that &sigma;<sup>70</sup>-induced backtracked pauses are relieved by Gre cleavage elongation factors |CITS: [33568644]|. The backtracking of RNAP at these pauses was determined to be of 4 to 5 bp by |CITS: [33568644]| and 2 to 4 bp by |CITS: [35653571]|. In addition to the backtracked state, the sigma-dependent pausing involves DNA scrunching with 2 to 3 bp, both at transcription initiation and transcription elongation, and the consensus sequence for sigma-dependent pausing involving DNA scrunching was determined as T<sub>P1</sub>N<sub>P</sub>Y<sub>A</sub>G<sub>A+1</sub> expressed in terms of RNAP active-center A-site and P-site positions (where N is any nucleotide and Y is a pyrimidine) |CITS: [35653571]|.\nSigma 70 function is blocked by the anti-sigma factor, |FRAME: EG11738-MONOMER|.\nPhysiologically relevant &sigma;<sup>70</sup> concentrations are required for reinitiation of transcription when the RNA polymerase remains bound to DNA after a round of transcription |CITS: [37459525]|.\nSigma 70 has undergone significant structural analysis. A crystal structure of sigma 70 has been\ndetermined to 2.6 &Aring; resolution, revealing that residues that bind core polymerase are\non one face, with DNA-binding residues on the other |CITS: [8858155]|. Most of sigma 70\nmust be present to allow promoter melting |CITS: [14988563]|. Within sigma 70, there are conserved\nmotifs responsible for binding to the -10 and -35 and other promoter regions |CITS: [2661828][2661827][14621989][8345519][12782316]|. Region 1.2 of sigma 70 is responsible for recognition of the -10-like pause regions described above, as well as recognition of the fork junction and actual promoter-proximal pausing |CITS: [17268549]|. Conserved region 3.2 of the primary &sigma; factor (&sigma; finger) directly contacts the template DNA strand in the open promoter complex and facilitates initiation of NTP binding in the active center of RNAP |CITS:[30321408]|. Based on a molecular beacon assay, it was determined that the &sigma; region 3.2 decreased the rate of promoter escape and led to accumulation of inactive complexes during transcription initiation |CITS:[29101286]|. A region of sigma 70 that partially blocks the RNA exit channel in the holoenzyme is involved in binding the 3' initiating nucleotide in the active site and aids in promoter clearance |CITS: [16690607]|. \nA crystal structure of |FRAME: RNAP70-CPLX| has been determined to 9.5 &Aring; resolution |CITS: [11118218]|. \n |FRAME: EG10893-MONOMER| interacts\nwith sigma 70 at a subset of UP and activator-dependent promoters |CITS: [12820974]|. \nInteraction between |FRAME: RPOC-MONOMER| and sigma 70 promotes sigma 70 interaction with the nontemplate\nstrand in the -10 region, while interaction between |FRAME: RPOB-MONOMER| and sigma 70 acts to block extension\nof nascent RNA, and thus must be disrupted to allow elongation to occur |CITS: [11439189][15761057]|. \nThe interaction of sigma 70 with activator proteins has also been\naddressed in detail |CITS: [8289270]|. \nSigma 70 undergoes a conformational change when it binds to the core complex, revealing the sigma\nfactor's DNA-binding surfaces, then undergoes another change on promoter melting |CITS:[9830052][10493811][11511357]|. When &sigma;<sup>70</sup> is not bound to RNA polymerase (RNAP), it adopts a compact conformation due to the proximity between its R2 and R4 regions, in contrast to the extended conformation it assumes when bound to RNAP |CITS:[38957792]|. This compact conformation is predominantly observed during the stationary phase, during which alternative sigma factors are recruited for transcription |CITS:[38957792]|. This process is considered a mechanism of self-inhibition of DNA binding |CITS:[38957792]|.\nIn <i>in vivo</i> and <i>in vitro</i> transcription analyses, <i>E. coli</i> RNA polymerase holoenzyme containing &sigma;<sup>70</sup> was intrinsically promiscuous, driving spurious transcription that was suppressed by H-NS. The promiscuity was dictated by the &sigma; factor |CITS: [35241653]|. The residues R156 and R486 from &sigma;<sup>70</sup> influence the patterns of DNA opening and contribute to the transcription promiscuity |CITS: [35241653]|.\nA point mutation, I48S,  in the poorly conserved region 1.1 of &sigma;<sup>70</sup> causes higher activity in protein synthesis during growth and produces a decrease of dormant cells and therefore a major cellular susceptibility to antibiotics |CITS:[32997144]|. This mutation alters the expression of at least 886 genes during exponential and stationary phases, including genes like sigma factors and their sigmulons and other transcription factors, the repression of  6S RNA (ssrS gene), which is a negative regulator of &sigma;<sup>70</sup>, and increased rRNAs. The mutant has poor sensitivity to DksA protein |CITS:[32997144]|.\nA &sigma;-competition model for RpoD based on comparative kinetic and thermodynamic properties was developed by Ganguly and Chatterji in 2012 |CITS:[22995505]|. The <i>rpoD</i> promoter's sensitivity to indirect regulation by &sigma; factor competition is determined by the sequence-dependent kinetics of the rate-limiting steps of transcription initiation |CITS:[27452766] |.\nUnder ampicillin treatment, the activity of &sigma;<sup>70</sup> appears to increase |CITS: [33731833]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "sigma 70 factor",
+    "RpoD",
+    "Alt",
+    "sigma 70",
+    "sigma D factor",
+    "RNA polymerase, sigma 70 (sigma D) factor"
+  ]
+},
+{
+  "_id": "RDBECOLISFC00004",
+  "abbreviatedName": "sigma24",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC19295"
+    },
+    {
+      "evidences_id": "RDBECOLIEVC00057",
+      "publications_id": "RDBECOLIPRC25580"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00059",
+      "objectId": "P0AGB6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00009",
+      "objectId": "DP01505"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00037",
+      "objectId": "1OR7"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00022",
+      "objectId": "IPR014284"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00036",
+      "objectId": "PTHR43133"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00038",
+      "objectId": "PF08281"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00008",
+      "objectId": "DIP-10774N"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00052",
+      "objectId": "P0AGB6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00043",
+      "objectId": "PS01063"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00039",
+      "objectId": "P0AGB6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00041",
+      "objectId": "PRO_000023848"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00016",
+      "objectId": "b2573"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00031",
+      "objectId": "P0AGB6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00054",
+      "objectId": "P0AGB6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00056",
+      "objectId": "P0AGB6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00048",
+      "objectId": "NP_417068"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "RPOE-MONOMER"
+    }
+  ],
+  "genes_id": "RDBECOLIGNC01824",
+  "internalComment": "; Source: EcoCyc",
+  "name": "RNA polymerase sigma factor RpoE",
+  "note": "Sigma E is a minor sigma factor, specializing in responses to the effects of heat shock and other stresses on membrane and periplasmic proteins. It is regulated by a multistep protease system that sense disruptions in those proteins. Its transcriptional initiation targets include another minor sigma factor, Sigma 32.\nSigma E drives transcription of a number of genes whose functions revolve around heat shock and misfolded proteins. Notably, Sigma E is induced by heat shock and is required for heat-induced transcription of <i>rpoH</i>, which codes for the heat-shock factor Sigma 32 |CITS: [12670975][3315851][2546916]|. Sigma E is also required for transcription of <i>degP</i>, which codes for a protease that degrades abnormal proteins in the periplasm |CITS: [3057437][2691330][7751307]|. Both <i>rpoH</i> and <i>degP</i> are induced at high temperature |CITS: [2691330]|. Sigma E also initiates transcription of the peptidyl-prolyl cis-trans isomerase FkpA, which also acts as a chaperone in the periplasm |CITS: [9159399]|. RpoE is a positive regulator of the prophage DLP12 lysis genes (<i>essD</i>p) |CITS: [25998262]|. In addition to these specific genes, a number of additional targets for Sigma E\nhave been identified |CITS: [11274153][12900013][16336047]|. \nA number of cellular stresses other than heat shock also induce  &sigma;<sup>E</sup>. &sigma;<sup>E</sup> is induced in response to increased expression of as well as misfolding of outer membrane proteins (OMPs) |CITS: [8276244]|. Other inducers include hyperosmotic shock, metal ion exposure, and changes in the outer membrane lipopolysaccharide (LPS) structure |CITS: [10594827][15774872][15720549]|. &sigma;<sup>E</sup> regulates extracytoplasmic functions including LPS translocation and some of its nonstoichiometric modifications |CITS:[27629414]|. &sigma;<sup>E</sup> is also induced by the starvation signal ppGpp on entry into stationary phase |CITS: [16788171]|. <i>rpoE</i> is a positive regulator of polyP synthesis upon nutrient limitation |CITS: [32341074][35482529]|. A novel pathway in cell lysis has been identified on the &sigma;<sup>E</sup> regulon;  this pathway proceeds in a cascade that entails &sigma;<sup>E</sup>  --> expression of <i>micA</i> and <i>rybB</i> small RNAs --> reduction in Omp proteins --> disintegration of the outer membrane |CITS: [22251246]|.\nUnder ampicillin treatment, the activity of &sigma;<sup>E</sup> appears to increase |CITS: [33731833]|.\n<i>rpoE</i> expression is regulated by a multistep system that allows increased transcription in response to unassembled or misfolded proteins, in addition to initiating its own transcription at at least one of its promoters |CITS: [7889934][7889935]|. Binding of unassembled OMPs to the protease DegS stimulate its cleavage of the regulatory protein RseA |CITS: [12679035][11442831]|. The destabilized RseA is then degraded by YaeL |CITS: [12183368]|. As RseA normally tethers Sigma E to the membrane with the aid of RseB, its degradation releases Sigma E to allow it to interact with |FRAME: APORNAP-CPLX| and initiate transcription |CITS: [12016219][12670975][11777003][9159522][9159523][11442831]|. \nUnder stress, Sigma E induces the mutagenic repair of DNA breaks through a network genes that function in the activation of Sigma E. The genes that appear to be involved in the activation of Sigma E are <i>arcA </i>, <i>lrp</i>, <i>trxB</i>, <i>fre</i>, <i>pstB</i>,<i>ubiX</i>, <i>znuC</i>, <i>ubiD</i>, <i>phoU</i>, <i>lipB</i>, <i>sdhD</i>, <i>fruR</i>, <i>pstC</i>, <i>cyoD</i>, <i>cyoA</i>, <i>apaH</i>, <i>sdhB</i>, <i>mdh</i>, <i>yigP</i>, <i>ygfA</i>, <i>nuoK</i>, <i>hemL</i>, <i>nuoG</i>, <i>lon</i>, <i>rppH</i>, <i>nuoH</i>, <i>ubiH</i>, <i>nuoL</i>, <i>nuoC</i>, <i>nuoJ</i>, <i>ubiE</i>, and <i>ubiA</i> |CITS: [23224554]|.\nA structure of Sigme E complexed with RseA to 2 &Aring; resolution shows that RseA sterically blocks surfaces required for binding to |FRAME: APORNAP-CPLX| |CITS: [12718891]|. \nSigma E is required for resistance to zinc, cadmium and copper, as well as for growth at high temperature |CITS: [15774872][7889934][7751307]|. It is also required for growth at normal temperature, but an unlinked suppressor mutation almost always occurs to allow such growth when <i>rpoE</i> function is lost |CITS: [9352942]|. \nOverexpression of Sigma E appears to prompt lysis of dead cells during stationary phase |CITS: [10960110]|. Sigma E-dependent gene expression during stationary phase has been studied |CITS: [16079349]|.\nBased on 60 known &sigma;<sup>E</sup> core promoters, a modular position weight matrix (PWM) model was developed to predict promoter strength and distinguish between active and inactive &sigma;<sup>E</sup>, and this model is applicable to both <i>in vivo</i> and <i>in vitro</i> measures of promoter strength. The combined  -35/-10 score is the most important predictor of activity. Additionally, a conserved \"AAC\" motif in the -35 region is likely to be a general predictor of function for promoters recognizedby group 4 &sigma;s |CITS:[20133665]|.\nThe structure of the complex formed by &sigma;<sup>E</sup> and its cognate -10 promoter has been solved by NMR spectroscopy and X-ray crystallography |CITS:[24531660]|. &sigma;<sup>E</sup> recognizes the 5-G-T-C-N-N-N7-3 motif (where C is -10, numbered with respect to the transcription start site). Sequence-specific recognition of C at -10 is exclusively mediated by a dynamic and variable protein loop that triggers specific recognition of the inverted nucleotide among group IV &sigma; factors |CITS: [24531660]|. Deletion of the &sigma; finger of &sigma;<sup>E</sup>, formed by the linker between domains 2 and 4, decreases the RNAP holoenzyme activity <i>in vitro</i>, increasing the stability of the promoter complex |CITS: [33573428]|. However, this deletion makes the promoter complex less sensitive to the stringent response factor DksA in presence of ppGpp |CITS: [33573428]|.\nIt was reported that RNAP holoenzyme containing RpoE &sigma; factor can incorporate NADH during transcription initiation |CITS: [33573428]|.\nSigmaE is able to induce pauses during transcription elongation in vitro when it binds to the -10-like element |CITS: [31228934]|.\nThe first sequence-based model of a full-length bacterial promoter was proposed by Rhodius et al. in 2010 |CITS: [20133665]|. They built the model based on 60 promoters that are &sigma;<sup>E</sup> dependent and  which include UP elements and core promoter sequences.  The model identifies the element determinants of the promoter sequence that correlate with promoter strength and uses these features to establish a predictive model for promoter strength. The role of the UP elements in promoter strength depends both on RNAP levels and properties of the core promoter |CITS: [22156164]|. The model can also distinguish active from weak-inactive promoters |CITS: [22156164]|.\nSeveral growth conditions affect the transcription of the <i>rpoE</i> promoter, such as defects in LPS, the addition of ammonium metavanadate, entry into the stationary phase, shifts to high osmolarity, growth phase-dependent challenge with polymyxin B, a shift to nitrogen-limiting growth conditions, overexpression of certain genes encoding lipoproteins, and repression in glucose-supplemented medium (catabolite repression) |CITS:[27629414]|, confirming what has been reported from other studies, where <i>rpoE</i> activity was induced by stresses such as exposure to high osmolarity, cold shock conditions, and entry into the stationary phase |CITS:[11274153][10594827]|.\nMultiple transcription factors control the expression of the <i>rpoE</i> gene, in addition to the RpoS, RpoD, and RpoN sigma factors, which specifically respond to a variety of stimuli and cell envelope defects, including LPS alterations, and allow linking of different stress-responsive pathways  |CITS:[27629414]|.\nBased on a biophysics <i>in vitro</i> model of transcription, it was shown that, like RpoD (&sigma;<sup>70</sup>), RpoE (&sigma;<sup>E</sup>, &sigma;<sup>24</sup>) exhibits a kinetic mix-and-match mechanism where the promoter elements complement each others binding strengths in achieving sufficient transcription activity |CITS:[28251873]|.\nMore than 300 proteins modulate production of curli, which is involved in fundamental cellular processes such as regulation, environmental sensing, respiration, metabolism, cell envelope biogenesis, transport, and protein turnover, whereas the sigma factors, &sigma;<sup>S</sup> and &sigma;<sup>E</sup>, have opposing roles in curli production and the related processes |CITS:[29088115]|. Mutations that induce the &sigma;<sup>E</sup> or Cpx stress response system reduce curli production; on the other hand, mutant strains with increased &sigma;<sup>S</sup> levels show increased curli production. Curli fiber formation is tightly linked to key metabolic pathways, including nucleotide synthesis, cell envelope maintenance, and the citric acid cycle |CITS:[29088115]|.\nReviews: |CITS: [23479440][27789741][35658528][37010795][36972330]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "SigE",
+    "sigma E factor",
+    "sigma 24 factor",
+    "RNA polymerase, sigma 24 (sigma E) factor",
+    "sigma 24",
+    "RpoE",
+    "RNA polymerase sigma E factor"
+  ],
+  "confidenceLevel": "W"
+},
+{
+  "_id": "RDBECOLISFC00005",
+  "abbreviatedName": "sigma32",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC01297"
+    },
+    {
+      "evidences_id": "RDBECOLIEVC00016",
+      "publications_id": "RDBECOLIPRC06458"
+    },
+    {
+      "publications_id": "RDBECOLIPRC12783"
+    },
+    {
+      "publications_id": "RDBECOLIPRC14084"
+    },
+    {
+      "publications_id": "RDBECOLIPRC17720"
+    },
+    {
+      "publications_id": "RDBECOLIPRC17833"
+    },
+    {
+      "publications_id": "RDBECOLIPRC21562"
+    },
+    {
+      "evidences_id": "RDBECOLIEVC00064",
+      "publications_id": "RDBECOLIPRC23080"
+    },
+    {
+      "publications_id": "RDBECOLIPRC23695"
+    },
+    {
+      "evidences_id": "RDBECOLIEVC00016",
+      "publications_id": "RDBECOLIPRC23960"
+    },
+    {
+      "evidences_id": "RDBECOLIEVC00064",
+      "publications_id": "RDBECOLIPRC23995"
+    },
+    {
+      "evidences_id": "RDBECOLIEVC00065",
+      "publications_id": "RDBECOLIPRC24551"
+    },
+    {
+      "evidences_id": "RDBECOLIEVC00067",
+      "publications_id": "RDBECOLIPRC24551"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00059",
+      "objectId": "P0AGB3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00022",
+      "objectId": "IPR014284"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00030",
+      "objectId": "P0AGB3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00038",
+      "objectId": "PF04545"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00052",
+      "objectId": "P0AGB3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00008",
+      "objectId": "DIP-46203N"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00043",
+      "objectId": "PS00715"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00039",
+      "objectId": "P0AGB3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00040",
+      "objectId": "PR00046"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00041",
+      "objectId": "PRO_000023849"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00016",
+      "objectId": "b3461"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00031",
+      "objectId": "P0AGB3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00056",
+      "objectId": "P0AGB3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00048",
+      "objectId": "NP_417918"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "RPOH-MONOMER"
+    }
+  ],
+  "genes_id": "RDBECOLIGNC00887",
+  "internalComment": "; Source: EcoCyc",
+  "name": "RNA polymerase sigma factor RpoH",
+  "note": "<i>rpoH</i> encodes &sigma;<sup>32</sup>, the primary sigma factor controlling the heat shock response during log-phase growth.  It is subject to tight control via a multivalent regulatory system that reponds to temperature and the abundance of misfolded proteins within the cell.\n&sigma;<sup>32</sup> levels rise, plateau and then drop following a heat shock, causing a similar induction in expression in heat shock genes |CITS: [15757896][2900239][3306410][6092838][6380765][6387714][7038687]|. At elevated temperatures, formation of E&sigma;<sup>32</sup> is favoured over that of E&sigma;<sup>70</sup>; &sigma;<sup>32</sup> has greater affinity for |FRAME: APORNAP-CPLX| than &sigma;<sup>70</sup> at high temperatures |CITS: [7588636]|.  Large-scale identification of E&sigma;<sup>32</sup> transcriptional targets has been carried out |CITS: [15757896][16818608]|.  The consensus promoter for E&sigma;<sup>32</sup> initiation is TNtCNCcCTTGAA at -35 and CCCCATtTa at -10, where lowercase letters indicate a tendency toward, but not an absolute requirement for, a certain nucleotide at that location |CITS: [3887408][19400791]|.  Notably, recent work indicates that E&sigma;<sup>32</sup> may only be involved in the heat shock response that occurs during log-phase, aerobic growth, with entirely different systems accounting for heat shock responses during stationary phase and anaerobic growth |CITS: [16775749]|. \nIn addition to the interaction of &sigma;<sup>32</sup> to the -10 and -35 boxes of the target promoters, it interacts weakly with the spacer between them via the T128 and K130 residues |CITS: [37238608]|. It also interacts with the RNA polymerase via its &sigma;<sub>4</sub> and &sigma;<sub>2</sub> domains |CITS: [37238608]|. A histidine in &sigma;<sup>32</sup>, instead of a tryptophan, as with  &sigma;<sup>70</sup>, works as a wedge to start the opening of DNA at the -11 and -12 positions with respect to the transcriptional start site |CITS: [37238608]|. \n&sigma;<sup>32</sup> is also responsible for genetic responses to other environmental insults.  Ethanol, alkaline pH changes and hyperosmotic shock all induce the &sigma;<sup>32</sup>-dependent heat shock response |CITS: [3539918][3542975][10594827]|.  In addition, &sigma;<sup>32</sup> is induced by carbon starvation |CITS: [2002001]|. The regulon of &sigma;<sup>32</sup> also appears to be induced in the absence of the tmRNA SsrA |CITS: [36471624]|.\n&sigma;<sup>32</sup> regulation is a multivalent process consisting of transcriptional, translational and postranslational controls.\n<i>rpoH</i> is transcribed from two constitutive &sigma;<sup>70</sup>-driven promoters, as well as at least one heat-shock responsive promoter and one &sigma;<sup>24</sup>-driven promoter |CITS: [3315851][3323832][2546916][2691330]|.  Three of the <i>rpoH</i> promoters are suppressed by DnaA binding |CITS: [2540187]|.  <i>rpoH</i> transcription does not depend on &sigma;<sup>32</sup> |CITS: [2430947]|. \n&sigma;<sup>32</sup> abundance is regulated at the translational level via mRNA secondary structure.  Two sequences in the <i>rpoH</i> mRNA, one near the translation start site and one internal, form a secondary structure element that is disrupted by higher temperatures, allowing translation |CITS: [2050641][1961716][7505426][9882652][10090722]|. RNAse III together with the PNPase helps to stabilize the <i>rpoH</i> mRNA under heat shock|CITS: [35456749]|. The transcription of <i>rpoH</i> also seems to be induced indirectly by RNAse III in a CytR- and CRP-independent way |CITS: [35456749]|.\n&sigma;<sup>32</sup> is regulated post-translationally via degradation and by direct inhibition of its activity |CITS: [3315848]|.  Importantly, &sigma;<sup>32</sup> must be associated with the inner membrane to be properly regulated. Membrane localization of &sigma;<sup>32</sup> is facilitated by the |FRAME: SRP-CPLX \"signal recognition particle (SRP) translocation system\"| although &sigma;<sup>32</sup> does not appear to contain a signal sequence nor any transmembrane regions. Fractionation experiments suggest that approximately 50% of &sigma;<sup>32</sup> is membrane-associated |CITS: [24358019]|.     \nThe protein level of the heat shock sigma factor RpoH is increased due mistranslation of the general stress response sigma factor RpoS, which protects cells against heat stress. This suggests a novel regulatory role of RpoS in the heat shock response |CITS: [31419308]|.\n&sigma;<sup>32</sup> is a very unstable protein which is transiently stabilised upon heat shock |CITS: [3315848][3306410][2646289][10801971]|.  &sigma;<sup>32</sup> is stabilized in the absence of the chaperone protein GroES and by the presence of abnormal proteins |CITS: [7912695][7916010]|.  Degradation of &sigma;<sup>32</sup> depends on the ATP dependent protease |FRAME: CPLX0-2982 FtsH| and |FRAME: CPLX0-1163| |CITS: [7724592][9393683][9822823]|. \n&sigma;<sup>32</sup> activity is directly controlled by the |FRAME: EG10241-MONOMER \"DnaK\"|-DnaJ-GrpE chaperone system.  When this chaperone system is occupied by substrates such as misfolded proteins, it is not available to bind &sigma;<sup>32</sup> and limit its activity |CITS: [8599944][9822822][9822823][1534276]|.  In this way, &sigma;<sup>32</sup> activity is tied directly to the level of misfolded proteins in the cell.  |FRAME: EG12193-MONOMER CbpA| and the |FRAME: CPLX0-3934| can also both limit &sigma;<sup>32</sup> activity in the same manner |CITS: [9822823][15545634]|. &sigma;<sup>32</sup> binds DnaK <i>in vitro</i> |CITS: [1565647]|; &sigma;<sup>32</sup> contains multiple DnaK binding sites |CITS: [24532774]|.  DnaK, &sigma;<sup>32</sup> and DnaJ form a stable complex <i>in vitro</i>; efficient formation of the complex depends on the presence of ATP. DnaK and DnaJ compete with RNA polymerase core for stable binding to &sigma;<sup>32</sup> |CITS: [8248205]|. The chaperones DnaK, DnaJ and GrpE interact with &sigma;<sup>32</sup> <i>in vivo</i> |CITS: [1534276]|.  FtsH degrades &sigma;<sup>32</sup> present in a DnaK-&sigma;<sup>32</sup>-DnaJ complex <i>in vitro</i> but is unable to degrade &sigma;<sup>32</sup> present in the E&sigma;<sup>32</sup> complex |CITS: [9987118]|.\nA &sigma;<sup>32</sup> I54N mutant is defective for chaperone (DnaK/J, GroEL/S) mediated inactivation <i>in vivo</i>, but shows no altered interaction with chaperones or RNA polymerase <i>in vitro</i> |CITS: [17968012]|.  A  &sigma;<sup>32</sup> I54N mutant is defective in membrane association; artificially tethering this mutant to the membrane restores homeostatic control mediated by chaperones and FtsH |CITS: [24358019]|. The hyperactive phenotype of this &sigma;<sup>32</sup> I54Nmutant is suppressed by Tn5 insertion into <i>mcrC</i> and <i>ydbA</i> genes, an effect that is not observed with <i>mcrC</i> or  <i>ydbA2</i> knockouts |CITS: [30531155]|.  \n&sigma;<sup>32</sup> activity can also be attenuated via phosphorylation |CITS: [12657060]| and is increased under ampicillin treatment |CITS: [33731833]|. \nConserved region 2 of &sigma;<sup>32</sup> is heavily involved in its activity and regulation.  Region 2.2 is involved in interaction with the |FRAME: APORNAP-CPLX|, along with other portions of the protein |CITS: [9144163][9495746]|.  Region 2 is important for FtsH-mediated degradation |CITS: [11277997]|.  &sigma;<sup>32</sup> becomes more flexible as temperature rises, and in particular region 2 appears to undergo a reversible unfolding |CITS: [14504287]|.  Region 2.1 is involved in &sigma;<sup>32</sup> stability and its transcriptional efficacy |CITS: [15516558][15901705]|.  Region C (from L118 to R140) has been implicated in binding of DnaK |CITS: [8601834]|, in high affinity binding to core RNA polymerase |CITS: [10348869]| and in FtsH mediated proteolysis |CITS: [19025566]|. Deletion of the &sigma; finger of RpoH formed by region 3.2 decreases the overall RNAP holoenzyme activity <i>in vitro</i>, increasing the stability of the promoter complex |CITS: [33573428]|. However, this deletion makes the promoter complex less sensitive to the stringent response factor DksA in presence of ppGpp |CITS: [33573428]|.\nIt was reported that RNAP holoenzyme containing RpoH &sigma; factor can incorporate NADH during transcription initiation |CITS: [33573428]|.\n<i>rpoH</i> mutants suffer a number of ills in addition to failure of the heat shock response. They are deficient in cell division at higher temperatures and sensitive to oxidative stress at any temperature |CITS: [3529094][1729253]|.  Both F and mini-F plasmid replication depend on &sigma;<sup>32</sup> and fail in its absence |CITS: [3526090][2447584]|.  In <i>rpoH</i> mutants, newly synthesized protein aggregates readily even under normal growth conditions |CITS: [1936268]|.  A single nucleotide substitution in <i>rpoH</i>  (T->C) increased the abundance of this protein without changes at the transcriptional level.  This mutation occurred in a successful thermal adaptation |CITS: [26373241]|.\n&sigma;<sup>32</sup> has been evaluated via linker insertion mutational analysis |CITS: [12700252]|. \nWhereas E&sigma;<sup>70</sup>-directed transcription is rifampicin sensitive, E&sigma;<sup>32</sup>-directed transcription is partially rifampicin resistant |CITS: [9862449]|.\nAfter cellular exposure to the aminoglycoside antibiotic kanamycin, &sigma;<sup>32</sup> accumulates to high levels and its degradation is apparently blocked; despite this accumulation, the response to heat shock normally induced by this &sigma; factor does not seem to be induced under this condition |CITS: [35486612]|. On the other hand, &sigma;<sup>32</sup> is not detected after exposure to the antibiotics tetracycline and chloramphenicol |CITS: [35486612]|.\nIt has been suggested that the active RpoH pathway could modulate antibiotic sensitivity  |CITS: [38391529]|.\nA &sigma;-competition model based on comparative kinetic and thermodynamic properties was developed |CITS: [22995505]|.\n&sigma;<sup>32</sup> appears not be able to induce pauses during transcription elongation in vitro |CITS: [31228934]|.\nThe expression of <i>rpoH</i> is increased in the presence of styrene |CITS: [33640981]|.\nVarious target genes of RpoH were found upregulated after 10 min of exposure to 2.5 mM H<sub>2</sub>O<sub>2</sub>, despite the <i>rpoH</i> transcription level not showing H<sub>2</sub>O<sub>2</sub>-dependent regulation |CITS:[35453340]|.\nReviews: |CITS: [10791710][28904250][31281142][37010795]|<BR>Comments: |CITS: [24358020][19400800]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "Hin",
+    "sigma H",
+    "RNA polymerase, sigma 32 (sigma H) factor",
+    "RpoH",
+    "HtpR",
+    "sigma 32",
+    "sigma H factor",
+    "Fam",
+    "sigma 32 factor"
+  ],
+  "confidenceLevel": "S"
+},
+{
+  "_id": "RDBECOLISFC00006",
+  "abbreviatedName": "sigma54",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC17169"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00059",
+      "objectId": "P24255"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00009",
+      "objectId": "DP01169"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00022",
+      "objectId": "IPR000394"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00036",
+      "objectId": "PTHR32248"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00038",
+      "objectId": "PF04552"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00037",
+      "objectId": "2MT3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00052",
+      "objectId": "P24255"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00008",
+      "objectId": "DIP-10776N"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00043",
+      "objectId": "PS00717"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00039",
+      "objectId": "P24255"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00040",
+      "objectId": "PR00045"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00041",
+      "objectId": "PRO_000023850"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00016",
+      "objectId": "b3202"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00048",
+      "objectId": "NP_417669"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00056",
+      "objectId": "P24255"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "RPON-MONOMER"
+    }
+  ],
+  "genes_id": "RDBECOLIGNC00888",
+  "internalComment": "; Source: EcoCyc",
+  "name": "RNA polymerase sigma factor RpoN",
+  "note": "Sigma 54 controls expression of nitrogen-related genes, directing |FRAME: RNAP54-CPLX| to the consensus nitrogen promoter.\nSigma 54 is the sigma factor controlling nitrogen-regulated and other nitrogen-related promoters |CITS: [2867543][2887548]|.  It copurifies with the RNA polymerase core enzyme and binds to the consensus nitrogen promoter |CITS: [2999766][2867543]|.  It is also involved in the nitric oxide stress response |CITS: [12529359]|.\nMutants lacking <i>rpoN</i> had a significant defect in polyP synthesis |CITS: [32341074][35482529]|.\nDuring typical exponential and stationary phase growth, the amount of sigma 54 present in the cell is one tenth that of the amount of sigma 70 |CITS: [8808934]|.  The metabolic context of genes dependent on sigma54 for transcription is\nreviewed in |CITS: [11528004]|.\nSigma 54 activity is activator dependent, requiring |FRAME: PROTEIN-NRIP| or other NtrC-family transcription factors to initiate transcription.\nIn some sigma 54-dependent promoters, DNA bending occurs, allowing |FRAME: PROTEIN-NRIP| to reach the transcription start site |CITS: [8780778]|.  It has been suggested, however, that DNA bending related to sigma 54 is not as extreme as originally reported |CITS: [9790843]|. Sigma 54 has also been alternately reported to remain bound to the promoter after RNA polymerase departs during transcript elongation, or to separate from the promoter between each round of transcription |CITS: [7557383][11809874]|. \nThe binding affinity of |FRAME: RNAP54-CPLX| for several target promoters has been evaluated |CITS: [12235394]|. \nSigma 54 has a number of structural features that affect its activity.  It has a pair of leucine zipper motifs that are involved in promoter melting, as well as an acidic region that has a role in the same process and a carboxy-terminal helix-turn-helix motif that is required for promoter recognition |CITS: [2203540][1447214][8107127]|.  A strongly acidic hydrophobic repeat region is required for binding to RNA core polymerase |CITS: [8134358][8196043]|. Four leucines in the amino-terminal region are required for |FRAME: PROTEIN-NRIP| regulation of sigma 54 activity |CITS: [7481805][9076735]|. Sigma 54 binds to the core polymerase via a region that is very similar to sigma70 |CITS: [7592329][9427396]|. \nThe structure of sigma 54 has been evaluated via scanning force microscopy |CITS: [9236116]|.  Additional examination via x-ray scattering microscopy shows that sigma 54 and sigma 70 share broad structural similarity |CITS: [10660585]|.  A 24 &Aring; cryo-electron structure of sigma 54 holoenzyme reveals major conformational changes during DNA binding |CITS: [16246367]|.\nA global antagonistic effect on gene expression was perceived between &sigma;<sup>S</sup>, &sigma;<sup>54</sup>, and &sigma;<sup>28</sup>, based on transcriptome expression analysis, and this resulted in many physiological traits, including flagellum-mediated motility and utilization of nitrogen sources; as many as 60% of genes in the RpoN regulon are under reciprocal RpoS control |CITS: [21219458]|. In addition, there is a complex regulatory interaction of the three &sigma; factors: &sigma;<sup>S</sup>, &sigma;<sup>54</sup>, and &sigma;<sup>28</sup> |CITS: [21219458]|.\nThe &sigma;<sup>54</sup> binding sites within the <i>E. coli</i> chromosome were comprehensively mapped using ChIP-seq |CITS: [26425847]|.\nA transposon insertion mutation in the <i>rpoN</i> gene generates cellular resistance to the antibiotic trimethoprim |CITS: [34874820]|.\nReviews: |CITS: [27789741][26010401][18331472]|",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "sigma N",
+    "RNA polymerase, sigma 54 (sigma N) factor",
+    "GlnF",
+    "RpoN",
+    "sigma 54",
+    "sigma 54 factor",
+    "NtrA",
+    "sigma N factor"
+  ]
+},
+{
+  "_id": "RDBECOLISFC00007",
+  "abbreviatedName": "sigma38",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC19295"
+    },
+    {
+      "publications_id": "RDBECOLIPRC30442"
+    },
+    {
+      "publications_id": "RDBECOLIPRC30925"
+    },
+    {
+      "evidences_id": "RDBECOLIEVC00023"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00059",
+      "objectId": "P13445"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00037",
+      "objectId": "5IPN"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00022",
+      "objectId": "IPR014284"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00038",
+      "objectId": "PF04545"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00052",
+      "objectId": "P13445"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00008",
+      "objectId": "DIP-10777N"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00043",
+      "objectId": "PS00715"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00039",
+      "objectId": "P13445"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00040",
+      "objectId": "PR00046"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00041",
+      "objectId": "PRO_000023851"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00016",
+      "objectId": "b2741"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00031",
+      "objectId": "P13445"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00054",
+      "objectId": "P13445"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00048",
+      "objectId": "NP_417221"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00056",
+      "objectId": "P13445"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "RPOS-MONOMER"
+    }
+  ],
+  "genes_id": "RDBECOLIGNC00502",
+  "internalComment": "; Source: EcoCyc",
+  "name": "RNA polymerase sigma factor RpoS",
+  "note": "<i>rpoS</i> encodes the alternative sigma factor &sigma;<sup>S</sup>, a subunit of RNA polymerase that acts as the master regulator of the general stress response in <i>E. coli</i>. Genome-wide analyses of RpoS-dependent gene expression showed that up to 10% of the genes in <i>E. coli</i> are under direct or indirect control of &sigma;<sup>S</sup> |CITS: [15558318][15716429]|.\nRNA polymerase bound to &sigma;<sup>S</sup> efficiently transcribes genes involved in stress responses and secondary metabolism, as well as RNAs from intergenic regions with yet-unknown function(s). The effects of &sigma;<sup>S</sup> on <i>E. coli</i> metabolism have been investigated |CITS: [16511888]|. A lack of <i>rpoS</i> increases the transcription of genes belonging to high-affinity uptake systems and central metabolism, under both glucose excess and glucose-limited conditions |CITS: [26204448]|. In addition, RpoS regulates transcription of a significant fraction of genes related to sugar metabolism and polyamine metabolism in response to cellular stresses, and it also has important roles in nucleic acid synthesis, modification, and turnover |CITS: [21398637]|. \nRpoS is also involved in the transcription of genes related to plasmid transformation, membrane and periplasmic proteins |CITS: [22438941]|, cellular resistance to antibiotics |CITS: [34874820][38617560]|, control of hydrostatic pressure |CITS:[21705547][28819154][36737893]| and inhibition of mazEF-dependent cellular death during stationary phase |CITS: [19251848]|. Additionally, RpoS seems to be involved in phage T7 resistance |CITS: [36978471]|.\nA <i>rpoS</i> knockout mutant exhibited a fourfold increase in aerobic biofilm formation, whereas no significant effect was observed under microaerobic conditions |CITS: [36894813]|. \nIn <i>E. coli</i> strains lacking the phosphoenolpyruvate:carbohydrate phosphotransferase system, RpoS acts as a controller of almost all the glycolytic genes. Additionally, genes whose products participate in ppGpp metabolism also are controlled by RpoS, although <i>relA</i> is not |CITS: [17938565]|.\nCurli fiber synthesis, which is tightly linked to key metabolic pathways, is regulated by RpoS under oxidative stress conditions |CITS: [24212724][29088115]|. The sigma factors &sigma;<sup>S</sup> and &sigma;<sup>E</sup> have opposing roles in curli production and the related processes |CITS: [29088115]|. Mutations that induce the &sigma;<sup>E</sup> or Cpx stress response system reduce curli production; on the other hand, mutant strains with increased &sigma;<sup>S</sup> levels show increased curli production. Crl, a thermosensor identified in the <i>E. coli</i> RpoS regulon, interacts directly with &sigma;<sup>S</sup>, promoting its binding to the <i>csgB</i> promoter |CITS: [14978043]|. \nRpoS plays a central role in survival from dehydration, protecting cells from damage during the drying phase and/or from stresses associated with the early stages of rehydration before protein expression has restarted |CITS: [29457688]|. \nBy using ChIP-seq analysis, 63 promoter regions were found to be bound by &sigma;<sup>S</sup> in response to the transition into stationary phase, although there were not good correlations between &sigma;<sup>S</sup>  binding and  &sigma;<sup>S</sup>-dependent transcription. Only 38 of the 63 promoter regions (60%) recognized by the sigma factor appear to be controlled by &sigma;<sup>S</sup> |CITS: [26020590]|. Another ChIP-seq data analysis revealed that RpoS-dependent genes encode small proteins involved in resistance to oxidative stress and to osmotic stress  |CITS: [26020590]|. Various target genes of RpoS were found upregulated after 10 min of exposure to 2.5 mM H<sub>2</sub>O<sub>2</sub>, despite the <i>rpoS</i> transcription level not showing H<sub>2</sub>O<sub>2</sub>-dependent regulation |CITS: [35453340]|. \nMost genes belonging to the &sigma;<sup>S</sup> regulon are also subject to additional forms of gene expression regulation |CITS: [21398637]|. Several <i>rpoS</i>-dependent genes are maximally expressed at the transition between the exponential and stationary phases, or even in the mid-exponential phase |CITS: [21398637]|.  \nThe activity of the RpoS iModulon decreases in cells evolved on glycerol and lactate as carbon sources |CITS:[38636729]|.\nThe protein level of the heat shock sigma factor RpoH is increased due to protein mistranslation, and such an increase is dependent on RpoS. This suggests a novel regulatory role of RpoS in the heat shock response |CITS: [31419308]|.\nThis sigma factor is a negative regulator in the formation of viable but nonculturable (VBNC) cells |CITS:[14510852][ 29458560]|. \nPolymorphisms in <i>rpoS</i> that affect fitness across different environments are commonly found in <i>E. coli</i> |CITS: [11790751][15207864][16489226]|.\n<b>Promoter sequences responding to &sigma;<sup>S</sup>:</b>  &sigma;<sup>S</sup> is homologous to the housekeeping sigma factor &sigma;<sup>70</sup> and recognizes similar consensus promoter sequences |CITS: [11737638][14704342]|. Discrimination between &sigma;<sup>S</sup> and &sigma;<sup>70</sup> promoters may be achieved through their tolerance of different levels of deviation from the consensus sequence |CITS: [11737638]| and nonoptimal spacing between the -35 and -10 elements |CITS: [16420370]|. The presence and location of UP elements |CITS: [15612932]| and -35 region elements |CITS: [16420371]| may also influence usage of a subset of promoters. Based on promoter sequence comparisons, it was found that selective promoter recognition by either form of RNA polymerase can be affected by the A/T content in the -10/+1 region. Indeed, site-directed mutagenesis experiments confirmed that an A/T bias in the -10/+1 region could improve promoter recognition by &sigma;<sup>S</sup> |CITS: [21398637]|. \nBased on various studies, it is known that there are a set of genes with promoters that are recognized by both &sigma;<sup>70</sup> and &sigma;<sup>38</sup> (another name for &sigma;<sup>S</sup>), and these genes are referred to as &sigma;<sup>70+38</sup> genes. Sequence conservation was found in promoters of &sigma;<sup>70+38</sup> genes. It was proposed that the transcription response strength of &sigma;<sup>70+38</sup> genes to changes in &sigma;<sup>38</sup> levels can be quantitatively related to the promoter sequence |CITS:[35338024]|. RNA-seq analysis indicated that &sigma;<sup>70+38</sup> genes are upregulated to a similar extent as those with promoters recognized only by &sigma;<sup>38</sup> when in stationary phase, compared to exponential phase, whereas those genes responding only to &sigma;<sup>70</sup> are weakly downregulated |CITS:[35338024]|. Gene ontology analysis showed that &sigma;<sup>70+38</sup> genes are involved mainly in respiration, while genes with promoters recognized only by &sigma;<sup>38</sup> are related to metabolic processes |CITS:[35338024]|.\nA global antagonistic effect on gene expression was perceived between &sigma;<sup>S</sup>, &sigma;<sup>54</sup>, and &sigma;<sup>28</sup>, based on transcriptome expression analysis, and this effect results in many physiological traits, including flagellum-mediated motility and utilization of nitrogen sources; as many as 60% of genes in the RpoN regulon are under reciprocal RpoS control |CITS: [21219458]|. In addition, there is a complex regulatory interaction of the three &sigma; factors &sigma;<sup>S</sup>, &sigma;<sup>54</sup>, and &sigma;<sup>28</sup> |CITS: [21219458]|. A &sigma; factor competition model based on comparative kinetic and thermodynamic properties was developed by Ganguly and Chatterji in 2012 |CITS: [22995505]|.\n<b>Regulation</b>: &sigma;<sup>S</sup> is itself subject to complex regulation at all levels (transcription, translation, activity, and protein degradation), thereby allowing integration of multiple stress signals in the cell. The regulatory mechanisms and signals are summarized below.\n<b>Regulation of transcription:</b>  Transcription of <i>rpoS</i> is repressed by the phosphorylated response regulator ArcA |CITS: [16291649]| and during the early log phase, by the regulator CRP |CITS: [7525405]|, although a positive effect by CRP in the mid-log, late-log, and stationary phases has been reported. These findings suggest that cAMP-CRP plays a biphasic role in <i>rpoS</i> expression |CITS: [26260461]|. While previous reports have described a contradictory effect of CRP on <i>rpoS</i> at two CRP-binding sites, Ruiz Amores et al. determined, based on glucose system and gene expression analyses, that both sites have a repressive effect |CITS: [29196655]|. \nThe BarA regulator is required for exponential-phase induction of <i>rpoS</i> transcription |CITS: [10931332]|. The presence of mitomycin C (MMC) induces RpoS synthesis, and the presence of BarA is necessary for the full induction of it. The principal factor for this activation is the production of reactive oxygen species (ROS) in cells exposed to MMC |CITS:[ 28468910]|. The <i>rpoS</i> gene is upregulated in response to ampicillin treatment |CITS:[35196813]|.\n<i>rpoS</i> transcription is directly activated by TorR_phosporylated under extreme acid conditions (pH 2.0) |CITS: [35181503]|. RpoS is induced via multiple mechanisms when under prolonged exposure to alkaline stress under semiaerobic conditions |CITS:[29802191]|. \nRegulatory effects of ppGpp and DksA on RpoS have been described at the levels of transcription initiation, transcription |CITS: [8253685][12193624]|, and elongation |CITS: [7642494]|, or indirectly by directly regulating the <i>iraP</i> and <i>dsrA</i> promoters, which in turn results in an increase in <i>RpoS</i> synthesis or stability|CITS:[29061665]|.\nDuring entry into stationary phase in complex medium, transcription of <i>rpoS</i> increases 5- to 10-fold |CITS: [2254248][7525405][8208244]|, but this effect is limited in defined medium |CITS: [15629914]|. On the other hand, it has been observed that polyamines increase the level of RpoS to induce glutamate-dependent acid resistance (GDAR) via <i>gadE</i> |CITS:[26025365]|. \nBased on RT-qPCR, it was shown that the gene <i>rpoS</i> is upregulated in the viable but nonculturable (VBNC) state that can be induced in pathogenic <i>Escherichia coli</i> strains by low-level chlorination exposure |CITS:[28662489]|. The expression of <i>rpoS</i> is also induced when the cell is exposed to the carbon-based nanomaterial, carbon nanotubes |CITS: [37317195]|. On the other hand, it has been found that <i>rpoS</i> expression is strongly induced in multicellular chains just before cellular adhesion to surfaces |CITS:[38814871]|. Moreover, the formation of circular multicellular communities, called rosettes, also induces the expression of this gene |CITS:[38814871]|.\n<b>Regulation of mRNA stability and translation:</b> The <i>rpoS</i> mRNA contains a long untranslated 5' region which plays an important role in the regulation of its stability and translation |CITS: [9721296]|. Many factors have been shown to influence formation of secondary structures, translation, and degradation of <i>rpoS</i> mRNA:  H-NS binds to <i>rpoS</i> mRNA and enhances its cleavage |CITS: [15147838]|, while the DsrA small RNA stabilizes it |CITS: [10954740]|. <i>rpoS</i> mRNA stability during glucose starvation is diminished in the absence of |FRAME: CPLX0-3281| function |CITS: [16309817]|. \nHfq is required for translation of the <i>rpoS</i> mRNA by promoting annealing of the DsrA small RNA to <i>rpoS</i> mRNA |CITS: [8654929][34571778][37116495]|. The Hfq-DsrA complex is stable until DsrA is bound to the target site in <i>rpoS</i> mRNA, which appears to happen immediately after the target site is transcribed |CITS: [37116495]|. On the other hand, the OxyS small RNA represses translation of <i>rpoS</i>, possibly by altering Hfq activity |CITS: [9774349]|. HU |CITS: [11251825]| and the RprA small RNA |CITS: [12410838]| each stimulate translation of <i>rpoS</i>. A review by Majdalani et al. (|CITS: [15814430]|) summarized the knowledge regarding small RNA regulators of <i>rpoS</i> mRNA.\nStarvation for phosphorus leads to accumulation of &sigma;<sup>S</sup> due to increased translation of <i>rpoS</i> mRNA. The upregulation is dependent on Hfq and may therefore involve an as-yet-unidentified small RNA |CITS: [14526009]|. LrhA represses translation of <i>rpoS</i> in an Hfq-dependent manner, which may also involve an unidentified small RNA |CITS: [16621809]|. Twenty-four nucleotides of the ribosome-binding site were shown to be necessary and sufficient for a 10-fold increase in <i>rpoS</i> translation |CITS: [16237004]|. A <i>miaA</i> insertion mutant showed decreased levels of RpoS, consistent with an MiaA requirement for efficient RpoS translation |CITS: [24296670]|. \nRpoS levels during growth in LB medium have been closely monitored |CITS:[35338024]|. During exponential phase, low RpoS levels are detected, and these levels increase during stationary phase |CITS:[35338024]|.\n \n<b>Regulation of protein activity:</b>  6S RNA activates transcription from several &sigma;<sup>S</sup>-dependent promoters while not affecting the levels of <i>rpoS</i> transcription or &sigma;<sup>S</sup> protein |CITS: [15262935]|. The alarmone ppGpp enhances the ability of &sigma;<sup>S</sup> to compete with &sigma;<sup>70</sup> for binding to core RNA polymerase |CITS: [12023304]|; the Rsd protein appears to serve a similar function |CITS: [10368152]|. Nitrogen starvation induces &sigma;<sup>S</sup>-dependent gene expression |CITS: [15716358]|, although levels of &sigma;<sup>S</sup> are only increased approximately 2-fold |CITS: [15629914]|, suggesting that nitrogen starvation acts at the level of &sigma;<sup>S</sup> activity |CITS: [16267278]|. The |FRAME: EG11092-MONOMER| enhances &sigma;<sup>S</sup> activity by increasing its ability to compete for the |FRAME: APORNAP-CPLX| |CITS: [17332743]|. Crl is a cognate enhancer of RpoS activity under different growth conditions |CITS:[23867204]|. &beta;-Lactam antibiotics induce the RpoS regulon and increase activity |CITS: [23511474][33731833]|. Deletion of the &sigma; finger of RpoS formed by region 3.2 decreases the overall RNAP holoenzyme activity <i>in vitro</i> |CITS: [33573428]|. The protein IraD appears to stabilize RpoS |CITS: [35445706]|.\nUnder stress conditions, &sigma;<sup>S</sup> induces the mutagenic repair of DNA breaks through a network of genes that function in the activation of &sigma;<sup>S</sup>. The genes that appear to be involved in the activation of &sigma;<sup>S</sup> are <i>cyoD</i>, <i>mdh</i>, <i>nuoC</i>, <i>sdhD</i>, <i>ubiD</i>,<i> apaH</i>, <i>cspC</i>, <i>cyoA</i>, <i>fre</i>, <i>glnK</i>, <i>hdfR</i>, <i>hemL</i>, <i>hfq</i>, <i>hscB</i>, <i>metJ</i>, <i>nuoG</i>, <i>nuoH</i>, <i>nuoJ</i>, <i>nuoK</i>, <i>nuoL</i>, <i>pgi</i>, <i>rbsK</i>, <i>sdhB</i>, <i>speD</i>, <i>speE</i>, <i>ubiA</i>, <i>ubiE</i>, <i>ubiH</i>, <i>ubiX</i>, and <i>yifE</i> |CITS: [23224554]|.\n<b>Protein degradation:</b>  In exponentially growing cells, the energy-dependent ClpXP protease degrades &sigma;<sup>S</sup> rapidly |CITS: [8550468]|. The RssB protein is required for rapid proteolysis of &sigma;<sup>S</sup>; it acts as a direct recognition factor, facilitating degradation of &sigma;<sup>S</sup> by the ClpXP protease |CITS: [10339606]|. |FRAME: EG10690-MONOMER| |CITS: [16556229]| as well as IraP |CITS: [16600914]|, |FRAME: EG11092-MONOMER| |CITS: [17332743]|, and H-NS |CITS: [16980505]| modulate the effect of RssB.  <i>rssB</i> transcription is itself controlled by &sigma;<sup>S</sup> |CITS: [11566997]|.  Acetyl phosphate is able to transfer a phosphate group to the Asp-58 residue of RssB and activate it |CITS: [9515704]|, although the phosphorylation level of RssB does not appear to play a role in signaling carbon starvation |CITS: [15489452]|.  Carbon starvation leads to accumulation of &sigma;<sup>S</sup> due to stabilization of the protein |CITS: [9179856][15629914]|; the molecular signal has not yet been determined |CITS: [16267278]|. DnaK positively regulates the amount of RpoS through its chaperone function |CITS:[ 30271935]|, and DksA may directly or indirectly protect RpoS from degradation by ClpXP |CITS:[ 9473038]|.\nSelected reviews: |CITS: [12208995][12753181][12823806][15814430][15866041][15948944][16267278][17725229][19765651][21639793][31197038]|\nReview about the contribution of <i>rpoS</i> to biofilm formation |CITS: [20480211]|.\nAdditional Reviews: |CITS: [9830102][11018136][24596257][28904250][35658528][37010795][38505546]|",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "sigma S",
+    "sigma 38 factor",
+    "OtsX",
+    "DpeB",
+    "KatF",
+    "AppR",
+    "Nur",
+    "sigma S factor",
+    "AbrD",
+    "SigS",
+    "RNA polymerase, sigma S (sigma 38) factor",
+    "RpoS"
+  ],
+  "confidenceLevel": "W"
+}]

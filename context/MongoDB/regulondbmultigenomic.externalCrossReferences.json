@@ -1,0 +1,440 @@
+[{
+  "_id": "RDBECOLIERC00037",
+  "description": "Protein Data Bank",
+  "internalComment": "; Source: EcoCyc",
+  "name": "PDB",
+  "note": "The PDB archive contains information about experimentally-determined structures of proteins, nucleic acids, and complex assemblies.",
+  "url": "http://www.rcsb.org/structure/~A"
+},
+{
+  "_id": "RDBECOLIERC00056",
+  "description": "UniProt",
+  "internalComment": "; Source: EcoCyc",
+  "name": "UNIPROT",
+  "note": "The mission of UniProt is to provide the scientific community with a comprehensive, high-quality and freely accessible resource of protein sequence and functional information.. The UniProt Knowledge Base has two component databases: SwissProt and TrEMBL.",
+  "url": "https://www.uniprot.org/uniprot/~A"
+},
+{
+  "_id": "RDBECOLIERC00058",
+  "description": "ZINC",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ZINC",
+  "url": "https://zinc15.docking.org/substances/~A"
+},
+{
+  "_id": "RDBECOLIERC00059",
+  "description": "AlphaFold",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ALPHAFOLD",
+  "url": "https://alphafold.ebi.ac.uk/entry/~A"
+},
+{
+  "_id": "RDBECOLIERC00001",
+  "description": "ASAP",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ASAP",
+  "note": "ASAP is a systematic Annotation Package for Community Analysis of Genomes, run by the University of Wisconsin",
+  "url": "http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=~A"
+},
+{
+  "_id": "RDBECOLIERC00062",
+  "description": "ASKA",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ASKA",
+  "url": "https://shigen.nig.ac.jp/ecoli/strain/quicksearch/list?keyword=~A#quicksearchListAskaCloneMinus"
+},
+{
+  "_id": "RDBECOLIERC00002",
+  "description": "BIGG",
+  "internalComment": "; Source: EcoCyc",
+  "name": "BIGG",
+  "note": "This is a metabolite linking with  with E. coli iAF1260 model from BiGG database.",
+  "url": "http://bigg.ucsd.edu/universal/metabolites/~A"
+},
+{
+  "_id": "RDBECOLIERC00003",
+  "description": "CAS",
+  "internalComment": "; Source: EcoCyc",
+  "name": "CAS",
+  "note": "Chemical Abstract Service",
+  "url": "http://www.commonchemistry.org/ChemicalDetail.aspx?ref=~A"
+},
+{
+  "_id": "RDBECOLIERC00004",
+  "description": "CAZy",
+  "internalComment": "; Source: EcoCyc",
+  "name": "CAZY",
+  "note": "The CAZy (Carbohydrate-Active Enzymes) database describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds.",
+  "url": "http://www.cazy.org/~A.html"
+},
+{
+  "_id": "RDBECOLIERC00005",
+  "description": "Coli Genetic Stock Center",
+  "internalComment": "; Source: EcoCyc",
+  "name": "CGSC",
+  "note": "The Escherichia Coli Genetic Stock Center at Yale",
+  "url": "https://ecgrc.net/?s=~A"
+},
+{
+  "_id": "RDBECOLIERC00006",
+  "description": "ChEBI",
+  "internalComment": "; Source: EcoCyc",
+  "name": "CHEBI",
+  "note": "Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on small chemical compounds.",
+  "url": "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:~A"
+},
+{
+  "_id": "RDBECOLIERC00007",
+  "description": "ChemSpider",
+  "internalComment": "; Source: EcoCyc",
+  "name": "CHEMSPIDER",
+  "note": "ChemSpider is a free chemical structure database providing fast access to over 25 million structures, properties and associated information.",
+  "url": "http://www.chemspider.com/~A"
+},
+{
+  "_id": "RDBECOLIERC00008",
+  "description": "Database of Interacting Proteins",
+  "internalComment": "; Source: EcoCyc",
+  "name": "DIP",
+  "url": "http://dip.doe-mbi.ucla.edu/dip/Browse.cgi?ID=~A"
+},
+{
+  "_id": "RDBECOLIERC00009",
+  "description": "Database of Protein Disorder",
+  "internalComment": "; Source: EcoCyc",
+  "name": "DISPROT",
+  "note": "The Database of Protein Disorder (DisProt) is a curated database that provides information about proteins that lack fixed 3D structure in their putatively native states, either in their entirety or in part.",
+  "url": "http://www.disprot.org/~A"
+},
+{
+  "_id": "RDBECOLIERC00010",
+  "description": "DrugBank",
+  "internalComment": "; Source: EcoCyc",
+  "name": "DRUGBANK",
+  "note": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information. ",
+  "url": "http://www.drugbank.ca/drugs/~A"
+},
+{
+  "_id": "RDBECOLIERC00011",
+  "description": "Eawag Biocatalysis/Biodegradation Database - Pathways",
+  "internalComment": "; Source: EcoCyc",
+  "name": "EAWAG-BBD-PWY",
+  "note": "Eawag Biocatalysis/Biodegradation Database (Eawag-BBD) is a database of Microbial biocatalytic reactions and biodegradation pathways.\nThe database is maintained by Eidgenössische Anstalt für Wasserversorgung, Abwasserreinigung und Gewässerschutz, in Switzerland.\nPrior to July 2014, the database was named University of Minnesota Biocatalysis/Biodegradation Database (UM-BBD).",
+  "url": "http://eawag-bbd.ethz.ch/servlets/pageservlet?ptype=p&pathway_abbr=~A"
+},
+{
+  "_id": "RDBECOLIERC00012",
+  "description": "EchoBASE",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ECHOBASE",
+  "note": "EchoBase is a database that curates new experimental and bioinformatic information about the genes and gene products of the model bacterium Escherichia coli K-12 strain MG1655",
+  "url": "http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=~A"
+},
+{
+  "_id": "RDBECOLIERC00013",
+  "description": "EcoCyc",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ECOCYC",
+  "note": "EcoCyc is a Pathway/Genome database for the bacterium E. coli K-12 strain MG1655",
+  "url": "http://biocyc.org/ECOLI/new-image?object=~A"
+},
+{
+  "_id": "RDBECOLIERC00014",
+  "description": "Ecol199310Cyc",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ECOL199310CYC",
+  "note": "This is a Pathway/Genome database for the bacterium Escherichia coli, Strain CFT073",
+  "url": "http://BioCyc.org/ECOL199310/new-image?object=~A"
+},
+{
+  "_id": "RDBECOLIERC00016",
+  "description": "EcoliWiki",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ECOLIWIKI",
+  "note": "The EcoliWiki is EcoliHub's subsystem for community annotation.",
+  "url": "http://ecoliwiki.org/colipedia/index.php/~A"
+},
+{
+  "_id": "RDBECOLIERC00017",
+  "description": "EcoO157Cyc",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ECOO157CYC",
+  "note": "This is a Pathway/Genome database for the bacteriumEscherichia coli, Strain O157:H7 EDL933",
+  "url": "http://BioCyc.org/ECOO157/new-image?object=~A"
+},
+{
+  "_id": "RDBECOLIERC00018",
+  "description": "NCBI Nucleotide",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ENTREZ",
+  "note": "The NCBI Nucleotide database is a collection of sequences from several sources, including GenBank, RefSeq, TPA and PDB. Genome, gene and transcript sequence data provide the foundation for biomedical research and discovery.",
+  "url": "http://www.ncbi.nlm.nih.gov/nuccore/~A"
+},
+{
+  "_id": "RDBECOLIERC00019",
+  "description": "ENZYME",
+  "internalComment": "; Source: EcoCyc",
+  "name": "ENZYME-DB",
+  "note": "ENZYME is a repository of information relative to the nomenclature of enzymes. It is primarily based on the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (IUBMB) and it describes each type of characterized enzyme for which an EC (Enzyme Commission) number has been provided",
+  "url": "https://enzyme.expasy.org/EC/~A"
+},
+{
+  "_id": "RDBECOLIERC00020",
+  "description": "HMDB",
+  "internalComment": "; Source: EcoCyc",
+  "name": "HMDB",
+  "url": "http://www.hmdb.ca/metabolites/~A"
+},
+{
+  "_id": "RDBECOLIERC00022",
+  "description": "InterPro",
+  "internalComment": "; Source: EcoCyc",
+  "name": "INTERPRO",
+  "note": "InterPro is a database of protein families, domains, regions, repeats and sites in which identifiable features found in known proteins can be applied to new protein sequences. ",
+  "url": "http://www.ebi.ac.uk/interpro/entry/~A"
+},
+{
+  "_id": "RDBECOLIERC00063",
+  "description": "KEIO",
+  "internalComment": "; Source: EcoCyc",
+  "name": "KEIO",
+  "note": "The E. coli Keio Knockout Collection contains a set of single-gene, knockout mutants for all nonessential genes in E. coli K-12. This collection of mutant strains was designed to create in-frame deletions upon excision of a kanamycin resistance cassette.",
+  "url": "https://shigen.nig.ac.jp/ecoli/strain/quicksearch/list?keyword=~A"
+},
+{
+  "_id": "RDBECOLIERC00023",
+  "description": "KNApSAcK",
+  "internalComment": "; Source: EcoCyc",
+  "name": "KNAPSACK",
+  "note": "KNApSAcK is a species-metabolite relation database provided by the Nara Institute of Science and Technology (NAIST).",
+  "url": "http://www.knapsackfamily.com/knapsack_core/information.jsp?word=~A"
+},
+{
+  "_id": "RDBECOLIERC00024",
+  "description": "Kegg Ligand",
+  "internalComment": "; Source: EcoCyc",
+  "name": "LIGAND-CPD",
+  "note": "KEGG LIGAND is a composite database consisting of COMPOUND, GLYCAN, REACTION, RPAIR, and ENZYME databases, whose entries are identified by C, G, R, RP, and EC numbers, respectively. ",
+  "url": "http://www.genome.ad.jp/dbget-bin/www_bget?~A"
+},
+{
+  "_id": "RDBECOLIERC00026",
+  "description": "MetaboLights",
+  "internalComment": "; Source: EcoCyc",
+  "name": "METABOLIGHTS",
+  "url": "http://www.ebi.ac.uk/metabolights/~A"
+},
+{
+  "_id": "RDBECOLIERC00027",
+  "description": "MetaCyc",
+  "internalComment": "; Source: EcoCyc",
+  "name": "METACYC",
+  "note": "MetaCyc is a universal Pathway database curated from the literature from experimental evidence.",
+  "url": "http://biocyc.org/META/new-image?object=~A"
+},
+{
+  "_id": "RDBECOLIERC00028",
+  "description": "MetaNetX",
+  "internalComment": "; Source: EcoCyc",
+  "name": "METANETX",
+  "url": "https://www.metanetx.org/chem_info/~A"
+},
+{
+  "_id": "RDBECOLIERC00029",
+  "description": "Online Mendelian Inheritance in Man",
+  "internalComment": "; Source: EcoCyc",
+  "name": "MIM",
+  "note": "This database is a catalog of human genes and genetic disorders authored and edited by Dr. Victor A. McKusick and his colleagues at Johns Hopkins and elsewhere, and developed for the World Wide Web by NCBI, the National Center for Biotechnology Information.",
+  "url": "http://omim.org/entry/~A"
+},
+{
+  "_id": "RDBECOLIERC00030",
+  "description": "Mint",
+  "internalComment": "; Source: EcoCyc",
+  "name": "MINT",
+  "note": "MINT, the Molecular INTeraction database. MINT focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators. ",
+  "url": "http://mint.bio.uniroma2.it/mint/search/search.do?queryType=protein&interactorAc=~A"
+},
+{
+  "_id": "RDBECOLIERC00031",
+  "description": "MODBASE",
+  "internalComment": "; Source: EcoCyc",
+  "name": "MODBASE",
+  "note": "MODBASE is a database of predicted protein 3-D structures developed by the Sali lab at UCSF.",
+  "url": "http://modbase.compbio.ucsf.edu/modbase-cgi/model_search.cgi?searchkw=name&kword=~A"
+},
+{
+  "_id": "RDBECOLIERC00032",
+  "description": "Gene ID",
+  "internalComment": "; Source: EcoCyc",
+  "name": "NCBI-GENE",
+  "note": "The NCBI Gene database  integrates information from a wide range of species. A record may include nomenclature, Reference Sequences (RefSeqs), maps, pathways, variations, phenotypes, and links to genome-, phenotype-, and locus-specific resources worldwide.",
+  "url": "http://www.ncbi.nlm.nih.gov/gene?term=~A"
+},
+{
+  "_id": "RDBECOLIERC00033",
+  "description": "NCBI Protein",
+  "internalComment": "; Source: EcoCyc",
+  "name": "NCBI-REFSEQ-PRO",
+  "url": "http://www.ncbi.nlm.nih.gov/protein/~A"
+},
+{
+  "_id": "RDBECOLIERC00034",
+  "description": "NCI Open DB",
+  "internalComment": "; Source: EcoCyc",
+  "name": "NCI",
+  "note": "NCI Open Database is a collection of over 130,000 compounds.",
+  "url": "http://cactus.nci.nih.gov/ncidb2.2/?nsc=~A"
+},
+{
+  "_id": "RDBECOLIERC00035",
+  "description": "OU-Microarray",
+  "internalComment": "; Source: EcoCyc",
+  "name": "OU-MICROARRAY",
+  "url": "https://genexpdb.okstate.edu/databases/genexpdb/?query=~A"
+},
+{
+  "_id": "RDBECOLIERC00036",
+  "description": "Panther",
+  "internalComment": "; Source: EcoCyc",
+  "name": "PANTHER",
+  "note": "The PANTHER (Protein ANalysis THrough Evolutionary Relationships) Classification System is a unique resource that classifies genes by their functions, using published scientific experimental evidence and evolutionary relationships to predict function even in the absence of direct experimental evidence.",
+  "url": "http://www.pantherdb.org/panther/family.do?clsAccession=~A"
+},
+{
+  "_id": "RDBECOLIERC00038",
+  "description": "Pfam",
+  "internalComment": "; Source: EcoCyc",
+  "name": "PFAM",
+  "note": "The Pfam collection of multiple sequence alignments and hidden Markov models for common protein families and domains.",
+  "url": "https://www.ebi.ac.uk/interpro/entry/pfam/~A"
+},
+{
+  "_id": "RDBECOLIERC00039",
+  "description": "Pride",
+  "internalComment": "; Source: EcoCyc",
+  "name": "PRIDE",
+  "note": "The PRIDE PRoteomics IDEntifications database is a centralized, standards compliant, public data repository for proteomics data, including protein and peptide identifications, post-translational modifications and supporting spectral evidence.\n",
+  "url": " https://www.ebi.ac.uk/pdbe/pdbe-kb/proteins/~A"
+},
+{
+  "_id": "RDBECOLIERC00040",
+  "description": "Prints",
+  "internalComment": "; Source: EcoCyc",
+  "name": "PRINTS",
+  "note": "PRINTS is a compendium of protein fingerprints. A fingerprint is a group of conserved motifs used to characterise a protein family; its diagnostic power is refined by iterative scanning of a SWISS-PROT/TrEMBL composite. ",
+  "url": " https://www.ebi.ac.uk/interpro/entry/prints/~A/"
+},
+{
+  "_id": "RDBECOLIERC00041",
+  "description": "Protein Ontology",
+  "internalComment": "; Source: EcoCyc",
+  "name": "PRODB",
+  "url": "http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=~A"
+},
+{
+  "_id": "RDBECOLIERC00043",
+  "description": "Prosite",
+  "internalComment": "; Source: EcoCyc",
+  "name": "PROSITE",
+  "note": "PROSITE is a database of protein families and domains.",
+  "url": "http://prosite.expasy.org/cgi-bin/prosite/nicedoc.pl?~A"
+},
+{
+  "_id": "RDBECOLIERC00044",
+  "description": "PubChem (CID)",
+  "internalComment": "; Source: EcoCyc",
+  "name": "PUBCHEM",
+  "note": "PubChem provides information on the biological activities of small molecules.",
+  "url": "http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=~A"
+},
+{
+  "_id": "RDBECOLIERC00045",
+  "description": "Reactome",
+  "internalComment": "; Source: EcoCyc",
+  "name": "REACTOME-CPD",
+  "url": "https://reactome.org/content/detail/R-ALL-~A"
+},
+{
+  "_id": "RDBECOLIERC00046",
+  "description": "Reactome",
+  "internalComment": "; Source: EcoCyc",
+  "name": "REACTOME",
+  "note": "Reactome is a free, online, open-source, curated resource of core pathways and reactions in human biology. ",
+  "url": "http://www.reactome.org/cgi-bin/link?SOURCE=Reactome&ID=~A"
+},
+{
+  "_id": "RDBECOLIERC00047",
+  "internalComment": "; Source: EcoCyc",
+  "name": "REFMET",
+  "url": "https://www.metabolomicsworkbench.org/databases/refmet/refmet_details.php?REFMET_NAME=~A"
+},
+{
+  "_id": "RDBECOLIERC00048",
+  "description": "NCBI Reference Sequences Database",
+  "internalComment": "; Source: EcoCyc",
+  "name": "REFSEQ",
+  "note": "The Reference Sequence (RefSeq) collection aims to provide a comprehensive, integrated, non-redundant set of sequences, including genomic DNA, transcript (RNA), and protein products, for major research organisms.",
+  "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=~A"
+},
+{
+  "_id": "RDBECOLIERC00049",
+  "description": "RHEA",
+  "internalComment": "; Source: EcoCyc",
+  "name": "RHEA",
+  "note": "Rhea is a freely available, manually annotated database of chemical reactions created by a collaboration between the SwissProt Group at the Swiss Institute of Bioinformatics (SIB) and the Cheminformatics and Metabolism Group at the European Bioinformatics Institute (EBI) |CITS: [22135291]|.",
+  "url": "http://www.rhea-db.org/reaction?id=~A"
+},
+{
+  "_id": "RDBECOLIERC00050",
+  "description": "Seed",
+  "internalComment": "; Source: EcoCyc",
+  "name": "SEED",
+  "url": "http://modelseed.org/biochem/compounds/~A"
+},
+{
+  "_id": "RDBECOLIERC00051",
+  "description": "Smart",
+  "internalComment": "; Source: EcoCyc",
+  "name": "SMART",
+  "url": "http://smart.embl.de/smart/do_annotation.pl?DOMAIN=~A"
+},
+{
+  "_id": "RDBECOLIERC00052",
+  "description": "SWISS-MODEL",
+  "internalComment": "; Source: EcoCyc",
+  "name": "SMR",
+  "note": "The SWISS-MODEL Repository is a database of annotated three-dimensional comparative protein structure models generated by the fully automated homology-modelling pipeline SWISS-MODEL. ",
+  "url": "https://swissmodel.expasy.org/repository/uniprot/~A"
+},
+{
+  "_id": "RDBECOLIERC00053",
+  "description": "String",
+  "internalComment": "; Source: EcoCyc",
+  "name": "STRING",
+  "note": "STRING is a database of known and predicted protein interactions.",
+  "url": "http://string-db.org/network/~A"
+},
+{
+  "_id": "RDBECOLIERC00054",
+  "description": "Swiss-Model",
+  "internalComment": "; Source: EcoCyc",
+  "name": "SWISSMODEL",
+  "note": "The SWISS-MODEL Repository is a database of annotated three-dimensional comparative protein structure models generated by the fully automated homology-modelling pipeline SWISS-MODEL. ",
+  "url": "https://swissmodel.expasy.org/repository/uniprot/~A"
+},
+{
+  "_id": "RDBECOLIERC00064",
+  "description": "UniProt (via Protein ID)",
+  "internalComment": "; Source: EcoCyc",
+  "name": "UNIPROT-PROTEIN-ID",
+  "url": "http://www.uniprot.org/uniprot/?query=~A"
+},
+{
+  "_id": "RDBECOLIERC00057",
+  "description": "Wikipedia",
+  "internalComment": "; Source: EcoCyc",
+  "name": "Wikipedia",
+  "note": "<A href=\"http://en.wikipedia.org/\">Wikipedia</A> is a multilingual, web-based, free content\nencyclopedia project, which is written collaboratively by volunteers from all around the world. ",
+  "url": "http://en.wikipedia.org/wiki/~A"
+}]

@@ -1,6 +1,6 @@
 # 📖 FAIR Data Policy
 
-_Last updated: [Insert Date]_
+_Last updated: 2026-02-10_
 
 ---
 
@@ -37,7 +37,7 @@ We ensure that all data and metadata managed by RegulonDB adhere to the followin
 - **Reusable:**
   - Clear licensing terms are published ([License](license.md)).
   - Full provenance is documented, including sources and evidence codes.
-  - Detailed curation protocols are available in the [Curation Manual](../04_curation_manual/README.md).
+  - Detailed curation protocols are available in the [Curation Manual](../04_curation/README.md).
 
 ---
 

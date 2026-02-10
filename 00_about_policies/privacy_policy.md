@@ -44,8 +44,9 @@ We retain user-submitted information for up to 5 years for reporting purposes. A
 ## 7. Contact
 
 For any questions or concerns about this privacy policy or how your data is handled, please contact:  
-**[regulondb@ccg.unam.mx]**
+**[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)**
 
 ---
 
-**Last updated:** April 2025
+**Last updated:** 2026-02-10  
+**Responsible area:** RegulonDB Documentation and Governance Team

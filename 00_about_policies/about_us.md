@@ -53,7 +53,7 @@ The database distinguishes between classical and high-throughput (HT) data, inte
 
 ## Scientific and Technological Impact
 
-With over **2,400 citations** in **more than 600 journals**, RegulonDB is a cornerstone in:
+With over **2,600 citations** in **more than 450 journals**, RegulonDB is a cornerstone in:
 
 - Systems biology and network inference  
 - Gene expression and promoter analysis  

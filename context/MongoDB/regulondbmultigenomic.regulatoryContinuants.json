@@ -1,0 +1,6030 @@
+[{
+  "_id": "RDBECOLICNC00001",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000895425"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd19047"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM114079"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "alac__S"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB06855"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "19951073"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58476"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "13999770"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C06010"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "2-ACETO-LACTATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "(<i>S</i>)-2-acetolactate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "(<i>S</i>)-2-hydroxy-2-methyl-3-oxobutanoate",
+    "&alpha;-acetolactate",
+    "(2<i>S</i>)-2-hydroxy-2-methyl-3-oxobutanoate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00002",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001529165"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd02711"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM649"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "2ddg6p"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01376"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57569"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "44229082"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C04442"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "27244-54-8"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "2-KETO-3-DEOXY-6-P-GLUCONATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "2-dehydro-3-deoxy-D-gluconate 6-phosphate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "2-keto-3-deoxy-6-phospho-D-gluconate",
+    "2-dehydro-3-deoxy-6-phospho-D-gluconate",
+    "2-keto-3-deoxy-6-phospho-gluconate",
+    "6-phospho-2-dehydro-3-deoxy-D-gluconate",
+    "2-keto-3-deoxy-6-phosphogluconate",
+    "2-keto-3-deoxy-6-P-gluconate",
+    "6-p-2-k-3-deo-gluconate",
+    "6-phospho-2-keto-3-deoxygluconate",
+    "6-phospho-2-dehydro-3-deoxygluconate",
+    "2-keto-3-deoxygluconate-6-P",
+    "3-deoxy-D-<i>erythro</i>-hex-2-ulosonic acid 6-phosphate",
+    "3-deoxy-D-<i>erythro</i>-hex-2-ulosonate-6-phosphate",
+    "KDPG"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00118",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000008419115"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd08301"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1168"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "2mecdp"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "10241147"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58483"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "21605869"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C11453"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "2C-METH-D-ERYTHRITOL-CYCLODIPHOSPHATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "2-C-methyl-D-erythritol-2,4-cyclodiphosphate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "ME-2,4cPP",
+    "MEcPP"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00003",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000156346"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd08304"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1634"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "3-(3-Hydroxyphenyl)propanoic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "3hpppn"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57277"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6931501"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00375"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "5305660"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C11457"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "3-HYDROXYPHENYL-PROPIONATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "3-(3-hydroxyphenyl)propanoate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "3-(3-hydroxyphenyl)propanoic acid",
+    "dihydro-3-coumarate",
+    "3-(3-hydroxyphenyl)propionic acid",
+    "m-hydroxyphenylpropionic acid",
+    "m-hydroxyphenylpropionate",
+    "MHP",
+    "3HPP",
+    "3-(3-hydroxyphenyl)propionate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00004",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000154564"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd03343"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1403"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Hydrocinnamic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "pppn"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00764"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "3927902"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "51057"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "4740700"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C05629"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "3-PHENYLPROPIONATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "3-phenylpropanoate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "hydrocinnamate",
+    "3-phenylpropionic acid",
+    "hydrocinnamic acid",
+    "HCA",
+    "phenylpropanoate",
+    "3-phenylpropionate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00106",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC31259"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532620"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00281"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM192"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Gamma-Aminobutyric acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "4abut"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC59888"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00112"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "59888"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6992099"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00334"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "56-12-2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "4-AMINO-BUTYRATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "4-aminobutanoate",
+  "note": "&gamma;-aminobutyrate (GABA) is a four-carbon non-protein amino acid conserved from bacteria to plants and\nvertebrates.\nGABA was originally discovered in plants in 1949 |CITS: [Steward49]|, but interest shifted to animals when it was\nfound that GABA occurs at high levels in the brain, as a neurotransmitter.\nIn plants and in animals, GABA is mainly metabolized via a short pathway composed of three enzymes,\ncalled the GABA shunt because it bypasses two steps of the |FRAME: TCA|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "4-NH2-but",
+    "4-NH3-but",
+    "GABA",
+    "4-aminobutyric acid",
+    "&gamma;-aminobutyrate",
+    "4-amino-<i>n</i>-butyric acid",
+    "&gamma;-amino-n-butyric acid",
+    "gamma-amino-N-butyrate",
+    "g-amino-n-butyric acid",
+    "4-aminobutyrate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00005",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000100036172"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00781"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM963"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "5dglcn"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB11731"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58143"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "24802254"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01062"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "5-DEHYDROGLUCONATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "5-dehydro-D-gluconate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "5-keto-D-gluconic acid",
+    "5-keto-D-gluconate",
+    "5-ketogluconate",
+    "5-dehydrogluconate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00006",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004228245"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00147"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM150"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "5'-Methylthioadenosine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "5mta"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC17509"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01173"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB02282"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "388321"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "439176"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17509"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00170"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "2457-80-9"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "5-METHYLTHIOADENOSINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "<i>S</i>-methyl-5'-thioadenosine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "methylthioadenosine",
+    "5'-methylthioadenosine",
+    "MTA",
+    "5'-deoxy-5'-(methylsulfanyl)adenosine",
+    "5'-deoxy-5'-(methylthio)adenosine"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00007",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "O-Acetylserine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "acser"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58340"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6971051"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC17981"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB03011"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00979"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "66638-22-0"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ACETYLSERINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "<i>O</i>-acetyl-L-serine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "O<sup>3</sup>-acetyl-L-serine",
+    "acetylserine",
+    "<i>O</i>-acetylserine",
+    "(2S)-3-acetyloxy-2-aminopropanoate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00008",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM44"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00040"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17984"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ACYL-COA"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "an acyl-CoA",
+  "note": "|FRAME:ACYL-COA \"Acyl-CoAs\"| are oxoacids that have been activated by |FRAME: CO-A|. They are often classified by the length of their acyl moiety.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "fatty acyl thioester-CoA",
+    "RCH2CH2CO-CoA",
+    "acyl-Coenzyme A",
+    "acyl<sub>n+2</sub>-CoA",
+    "acyl<sub>n-2</sub>-CoA"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00009",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000000882"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Adenine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "ade"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC16708"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00034"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB00173"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "185"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "16708"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "190"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00147"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "73-24-5"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ADENINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "adenine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "6-aminopurine",
+    "A"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00115",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000040165520"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00387"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM561"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "ADP-glucose"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "adpglc"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "42609821"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC57498"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB06557"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57498"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00498"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "2140-58-1"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ADP-D-GLUCOSE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "ADP-&alpha;-D-glucose",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "adenosine diphosphate glucose",
+    "ADP-glucose",
+    "ADP-D-glucose",
+    "adenosine-5'-diphosphoglucose"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00111",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000012360703"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00008"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM7"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "ADP"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "adp"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC456216"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01341"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "5414423"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "456216"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "7058055"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00008"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "58-64-0"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ADP"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "ADP",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "adenosine pyrophosphate",
+    "adenosine 5'-pyrophosphate",
+    "adenosine-5'-diphosphate",
+    "adenosine-diphosphate",
+    "adenosine-5-diphosphate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00010",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd01092"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00462"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM612"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "199"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "204"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "15676"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01551"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "97-59-6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ALLANTOIN"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "allantoin",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00011",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000013526976"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd22252"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB38489"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM40840"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "36229"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6454902"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ALLOLACTOSE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "allolactose",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "&beta;-D-galactopyranosyl-(1&rarr;6)-D-glucopyranose"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00013",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6398618"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "30297"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4892635"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00057",
+      "objectId": "Antimonite"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ANTIMONITE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "antimonite",
+  "note": "The pKa of antimonite is 11.8, so in neutral solutions all antimonite is present as |FRAME: CPD0-2039| |CITS: [ 19494117]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00014",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000059066813"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "174370"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00193"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM287"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "aps"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "49852317"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58243"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC58243"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01003"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00224"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "485-84-7"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "APS"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "adenosine 5'-phosphosulfate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "adenylyl-sulfate",
+    "adenosine phosphosulfate",
+    "adenosine 5'-sulphatophosphate",
+    "APS"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00015",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM41341"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "388793"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C02604"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "439731"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "46987"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ARABINOSE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "&alpha;-L-arabinopyranose",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "&alpha;-L-arabinose"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00016",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532525"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM70"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Arginine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "arg__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC32682"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00517"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "1266045"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "32682"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "1549073"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00062"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "74-79-3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ARG"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-arginine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "2-amino-5-guanidinovaleric acid",
+    "R",
+    "arginine",
+    "L-arg",
+    "arg"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00017",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532556"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM147"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Asparagine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "asn__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC58048"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00168"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58048"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6992089"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00152"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "70-47-3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ASN"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-asparagine",
+  "note": "|FRAME: ASN \"Asparagine\"| (Asn) is one of the proteinogenic amino acids. It was the first proteinogenic amino acid to be isolated, back in 1806, from asparagus juice, hence its name. The accurate structure of the molecule was reported only in 1888 |CITS: [Piutti88]|. Piutti also discovered the existence of |FRAME: CPD-3633| two years earlier |CITS: [Piutti86]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "asparagine",
+    "&alpha;-aminosuccinamic acid",
+    "(-)-asparagine",
+    "(S)-2,4-diamino-4-oxobutanoic acid",
+    "(S)-asparagine",
+    "2,4-diamino-4-oxobutanoic acid, (S)-",
+    "2-aminosuccinamic acid, L-",
+    "agedoite",
+    "altheine",
+    "asparagine acid",
+    "aspartic acid &beta;-amide",
+    "butanoic acid, 2,4-diamino-4-oxo-, (S)-",
+    "L-2,4-diamino-4-oxobutanoic acid",
+    "L-asparatamine",
+    "L-&beta;-asparagine",
+    "N",
+    "L-asn",
+    "asn"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00018",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004261765"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00002"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "ATP"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "atp"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC30616"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00538"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4574455"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "30616"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "5461108"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00002"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "56-65-5"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ATP"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "ATP",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "adenylpyrophosphate",
+    "adenosine-triphosphate",
+    "adenosine-5'-triphosphate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00019",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000040164452"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM2351"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "53239798"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB04220"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "62414"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C05921"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "BIO-5-AMP"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "biotinyl-5'-adenylate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "biotinyl-5'-AMP"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00107",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001529253"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd01155"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM943"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Cadaverine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "15dap"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB02322"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "2949420"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58384"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "3718401"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01672"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "462-94-2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CADAVERINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "cadaverine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "pentane-1,5-diamine",
+    "diaminopentane",
+    "1,5-diaminopentane",
+    "1,5-pentanediamine",
+    "pentamethylenediamine",
+    "1-BioDex"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00020",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000003873977"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "30389"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00446"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM243"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "3',5' cyclic AMP"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "camp"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC58165"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00058"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "5415746"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58165"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "7059571"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00575"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "60-92-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CAMP"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "cyclic-AMP",
+  "note": "cAMP is a second messenger used for intracellular signal transduction in many different organisms.<br>\nIn eukaryotes it acts in the activation of protein kinases, in the regulation of ion channels and other proteins, and by conveying to cells the effects of hormones that cannot pass through the plasma membrane.\nIn bacteria cAMP is an indicator for the presence of glucose. A side-effect of glucose transport into the cell results in inhibition of |FRAME: EC-4.6.1.1|, and as a result, an inverse correlation between the concentrations of glucose and cAMP. It forms a complex with the transcription factor cAMP receptor protein (CRP), which activates the regulator to bind to DNA, resulting in increased expression of a large number of genes as a response to glucose starvation.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "cyclic 3',5'-AMP",
+    "3',5'-cyclic AMP",
+    "adenosine cyclic-3',5'-monophosphate",
+    "adenosine cyclic-monophosphate",
+    "adenosine-cyclic-phosphoric-acid",
+    "cAMP",
+    "adenosine-cyclic-phosphate",
+    "adenosine-3',5'-monophosphate",
+    "adenosine 3',5'-cyclic phosphate",
+    "adenosine-3',5'-cyclic monophosphate",
+    "cyclic-3',5'-adenosine monophosphate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00021",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM173"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Carnitine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "crn"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC16347"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB14721"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB00583"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "10455"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "10917"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "16347"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "541-15-1"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00318"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CARNITINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-carnitine",
+  "note": "|FRAME: CARNITINE| is a zwitterionic, quaternary amine carboxylate that has essential and diverse roles in intermediary metabolism in all living kingdoms.\nCarnitine was first discovered in 1905 in muscle extracts, and the name is derived from the Latin word for flesh, Carnis |CITS: [11183736]|. In 1962 it was found that the physiological enantiomer is |FRAME: CARNITINE|, and since then the widespread distribution of L-carnitine has been established in higher and lower eukaryotes, plants, and many microorganisms |CITS: [9706218]|. \nIn animals and yeast carnitine is best known for its contribution to fatty acid intracellular trafficking |CITS: [2199593]|. In plants L-carnitine is also associated with fatty acid metabolism, although its exact function is less well understood |CITS: [17988884][30080631]|. Bacteria are not able to synthesize carnitine <i>do novo</i>, but are able to import the compound and use it as an osmoprotectant or to enhance thermotolerance, cryotolerance and barotolerance |CITS: [25787873]|.\n|FRAME: CARNITINE| is used in pharmaceutical and nutritional preparations and methods have been described for its production and separation from its |FRAME: D-CARNITINE| enantiomer |CITS: [12191705 ] [9830124]| and reviewed in |CITS: [17910757]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "&gamma;-trimethyl-hydroxybutyrobetaine",
+    "(3<i>R</i>)-3-hydroxy-4-(trimethylammino)butanoate",
+    "vitamin B T",
+    "bicarnesine",
+    "(<i>R</i>)-carnitine",
+    "&gamma;-L-trimethyl-&beta;-hydroxybutyrobetaine",
+    "vitamin Bt",
+    "3-carboxy-2-hydroxy-N,N,N-trimethyl-1-propanaminium"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00022",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000003079337"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00098"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM90"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Choline"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "chol"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00057",
+      "objectId": "Choline"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC15354"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00097"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB00122"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "299"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "305"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "15354"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "123-41-1"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00114"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CHOLINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "choline",
+  "note": "|FRAME: CHOLINE Choline| is a quaternary ammonium compound and a fundamental metabolite for eukaryotic organisms, forming the head group of important phospholipids such as |FRAME: PHOSPHATIDYLCHOLINE phosphatidylcholine| |CITS: [12215503]|.\nCholine is also the precursor for the neurotransmitter |FRAME: ACETYLCHOLINE|, and serves as a precursor for the formation of the important osmoprotectant |FRAME: BETAINE| (see |FRAME:PWY1F-353| for an example) .\nAnimals cannot synthesize |FRAME: CHOLINE|, which must be consumed through the diet, making it a vitamin. It is usually grouped within the B-complex vitamins.\nMost microbes are also not able to produce choline, although many have transporters for its uptake.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "(2-hydroxyethyl)trimethylammonium"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00023",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00149"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM90960"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "cobalt2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00608"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "94546"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "104729"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "22541-53-3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "48828"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00175"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CO+2"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "Co<SUP>2+</SUP>",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "Co<SUP>++</SUP>",
+    "cobalt(II)",
+    "Co<sup>II</sup>"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00024",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000059065427"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd22614"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM83070"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C20829"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "86289062"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "77132"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-10247"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "6-sulfo-D-quinovose",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "sulphoquinovose",
+    "6-deoxy-6-sulfoglucose",
+    "6-deoxy-6-sulfo-D-glucopyranose",
+    "sulfoquinovose",
+    "D-sulfoquinovose"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00025",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000059065782"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd22715"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM101151"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C20959"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "70698335"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "71677"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-10551"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "(2<i>S</i>)-2-hydroxy-3,4-dioxopentyl phosphate",
+  "note": "This compound is a C5-phosphorylated derivative of the open form of |FRAME: DIHYDROXYPENTANEDIONE|\n|CITS: [17274596]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "(4S)-4-hydroxy-2,3-pentanedione 5-phosphate",
+    "(4S)-4-hydroxy-5-phosphooxypentane-2,3-dione"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00026",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000006491067"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM30887"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C21382"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "44800"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "395434"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "448719"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-10774"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "autoinducer 2",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "(<i>R</i>)-THMF",
+    "AI-2",
+    "(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00027",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000001554"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "159559"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00599"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM378"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Salicylic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01895"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4964"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "54675850"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00023",
+      "objectId": "C00000206"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "30762"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00057",
+      "objectId": "Salicylate"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00805"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "69-72-7"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-110"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "salicylate",
+  "note": "Salicylate is widely used in organic synthesis and functions as a plant hormone.\nThe source of the name |FRAME: CPD-110| (salicylic acid) comes from the name of the willow tree, |FRAME:TAX-40685|,\nfrom whose bark it can be obtained.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "salicylic acid",
+    "o-hydroxybenzoic acid",
+    "2-hydroxybenzoic acid",
+    "SA",
+    "2-HBA",
+    "2-hydroxybenzoate",
+    "o-hydroxybenzoate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00028",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004228259"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "68837"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd23461"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM4445"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "10058219"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "11883891"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-12523"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "&alpha;-D-galacturonate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "&alpha;-D-galacturonic acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00029",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "189642"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM15881"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "11882235"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-14488"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "&alpha;-D-glucuronate",
+  "note": "|FRAME: GLUCURONATE| is a carboxylic acid that often forms a hexapyranose ring structure.\n",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "&alpha;-D-glucuronic acid",
+    "&alpha;-D-glucopyranuronic acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00030",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "146037377"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "27084"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM87664"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-15991"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-trehalose 6-phosphate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "trehalose phosphate",
+    "trehalose 6-phosphate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00031",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "177137"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00452"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM502"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "phaccoa"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC57390"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB06503"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57390"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "45266611"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00582"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-207"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "phenylacetyl-CoA",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "phenylacetate-CoA"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00100",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C11177"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "13806"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "52672"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-20901"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "rhodamine 6G",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00101",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C11181"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "7099"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "8452"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-21022"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "3,6-diaminoacridine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "proflavine",
+    "proflavin"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00095",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd01487"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM146363"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "xyl__D"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC28518"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00098"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB03389"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "5805"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01394"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "28518"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6027"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "58-86-6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-25028"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "&alpha;-D-xylopyranose",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "&alpha;-D-xylose"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00032",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "947561"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd11574"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1026"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "mobd"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB12260"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "23023"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "36264"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "24621"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C06232"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-3"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "molybdate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "MoO<sub>4</sub><sup>2-</sup>",
+    "molybdate ion",
+    "MoO<sub>4</sub><sup>-2</sup>"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00033",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000002572383"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM90279"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C02225"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "2mcit"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58853"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "46878460"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-622"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "(2<i>S</i>,3<i>S</i>)-2-methylcitrate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "(2<i>S</i>,3<i>S</i>)-2-hydroxybutane-1,2,3-tricarboxylate",
+    "(2<i>S</i>,3<i>S</i>)-2-methylcitric acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00034",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd01015"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1191"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "cynt"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC29195"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB02078"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "10445868"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "105034"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "29195"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01417"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "420-05-3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-69"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "cyanate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "cyanic acid",
+    "hydrogen cyanate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00035",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "33739"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "448265"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-6"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "a [2Fe-2S] iron-sulfur cluster",
+  "note": "|FRAME: FeS-Centers \"Iron-sulfur clusters\"| consist of nonheme iron complexed to sulfur in several ways. They serve as prosthetic groups of many proteins, which function as intracellular electron carriers with a low reduction potential.\nIn addition to their roles in electron transfer reactions, iron-sulfur clusters are also known to participate in the activation of substrates, the stabilization of radicals and structures, the protection of proteins from enzymes and the storage of iron and sulfur. They act as sensors of iron, dioxygen, the superoxide ion, and possibly nitric oxide, and participate in gene expression regulation |CITS: [16466637]|.\nIn |FRAME: CPD-6| the irons are coordinated to the sulfurs of 4 cysteine side chains.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "an iron-sulfur center (ambiguous)",
+    "Fe<sub>2</sub>S<sub>2</sub> iron-sulfur cluster",
+    "a 2Fe-2S center",
+    "a 2Fe-2S cluster",
+    "2Fe-2S",
+    "Fe<sub>2</sub>S<sub>2</sub>",
+    "an Fe<sub>2</sub>S<sub>2</sub> iron-sulfur center",
+    "[2Fe-2S]",
+    "[2Fe-2S] cluster",
+    "Iron-sulfur (2Fe-2S)"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00036",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC05643"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "aso3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB11620"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "5256769"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6857431"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "29242"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-763"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "arsenite",
+  "note": "Arsenic is the most prevalent environmental toxic substance. It ranks first on the priority list of Hazardous Substances published by the Agency for Toxic Substances and Disease Registry (ATSDR), based on a combination of frequency, toxicity, and potential for human exposure. It is also a Group 1 human carcinogen associated with skin, bladder and lung cancer.\nWhile arsenic exists in two oxidation states, As<sup>III</sup> and As<sup>V</sup>, in aerobic environments most inorganic arsenic is found as As(V), such as |FRAME: ARSENATE|. In anaerobic environments the prevalent form is As(III), such as |FRAME: CPD0-2040|.\nWhile most of the literature refers to the As(III) form found in the environment as |FRAME: CPD-763|, at natural pH values most of the As<sup>III</sup> molecules exist in solution as |FRAME: CPD0-2040|, an inorganic polyol similar to glycerol, since the pKa values are high: pKa<sup>1</sup> = 9:2 and pKa<sup>2</sup> = 12:7 |CITS: [11161507][15106984]|. This form of arsenite can enter cells via glycerol channels such as |FRAME: EG10396 GlpF| of |FRAME: TAX-562| or aquaglyceroporins, bidirectional channels that allow water and small uncharged molecules such as glycerol to pass through.\nCharged forms of arsenite, formed at higher pH, include |FRAME: CPD-763 \"arsenite<sup>1-</sup>\"|, |FRAME: CPD-24319| and |FRAME: CPD-24318|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "arsenite<sup>1-</sup>",
+    "iAs<sup>III</sup>"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00037",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000161387"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd08041"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM45855"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "2504"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "2603"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "3259"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C11164"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-7970"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "carbonylcyanide <i>m</i>-chlorophenylhydrazone",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "CCCP",
+    "(3-chlorophenyl)hydrazonomalononitrile",
+    "Carbonylcyanide-3-chlorophenylhydrazone"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00116",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM37766"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00057",
+      "objectId": "Iron_sulfur_center"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4911358"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6398953"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "33725"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-7"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "a [4Fe-4S] iron-sulfur cluster",
+  "note": "Iron-sulfur centers consist of nonheme iron complexed to sulfur in several ways. They serve as cofactors of many proteins, which function as intracellular electron carriers with a low reduction potential. In addition to their roles in electron t ransfer reactions, iron-sulfur clusters are also known to participate in the activation of substrates, the stabilization of radicals and structures, the protection of proteins from enzymes and the storage of iron and sulfur. They can also act as sensors of iron, dioxygen, the superoxide ion, and possibly nitric oxide, and participate in gene expression |CITS: [16466637]|.\nIn some cases iron-sulfur clusters serve as sources of sulfur in enzymatic reactions |CITS: [29051382]| (see below).\n[4Fe-4S] iron-sulfur clusters feature four iron ions and four sulfide ions placed at the vertices of a cubane-type structure.  The Fe centers are typically further coordinated by cysteinyl ligands. \nTwo main types of [4Fe-4S] iron-sulfur clusters are low-potential (bacterial-type) clusters and high-potential (HiPIP) clusters. The bacterial clusters shift between the oxidation states +1 and +2, while the HiPIP clusters shift between the oxidation states +2 and +3.\nIn some enzymes the [4Fe-4S] iron-sulfur clusters bind substrates. For example, in radical SAM enzymes the cluster binds and reduces S-adenosylmethionine, generating a radical that interacts with the enzyme's substrate. In a few cases, as in |FRAME: EC-2.8.1.8|, the cluster serves as the source of sulfur atoms for a sulfuration reaction. In such cases the cluster needs to be reassembled before the enzyme can catalyze the next round.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "Iron-sulfur (4Fe-4S)",
+    "a 4Fe-4S iron-sulfur cluster",
+    "a 4Fe-4S center",
+    "a 4Fe-4S cluster",
+    "a 4Fe-4S iron-sulfur center",
+    "a Fe<sub>4</sub>S<sub>4</sub> iron-sulfur center",
+    "a [4Fe-4S] iron-sulfur center",
+    "[4Fe-4S]",
+    "4Fe-4S",
+    "[4Fe-4S] cluster",
+    "Fe<sub>4</sub>S<sub>4</sub> cluster"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00038",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000012358776"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd01639"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM34532"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "2,4-dinitrophenol"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "84561"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB04528"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "146880"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "167909"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "51-28-5"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C02496"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD-8179"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "2,4-dinitrophenol",
+  "note": "2,4-Dinitrophenol has been used during the first world war by the French in the manufacture of munitions. Later it was also used as a dye, wood preserver, herbicide and photographic developer.\n2,4-Dinitrophenol is a well known protonophore (an uncoupler of oxidative phosphorylation) by preventing the uptake of inorganic phosphate molecules into the mitochondria |CITS: [18910739][4388239][5799112]|. At lower concentrations this property causes a significant increase in the basal metabolic rate, and as aresult, a rapid weight loss, which prompted its use as weight loss drug. However, severe side effects have resulted in its labelling as \"extremely dangerous and not fit for human consumption\" by the Federal Food, Drug and Cosmetic Act of 1938. The UK Food Standard Agency issued a warning in 2003, labelling it as \"not fit for human consumption\" as well. Despite this, |FRAME: CPD-8179| is still marketed as a weight loss drug, mainly over the internet |CITS: [21739343]|.\nIt has been reported that at low concentrations |FRAME: CPD-8179| protects neurons against &beta;-amyloid toxicity |CITS: [16754295]| and attenuates nitroprusside-induced toxicity |CITS: [24064327]|.\nA number of organisms that utilize |FRAME: CPD-8179| as the sole source of carbon and nitrogen have been described |CITS: [13235894][Gundersen56][16348203][24196208][13093710][1444407][10103224][10217752][11995829][11595177]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "1-hydroxy-2,4-dinitrobenzene",
+    "2,4-DNP",
+    "&alpha;-dinitrophenol"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00039",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000119632"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd26352"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM52702"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "3498"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "3546-21-2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "42478"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "3624"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD0-1938"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "ethidium",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "ethidium cation",
+    "homidium"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00096",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD0-2705"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "6-phospho-&beta;-D-glucosaminyl-(1->4)-<i>N</i>-acetyl-D-glucosamine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "<i>N</i>-monoacetylchitobiose 6-phosphate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00108",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "4883"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C11161"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "53630235"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD0-2712"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "ethidium bromide",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00041",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58722"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "45266740"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000030731400"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd21016"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1490"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "N-acetylmuramic acid 6-phosphate"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "acmum6p"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C16698"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPD0-881"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "<i>N</i>-acetyl-D-muramate 6-phosphate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "MurNAc-6-P"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00102",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPLX0-7677"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "ZntR-Zn<sup>2+</sup> transcriptional activator",
+  "organisms_id": "RDBECOLIORC00001"
+},
+{
+  "_id": "RDBECOLICNC00112",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC02403"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPLX0-7701"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "MntR-Mn<sup>2+</sup>",
+  "organisms_id": "RDBECOLIORC00001"
+},
+{
+  "_id": "RDBECOLICNC00103",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC05067"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CPLX0-7702"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "CueR-Cu<sup>+</sup>",
+  "organisms_id": "RDBECOLIORC00001"
+},
+{
+  "_id": "RDBECOLICNC00042",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C22423"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd30760"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM3568"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "cu"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "94614"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "104815"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "49552"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CU+"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "Cu<SUP>+</SUP>",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "copper(I)",
+    "cuprous ion",
+    "cuprous copper",
+    "Cu<sup>I</sup>"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00043",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000002583632"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00367"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM338"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Cytidine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "cytd"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC17562"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00089"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB02097"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "5940"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6175"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17562"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00475"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "65-46-3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "CYTIDINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "cytidine",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00097",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC30589"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "4093"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "439507"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01487"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "D-Allose"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-allose",
+  "note": "Each aldopentose or aldohexose exists as a mixture of at least six compounds: the aldehyde, the hydrated aldehyde\n(gem-diol), the two pyranoses, and the two furanoses. The open-chain structure shown here is provided only as a schematic illustration of chirality. Consult the appropriate class instances for information on specific ring structures and their anomeric configuration. The relative ratios of the different allose tautomers was reported to be as follows (in |CITS: [Kopper03]|:\n<br>\nPyranose form: |FRAME: CPD-15627|/|FRAME: CPD-15628|\t15%/85%<br>\nFuranose form: |FRAME: CPD-16933|/|FRAME: CPD-16934|\t41%/59%",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00104",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532815"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "18343"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "3615-37-0"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "19466"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "2179"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01018"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "D-Fucoses"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-fucose",
+  "note": "Fucose is a hexose deoxy sugar. It received its name from the brown algae genus |FRAME: TAX-3011|, from which it was first decribed. The alga was named because of its dark redish color, as one of the meanings of the Latin word <i>fucus</i> is \"red paint\".\nAlgae of the |FRAME: TAX-3009| order produce fucose-rich polysaccahrides known as |FRAME: Fucoidans fucoidans|. However, fucose is a common sugar, found in <i>N</i>-linked glycans on the mammalian, insect and plant cell surface, in many bacterial glycans, and in other biomolecules.\nMost of the fucose found in biology is in the |FRAME: L-fucoses \"L conformation\"|, and the use of |FRAME: D-Fucoses| is rather rare (for example in some |FRAME: Cardenolide-Glycosides \"cardenolide glycosides\"|).\nNote that fucose is a reducing sugar that exists in solution in multiple configurations. The open-chain structure shown here is provided only as a schematic illustration of chirality. Consult the appropriate class instances for information on specific ring structures and their anomeric configuration.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "6-deoxy-D-galactose"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00044",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000005131976"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00653"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1734"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Galactonic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "galctn__D"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00565"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4574468"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "5461127"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "12931"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00880"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "D-GALACTONATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-galactonate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "galactonate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00045",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "2301265"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "12936"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "D-Galactose"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-galactose",
+  "note": "This compound class represents a reducing sugar that exists in solution in multiple configurations. The open-chain structure shown here is provided only as a schematic illustration of chirality. Consult the appropriate class instances for information on specific ring structures and their anomeric configuration.\nThe distribution of galactose anomeric configurations at 20&deg;C is as follows:<br>\n|FRAME: GALACTOSE|\t64%<br>\n|FRAME: ALPHA-D-GALACTOSE|\t32%<br>\n|FRAME: CPD0-2485|\t3%<br>\n|FRAME: CPD0-2486|\t1%<br>",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "D-Gal"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00117",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "16988"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00121"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "50-69-1"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "D-Ribose"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-ribose",
+  "note": "This compound class represents a reducing sugar that exists in solution in multiple configurations. The open-chain structure shown here is provided only as a schematic illustration of chirality. Consult the appropriate class instances for information on specific ring structures and their anomeric configuration.\nIn decreasing order of frequency, the species of D-ribose in solution are |FRAME: CPD0-1110| (58.5%), |FRAME: CPD-15829| (21.5%), |FRAME: CPD0-1108| (13.5%), |FRAME: CPD-10330| (6.5%) and |FRAME: CPD-15818 \"open chain\"| (0.05%) |CITS: [Drew98]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "ribose"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00046",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000895342"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00550"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM694"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "D-Serine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "ser__D"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC35247"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB03406"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "35247"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6857549"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00740"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "312-84-5"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "D-SERINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-serine",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00047",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM2113"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Xylonic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "5460056"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17746"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4573736"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00502"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "526-91-0"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "D-XYLONATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-xylonate",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00048",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532387"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM2449"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "dhptd"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "29484"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "11170991"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C11838"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "DIHYDROXYPENTANEDIONE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "(4<i>S</i>)-4,5-dihydroxypentane-2,3-dione",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "autoinducer 2",
+    "(4<i>S</i>)-4,5-dihydroxy-2,3-pentanedione"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00049",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd10515"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM111"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "fe2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC29033"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00692"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "25394"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C14818"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "27284"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "29033"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "FE+2"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "Fe<sup>2+</sup>",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "ferrous iron",
+    "ferrous ion",
+    "iron(II)",
+    "Fe<sup>II</sup>"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00050",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "fald"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC16842"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01426"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB03843"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "692"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "16842"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "712"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00067"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "50-00-0"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "FORMALDEHYDE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "formaldehyde",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "formalin",
+    "methanal",
+    "formol"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00051",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Formic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "for"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC15740"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00142"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "277"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "15740"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "283"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00058"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "64-18-6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "FORMATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "formate",
+  "note": "Formate is a one-carbon molecule that was first isolated from distillation of ant bodies, and it was subsequently named using the Latin word for ant, formica |CITS: [Stumper21]|. Ants and other insects accumulate formate in secretory glands and release their content as a mechanism of defense.\nFormate serves as an intermediate in one-carbon (1C) metabolism in all organisms. It is also a key metabolite for many bacterial and archaeal species. Depending on the physiological conditions, formate serves various roles, such as to act as a reductant in anaerobic respiration, be oxidized aerobically, be secreted, or be converted to hydrogen and CO<sub>2</sub>.\nFormate is particularly common in anaerobic habitats, produced as a fermentation product of some species and used as a growth substrate for others. It is crucial compound in many syntrophic associations, in which organisms live close to the thermodynamic limit (for example, sulfate-reducing bacteria and methanogens) |CITS: [18708519][20844539]|. Its redox potential is low (around -420 mV), which allows it to donate an electron for the reduction of fumarate.\nIn eukaryotes formate is produced from a variety of nutrients, and can be fed into a number of biosynthetic pathways. A common source of formate is the catabolism of serine or glycine (via tetrahydrofolate). Another important source is formaldehyde, which is formed by many demethylation enzymes and as a degradation product of methanol. Formate is also produced during sterol synthesis, polyamine synthesis, and tryptophan degradation, and is used during purine synthesis, thymidylate synthesis, and as the source of carbon for methylation reactions via folate and methionine (formate can be assimilated into folate by |FRAME: EC-6.3.4.3| and its carbon transferred to methionine by |FRAME: EC-2.1.1.13|. Methionine is then converted to |FRAME: S-ADENOSYLMETHIONINE|, the most common methyl group donor) |CITS: [31402327]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "formic acid",
+    "methanoate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00052",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004095539"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "31221"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01076"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM743"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "138881"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "f1p"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "25244216"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "15978-08-2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "FRU1P"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "&beta;-D-fructofuranose 1-phosphate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "&beta;-D-fructofuranose-1-P"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00053",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000050875541"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd16277"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1924"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "frulysp"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "61392"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "50909832"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C16489"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "FRUCTOSELYSINE-6-PHOSPHATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "<i>N</i><sup>6</sup>-(1-deoxy-6-<i>O</i>-phospho-D-fructos-1-yl)-L-lysine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "fructoselysine-6-P",
+    "fructoselysine 6-phosphate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00054",
+  "citations": [
+    {
+      "publications_id": "RDBECOLIPRC04992"
+    }
+  ],
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "59881"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "46878540"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1660"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "fruur"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00905"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "FRUCTURONATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-fructuronate",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00055",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000013508308"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00806"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1749"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "fc1p"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6857414"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57846"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01099"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "92418-41-2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "FUCULOSE-1P"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-fuculose 1-phosphate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "L-fuculose-1-P"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00113",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532526"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM37"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Glutamine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "gln__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC58359"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00641"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58359"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6992086"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00064"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "56-85-9"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GLN"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-glutamine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "Q",
+    "proglumide",
+    "glum",
+    "glutamine",
+    "glumin",
+    "2-aminoglutaramic acid",
+    "glutamic acid 5-amide",
+    "L-gln"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00114",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001482113"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Glutamic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "glu__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC29985"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00148"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4573882"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "5460299"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00023",
+      "objectId": "C00001358"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "29985"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00025"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "56-86-0"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GLT"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-glutamate",
+  "note": "|FRAME: GLT| is one of the proteinogenic amino acids. It is named after wheat gluten, from which it was described in 1866 by the German chemist Karl Heinrich Ritthausen.\n|FRAME: GLT| plays an important role in nitrogen metabolism in the cell. Once cells take up ammonium, it is fixed by incorporation into the TCA cycle intermediate |FRAME: 2-KETOGLUTARATE| by |FRAME: EC-1.4.1.4|, forming |FRAME: GLT| |CITS: [13239305]| (an additional ammonium molecule can be fixed into L-glutamate, e.g. by |FRAME: EC-6.3.1.2|, forming |FRAME: GLN| |CITS: [14833423]|). Glutamate then becomes the central source for passing amino groups on to other molecules by the action of transaminase (=aminotransferase) enzymes, distributing nitrogen throughout the cell. For example, glutamate can transfer the amino group to the common metabolites |FRAME: PYRUVATE| and |FRAME: OXALACETIC_ACID|, forming |FRAME: L-ALPHA-ALANINE| and |FRAME: L-ASPARTATE|, respectively. It has been estimated that glutamate and glutamine provide 75% and 25%, respectively, of all cellular nitrogen |CITS: [30026566]|.\nIn addition to its protein building role, |FRAME: GLT| is the most abundant excitatory neurotransmitter in the vertebrate nervous system, acting on ionotropic and metabotropic (G-protein coupled) receptors |CITS: [10736372]|.\n|FRAME: GLT| interacts with the umami taste receptors, which sense glutamates and nucleotides, imparting \"meaty\", \"savory\", and \"broth-like\" flavor. The monosodium salt of glutamate (MSG), which is found naturally in some foods, is often added to foodstuff for flavoring |CITS: [1679557]|. Although MSG is commnly believed to cause headaches, all scientific studies found no such effect |CITS: [27189588]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "1-amino-propane-1,3-dicarboxylic acid",
+    "glutacid",
+    "glutaminic acid",
+    "L-glutamic acid",
+    "&alpha;-aminoglutaric acid",
+    "E",
+    "glt",
+    "glut",
+    "L-glu",
+    "2-aminopentanedioic acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00056",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001531008"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00222"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM341"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Gluconic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "glcn"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC18391"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00625"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4925340"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "18391"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6419706"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00257"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "526-95-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GLUCONATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-gluconate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "D-gluconic acid",
+    "dextronic acid",
+    "maltonic acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00057",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000388706"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00379"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1021"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Glutaric acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00661"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "3618533"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "4418048"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "30921"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00489"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GLUTARATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "glutarate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "pentanedioate",
+    "glutaric acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00058",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000003830896"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00080"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM66"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Glycerol 3-phosphate"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "glyc3p"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC57597"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00126"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "7048686"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "2939444"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57597"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00093"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "57-03-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GLYCEROL-3P"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "<i>sn</i>-glycerol 3-phosphate",
+  "note": "The \"<i>sn</i>\" in <i>sn</i>-glycerol 3-phosphate stands for  \"stereospecific numbering\".",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "L-&alpha;-glycerophosphate",
+    "L-G3P",
+    "L-glycerol 3-phosphate",
+    "&alpha;-glycerophosphoric acid",
+    "&alpha;-glycerophosphate",
+    "D-glycerol 1-phosphate",
+    "glycerol 3-phosphate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00059",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17754"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000895048"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00100"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM89612"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Glycerol"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "glyc"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC17754"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00131"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB04077"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "733"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "753"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00116"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "56-81-5"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GLYCEROL"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "glycerol",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "1,2,3-trihydroxypropane",
+    "glycerin",
+    "1,2,3-trihydroxypropanol"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00060",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004658557"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "389822"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM222"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Glycolic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "glyclt"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC29805"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00115"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB03085"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4573887"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "5460308"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "29805"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00160"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "79-14-1"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GLYCOLLATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "glycolate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "hydroxyacetic acid",
+    "glycolic acid",
+    "glycollate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00061",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004658554"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00040"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM69"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "36655"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Glyoxylic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "glx"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC36655"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00119"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00023",
+      "objectId": "C00001186"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "3614358"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00048"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "298-12-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GLYOX"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "glyoxylate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "glyoxalate",
+    "glyox",
+    "glyoxylic acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00062",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00033"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM29"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57305"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Glycine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "gly"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC15428"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00123"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB00145"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "730"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "5257127"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00023",
+      "objectId": "C00001361"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00037"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "56-40-6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GLY"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "glycine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "G",
+    "aminoacetic acid",
+    "gly"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00063",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "135823789"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000008217069"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58215"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00905"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM1189"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "ppgpp"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB59638"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB04022"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "13082026"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01228"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "GUANOSINE-5DP-3DP"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "isRegulator": true,
+  "name": "ppGpp",
+  "note": "The nucleotides |FRAME: GUANOSINE-5DP-3DP| (guanosine 3'-diphosphate 5'-diphosphate) and |FRAME: GDP-TP| (guanosine 3'-diphosphate 5'-triphosphate), referred to collectively as (p)ppGpp, have been shown to regulate gene expression during the stringent response in some bacteria.  Their levels become elevated during this response and they are key indicators and regulators of it.  The stringent response is a global regulatory system that operates under conditions of nutrient or energy starvation or other environmental stress.  It has varying effects on gene expression and metabolism.  In addition to bacteria, there is evidence that (p)ppGpp may regulate transcription by plastid-encoded RNA polymerase in plant chloroplasts |CITS: [19308923]|.\nDue to its role as an effector molecule in the stringent response in bacteria, (p)ppGpp has been described as a bacterial alarmone.  It can contribute to the regulation of various cellular processes that are affected by nutritional stress such as growth, cell division, motility, adaptation and virulence.  It is also involved in antibiotic resistance |CITS:[38617560]|. Its effect on the pathogenicity of some bacteria has led to the development of ppGpp analogs as possible antibacterial compounds |CITS: [18776539]| and new <i>in vitro</i> synthesis |CITS: [18789883]| and detection |CITS: [18166051]| methods for ppGpp.  Different bacteria have different ways of synthesizing and responding to (p)ppGpp, many of which are still being discovered.  Even in the well-studied |FRAME:TAX-562| many details of ppGpp action remain to be elucidated.  Reviewed in |CITS: [18454629] [15866041] [18359660]|.\nIt has been observed that when ppGpp is overproduced, cellular growth slows in both rich and minimal media |CITS: [38299113]|. Additionally, in rich media, ppGpp overproduction increases amino acid biosynthesis|CITS: [38299113]|. In minimal media, the response to multiple stresses is enhanced, even in the absence of RpoS, and alanine and arginine catabolism is increased |CITS: [38299113]|.\nppGpp, together with DksA, inhibits full-length pRNA synthesis, a short RNA product (pRNA) synthesized from 6S RNA by RNAP:Ï70 |CITS:[38692564]|. The synthesis of pRNA is necessary for the release of RNA polymerase:Ï70 trapped in an inhibitory complex with 6S RNA (6S RNA:RNAP:Ï70) |CITS:[36198425][38692564]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "guanosine tetraphosphate",
+    "guanosine 5'-diphosphate,3'-diphosphate",
+    "guanosine 3',5'-bispyrophosphate",
+    "guanosine 3',5'-bis(diphosphate)",
+    "guanosine 3'-diphosphate 5'-diphosphate",
+    "magic spot",
+    "guanosine-5',3'-tetraphosphate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00064",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000895077"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "174369"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM123"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Homocysteine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "hcys__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC58199"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00742"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58199"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6971015"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "454-28-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00155"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "HOMO-CYS"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-homocysteine",
+  "note": "L-homocysteine is one of the major |FRAME: Protein-bound-uremic-retention-solutes \"protein-bound uremic retention solutes\"|.\nAt concentrations encountered during uremia L-homocysteine predisposes uremic patients to cardiovascular disease through impairment of endothelial and smooth muscle cell functions.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "homo-cys"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00065",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "135398638"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Hypoxanthine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "hxan"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC17368"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00157"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB04076"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "768"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17368"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00262"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "68-94-0"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "HYPOXANTHINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "hypoxanthine",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00066",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Alanine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "ala__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC57972"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00161"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57972"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "7311724"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00041"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "56-41-7"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "L-ALPHA-ALANINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-alanine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "alanine",
+    "L-&alpha;-alanine",
+    "ala"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00067",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000100085175"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd14905"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM2689"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "ascb6p"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "61698"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "54723847"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C16186"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "L-ASCORBATE-6-PHOSPHATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-ascorbate 6-phosphate",
+  "organisms_id": "RDBECOLIORC00001",
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00068",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004658560"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00159"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM179"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Lactic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "lac__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC16651"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00190"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "4573803"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "5460161"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "16651"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "79-33-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00186"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "L-LACTATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "(<i>S</i>)-lactate",
+  "note": "Lactate, or 2-hydroxypropanoate, was discovered in 1780 by the Swedish chemist Scheele, who isolated it from sour milk. It is the simplest hydroxycarboxylic acid and exists as 2 stereoisomers, |FRAME: L-LACTATE| and |FRAME: D-LACTATE|. Lactate has a pK of 3.86 and exists at a lactate ion:lactic acid ratio of 3000:1 at physiological pH |CITS: [15987839]|.\n|FRAME: L-LACTATE| has more versatile applications in food, pharmaceutical, textile, and chemical industries than |FRAME: D-LACTATE|. It is also an indispensable monomer for the synthesis of poly-Ll-lactic acid, a bio-degradable polymer.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "L-lactate",
+    "L(+)-lactate",
+    "L-lactic acid",
+    "(<i>S</i>)-lactic acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00069",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "62345"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "rmn"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "3615-41-6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00507"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "L-rhamnose"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-rhamnose",
+  "note": "This compound class represents a reducing sugar that exists in solution in multiple configurations. The open-chain structure shown here is provided only as a schematic illustration of chirality. Consult the appropriate class instances for information on specific ring structures and their anomeric configuration.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "6-deoxy-L-mannose",
+    "L-mannomethylose"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00070",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000003645145"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM140"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Leucine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "leu__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC57427"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00687"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57427"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "7045798"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00123"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00034",
+      "objectId": "46709"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "61-90-5"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "LEU"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-leucine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "(2S)-&alpha;-2-amino-4-methylvaleric acid",
+    "L",
+    "leucine",
+    "2-amino-4-methylvaleric acid",
+    "(2S)-&alpha;-leucine",
+    "L-leu",
+    "leu"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00071",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532522"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM78"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Lysine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "lys__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "5747"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC32551"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00182"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "32551"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "5460926"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00047"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "56-87-1"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "LYS"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-lysine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "K",
+    "lysine",
+    "L-lys",
+    "2,6-diaminohexanoic acid",
+    "lysine acid",
+    "lys"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00072",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000006920404"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "191103"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd01262"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM468"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "140999"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Maltotriose"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "malttr"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01262"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "388669"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "439586"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01835"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "1109-28-0"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "MALTOTRIOSE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "maltotriose",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "amylotriose"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00073",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "28053"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "440658"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004096703"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM8340"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "melib"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00048"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "10974"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "585-99-9"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C05402"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "MELIBIOSE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "melibiose",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "6-O-(&alpha;-D-galactopyranosyl)-D-glucopyranose",
+    "D-Gal-&alpha;(1->6)-D-glucose",
+    "D-melibiose",
+    "6-O-&alpha;-D-galactopyranosyl-D-glucose",
+    "6-(&alpha;-D-galactosido)-D-glucose",
+    "&alpha;-D-Galp-(1->6)-D-Glc"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00074",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532681"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "5694074"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00428"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM310"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Pyruvaldehyde"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "mthgxl"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB03587"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC17158"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01167"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "857"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "880"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17158"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00546"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "78-98-8"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "METHYL-GLYOXAL"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "methylglyoxal",
+  "note": "Methylglyoxal is the aldehyde form of |FRAME: PYRUVATE|. It is both an aldehyde and a ketone, or a ketal.\nMethylglyoxal is produced in small amounts during glycolysis, by the enzyme |FRAME:METHGLYSYN-CPLX| that converts |FRAME:DIHYDROXY-ACETONE-PHOSPHATE| to methylglyoxal.\nIt is also a byproduct of fatty acid metabolism (via |FRAME:ACETONE|) and of protein metabolism (via |FRAME:AMINO-ACETONE|, which is formed by the degradation of |FRAME: THR|).\n|FRAME: METHYL-GLYOXAL Methylglyoxal| is highly toxic, and is detoxified by several pathways (see |FRAME:Methylglyoxal-Detoxification|).",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "2-oxopropanal",
+    "acetylformaldehyde",
+    "pyruvic aldehyde",
+    "pyruvaldehyde"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00075",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM2255"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "mn2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01333"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "25916"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C19610"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "16397-91-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "27854"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "29035"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "MN+2"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "Mn<SUP>2+</SUP>",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "Mn(II) (incorrect)",
+    "Mn<SUP>++</SUP>",
+    "manganese(II)",
+    "Mn<sup>II</sup>"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00109",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00037",
+      "objectId": "1CMC"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "MONOMER0-157"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "MetJ-S-adenosylmethionine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "B3938",
+    "MetJ",
+    "MetJ-SAM"
+  ]
+},
+{
+  "_id": "RDBECOLICNC00076",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004097100"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "acgam6p"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB02817"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57513"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "25243963"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00357"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "102029-88-9"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "N-ACETYL-D-GLUCOSAMINE-6-P"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "<i>N</i>-acetyl-D-glucosamine 6-phosphate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "<i>N</i>-acetylglucosamine-6-P",
+    "GlcNAc-6-P",
+    "<i>N</i>-acetyl-D-glucosamine-6-P",
+    "<i>N</i>-acetyl-glucosamine 6-phosphate",
+    "<i>N</i>-acetyl-glucosamine-6-P"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00077",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "acnam"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "35418"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6857396"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00270"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "131-48-6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "N-ACETYLNEURAMINATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "<i>N</i>-acetylneuraminate",
+  "note": "Sialic acids are an important family of related 9-carbon sugars acids, present on the surface of many different cells and functioning in a wide range of different biological processes.\n<i>N</i>-acetylneuraminate, the most ubiquitous species amongst the sialic acids, is widely distributed in the\nanimal kingdom as a component of oligosaccharides, glycoproteins, and glycolipids.It was first identified in bovine submaxillary mucin in 1936. <i>N</i>-acetylneuraminate carries out various biological functions by acting as receptors for\nmicroorganisms, viruses, toxins, and hormones, by masking receptors, and by regulation of the immune system.\n<i>N</i>-acetylneuraminic acid is the predominant form of sialic acid present in humans. It can be found as a terminal sugar on a wide range of surface glycoconjugates |CITS: [11841250]|. The &alpha;-anomer is the form that is found when sialic acid is bound to glycans, but in solution it exists mainly (over 90%) in the &beta;-anomeric form |CITS: [18063573]|. \nA number of bacteria that can colonize humans make use of N-acetylneuraminic acid as a nutrient source. In addition, some pathogens such as |FRAME: TAX-727| use sialic acid in an immune evasion mechanism by adding N-acetylneuraminic acid to their lipopolysaccharide |CITS: [12180977][10447878]|, which provides increased survival in human serum. Most of these organisms are not capable of synthesizing N-acetylneuraminic acid and import it into the cells |CITS: [16262798]| after conversion (either spontaneous or enzymatic) to the &beta;-anomer |CITS: [18063573]| .",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "sialic acid",
+    "NANA",
+    "O-sialic acid",
+    "sialate",
+    "<i>N</i>-acetylneuraminic acid",
+    "Neu5Ac",
+    "5-acetamido-3,5-dideoxy-D-glycero-D-galacto-2-nonulosonic acid",
+    "5-acetamido-3,5-dideoxy-D-glycero-D-galacto-non-2-ulopyranosonic acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00078",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00971"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM27"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "na1"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC29101"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00588"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "899"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "29101"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "923"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "7440-23-5"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01330"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "NA+"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "Na<SUP>+</SUP>",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "sodium(I)",
+    "Na<sup>I</sup>"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00079",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd20862"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM3673"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "ni2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB02457"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "909"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C19609"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "934"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "49786"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "NI+2"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "Ni<sup>2+</sup>",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "nickel(II)",
+    "Ni<sup>++</sup>",
+    "Ni<sup>II</sup>"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00080",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM228"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "no"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "145068"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC16480"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB03378"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB00435"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "16480"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "2272768"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00533"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "10102-43-9"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "NITRIC-OXIDE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "nitric oxide",
+  "note": "Nitric oxide is a free radical, consisting of one nitrogen and one oxygen atom.\nIn the vasculature, nitric oxide, which is the active moiety of the endothelium-derived relaxing factor,\nrelaxes smooth muscle and inhibits platelet and leukocyte adhesion.\nOutside the vasculature, NO participates in the immunologic response to infection and serves as a\nneurotransmitter.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "NO",
+    "nitrogen monoxide",
+    "nitrogen protoxide"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00081",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM97"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Phenylalanine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "phe__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC58095"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00159"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58095"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6925665"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00079"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "63-91-2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "PHE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-phenylalanine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "2S-&alpha;-phenylalanine",
+    "F",
+    "endophenyl",
+    "phenylalanine",
+    "L-phe",
+    "phe"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00082",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000005828633"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM118"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Putrescine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "ptrc"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC326268"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01414"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "2695170"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "326268"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "3452892"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00134"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "110-60-1"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "PUTRESCINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "putrescine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "diaminobutane",
+    "1,4-diaminobutane",
+    "1,4-butanediamine",
+    "tetramethylenediamine"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00083",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532517"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00020"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM23"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Pyruvic acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "pyr"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC15361"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00243"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "96901"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "107735"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00023",
+      "objectId": "C00001200"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "15361"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00022"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "127-17-3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "PYRUVATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "pyruvate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "alpha-ketopropionic acid",
+    "BTS",
+    "&alpha;-ketopropionic acid",
+    "acetylformic acid",
+    "pyroracemic acid",
+    "2-oxopropanoic acid",
+    "pyruvic acid",
+    "2-oxopropanoate",
+    "2-oxo-propionic acid"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00085",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "24762165"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000004214738"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00017"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM16"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "S-adenosyl-L-methioninate"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "amet"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC59789"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01185"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "59789"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00019"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "29908-03-0"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "S-ADENOSYLMETHIONINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "<i>S</i>-adenosyl-L-methionine",
+  "note": "|FRAME: S-ADENOSYLMETHIONINE| (AdoMet, SAM) is a sulfonium compound in which each of the carbons attached to the sulfur is activated toward nucleophilic attack. It is the most common methyl group donor for methyltransferase enzymes. In addition, AdoMet is cleaved reductively by a large number of iron-sulfur cluster-containing enzymes (known as radical SAM or radical AdoMet enzymes) to produce |FRAME: CPD-15400|, which they use to activate their substrates.\nAnother major role of AdoMet is in polyamine biosynthesis, where it is decarboxylated by |FRAME: EC-4.1.1.50|, to form |FRAME: S-ADENOSYLMETHIONINAMINE|, which serves as a propylamine group donor.\nAdoMet is formed by |FRAME: EC-2.5.1.6| and bears an <i>S</i> configuration at the sulfur atom. The chiral sulfonium of AdoMet spontaneously racemizes under physiological conditions to form a mixture of <i>S</i> and <i>R</i> isomers. This results in reduced activity, as the |FRAME: CPD0-2554 \"<i>R</i> isomer\"| is not accepted as a substrate for AdoMet-dependent methyltransferases |CITS: [12419350]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "(<i>S</i>)-S-adenosyl-L-methionine",
+    "AdoMet",
+    "SAM",
+    "2-<i>S</i>-adenosyl-L-methionine",
+    "<i>S</i>-adenosyl-methionine",
+    "adenosylmethionine",
+    "<i>S</i>-adenosylmethionine"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00105",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "1614595"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00268"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM323"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "33539"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "tsul"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC33539"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00257"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "388348"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "439208"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00320"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "S2O3"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "thiosulfate",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "S<SUB>2</SUB>O<SUB>3</SUB>",
+    "S<SUB>2</SUB>O<SUB>3</SUB><SUP>-</SUP>",
+    "HS<SUB>2</SUB>O<SUB>3</SUB><SUP>-</SUP>"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00086",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000018279893"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "5652213"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00588"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM469"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Sorbitol"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "sbt__D"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC17924"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00247"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB01638"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "5576"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17924"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "5780"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00794"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "50-70-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "SORBITOL"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "D-sorbitol",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "L-gulitol",
+    "D-glucitol",
+    "iso-sorbide",
+    "(2S,3R,4R,5R)-hexane-1,2,3,4,5,6-hexol"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00110",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000001532612"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00264"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM124"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Spermidine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "spmd"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC57834"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01257"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "5360248"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57834"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6992097"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00315"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "124-20-9"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "SPERMIDINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "spermidine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "<i>N</i>-(3-aminopropyl)butane-1,4-diamine"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00087",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00666"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM816"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Tartaric acid"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "tartr__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00956"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "106644"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "119400"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "30924"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "87-69-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00898"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "TARTRATE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-tartrate",
+  "note": "|FRAME: TARTRATE| is widely distributed in higher plants, especially in fruits such as grapes.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "weinsaeure",
+    "(+)-tartrate",
+    "tartrate",
+    "tartaric acid",
+    "(R,R)-tartrate",
+    "L-tartaric acid",
+    "L(+)-tartaric acid",
+    "(2R,3R)-tartaric acid",
+    "(2R,3R)-tartrate",
+    "L-tartarate",
+    "L-threarate"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00088",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000157062"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "83960"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00151"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM386"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Thymine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "thym"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC17821"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00262"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB03462"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "1103"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "1135"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17821"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00178"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "65-71-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "THYMINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "thymine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "5-methyluracil",
+    "5-methyl-2,4(1H,3H)-pyrimidinedione",
+    "T"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00098",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "140963"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00811"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM437"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Trimethylamine N-oxide"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "tmao"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC15724"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00925"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "1113"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "1145"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "15724"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01104"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00034",
+      "objectId": "408426"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "1184-78-7"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "TRIMETHYLAMINE-N-O"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "trimethylamine <i>N</i>-oxide",
+  "note": "Trimethylamine <i>N</i>-oxide (TMAO) is an important constituent of fish muscle and body fluids. In mammals it is believed to promote atherogenesis through its interaction with macrophages and lipid metabolism |CITS: [23563705][23312283][23614584]|. High serum levels of TMAO have been shown to promote formation of atherosclerotic plaques in a mouse model |CITS: [21475195]|, and serum levels of TMAO were significantly correlated with the incidence of heart attack, stroke, and death in a clinical population |CITS: [24497336]|.\nIn deep-living marine animals TMAO stabilizes intracellular proteins and cell structure for their survival under the high hydrostatic pressure of the deep ocean |CITS: [12443924]|. It is believed that fish cannot survive without TMAO at a depth greater than 5 km |CITS: [24591588]|.\nIn bacteria the compound serves several roles: it is used as a nitrogen source by the SAR11 clade and the marine |FRAME: TAX-2433| clade of &alpha;-proteobacteria |CITS: [28304370]|, it is used as an electron acceptor by some &gamma;-proteobacteria such as |FRAME: TAX-22| and |FRAME: TAX-662| under anaerobic conditions |CITS: [9813127][11234928]|, and it is accumulated by some deep sea bacteria such as |FRAME: TAX-480520| as a mechanism to cope with the high pressure |CITS: [33771875]|.",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "TMAO"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00099",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000896695"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd04429"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM56680"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB03754"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "3005513"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "46097"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "3777159"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C07182"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "TRIS"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "tris",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "tris(hydroxymethyl)amino methane",
+    "tris hydrochloride"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00089",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000083315"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM94"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Tryptophan"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "trp__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC57912"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00929"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "57912"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6923516"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00078"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "73-22-3"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "TRP"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-tryptophan",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "W",
+    "tryptacin",
+    "trofan",
+    "tryptophan",
+    "2-amino-3-indolylpropanic acid",
+    "L-trp",
+    "trp"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00090",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000266964"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM76"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Tyrosine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "tyr__L"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC58315"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00158"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "58315"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "6942100"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00082"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "60-18-4"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "TYR"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "L-tyrosine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "Y",
+    "tyrosine",
+    "L-tyr",
+    "tyr"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00091",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000000895045"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00045",
+      "objectId": "83962"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00092"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM158"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Uracil"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "ura"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC17568"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00300"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00010",
+      "objectId": "DB03419"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "1141"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "1174"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "17568"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00106"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "66-22-8"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "URACIL"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "uracil",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "U",
+    "2,4-(1H,3H)-pyrimidinedione"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00092",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00058",
+      "objectId": "ZINC000002130720"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd01217"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM687"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00047",
+      "objectId": "Xanthosine"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "xtsn"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "64959"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC18107"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB00299"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "18107"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "1152"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C01762"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "146-80-5"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "XANTHOSINE"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "xanthosine",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "9 &beta;-D-ribofuranosylxanthine",
+    "xanthine riboside"
+  ],
+  "type": "metabolite"
+},
+{
+  "_id": "RDBECOLICNC00094",
+  "externalCrossReferences": [
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00050",
+      "objectId": "cpd00034"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00028",
+      "objectId": "MNXM149"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00002",
+      "objectId": "zn2"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00026",
+      "objectId": "MTBLC29105"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00020",
+      "objectId": "HMDB01303"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00007",
+      "objectId": "29723"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00044",
+      "objectId": "32051"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00006",
+      "objectId": "29105"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00003",
+      "objectId": "7440-66-6"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00024",
+      "objectId": "C00038"
+    },
+    {
+      "externalCrossReferences_id": "RDBECOLIERC00013",
+      "objectId": "ZN+2"
+    }
+  ],
+  "internalComment": "; Source: EcoCyc",
+  "name": "Zn<SUP>2+</SUP>",
+  "organisms_id": "RDBECOLIORC00001",
+  "synonyms": [
+    "zinc(II)",
+    "Zn(II) (incorrect)",
+    "Zn<sup>II</sup>"
+  ],
+  "type": "metabolite"
+}]

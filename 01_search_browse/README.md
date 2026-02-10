@@ -11,6 +11,7 @@ Whether you are a new visitor, a researcher, or a student, this guide will help 
 ## 📚 Contents
 
 - **[Gene Search](gene_search.md):** How to search for genes and interpret results.
+- **[Regulon Search](regulon_search.md):** How to search regulons by TF name, synonyms, TF ID, or coding gene.
 - **[Catalog Navigation](catalog_navigation.md):** Exploring RegulonDB entities (Genes, Operons, Regulons, Sigmulons, GENSOR Units).
 - **[Special Collections](collections.md):** Accessing curated High-Throughput and Coexpression datasets.
 - **[Ontologies - Microbial Condition Ontology (MCO)](ontologies_mco.md):** Using controlled vocabularies to describe experimental conditions.

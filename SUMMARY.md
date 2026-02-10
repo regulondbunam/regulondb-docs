@@ -5,16 +5,17 @@
 - 🔎 Search & Browse
   - [Navigation and Data Download Guide](01_search_browse/README.md)
   - [Gene Search](01_search_browse/gene_search.md)
+  - [Regulon Search](01_search_browse/regulon_search.md)
   - [Catalog Navigation (Genes, Operons, Regulons, Sigmulons, GENSOR Units)](01_search_browse/catalog_navigation.md)
   - [Special Collections (High-Throughput, Coexpression)](01_search_browse/collections.md)
   - [Ontologies - Microbial Condition Ontology (MCO)](01_search_browse/ontologies_mco.md)
 
 - 📂 Data Access
-  - DownLoads
+  - Downloads
       - [Dataset Downloads](02_data_access/dataset_downloads.md)
       - [Creating Gold Standard Datasets](02_data_access/gold_standard_guide_en.md)
       - [Database Dumps (MongoDB, Docker)](02_data_access/database_dumps.md)
-  - Programatic Access
+  - Programmatic Access
       - [API Access (GraphQL, REST)](02_data_access/api_access.md)
   - Technical Resources
       - [Docker Installation Guide](02_data_access/technical_resources/docker_installation.md)
@@ -42,25 +43,49 @@
     - [Gene Expression](03_tools_visualizations/ht_query_builder/gene_expression.md)
 
 - 📑 Curation Manual
-  - [Curation Manual Overview](04_curation_manual/README.md)
-  - [Manual Structure (Extended TOC)](04_curation_manual/manual_index.md)
-  - [General Curation Workflow](04_curation_manual/curation_workflow.md)
-  - [Classical (Literature-Based) Curation](04_curation_manual/classical_curation.md)
-  - [High-Throughput Data Curation](04_curation_manual/ht_data_curation.md)
-  - [Curation Tools (Lisen & Curate, EcoCyc)](04_curation_manual/curation_tools.md)
-  - [Evidence Classification Guide](04_curation_manual/evidence_classification.md)
-  - [Using Microbial Condition Ontology (MCO) for Curation](04_curation_manual/mco_usage_curation.md)
-  - [Quality Control in Curation](04_curation_manual/quality_control.md)
+  - [Curation Manual Overview](04_curation/README.md)
+  - [Manual Structure (Extended TOC)](04_curation/manual_index.md)
+  - [General Curation Workflow](04_curation/curation_workflow.md)
+  - [Classical (Literature-Based) Curation](04_curation/classical_curation.md)
+  - [High-Throughput Data Curation](04_curation/ht_data_curation.md)
+  - [Curation Tools (Lisen & Curate, EcoCyc)](04_curation/curation_tools.md)
+  - [Evidence Classification Guide](04_curation/evidence_classification.md)
+  - [Using Microbial Condition Ontology (MCO) for Curation](04_curation/mco_usage_curation.md)
+  - [Quality Control in Curation](04_curation/quality_control.md)
 
 - 🗓️ Releases & Updates
+  - [Overview](05_releases_updates/README.md)
   - [Release Notes](05_releases_updates/release_notes.md)
   - [Version History](05_releases_updates/version_history.md)
+  - [Usage Metrics](05_releases_updates/usage_metrics.md)
+  - [Research Usage](05_releases_updates/research_usage.md)
+  - [Impact Stories](05_releases_updates/impact_stories.md)
+  - [Counterfactual Scenario](05_releases_updates/counterfactual.md)
+
+- 🧩 Technical Reference
+  - [Overview](07_technical_reference/README.md)
+  - [Standards and Ontologies Used in RegulonDB](07_technical_reference/standards_ontologies.md)
+  - [Relationships with External Data Resources](07_technical_reference/db_relationships.md)
+  - [Technical Performance](07_technical_reference/technical_performance.md)
+  - [Database Schema Overview](07_technical_reference/database_schema_overview.md)
+  - [Database Collections Index](07_technical_reference/database_collections_index.md)
+  - [Collection: Genes](07_technical_reference/collection_genes.md)
+  - [Collection: Regulators](07_technical_reference/collection_regulators.md)
+  - [Collection: Regulatory Interactions](07_technical_reference/collection_regulatory_interactions.md)
+  - [Collection: Operons](07_technical_reference/collection_operons.md)
+  - [Collection: Promoters](07_technical_reference/collection_promoters.md)
+  - [Collection: Transcription Units](07_technical_reference/collection_transcription_units.md)
+  - [Collection: Evidences](07_technical_reference/collection_evidences.md)
 
 - ℹ️ About & Policies
   - [Introduction](00_about_policies/README.md)
   - [About RegulonDB](00_about_policies/about_us.md)
+  - [Global Dimension](00_about_policies/global_dimension.md)
   - [Contact Us](00_about_policies/contact_us.md)
   - [Credits](00_about_policies/credits.md)
+  - [Staff Effort (FTE)](00_about_policies/staff_effort_fte.md)
+  - [Governance and Scientific Advisory](00_about_policies/governance_advisory.md)
+  - [Data Preservation and Continuity Policy](00_about_policies/data_preservation_policy.md)
   - [Funding Sources](00_about_policies/funding_credits.md)
   - [How to Cite RegulonDB](00_about_policies/how_to_cite.md)
   - [FAIR Data Policy](00_about_policies/fair_policy.md)

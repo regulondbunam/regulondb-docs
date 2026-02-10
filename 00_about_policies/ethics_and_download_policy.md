@@ -54,9 +54,9 @@ All data collected via analytics are used **exclusively for internal evaluation 
 
 ---
 
-**Contact:** [Insert contact email]  
-**Citation policy:** [Insert citation policy URL]  
-**Versioned access:** [Insert Zenodo or GitHub link]
+**Contact:** [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx) and [Contact Us](contact_us.md)  
+**Citation policy:** [How to Cite RegulonDB](how_to_cite.md)  
+**Versioned access:** [Version History](../05_releases_updates/version_history.md) and [Release Notes](../05_releases_updates/release_notes.md)
 
 
 ## 9. Data Download Policy and User Identification
