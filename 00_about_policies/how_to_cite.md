@@ -1,4 +1,4 @@
-# 📖 How to Cite RegulonDB
+# 📖 How to cite RegulonDB
 
 If you use **RegulonDB** in your research, presentations, or other academic work, please cite the following most recent publication:
 
@@ -8,7 +8,7 @@ If you use **RegulonDB** in your research, presentations, or other academic work
 
 > **Heladia Salgado**, **Socorro Gama-Castro**, **Paloma Lara**, **Citlalli Mejia-Almonte**, **Gabriel Alarcón-Carranza**, **Andrés G. López-Almazo**, **Felipe Betancourt-Figueroa**, **Pablo Peña-Loredo**, **Shirley Alquicira-Hernández**, **Daniela Ledezma-Tejeida**, **Lizeth Arizmendi-Zagal**, **Francisco Méndez-Hernández**, **Ana K. Díaz-Gómez**, **Elizabeth Ochoa-Praxedis**, **Luis J. Muñiz-Rascado**, **Jair S. García-Sotelo**, **Fanny A. Flores-Gallegos**, **Laura Gómez**, **César Bonavides-Martínez**, **Víctor M. del Moral-Chávez**, **Alfredo J. Hernández-Álvarez**, **Alberto Santos-Zavaleta**, **Salvador Capella-Gutiérrez**, **Josep Lluís Gelpí**, **Julio Collado-Vides**  
 **RegulonDB v12.0: a comprehensive resource of transcriptional regulation in _E. coli_ K-12**  
-*Nucleic Acids Research*, 2023; gkad1072.  
+*Nucleic Acids Research*, 2023; gkad1072.  PMID: 37971353
 DOI: [https://doi.org/10.1093/nar/gkad1072](https://doi.org/10.1093/nar/gkad1072)
 
 

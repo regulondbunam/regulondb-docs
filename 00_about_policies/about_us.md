@@ -1,7 +1,7 @@
 
 # What is RegulonDB?
 
-**RegulonDB** is a comprehensive and expertly curated knowledge base dedicated to the **transcriptional regulatory network of *Escherichia coli* K-12**, a model organism in molecular biology and systems biology. It has been developed and maintained by the *Computational Genomics Program* at the **Centro de Ciencias Genómicas (UNAM)** for over two decades.
+**RegulonDB** is a comprehensive and expertly curated knowledge base dedicated to the **transcriptional regulatory network of *Escherichia coli* K-12**, a model organism in molecular biology and systems biology. It has been developed and maintained by the *Program of Computational Genomics* at the **Centro de Ciencias Genómicas (UNAM)** for over three decades.
 
 <br>
 
@@ -22,17 +22,17 @@ Its **mission is to organize and disseminate high-quality regulatory knowledge**
 
 RegulonDB integrates detailed information on:
 
-- **Genes, operons, and transcription units**, organized into functional transcriptional modules
+- **Genes, operons, transcription units, operons and regulons**, organized into functional transcriptional modules
 
-- **Promoters and transcription start sites (TSSs)**, annotated with experimental evidence
+- **Promoters and transcription start sites (TSSs)**, annotated with experimental evidence, and their associated sigma factors
 
-- **Regulatory elements**, including transcription factors (TFs), small RNAs, their binding sites, and regulatory interactions
+- **Regulatory elements**, including transcription factors (TFs) with their active and inactive conformations, small RNAs, their binding sites, and regulatory interactions
 
 - **Transcription terminators**, supporting transcriptional boundaries
 
 - **GENSOR Units (Genetic Sensory Response Units)**, which integrate environmental signals, regulatory proteins, and downstream gene expression responses to capture signal-to-function regulatory logic
 
-Each item is annotated with specific **evidence codes**, capturing the method (e.g., EMSA, footprinting, RNA-seq, ChIP-seq) and strength of support (strong, weak, confirmed). Data are derived from peer-reviewed scientific literature and undergo manual curation by domain experts.
+Each item is annotated with specific **evidence codes**, capturing the method (e.g., EMSA, footprinting, RNA-seq, ChIP-seq) and level of confidence (strong, weak, confirmed). Data are derived from peer-reviewed scientific literature and undergo manual curation by domain experts.
 
 <br>
 
@@ -58,8 +58,10 @@ With over **2,600 citations** in **more than 450 journals**, RegulonDB is a corn
 - Systems biology and network inference  
 - Gene expression and promoter analysis  
 - Machine learning and AI model validation  
-- Synthetic biology and bioengineering  
-- Comparative genomics and predictive modeling  
+- Synthetic biology and bioengineering
+- Topological properties of transcriptional regulatory networks  
+- Comparative genomics and predictive modeling
+- Benchmarking new high throughput methods 
 
 It is used globally by researchers in **microbiology**, **bioinformatics**, **computational biology**, **data science**, and **education**, and it plays a central role in validating tools, training models, and benchmarking pipelines.
 

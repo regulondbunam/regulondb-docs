@@ -1,10 +1,10 @@
 # User Support Protocol - RegulonDB Helpdesk
 
 ## 1. Objective
-Establish the procedure for handling and following up on questions, doubts, or technical issues sent to the official RegulonDB support email: **regulondb@ccg.unam.mx**.
+To establish the procedure for handling and following up on questions, doubts, suggestions, or technical issues sent to the official RegulonDB support email: **regulondb@ccg.unam.mx**.
 
 ## 2. Scope
-This protocol applies to all members of the RegulonDB team involved in user support: curators, technical staff, and the software project lead.
+This protocol applies to all members of the RegulonDB team involved in user support: curators, technical staff, and the software project leader.
 
 ## 3. Support Channel
 - Email address: **regulondb@ccg.unam.mx**
@@ -22,8 +22,11 @@ This protocol applies to all members of the RegulonDB team involved in user supp
 - If the message contains a **scientific or curation-related query**:
   - It is assigned to **one of the curators**.
 - If it is a **technical issue** (site error, functionality, visualization, API, etc.):
-  - The software project lead assesses the likely cause.
+  - The software project leader assesses the likely cause.
   - The issue is redirected to the appropriate developer or handled internally.
+
+- If it is an issue related to **licencing, collaboration or alike**:<img width="442" height="15" alt="image" src="https://github.com/user-attachments/assets/89a07744-a26d-4994-939f-5d2939f6e9a4" />
+ - The issue is redirected to the project leader and to the administrative support.
 
 ### 4.3 User response
 - The assigned person must draft a clear and complete reply.
@@ -41,5 +44,5 @@ This protocol applies to all members of the RegulonDB team involved in user supp
 - Consider recording frequent questions as the basis for a future FAQ section.
 
 ## 6. Contact and continuous improvement
-This protocol may be updated as the support system evolves. Suggestions and improvements should be sent to the software project lead.
+This protocol may be updated as the support system evolves. Suggestions and improvements should be sent to the software project leader.
 

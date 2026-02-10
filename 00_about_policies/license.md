@@ -41,7 +41,7 @@ When using RegulonDB, please cite both:
 - The database itself (latest version citation):  
   *Santos-Zavaleta A. et al. RegulonDB v12.0: updated transcriptional regulation database for Escherichia coli K-12. Nucleic Acids Res. 2024.*
 
-- The original publications corresponding to the specific data used.
+- The original publication(s) corresponding to the specific data or component that is being used.
 
 ## 4. Disclaimer
 
