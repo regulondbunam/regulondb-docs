@@ -2,17 +2,18 @@
 
 RegulonDB is developed and maintained at the Center for Genomic Sciences, National Autonomous University of Mexico (UNAM), and serves a global scientific community.
 
-Although operations are primarily based in Mexico, the resource has sustained international relevance through global data reuse, cross-resource interoperability, and scientific collaborations reflected in peer-reviewed publications and shared curation practices.
+Although operations are primarily based in Mexico, the resource has sustained international relevance through global data reuse, cross-resource interoperability, and diverse international scientific collaborations, some of them lasting decades. This has contributed to constant improvements, shared curation practices, all of this reflected in shared peer-reviewed publications.
 
 ## International Scientific Role
 
-RegulonDB functions as a reference knowledge base for transcriptional regulation in *Escherichia coli* K-12 and supports researchers across multiple regions and disciplines, including microbiology, systems biology, bioinformatics, and computational biology.
+RegulonDB functions as a reference knowledge base for transcriptional regulation in *Escherichia coli* K-12 and supports researchers across multiple domains ofknowledge and disciplines, including microbiology, systems biology, bioinformatics, and computational biology, with a strong reference as the best mechanistically known gene regulation network in biology.
 
 Its impact extends beyond local use through:
 
 - Broad international citation in scientific literature.
 - Reuse of curated knowledge in external analytical workflows and tools.
-- Continuous use in education, training, and method benchmarking.
+- Continuous use in education, training, and methods benchmarking.
+- Major regulatory network reference used for instance: i) in the assessment for experimental novel methods, ii) for modeling with diverse formal (mathematical, computational, logic..) and predictive methods and pipelines, including inference and artificial intelligence methods, iii) as the place of emergence for new concepts like network motifs or logical gates, iv)for conceptual and ontology novel frameworks. 
 
 ## International Collaboration and Interoperability
 
