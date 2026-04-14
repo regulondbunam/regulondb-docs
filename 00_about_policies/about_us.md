@@ -65,7 +65,7 @@ With over **2,600 citations** in **more than 450 journals**, RegulonDB is a corn
 
 It is used globally by researchers in **microbiology**, **bioinformatics**, **computational biology**, **data science**, and **education**, and it plays a central role in validating tools, training models, and benchmarking pipelines.
 
-In recent years its been widely used as the source for reliable knowledge to assess novel HT methods. Users can filter the desired methodological sources, for instance excluding all HT- methodologies, or specfic ones-, apply the confidence calculator, and get the high and low confidence level sets. This prevents circularity in the testing vs validating methods.
+In recent years its been widely used as the source for reliable knowledge **to assess novel HT methods**. Users can filter the desired methodological sources, for instance excluding all HT- methodologies, or specfic ones-, apply the confidence calculator, and get the high and low confidence level sets. This prevents circularity in the testing vs validating methods.
 
 <br>
 
@@ -77,7 +77,8 @@ RegulonDB provides:
 - Advanced search and query tools  
 - **Downloadable datasets** for both curated and HT data  
 - **Integration with external databases** such as EcoCyc  
-- Support for **APIs** and reproducible workflows  
+- Support for **APIs** and reproducible workflows
+- A **confidence calculator** to generate user-selected standard datasets based on filtering specific methodologies.
 
 The database is maintained with frequent updates and remains aligned with community standards.
 
