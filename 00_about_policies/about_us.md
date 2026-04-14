@@ -26,7 +26,7 @@ RegulonDB integrates detailed information on:
 
 - **Promoters and transcription start sites (TSSs)**, annotated with experimental evidence, and their associated sigma factors
 
-- **Regulatory elements**, including transcription factors (TFs) with their active and inactive conformations, small RNAs, their binding sites, and regulatory interactions
+- **Regulatory elements**, including transcription factors (TFs) with their active and inactive conformations, small RNAs, their binding sites, RNAP-centered regulators like ppGpp and DksA, and their regulatory interactions
 
 - **Transcription terminators**, supporting transcriptional boundaries
 
