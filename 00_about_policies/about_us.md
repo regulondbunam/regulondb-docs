@@ -64,6 +64,7 @@ With over **2,600 citations** in **more than 450 journals**, RegulonDB is a corn
 - Benchmarking new high throughput methods 
 
 It is used globally by researchers in **microbiology**, **bioinformatics**, **computational biology**, **data science**, and **education**, and it plays a central role in validating tools, training models, and benchmarking pipelines.
+
 In recent years its been widely used as the source for reliable knowledge to assess novel HT methods. Users can filter the desired methodological sources, for instance excluding all HT- methodologies, or specfic ones-, apply the confidence calculator, and get the high and low confidence level sets. This prevents circularity in the testing vs validating methods.
 
 <br>
