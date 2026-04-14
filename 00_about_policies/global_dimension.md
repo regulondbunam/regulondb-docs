@@ -13,7 +13,7 @@ Its impact extends beyond local use through:
 - Broad international citation in scientific literature.
 - Reuse of curated knowledge in external analytical workflows and tools.
 - Continuous use in education, training, and methods benchmarking.
-- Major regulatory network reference used for instance: i) in the assessment for experimental novel methods, ii) for modeling with diverse formal (mathematical, computational, logic..) and predictive methods and pipelines, including inference and artificial intelligence methods, iii) as the place of emergence for new concepts like network motifs or logical gates, iv)for conceptual and ontology novel frameworks. 
+- Major regulatory network reference used for instance: i) in the assessment for experimental novel methods, ii) for modeling with diverse formal (mathematical, computational, logic..) and predictive methods and pipelines, including inference and artificial intelligence methods, iii) as the place of emergence for new concepts like network motifs or logical gates, iv)for conceptual and ontology novel frameworks, among others.
 
 ## International Collaboration and Interoperability
 
