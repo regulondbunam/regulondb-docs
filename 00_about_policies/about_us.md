@@ -44,8 +44,8 @@ RegulonDB follows a robust, transparent data lifecycle that includes:
 
 - Extraction of regulatory data from primary literature  
 - Normalization and quality control of molecular entities  
-- Annotation using **controlled vocabularies** and **biological ontologies**  
-- Traceability to experimental conditions and original publications  
+- Annotation using **controlled vocabularies** and **biological ontologies**
+- Implementation of FAIR principles, traceability to experimental conditions and original publications  
 
 The database distinguishes between classical and high-throughput (HT) data, integrating HT results (e.g., TSSs, TFBSs from ChIP-seq) only when they meet criteria for functional relevance or cross-validation.
 
