@@ -63,5 +63,5 @@ Global relevance is maintained by:
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-04-14
 - Responsible area: RegulonDB Documentation and Governance Team
