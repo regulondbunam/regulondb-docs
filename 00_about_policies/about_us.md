@@ -26,7 +26,7 @@ RegulonDB integrates detailed information on:
 
 - **Promoters and transcription start sites (TSSs)**, annotated with experimental evidence, and their associated sigma factors
 
-- **Regulatory elements**, including transcription factors (TFs) with their active and inactive conformations, small RNAs, their binding sites, and regulatory interactions
+- **Regulatory elements**, including transcription factors (TFs) with their active and inactive conformations, small RNAs, their binding sites, RNAP-centered regulators like ppGpp and DksA, and their regulatory interactions
 
 - **Transcription terminators**, supporting transcriptional boundaries
 
@@ -44,8 +44,8 @@ RegulonDB follows a robust, transparent data lifecycle that includes:
 
 - Extraction of regulatory data from primary literature  
 - Normalization and quality control of molecular entities  
-- Annotation using **controlled vocabularies** and **biological ontologies**  
-- Traceability to experimental conditions and original publications  
+- Annotation using **controlled vocabularies** and **biological ontologies**
+- Implementation of FAIR principles, traceability to experimental conditions and original publications  
 
 The database distinguishes between classical and high-throughput (HT) data, integrating HT results (e.g., TSSs, TFBSs from ChIP-seq) only when they meet criteria for functional relevance or cross-validation.
 
@@ -65,6 +65,8 @@ With over **2,600 citations** in **more than 450 journals**, RegulonDB is a corn
 
 It is used globally by researchers in **microbiology**, **bioinformatics**, **computational biology**, **data science**, and **education**, and it plays a central role in validating tools, training models, and benchmarking pipelines.
 
+In recent years its been widely used as the source for reliable knowledge **to assess novel HT methods**. Users can filter the desired methodological sources, for instance excluding all HT- methodologies, or specfic ones-, apply the confidence calculator, and get the high and low confidence level sets. This prevents circularity in the testing vs validating methods.
+
 <br>
 
 ## Access and Tools
@@ -75,7 +77,8 @@ RegulonDB provides:
 - Advanced search and query tools  
 - **Downloadable datasets** for both curated and HT data  
 - **Integration with external databases** such as EcoCyc  
-- Support for **APIs** and reproducible workflows  
+- Support for **APIs** and reproducible workflows
+- A **confidence calculator** to generate user-selected standard datasets based on filtering specific methodologies.
 
 The database is maintained with frequent updates and remains aligned with community standards.
 

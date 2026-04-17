@@ -1,0 +1,114 @@
+{
+  "_description": "This document is a configuration file for the automation of the manual application on the regulonDB site.",
+  "_note": "Before committing please validate the json structure, https://jsonformatter.curiousconcept.com/ ",
+  "sites": [
+    {
+      "_url": "aboutUs",
+      "title": "AboutUs",
+      "description": "Information about regulonDB ",
+      "keyWords": "licence contact",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
+        {
+          "_url": "about-policies",
+          "title":"About Policies",
+          "rawUrl": "/main/00_about_policies/README.md"
+        },
+        {
+          "_url": "about_us.md",
+          "title":"About RegulonDB",
+          "rawUrl": "/main/00_about_policies/about_us.md"
+        },
+        {
+          "_url": "contact_us.md",
+          "title":"Contact Us",
+          "rawUrl": "/main/00_about_policies/contact_us.md"
+        },
+        {
+          "_url": "credits.md",
+          "title":"Credits",
+          "rawUrl": "/main/00_about_policies/credits.md"
+        },
+        {
+          "_url": "funding_credits.md",
+          "title":"Funding Credits",
+          "rawUrl": "/main/00_about_policies/funding_credits.md"
+        },
+        {
+          "_url": "how_to_cite.md",
+          "title":"How To Cite",
+          "rawUrl": "/main/00_about_policies/how_to_cite.md"
+        },
+        {
+          "_url": "fair_policy.md",
+          "title":"Fair Data Policy",
+          "rawUrl": "/main/00_about_policies/fair_policy.md"
+        },
+        {
+          "_url": "data_preservation_policy.md",
+          "title":"Data Preservation Policy",
+          "rawUrl": "/main/00_about_policies/data_preservation_policy.md"
+        },
+        {
+          "_url": "ethics_and_download_policy.md",
+          "title":"Ethics and Download Policy",
+          "rawUrl": "/main/00_about_policies/ethics_and_download_policy.md"
+        },
+        {
+          "_url": "license.md",
+          "title":"License",
+          "rawUrl": "/main/00_about_policies/license.md"
+        },
+        {
+          "_url": "terms_conditions.md",
+          "title":"Terms and Conditions",
+          "rawUrl": "/main/00_about_policies/terms_conditions.md"
+        },
+        {
+          "_url": "privacy_policy.md",
+          "title":"Privacy Policy",
+          "rawUrl": "/main/00_about_policies/privacy_policy.md"
+        },
+        {
+          "_url": "cookie_policy.md",
+          "title":"Cookie Policy",
+          "rawUrl": "/main/00_about_policies/cookie_policy.md"
+        },
+        {
+          "_url": "global_dimension.md",
+          "title":"Global Dimension",
+          "rawUrl": "/main/00_about_policies/global_dimension.md"
+        },
+        {
+          "_url": "governance_advisory.md",
+          "title":"Governance Advisory",
+          "rawUrl": "/main/00_about_policies/governance_advisory.md"
+        },
+        {
+          "_url": "helpdesk-protocol.md",
+          "title":"Helpdesk Protocol",
+          "rawUrl": "/main/00_about_policies/helpdesk-protocol.md"
+        },
+        {
+          "_url": "staff_effort_fte.md",
+          "title":"Staff Effort FTE",
+          "rawUrl": "/main/00_about_policies/staff_effort_fte.md"
+        }
+      ]
+    },
+    {
+      "_url": "help",
+      "title": "help",
+      "description": "Help for RegulonDB ",
+      "keyWords": "licence contact",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
+        {
+          "_url": "search-and-browse",
+          "title":"Search and Browse",
+          "rawUrl": "/main/01_search_browse/README.md"
+        }
+      ]
+    }
+  ]
+}
