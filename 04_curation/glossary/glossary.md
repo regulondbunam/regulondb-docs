@@ -725,6 +725,132 @@ En RegulonDB se visualiza como una red centrada en un regulador con múltiples b
 
 ---
 
+
+# Simple Regulon (Regulón simple)
+
+## 2. Definición simple
+Un **regulón simple** es el conjunto de genes o unidades reguladas directamente por un único regulador.
+
+## 3. Definición extendida
+En la práctica de RegulonDB, un **simple regulon** agrupa blancos regulados por un solo regulador (TF o, en algunos contextos, su forma funcional principal), sin exigir combinaciones obligatorias de múltiples reguladores para definir la pertenencia al conjunto.
+
+Este tipo de regulón facilita el análisis de alcance regulatorio directo de una entidad reguladora en condiciones específicas.
+
+## 4. Acrónimos y sinónimos relevantes
+- simple regulon
+- regulón simple
+- single-regulator regulon
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| regulator | regulador que define el regulón | sí | CRP |
+| regulator type | tipo de regulador | sí | transcription factor |
+| regulated entities | genes/TUs/operones/promotores incluidos | sí | lacZYA TU |
+| interaction evidence | evidencia de interacciones regulatorias | no | HT + curación |
+| regulatory effect profile | activación/represión/dual en blancos | no | mixed |
+| growth condition scope | condición(es) donde aplica | no | glucose limitation |
+
+## 6. Representación gráfica del objeto
+En RegulonDB se visualiza como una red centrada en un único regulador con conexiones hacia sus blancos regulados.
+
+## 7. Comments (Notas importantes)
+- “Simple” se refiere al criterio del regulador definitorio, no a baja complejidad biológica.
+- Un blanco puede pertenecer a más de un regulón simple.
+- El contenido puede variar con nueva evidencia y condición experimental.
+
+## 8. Ejemplos
+**Ejemplo simple:** genes controlados directamente por un solo TF en una condición definida.
+
+**Ejemplo complejo:** regulón simple grande de un regulador global con cientos de blancos potenciales.
+
+## 9. Conexiones conceptuales
+- **Simple regulon ↔ Regulatory interaction:** se construye a partir de interacciones curadas.
+- **Simple regulon ↔ Transcription factor:** depende de un único regulador definitorio.
+- **Simple regulon ≠ Operon:** puede incluir múltiples loci no contiguos.
+
+## 10. Errores comunes
+- Confundir “simple” con “pocos genes”.
+- Suponer que todos los genes del regulón responden igual en toda condición.
+- Usar regulón simple como sinónimo de vía metabólica.
+
+## 11. Referencias
+- Santos-Zavaleta A, et al. 2018. *RegulonDB version 10.0*. BMC Biology. https://doi.org/10.1186/s12915-018-0555-y
+- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- Regulon search guide (repo): ../01_search_browse/regulon_search.md
+
+## 13. Historial del concepto
+- Surge de la clasificación curatorial de regulones en RegulonDB.
+- Se mantiene como categoría operativa para análisis de control directo por regulador único.
+
+---
+
+# Complex Regulon (Regulón complejo)
+
+## 2. Definición simple
+Un **regulón complejo** es el conjunto de genes o unidades cuya regulación se define por la combinación de más de un regulador.
+
+## 3. Definición extendida
+En el contexto de RegulonDB, un **complex regulon** organiza blancos que dependen de lógica combinatoria de regulación (cooperación, antagonismo o integración de múltiples reguladores/conformaciones). Esta categoría captura el hecho de que la respuesta regulatoria no siempre puede atribuirse a un único regulador aislado.
+
+El regulón complejo es útil para representar control integrativo de redes regulatorias y respuestas dependientes de contexto.
+
+## 4. Acrónimos y sinónimos relevantes
+- complex regulon
+- regulón complejo
+- combinatorial regulon
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| defining regulators | conjunto de reguladores definitorios | sí | CRP + FNR |
+| regulated entities | genes/TUs/operones/promotores incluidos | sí | genes de respiración alternativa |
+| regulatory logic | lógica combinatoria principal | no | AND / OR / condition-dependent |
+| supporting interactions | interacciones que soportan la pertenencia | no | múltiples RIs |
+| condition dependency | condiciones donde emerge la combinación | no | anaerobiosis |
+| evidence integration level | grado de integración de evidencia | no | curated mixed evidence |
+
+## 6. Representación gráfica del objeto
+En redes, se visualiza como módulos donde múltiples reguladores convergen sobre subconjuntos de blancos compartidos o parcialmente compartidos.
+
+## 7. Comments (Notas importantes)
+- “Complejo” describe arquitectura regulatoria, no necesariamente tamaño.
+- La definición depende de evidencia de regulación combinatoria.
+- Puede superponerse con regulones simples de cada regulador componente.
+
+## 8. Ejemplos
+**Ejemplo simple:** un conjunto de genes cuya activación requiere dos reguladores.
+
+**Ejemplo complejo:** red con regulación combinatoria condición-dependiente y efectos opuestos según promotor.
+
+## 9. Conexiones conceptuales
+- **Complex regulon ↔ Regulatory interactions:** integra interacciones de múltiples reguladores.
+- **Complex regulon ↔ Network modules:** refleja control combinatorio en la red.
+- **Complex regulon ↔ Simple regulon:** puede derivarse de su intersección o combinación funcional.
+
+## 10. Errores comunes
+- Pensar que todo regulón con muchos genes es complejo.
+- Ignorar el criterio de combinación regulatoria explícita.
+- Asumir una lógica regulatoria fija para todas las condiciones.
+
+## 11. Referencias
+- Santos-Zavaleta A, et al. 2018. *RegulonDB version 10.0*. BMC Biology. https://doi.org/10.1186/s12915-018-0555-y
+- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- Search overview (repo): ../01_search_browse/search_overview.md
+
+## 13. Historial del concepto
+- Se consolidó para representar regulación combinatoria no reducible a un solo regulador.
+- Permite organizar mejor evidencias de integración de señales en la curación de redes.
+
+---
+
+
 # Transcription Factor (Factor de Transcripción)
 
 ## 2. Definición simple
