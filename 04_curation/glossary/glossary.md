@@ -1,4 +1,20 @@
 
+# RegulonDB Glossary
+
+
+## Introduction to Gene Expression
+
+Gene expression in bacteria is controlled through a wide variety of regulatory mechanisms that allow cells to respond rapidly to environmental and physiological signals. Classical studies of bacterial gene regulation established that transcription initiation is frequently controlled by transcription factors (TFs) that bind specific DNA sequences near promoters and modulate the activity of RNA polymerase. These regulatory interactions form the basis of transcriptional regulatory networks that coordinate the expression of multiple genes.
+Over the past decades, extensive experimental and computational efforts have produced large collections of regulatory knowledge describing TFs, promoters, transcription units, and regulatory interactions in bacterial genomes. 
+
+Bacterial gene expression is regulated not only at the level of transcription but also at later stages of gene expression. In particular, regulatory RNAs have emerged as important regulators of gene expression, frequently acting at the level of translation initiation through interactions with messenger RNAs (mRNAs). Trans-acting small RNAs often regulate gene expression by base pairing with target mRNAs near the ribosome binding site, thereby altering ribosome access and translation efficiency. In addition, cis-acting RNA elements such as riboswitches can alter transcription termination or translation initiation through ligand-induced structural rearrangements of the RNA molecule. Regulation also occur by direct interaction of regulatory metabolites interacting with RNA polymerase.
+
+
+Databases such as RegulonDB have played a central role in organizing this knowledge and providing curated representations of transcriptional regulatory networks.
+
+
+
+
 # Gene (Gen)
 
 ## 2. Definición simple
@@ -88,7 +104,6 @@ La definición se ha mantenido estable, pero RegulonDB ha extendido su represent
 
 
 ---
-
 
 # Product (Producto Génico)
 
@@ -516,6 +531,572 @@ Los operones complejos muestran múltiples TUs superpuestas, reflejando su arqui
 - RegulonDB expandió el concepto para capturar operones complejos con promotores alternativos y terminadores internos.
 
 
+---- 
+A revisar porque fue generada por IA basada en el contexto de los articulos de regulonDB y definicions de Citlalli, tomando las colecciones de RegulonDB de mongo.
+---- 
+
+# Regulatory Interaction (Interacción Regulatoria)
+
+## 2. Definición simple
+Una **interacción regulatoria** es la relación entre un regulador activo y una entidad regulada, donde el regulador modifica la transcripción (activación, represión o efecto dual).
+
+## 3. Definición extendida
+En RegulonDB, una **regulatory interaction** representa el vínculo causal curado entre una conformación reguladora activa (por ejemplo, un TF o complejo regulador) y un objetivo regulado (promotor, TU, operón o gen, según el contexto curado). La interacción se caracteriza por una función regulatoria, dirección y soporte de evidencia.
+
+Siguiendo el marco conceptual actualizado de RegulonDB, las interacciones regulatorias se separan de la definición estructural del promotor y se describen como relaciones funcionales entre entidades regulatorias y entidades reguladas.
+
+## 4. Acrónimos y sinónimos relevantes
+- regulatory interaction
+- RI
+- interacción TF-objetivo (uso informal)
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| active conformation | forma activa del regulador que ejecuta la interacción | sí | RhaS-L-rhamnose |
+| regulatory function | efecto sobre la transcripción | sí | activator |
+| regulated entity name | nombre de la entidad regulada | sí | rhaBAD promoter |
+| regulated entity type | tipo de entidad regulada | sí | promoter |
+| distance to promoter/first gene | distancia reportada en la interfaz de regulón | no | -61 |
+| RBS coordinates | coordenadas del sitio de unión regulatorio (si disponible) | no | 112345-112360 |
+
+## 6. Representación gráfica del objeto
+
+
+
+## 7. Comments (Notas importantes)
+- Una interacción no es equivalente a un sitio de unión aislado.
+- La existencia de unión (binding) no siempre implica regulación funcional.
+- Una misma conformación activa puede participar en múltiples interacciones.
+
+## 8. Ejemplos
+**Ejemplo simple:** un regulador activo reprime un promotor específico.
+
+**Ejemplo complejo:** una misma conformación activa regula distintos promotores con funciones diferentes según condición.
+
+## 9. Conexiones conceptuales
+- **Regulatory interaction ↔ Regulator:** requiere un regulador/conformación activa.
+- **Regulatory interaction ↔ Binding site:** puede estar respaldada por uno o más sitios.
+- **Regulatory interaction → Regulon:** las interacciones definen el alcance del regulón.
+
+## 10. Errores comunes
+- Confundir unión física con regulación validada.
+- Asumir que toda interacción aplica a todas las condiciones de crecimiento.
+- Tratar interacción y regulón como sinónimos.
+
+## 11. Referencias
+- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. Nat Rev Genet. https://doi.org/10.1038/s41576-020-0254-8
+- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. Microbial Genomics. https://doi.org/10.1099/mgen.0.000833
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- Regulon search guide (repo): ../01_search_browse/regulon_search.md
+
+## 13. Historial del concepto
+- En modelos clásicos se describía de forma implícita dentro de promotores/operones.
+- En marcos actuales se formaliza como relación regulador-objetivo con evidencia.
+
+---
+
+# Transcription Factor Binding Site (TFBS)
+
+## 2. Definición simple
+Un **binding site** es una región de ADN reconocida por un regulador, como un factor de transcripción o una holoenzima con sigma.
+
+## 3. Definición extendida
+En RegulonDB, un **binding site** es una secuencia genómica donde una molécula reguladora se une de forma específica o preferencial. Para TFs, suele distinguirse entre:
+- **TFBS** (transcription factor binding site): sitio con evidencia de unión.
+- **TFRS** (transcription factor regulatory site): subconjunto de TFBS con evidencia funcional de cambio regulatorio.
+
+El marco conceptual de RegulonDB separa los sitios regulatorios de la definición del promotor: no todo sitio de unión forma parte estructural del promotor ni toda unión implica efecto regulatorio.
+
+## 4. Acrónimos y sinónimos relevantes
+- binding site
+- TFBS
+- TFRS
+- regulatory site
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| left position | inicio del sitio en el genoma | sí | 345210 |
+| right position | fin del sitio en el genoma | sí | 345225 |
+| strand | hebra del ADN | sí | reverse |
+| sequence | secuencia del sitio | no | TTGACATTTAGTAA |
+| regulator/conformation | entidad que reconoce el sitio | sí | CRP-cAMP |
+| evidence type | tipo de evidencia (binding/regulatory) | no | ChIP-seq |
+
+## 6. Representación gráfica del objeto
+En RegulonDB se representa como una marca corta sobre el ADN, asociada al regulador. En vistas de red, se expresa como parte del soporte de una interacción regulatoria.
+
+## 7. Comments (Notas importantes)
+- Un TFBS puede no ser un TFRS.
+- Sitios intragénicos pueden ser funcionales o no funcionales.
+- El contexto experimental condiciona su interpretación.
+
+## 8. Ejemplos
+**Ejemplo simple:** sitio upstream de un promotor reconocido por un activador.
+
+**Ejemplo complejo:** sitio intragénico con evidencia de unión sin efecto claro en expresión.
+
+## 9. Conexiones conceptuales
+- **Binding site ↔ TF/sigma factor:** define reconocimiento molecular.
+- **Binding site ↔ Regulatory interaction:** soporte físico potencial.
+- **Binding site ≠ Promoter:** conceptos relacionados pero no equivalentes.
+
+## 10. Errores comunes
+- Llamar regulatorio a cualquier sitio de unión.
+- Asumir que todo sitio está en región intergénica.
+- Igualar sitio de unión con promotor completo.
+
+## 11. Referencias
+- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
+- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- Sequence Ontology: http://www.sequenceontology.org
+
+## 13. Historial del concepto
+- Inicialmente se usó como sinónimo funcional de control regulatorio.
+- Actualmente se diferencia explícitamente unión física y efecto regulatorio.
+
+---
+
+# Regulon (Regulón)
+
+## 2. Definición simple
+Un **regulón** es el conjunto de entidades reguladas por un mismo regulador o por una misma conformación reguladora activa.
+
+## 3. Definición extendida
+En RegulonDB, un **regulon** agrupa genes, unidades transcripcionales, promotores u operones bajo control de una entidad reguladora común en un nivel de regulación específico (aquí, principalmente transcripcional). El criterio de pertenencia está definido por interacciones regulatorias curadas, no por proximidad genómica.
+
+En este sentido, un regulón no equivale a operón ni a TU: cruza distintas regiones del genoma y puede incluir blancos heterogéneos.
+
+## 4. Acrónimos y sinónimos relevantes
+- regulon
+- regulón
+- TF regulon
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| regulator name | regulador que define el regulón | sí | TrpR |
+| regulator type | tipo de regulador | sí | transcription factor |
+| regulated genes count | número de genes regulados | no | 34 |
+| regulated operons count | número de operones regulados | no | 12 |
+| regulated TUs count | número de TUs reguladas | no | 18 |
+| regulatory interactions count | número de interacciones regulatorias | no | 42 |
+
+## 6. Representación gráfica del objeto
+En RegulonDB se visualiza como una red centrada en un regulador con múltiples blancos distribuidos en el genoma.
+
+## 7. Comments (Notas importantes)
+- Un regulón puede incluir entidades no contiguas.
+- Un gen puede pertenecer a varios regulones.
+- El tamaño del regulón depende de evidencia y condiciones curadas.
+
+## 8. Ejemplos
+**Ejemplo simple:** regulón de un regulador con pocos promotores blanco.
+
+**Ejemplo complejo:** regulón global con decenas de genes y funciones mixtas.
+
+## 9. Conexiones conceptuales
+- **Regulon ↔ Regulatory interactions:** el regulón emerge de estas interacciones.
+- **Regulon ≠ Operon:** operón es organización local; regulón es control distribuido.
+- **Regulon ↔ GENSOR Unit:** puede mapearse a respuestas sistémicas.
+
+## 10. Errores comunes
+- Confundir regulón con operón.
+- Asumir un único modo regulatorio para todos los blancos.
+- Ignorar conformaciones activas/inactivas del regulador.
+
+## 11. Referencias
+- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
+- Salgado H, et al. RegulonDB resources (varias versiones).
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- Regulon search guide (repo): ../01_search_browse/regulon_search.md
+
+## 13. Historial del concepto
+- Originalmente asociado casi exclusivamente a genes controlados por un TF.
+- Se amplió para reflejar blancos múltiples, tipos de entidades reguladas y estados regulatorios.
+
+---
+
+# Transcription Factor (Factor de Transcripción)
+
+## 2. Definición simple
+Un **factor de transcripción (TF)** es un regulador que modifica la transcripción al reconocer sitios específicos en el ADN.
+
+## 3. Definición extendida
+En RegulonDB, un **transcription factor** es una entidad reguladora (usualmente proteica, pero no limitada a una sola arquitectura) capaz de activar, reprimir o modular transcripción mediante unión a regiones regulatorias y/o interacción con la maquinaria de transcripción.
+
+Un TF puede presentar diferentes conformaciones funcionales (por ejemplo, libre, unido a efector, complejo activo/inactivo), lo cual determina su función regulatoria en condiciones específicas.
+
+## 4. Acrónimos y sinónimos relevantes
+- TF
+- transcription factor
+- regulador transcripcional
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| _id | identificador único en RegulonDB | sí | RDBECOLITFC00001 |
+| name | nombre completo del regulador | sí | DNA-binding transcriptional repressor ExuR |
+| abbreviatedName | nombre corto | sí | ExuR |
+| type | clase de regulador | sí | transcriptionFactor |
+| regulationType | tipo de regulación asociada | no | Transcription-Factor-Binding |
+| conformations | conformaciones asociadas (producto/complejo) | no | active, inactive |
+
+## 6. Representación gráfica del objeto
+En redes de RegulonDB, el TF se representa como nodo regulador conectado con sus blancos y, cuando aplica, con complejos/conformaciones activas.
+
+## 7. Comments (Notas importantes)
+- No toda proteína que une ADN es necesariamente regulador funcional en todas las condiciones.
+- La función puede cambiar según efector, estado oligomérico o complejación.
+- Un TF puede participar en múltiples regulones.
+
+## 8. Ejemplos
+**Ejemplo simple:** represor que bloquea el acceso de RNAP.
+
+**Ejemplo complejo:** regulador dual con activación de algunos promotores y represión de otros.
+
+## 9. Conexiones conceptuales
+- **TF ↔ Binding site:** reconocimiento de secuencia objetivo.
+- **TF ↔ Regulatory interaction:** define función sobre blancos.
+- **TF ↔ Regulon:** determina el conjunto regulado.
+
+## 10. Errores comunes
+- Asumir que TF implica siempre proteína monomérica.
+- Igualar presencia de unión con cambio de expresión.
+- Ignorar la importancia de conformaciones activas.
+
+## 11. Referencias
+- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
+- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- Transcription factor (Wikipedia): https://en.wikipedia.org/wiki/Transcription_factor
+
+## 13. Historial del concepto
+- El concepto clásico enfatizaba activadores/represores proteicos.
+- Se formalizó con mayor precisión sobre estados conformacionales y evidencia funcional.
+
+---
+
+# Regulatory Complexes (Complejos Regulatorios)
+
+## 2. Definición simple
+Un **complejo regulatorio** es una entidad formada por uno o más componentes moleculares que actúa como unidad funcional en regulación génica.
+
+## 3. Definición extendida
+En RegulonDB, los **regulatory complexes** incluyen complejos activos o inactivos que pueden estar compuestos por proteínas reguladoras y, en ciertos casos, efectores pequeños. Estos complejos definen el estado funcional real de la regulación (por ejemplo, unión/ausencia de cofactor).
+
+Los complejos reguladores son clave para representar cambio de función entre conformaciones y para conectar señales ambientales con control transcripcional.
+
+## 4. Acrónimos y sinónimos relevantes
+- regulatory complex
+- complex conformation
+- complejo activo/inactivo
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| _id | identificador del complejo | sí | RDBECOLIRCC00004 |
+| name | nombre del complejo | no | RhaS-L-rhamnose DNA-binding transcriptional activator |
+| type | estado funcional del complejo | sí | active |
+| products | componentes (productos) del complejo | sí | RDBECOLIPDC03926 |
+| regulatoryContinuants_ids | efectores/cofactores regulatorios asociados | no | RDBECOLICNC00069 |
+| organisms_id | organismo asociado | sí | RDBECOLIORC00001 |
+
+## 6. Representación gráfica del objeto
+En RegulonDB, se representa como estado/conformación del regulador, enlazado a sus componentes y a las interacciones regulatorias correspondientes.
+
+## 7. Comments (Notas importantes)
+- Un mismo regulador puede tener más de un complejo funcional.
+- El estado activo/inactivo depende del contexto molecular.
+- No todo complejo con unión molecular implica regulación efectiva en todas las condiciones.
+
+## 8. Ejemplos
+**Ejemplo simple:** regulador unido a su efector que activa transcripción.
+
+**Ejemplo complejo:** regulador con estados activo e inactivo según metabolito.
+
+## 9. Conexiones conceptuales
+- **Regulatory complex ↔ TF:** representa conformación funcional.
+- **Regulatory complex ↔ Regulatory interaction:** define qué estado ejecuta la interacción.
+- **Regulatory complex ↔ Regulatory continuant:** integra señales químicas.
+
+## 10. Errores comunes
+- Tratar complejo y regulador como idénticos sin estados.
+- Ignorar componentes no proteicos del estado regulatorio.
+- Asumir que solo existe conformación activa.
+
+## 11. Referencias
+- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
+- RegulonDB / EcoCyc curation framework.
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- EcoCyc: https://ecocyc.org
+
+## 13. Historial del concepto
+- Inicialmente se documentaban principalmente reguladores “libres”.
+- Se consolidó la representación explícita de conformaciones y complejos en curación moderna.
+
+---
+
+# Sigma Factor (Factor sigma)
+
+## 2. Definición simple
+Un **factor sigma** es la subunidad de especificidad de la ARN polimerasa que dirige el reconocimiento de promotores.
+
+## 3. Definición extendida
+En RegulonDB y en el marco conceptual actualizado, un **sigma factor** forma parte de la holoenzima RNAP (E sigma) y determina subconjuntos de promotores reconocidos en función de condiciones celulares. Bacterias como *E. coli* poseen familias sigma (por ejemplo sigma70 y sigma54) y factores alternativos que redistribuyen programas transcripcionales.
+
+El sigma no solo participa en reconocimiento basal de elementos promotores, también condiciona arquitectura de promotores y respuestas globales.
+
+## 4. Acrónimos y sinónimos relevantes
+- sigma factor
+- sigma
+- factor sigma
+- RpoX (según gen)
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| _id | identificador en RegulonDB | sí | RDBECOLISFC00001 |
+| name | nombre completo | sí | RNA polymerase sigma factor FliA |
+| abbreviatedName | nombre corto | sí | sigma28 |
+| genes_id | gen que codifica el sigma | sí | RDBECOLIGNC01323 |
+| synonyms | nombres alternativos | no | RpoF, sigma 28 |
+| organisms_id | organismo asociado | sí | RDBECOLIORC00001 |
+
+## 6. Representación gráfica del objeto
+En diagramas funcionales aparece asociado a RNAP holoenzima y a clases de promotores que reconoce.
+
+## 7. Comments (Notas importantes)
+- Un sigma define programas transcripcionales dependientes de condición.
+- Distintos sigma pueden iniciar en el mismo TSS y definir promotores distintos.
+- La competencia entre sigma afecta expresión global.
+
+## 8. Ejemplos
+**Ejemplo simple:** sigma70 en promotores housekeeping.
+
+**Ejemplo complejo:** sigma alternativos (sigma28, sigma54, sigma38) con regulones especializados.
+
+## 9. Conexiones conceptuales
+- **Sigma factor ↔ Promoter:** reconocimiento de elementos promotores.
+- **Sigma factor ↔ RNAP core:** formación de E sigma.
+- **Sigma factor ↔ Regulon/Sigmulon:** conjuntos de genes bajo su control.
+
+## 10. Errores comunes
+- Considerar sigma como TF clásico de sitio fijo.
+- Asumir que cada promotor tiene un único sigma posible.
+- Ignorar sigma alternativos en respuestas ambientales.
+
+## 11. Referencias
+- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
+- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- Sigma factor (Wikipedia): https://en.wikipedia.org/wiki/Sigma_factor
+
+## 13. Historial del concepto
+- Se pasó de una visión centrada en sigma70 a una visión multsigma dependiente de contexto.
+- La curación moderna distingue familias sigma y su impacto regulatorio específico.
+
+---
+
+# GENSOR Unit (GU)
+
+## 2. Definición simple
+Una **GENSOR Unit (GU)** es una unidad conceptual que integra regulación genética y respuesta funcional en red.
+
+## 3. Definición extendida
+En RegulonDB, **GU (GENetic SENsory Response Unit)** conecta un regulador, sus interacciones regulatorias y las consecuencias funcionales aguas abajo (genes, productos y procesos). Sirve para representar cómo una señal se traduce en una respuesta fisiológica coordinada.
+
+La GU no reemplaza entidades básicas (gen, promotor, TU, operón, regulón), sino que las integra en una capa sistémica para interpretación funcional.
+
+## 4. Acrónimos y sinónimos relevantes
+- GU
+- GENSOR Unit
+- Genetic Sensory Response Unit
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| name | nombre de la GU | no |  |
+| regulator(s) | regulador(es) centrales | no |  |
+| regulated entities | genes/TUs/operones integrados | no |  |
+| functional outcome | proceso o respuesta asociada | no |  |
+| supporting interactions | interacciones regulatorias vinculadas | no |  |
+| evidence/references | soporte documental | no |  |
+
+## 6. Representación gráfica del objeto
+En RegulonDB, una GU suele representarse como un diagrama funcional que conecta regulación, genes objetivo, rutas y efecto fisiológico.
+
+## 7. Comments (Notas importantes)
+- Se usa para integrar conocimiento curado en una vista funcional.
+- Puede abarcar varios niveles de organización biológica.
+- Su granularidad depende de la disponibilidad de evidencia.
+
+## 8. Ejemplos
+**Ejemplo simple:** GU centrada en un regulador y una ruta metabólica principal.
+
+**Ejemplo complejo:** GU que integra múltiples ramas funcionales y regulación combinatoria.
+
+## 9. Conexiones conceptuales
+- **GU ↔ Regulon:** usa regulones como módulo de entrada.
+- **GU ↔ Metabolic/functional context:** conecta regulación con fenotipo.
+- **GU ≠ Regulon:** regulón es conjunto regulado; GU incluye respuesta funcional.
+
+## 10. Errores comunes
+- Usar GU como sinónimo de regulón.
+- Asumir que toda GU representa una sola vía lineal.
+- Ignorar que es una capa integrativa, no solo transcripcional.
+
+## 11. Referencias
+- RegulonDB documentation and GENSOR framework resources.
+- Mejía-Almonte C, et al. 2020. https://doi.org/10.1038/s41576-020-0254-8
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- Standards in this repo: ../07_technical_reference/standards_ontologies.md
+
+## 13. Historial del concepto
+- Fue introducido para integrar regulación y función en modelos de sistema.
+- Ha evolucionado como recurso visual y conceptual dentro de RegulonDB.
+
+---
+
+# sRNA (small RNA / RNA pequeño)
+
+## 2. Definición simple
+Un **sRNA** es un RNA pequeño no codificante que regula la expresión génica, generalmente a nivel postranscripcional.
+
+## 3. Definición extendida
+En RegulonDB, un **sRNA** es una entidad reguladora de tipo RNA (frecuentemente anotada como `small RNA`) que modula estabilidad y/o traducción de mRNAs blanco, muchas veces con ayuda de chaperonas como Hfq. Algunos sRNAs participan también en redes transcripcionales al afectar reguladores.
+
+La curación distingue el sRNA como regulador funcional y no como simple intermediario de expresión.
+
+## 4. Acrónimos y sinónimos relevantes
+- sRNA
+- small RNA
+- small regulatory RNA
+- ncRNA (relacionado, más amplio)
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| _id | identificador en RegulonDB | sí | RDBECOLI... |
+| name | nombre del sRNA | sí | CyaR |
+| type | tipo de regulador | sí | small RNA |
+| synonyms | nombres alternativos | no | ryeE |
+| note | descripción funcional curada | no | regula degradación de ompX |
+| confidenceLevel | nivel de confianza curatorial | no | W |
+
+## 6. Representación gráfica del objeto
+En redes regulatorias se representa como nodo RNA regulador conectado a sus genes/transcritos objetivo.
+
+## 7. Comments (Notas importantes)
+- Muchos sRNAs requieren proteínas accesorias (por ejemplo Hfq).
+- Un sRNA puede tener múltiples blancos.
+- Su efecto puede depender de condición y contexto celular.
+
+## 8. Ejemplos
+**Ejemplo simple:** sRNA que reprime traducción de un mRNA de membrana.
+
+**Ejemplo complejo:** sRNA con múltiples blancos y competencia por Hfq.
+
+## 9. Conexiones conceptuales
+- **sRNA ↔ Target mRNA:** regulación postranscripcional.
+- **sRNA ↔ Regulatory network:** puede modular reguladores globales.
+- **sRNA ↔ Product concept:** es producto funcional RNA.
+
+## 10. Errores comunes
+- Tratar todos los RNAs pequeños como equivalentes funcionales.
+- Asumir que su acción siempre es represión.
+- Omitir dependencia de proteínas chaperonas.
+
+## 11. Referencias
+- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
+- RegulonDB curated regulator notes for small RNAs.
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- sRNA (Wikipedia): https://en.wikipedia.org/wiki/Small_RNA
+
+## 13. Historial del concepto
+- Inicialmente se documentaban pocos sRNAs con blancos puntuales.
+- Con evidencia de alto rendimiento y curación continua se expandió su cobertura en redes regulatorias.
+
 ---
 
 
+# Effector (Efector)
+
+## 2. Definición simple
+Un **efector** es una molécula que modifica la actividad de un regulador al unirse a él, cambiando su estado funcional.
+
+## 3. Definición extendida
+En RegulonDB, un **effector** es típicamente una molécula pequeña (por ejemplo, metabolito, nucleótido o ion) que altera la conformación o la capacidad regulatoria de un factor de transcripción o complejo regulatorio. Su unión puede activar, inhibir o modular afinidad por ADN, especificidad de blanco o función regulatoria final.
+
+El efector no es, por sí mismo, el regulador transcripcional principal; actúa como señal molecular que conecta el estado fisiológico con la respuesta regulatoria.
+
+## 4. Acrónimos y sinónimos relevantes
+- effector
+- coregulator (en algunos contextos)
+- small-molecule effector
+- molécula efectora
+
+## 5. Propiedades mínimas del objeto
+| Propiedad | Descripción | Requerida | Ejemplo |
+|-----------|-------------|-----------|---------|
+| _id | identificador de la molécula en base de datos | sí | RDBECOLICNC00069 |
+| name | nombre del efector | sí | L-rhamnose |
+| type | tipo químico/funcional | sí | metabolite |
+| synonyms | nombres alternativos | no | rhamnose |
+| associated regulator/complex | regulador o complejo modulado | no | RhaS-L-rhamnose |
+| functional effect | efecto regulatorio reportado | no | activation |
+
+## 6. Representación gráfica del objeto
+En RegulonDB, los efectores suelen aparecer asociados a conformaciones regulatorias o complejos (por ejemplo, `Regulator-effector`) que representan estados activos o inactivos.
+
+## 7. Comments (Notas importantes)
+- Un mismo regulador puede responder a distintos efectores.
+- El efecto del efector depende del contexto fisiológico y de concentración.
+- No todo ligando reportado implica cambio regulatorio funcional confirmado.
+
+## 8. Ejemplos
+**Ejemplo simple:** una molécula que activa un regulador al promover su conformación activa.
+
+**Ejemplo complejo:** una molécula que cambia selectivamente función activadora/represora según promotor.
+
+## 9. Conexiones conceptuales
+- **Effector ↔ Regulatory complex:** define estados activo/inactivo de complejos.
+- **Effector ↔ Transcription factor:** modula afinidad por ADN o función regulatoria.
+- **Effector ↔ Regulatory interaction:** condiciona si una interacción ocurre o cambia de signo.
+
+## 10. Errores comunes
+- Confundir efector con regulador principal.
+- Asumir que todo efector siempre activa.
+- Ignorar dependencia de condición experimental para observar efecto.
+
+## 11. Referencias
+- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
+- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
+
+## 12. Useful links
+- RegulonDB: https://regulondb.ccg.unam.mx
+- EcoCyc (ligandos/regulación): https://ecocyc.org
+
+## 13. Historial del concepto
+- En definiciones clásicas, el rol del efector se describía de forma implícita dentro de regulación por TFs.
+- En modelos actuales, se explicita su papel como modulador de conformaciones y estado regulatorio.
+
+---
