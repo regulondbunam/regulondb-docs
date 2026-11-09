@@ -119,7 +119,7 @@
         {
           "_url": "docker",
           "title":"Docker",
-          "rawUrl": "/main/07_technical_docs/rdb_docker_instance.md"
+          "rawUrl": "/main/07_technical_reference/rdb_docker_instance.md"
         }
       ]
     }
