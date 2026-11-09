@@ -109,6 +109,19 @@
           "rawUrl": "/main/01_search_browse/README.md"
         }
       ]
+    },
+    {
+      "_url": "apiSoftware",
+      "title": "Api & Software",
+      "description": "Information about us, contact us ",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
+        {
+          "_url": "docker",
+          "title":"Docker",
+          "rawUrl": "/main/07_technical_docs/rdb_docker_instance.md"
+        }
+      ]
     }
   ]
 }
