@@ -3,18 +3,12 @@
   "_note": "Before committing please validate the json structure, https://jsonformatter.curiousconcept.com/ ",
   "sites": [
     {
-      "_url": "help",
-      "title": "Help",
+      "_url": "README.md",
+      "title": "RegulonDB Documentation",
+      "rawUrl": "/main/README.md",
       "description": "Help and documentation for RegulonDB.",
       "keyWords": "RegulonDB documentation",
-      "imgUrl": "https://source.unsplash.com/random?wallpapers",
-      "sections": [
-        {
-          "_url": "README.md",
-          "title": "RegulonDB Documentation",
-          "rawUrl": "/main/README.md"
-        }
-      ]
+      "imgUrl": "https://source.unsplash.com/random?wallpapers"
     },
     {
       "_url": "00_about_policies",
