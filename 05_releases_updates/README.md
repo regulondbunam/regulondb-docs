@@ -20,4 +20,4 @@ This section provides public documentation about version evolution, release comm
 ## Last Review
 
 - Last updated: 2026-02-10
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

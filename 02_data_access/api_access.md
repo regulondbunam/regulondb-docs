@@ -93,4 +93,4 @@ See the documentation page for the arguments and return fields of each query.
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

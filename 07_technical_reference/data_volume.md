@@ -55,4 +55,4 @@ The high-throughput (HT) collections of release 14.5.1 contain 2,445 datasets, w
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

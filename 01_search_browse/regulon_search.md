@@ -127,4 +127,4 @@ If you have questions or need assistance with regulon search or navigation, plea
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

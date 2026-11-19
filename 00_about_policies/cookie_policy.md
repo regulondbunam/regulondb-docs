@@ -71,4 +71,4 @@ If you have any questions about our use of cookies, please contact us at:
 
 ---
 
-**Responsible area:** RegulonDB Documentation and Governance Team
+**Maintained by:** RegulonDB Team

@@ -15,4 +15,4 @@ Each note also offers a **DOWNLOAD** link to the complete release dump (see [Dat
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

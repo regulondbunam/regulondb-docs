@@ -25,4 +25,4 @@ For the collections included in the release download, which the web interface an
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

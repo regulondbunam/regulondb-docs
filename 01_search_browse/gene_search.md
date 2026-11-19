@@ -132,4 +132,4 @@ If you have questions or need assistance with the gene search or navigation, ple
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

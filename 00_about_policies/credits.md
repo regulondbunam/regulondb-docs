@@ -149,4 +149,4 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

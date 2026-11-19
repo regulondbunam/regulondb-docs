@@ -18,4 +18,4 @@ This section contains operational guides for users who need programmatic or loca
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

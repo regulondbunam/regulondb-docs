@@ -51,4 +51,4 @@ Counts and structures below were obtained from the dump of release **14.5.1** (2
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

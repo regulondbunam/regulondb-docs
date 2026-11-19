@@ -56,4 +56,4 @@ To provide transparent, reproducible, and non-sensitive usage indicators that su
 ## Last Review
 
 - Last updated: 2026-02-10
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

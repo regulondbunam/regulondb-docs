@@ -49,4 +49,4 @@ This protocol may be updated as the support system evolves. Suggestions and impr
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

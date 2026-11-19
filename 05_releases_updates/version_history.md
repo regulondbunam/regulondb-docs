@@ -11,4 +11,4 @@ To cite a specific release, see [How to Cite RegulonDB](../00_about_policies/how
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

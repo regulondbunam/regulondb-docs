@@ -55,4 +55,4 @@ For any questions or concerns about this privacy policy or how your data is hand
 ---
 
 **Last updated:** 2026-11-18  
-**Responsible area:** RegulonDB Documentation and Governance Team
+**Maintained by:** RegulonDB Team

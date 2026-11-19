@@ -64,4 +64,4 @@ RegulonDB mitigates these risks by providing:
 ## Last Review
 
 - Last updated: 2026-02-10
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

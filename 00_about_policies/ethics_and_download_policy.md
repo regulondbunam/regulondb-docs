@@ -59,4 +59,4 @@ We use Google Analytics to understand how the RegulonDB website is used and to p
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

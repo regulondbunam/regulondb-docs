@@ -94,4 +94,4 @@ Field presence is computed over 3,000 documents (the first 3,000 of 3,142).
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

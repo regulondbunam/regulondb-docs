@@ -98,4 +98,4 @@ Data types, required fields, and identifier patterns come from the JSON Schema u
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team

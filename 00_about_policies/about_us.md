@@ -95,4 +95,4 @@ The database is maintained with frequent updates and remains aligned with commun
 ## Last Review
 
 - Last updated: 2026-11-18
-- Responsible area: RegulonDB Documentation and Governance Team
+- Maintained by: RegulonDB Team
