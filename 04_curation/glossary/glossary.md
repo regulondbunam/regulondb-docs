@@ -724,6 +724,7 @@ Figure sources to review before publication (reuse permissions):
 ## Related Content
 
 - [Curation Manual](../README.md)
+- [Evidence Classification](../evidenceclassification.md)
 - [Core Database Collections](../../07_technical_reference/core_collections/README.md)
 - [Database Schema Overview](../../07_technical_reference/database_schema_overview.md)
 

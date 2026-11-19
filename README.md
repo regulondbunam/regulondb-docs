@@ -16,6 +16,7 @@ Our goal is to provide clear, structured, and FAIR-aligned documentation to supp
 - **[Search and Browse](01_search_browse/README.md)**: how to search for genes, operons, regulons, and other objects, including logical operators.
 - **[Data Access](02_data_access/README.md)**: dataset downloads, database dumps, the GraphQL API, and local installation.
 - **[Glossary](04_curation/glossary/glossary.md)**: definitions of the concepts used in RegulonDB and how they are represented in the data.
+- **[Evidence Classification](04_curation/evidenceclassification.md)**: evidence types, confidence levels, and additive evidence rules.
 - **[Releases and Updates](05_releases_updates/README.md)**: release history, research usage, and impact stories.
 - **[Technical Reference](07_technical_reference/README.md)**: data model, core collections, datamarts, Docker instance, and standards.
 

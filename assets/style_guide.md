@@ -4,7 +4,7 @@ This guide describes how documentation pages are written in markdown and how the
 
 ## Scope
 
-The style applies to the root `README.md` and to the sections `00_about_policies`, `01_search_browse`, `02_data_access`, `04_curation/glossary`, `05_releases_updates`, and `07_technical_reference`. The icons `tools.svg` and `tutorials.svg` are ready for the sections 03 and 06 when they are documented.
+The style applies to the root `README.md` and to the sections `00_about_policies`, `01_search_browse`, `02_data_access`, `04_curation/glossary`, `04_curation/evidenceclassification.md`, `05_releases_updates`, and `07_technical_reference`. The icons `tools.svg` and `tutorials.svg` are ready for the sections 03 and 06 when they are documented.
 
 ## For Authors
 

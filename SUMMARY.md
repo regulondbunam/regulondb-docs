@@ -43,7 +43,7 @@
   - [Classical (Literature-Based) Curation](04_curation/classical_curation.md)
   - [High-Throughput Data Curation](04_curation/ht_data_curation.md)
   - [Curation Tools (Lisen & Curate, EcoCyc)](04_curation/curation_tools.md)
-  - [Evidence Classification Guide](04_curation/evidence_classification.md)
+  - [Evidence Classification Guide](04_curation/evidenceclassification.md)
   - [Using Microbial Condition Ontology (MCO) for Curation](04_curation/mco_usage_curation.md)
   - [Quality Control in Curation](04_curation/quality_control.md)
 

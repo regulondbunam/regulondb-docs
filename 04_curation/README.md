@@ -13,7 +13,7 @@ It is designed for curators, scientists, and contributors who participate in the
 - **[Classical (Literature-Based) Curation](classical_curation.md):** How data is extracted and curated from scientific publications.
 - **[High-Throughput Data Curation](ht_data_curation.md):** Handling ChIP-seq, RNA-seq, TSS-seq, and other large-scale datasets.
 - **[Curation Tools (Lisen & Curate, EcoCyc)](curation_tools.md):** Platforms and methodologies for assisted curation.
-- **[Evidence Classification Guide](evidence_classification.md):** How evidence types are assigned to curated data.
+- **[Evidence Classification Guide](evidenceclassification.md):** How evidence types are assigned to curated data.
 - **[Using MCO for Curation](mco_usage_curation.md):** Application of the Microbial Condition Ontology to annotate experimental conditions.
 - **[Quality Control in Curation](quality_control.md):** Standards, validation, and update procedures.
 - **[Glossary](glossary/glossary.md):** Definitions of the concepts used in RegulonDB and how they are represented in the data.
