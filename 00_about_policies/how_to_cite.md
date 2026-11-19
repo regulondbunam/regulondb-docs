@@ -8,7 +8,7 @@ If you use **RegulonDB** in your research, presentations, or other academic work
 
 > **Heladia Salgado**, **Socorro Gama-Castro**, **Paloma Lara**, **Citlalli Mejia-Almonte**, **Gabriel Alarcón-Carranza**, **Andrés G. López-Almazo**, **Felipe Betancourt-Figueroa**, **Pablo Peña-Loredo**, **Shirley Alquicira-Hernández**, **Daniela Ledezma-Tejeida**, **Lizeth Arizmendi-Zagal**, **Francisco Méndez-Hernández**, **Ana K. Díaz-Gómez**, **Elizabeth Ochoa-Praxedis**, **Luis J. Muñiz-Rascado**, **Jair S. García-Sotelo**, **Fanny A. Flores-Gallegos**, **Laura Gómez**, **César Bonavides-Martínez**, **Víctor M. del Moral-Chávez**, **Alfredo J. Hernández-Álvarez**, **Alberto Santos-Zavaleta**, **Salvador Capella-Gutiérrez**, **Josep Lluís Gelpí**, **Julio Collado-Vides**  
 **RegulonDB v12.0: a comprehensive resource of transcriptional regulation in _E. coli_ K-12**  
-*Nucleic Acids Research*, 2023; gkad1072.  PMID: 37971353
+*Nucleic Acids Research*, 2024; 52(D1): D255–D264.  PMID: 37971353
 DOI: [https://doi.org/10.1093/nar/gkad1072](https://doi.org/10.1093/nar/gkad1072)
 
 
@@ -18,20 +18,23 @@ DOI: [https://doi.org/10.1093/nar/gkad1072](https://doi.org/10.1093/nar/gkad1072
 
 **APA:**
 
-> Salgado, H., Gama-Castro, S., Lara, P., Mejia-Almonte, C., Alarcón-Carranza, G., López-Almazo, A. G., ... & Collado-Vides, J. (2023). *RegulonDB v12.0: A comprehensive resource of transcriptional regulation in _E. coli_ K-12*. _Nucleic Acids Research_, gkad1072. https://doi.org/10.1093/nar/gkad1072
+> Salgado, H., Gama-Castro, S., Lara, P., Mejia-Almonte, C., Alarcón-Carranza, G., López-Almazo, A. G., ... & Collado-Vides, J. (2024). *RegulonDB v12.0: A comprehensive resource of transcriptional regulation in _E. coli_ K-12*. _Nucleic Acids Research_, 52(D1), D255–D264. https://doi.org/10.1093/nar/gkad1072
 
 **MLA:**
 
-> Salgado, Heladia, et al. "RegulonDB v12.0: a comprehensive resource of transcriptional regulation in _E. coli_ K-12." _Nucleic Acids Research_ (2023): gkad1072. https://doi.org/10.1093/nar/gkad1072
+> Salgado, Heladia, et al. "RegulonDB v12.0: a comprehensive resource of transcriptional regulation in _E. coli_ K-12." _Nucleic Acids Research_ 52.D1 (2024): D255–D264. https://doi.org/10.1093/nar/gkad1072
 
 **BibTeX:**
 
 ```bibtex
-@article{salgado2023regulondb,
+@article{salgado2024regulondb,
   title={RegulonDB v12.0: a comprehensive resource of transcriptional regulation in E. coli K-12},
-  author={Salgado, Heladia and Gama-Castro, Socorro and Lara, Paloma and Mejia-Almonte, Citlalli and Alarc{'o}n-Carranza, Gabriel and L{'o}pez-Almazo, Andr{'e}s G and et al.},
+  author={Salgado, Heladia and Gama-Castro, Socorro and Lara, Paloma and Mejia-Almonte, Citlalli and Alarc{\'o}n-Carranza, Gabriel and L{\'o}pez-Almazo, Andr{\'e}s G and others},
   journal={Nucleic Acids Research},
-  year={2023},
+  volume={52},
+  number={D1},
+  pages={D255--D264},
+  year={2024},
   doi={10.1093/nar/gkad1072}
 }
 ```
@@ -40,15 +43,17 @@ DOI: [https://doi.org/10.1093/nar/gkad1072](https://doi.org/10.1093/nar/gkad1072
 
 ## How to Cite Downloaded Datasets
 
-If you downloaded data directly from RegulonDB (e.g., in JSON, TSV, or GFF formats), please cite the database along with the specific version and download URL. Here is a suggested format:
+If you downloaded data directly from RegulonDB (e.g., in TSV, CSV, or JSON formats), please cite the database along with the specific version and download URL. Here is a suggested format:
 
 **Example (dataset citation):**
 
-> RegulonDB v12.0. Data downloaded on March 25, 2025 from: https://regulondb.ccg.unam.mx/download/
+> RegulonDB v14.5.1. Data downloaded on November 18, 2026 from: https://regulondb.ccg.unam.mx/download/
+
+If the release you used has a DOI in Zenodo, please include it as well (for example, RegulonDB v12.0.0: https://doi.org/10.5281/zenodo.8346680).
 
 You may also include the main publication reference, for example:
 
-> Salgado et al., 2023. *RegulonDB v12.0: A comprehensive resource of transcriptional regulation in _E. coli_ K-12*. _Nucleic Acids Research_. https://doi.org/10.1093/nar/gkad1072. Data downloaded from: https://regulondb.ccg.unam.mx/download/
+> Salgado et al., 2024. *RegulonDB v12.0: A comprehensive resource of transcriptional regulation in _E. coli_ K-12*. _Nucleic Acids Research_. https://doi.org/10.1093/nar/gkad1072. Data downloaded from: https://regulondb.ccg.unam.mx/download/
 
 <br>
 
@@ -70,7 +75,7 @@ Santos-Zavaleta, A., et al. (2018). *A unified resource for transcriptional regu
 Gama-Castro, S., Salgado, H., Santos-Zavaleta, A., et al. (2016). *RegulonDB version 9.0: high-level integration of gene regulation, coexpression, motif clustering and beyond*. Nucleic Acids Research, 44(D1), D133–D143. https://doi.org/10.1093/nar/gkv1156
 
 #### RegulonDB 8.0
-Santos-Zavaleta, A., Salgado, H., Gama-Castro, S., et al. (2012). *RegulonDB v8.0: omics datasets, evolutionary conservation, regulatory phrases, cross-validated gold standards and more*. Nucleic Acids Research, 41(Database issue), D203–D213. https://doi.org/10.1093/nar/gks1201
+Salgado, H., Peralta-Gil, M., Gama-Castro, S., et al. (2013). *RegulonDB v8.0: omics datasets, evolutionary conservation, regulatory phrases, cross-validated gold standards and more*. Nucleic Acids Research, 41(Database issue), D203–D213. https://doi.org/10.1093/nar/gks1201
 
 #### RegulonDB 7.0
 Gama-Castro, S., Salgado, H., Peralta-Gil, M., et al. (2011). *RegulonDB version 7.0: transcriptional regulation of Escherichia coli K-12 integrated within genetic sensory response units (Gensor Units)*. Nucleic Acids Research, 39(Database issue), D98–D105. https://doi.org/10.1093/nar/gkq1110
@@ -82,7 +87,7 @@ Gama-Castro, S., Jiménez-Jacinto, V., Peralta-Gil, M., et al. (2008). *RegulonD
 Salgado, H., Gama-Castro, S., Peralta-Gil, M., et al. (2006). *RegulonDB (version 5.0): Escherichia coli K-12 transcriptional regulatory network, operon organization, and growth conditions*. Nucleic Acids Research, 34(Database issue), D394–D397. https://doi.org/10.1093/nar/gkj156
 
 #### RegulonDB 4.0
-Gama-Castro, S., Salgado, H., Santos-Zavaleta, A., et al. (2005). *RegulonDB (version 4.0): transcriptional regulation, operon organization and growth conditions in Escherichia coli K-12*. Nucleic Acids Research, 33(Database issue), D394–D397. https://doi.org/10.1093/nar/gkh140
+Salgado, H., Gama-Castro, S., Martínez-Antonio, A., et al. (2004). *RegulonDB (version 4.0): transcriptional regulation, operon organization and growth conditions in Escherichia coli K-12*. Nucleic Acids Research, 32(Database issue), D303–D306. https://doi.org/10.1093/nar/gkh140
 
 #### RegulonDB 3.2
 
@@ -100,7 +105,7 @@ Huerta, A. M., Salgado, H., Thieffry, D., & Collado-Vides, J. (1998). *RegulonDB
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team
 
 

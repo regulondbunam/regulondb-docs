@@ -25,12 +25,15 @@ RegulonDB follows these preservation principles:
 
 ## Public Preservation Practices
 
-At a public-policy level, RegulonDB maintains:
+RegulonDB applies the following preservation practices:
 
-- Versioned release documentation.
-- Persistent references to key scientific outputs.
-- Structured data organization for reproducible access and reuse.
-- Governance oversight for periodic policy and documentation review.
+- **Persistent identifiers for releases:** RegulonDB releases are registered in Zenodo with a DOI (for example, RegulonDB v12.0.0: [doi:10.5281/zenodo.8346680](https://doi.org/10.5281/zenodo.8346680)).
+- **Deployable releases:** each version is distributed as Docker images and database dumps, so that any release can be deployed and queried locally (see [Database Dumps](../02_data_access/database_dumps.md) and the [Docker Installation Guide](../07_technical_reference/rdb_docker_instance.md)).
+- **Versioned source code:** software and configuration are maintained under version control in GitHub ([github.com/regulondbunam](https://github.com/regulondbunam)).
+- **Mirror site:** a mirror of RegulonDB is maintained at the International Laboratory for Human Genome Research (LIIGH-UNAM): [regulondb.liigh.unam.mx](https://regulondb.liigh.unam.mx/).
+- **Backups:** regular backups of databases and services are performed.
+- **Versioned documentation:** release notes and version history are published with each release.
+- **Governance oversight:** policies and documentation are reviewed periodically.
 
 Related pages:
 
@@ -47,7 +50,7 @@ RegulonDB maintains continuity through:
 - Periodic operational review and prioritization of critical services.
 - Documentation updates when major changes affect data access or release processes.
 
-Detailed operational procedures (for example, internal backup schedules and infrastructure implementation details) are managed internally and are not disclosed in public documentation.
+Detailed operational procedures (for example, backup schedules and infrastructure implementation details) are managed internally.
 
 ## Roles and Responsibilities
 
@@ -62,5 +65,5 @@ Detailed operational procedures (for example, internal backup schedules and infr
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team

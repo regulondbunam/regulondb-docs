@@ -16,7 +16,7 @@ It is designed for curators, scientists, and contributors who participate in the
 - **[Evidence Classification Guide](evidence_classification.md):** How evidence types are assigned to curated data.
 - **[Using MCO for Curation](mco_usage_curation.md):** Application of the Microbial Condition Ontology to annotate experimental conditions.
 - **[Quality Control in Curation](quality_control.md):** Standards, validation, and update procedures.
-- **[Glossary](glossary.md):** Key definitions for curation terminology.
+- **[Glossary](glossary/glossary.md):** Definitions of the concepts used in RegulonDB and how they are represented in the data.
 - **[Appendices](appendices.md):** Templates, forms, and real examples of curated entries.
 
 

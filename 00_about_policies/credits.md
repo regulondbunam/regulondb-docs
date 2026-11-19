@@ -2,8 +2,6 @@
 
 This page provides recognition to the individuals and teams who have contributed to the development, maintenance, and continued success of the RegulonDB project. Their collaborative work spans biocuration, software development, scientific guidance, and infrastructure support.
 
-This page summarizes the different contributors to the RegulonDB project.
-
 ## RegulonDB Team
 
 ### Project Leadership
@@ -33,32 +31,15 @@ This page summarizes the different contributors to the RegulonDB project.
 
 We acknowledge the support on all sort of questions regarding knowledge representation in RegulonDB to the following colleagues: 
 
-- [Dr. Steve Busby](https://research.birmingham.ac.uk/en/persons/steve-busby) (University of Birgminham, UK)
+- [Dr. Steve Busby](https://research.birmingham.ac.uk/en/persons/steve-busby) (University of Birmingham, UK)
 - [Dr. James Galagan](https://www.galaganlab.org/) (Boston University, USA)
 - [Dr. Jacques van Helden](https://tagc.univ-amu.fr/fr/annuaire/van-helden-jacques) (Aix-Marseille Université, France)
-- [Dr. Julia Koblitz](https://research.dsmz.de/person/651cecd8b3c97f11cc28cfc2) (DSMZ-German Collection of Microorganisms and Cell Cultures GmbH, Leibniz Institute,  Braunschweig, Germany)
-- [Dr. Daniela Ledezma Tejeida](https://www.ccg.unam.mx/daniela-elizabeth-ledezma-tejeida/) (Center for Genomics Science, Mexico)
+- [Dr. Daniela Ledezma Tejeida](https://www.ccg.unam.mx/daniela-elizabeth-ledezma-tejeida/) (Center for Genomic Sciences, UNAM, Mexico)
 - [Dr. Ernesto Pérez Rueda](https://pcyt.unam.mx/index.php/erueda/) (UNAM, México)
 
 
-### **Function and Activities**
-The Scientific Advisory Board (SAB) of RegulonDB plays a central role in ensuring the scientific quality, strategic direction, and community alignment of the resource. The board includes members from diverse institutions from Mexico, USA and Europe, offering broad geographic and disciplinary representation.
 
-**Function:**
-
--   To provide expert guidance on scientific priorities, technical developments, and conceptual frameworks.
--   To ensure that RegulonDB continues to address current and emerging needs of the microbial regulation research community.   
--   To contribute to long-term visioning, including international positioning and sustainability strategies.
-    
-
-**Activities:**
-
--   The SAB convenes at least twice a year in structured meetings to: 
-    -   Review progress since the previous meeting.       
-    -   Evaluate scientific objectives and their implementation.       
-    -   Advise on opportunities for funding and strategic collaborations.       
-    -   Discuss mechanisms for community engagement and responsiveness.       
--   Members may also be consulted on an _ad hoc basis_, depending on their specific area of expertise, particularly when novel challenges or opportunities arise.
+For the functions, activities, and working modality of the Scientific Advisory Board, see [Governance and Scientific Advisory](governance_advisory.md).
 
 
 ### Former Advisors: 
@@ -77,15 +58,15 @@ We acknowledge the following members for their contribution to RegulonDB:
 
 ### Strategies, Concepts and Tools
 
-- The tool and concept that integrates metabolism and transcriptional regulation of transcription factors called **GENSOR UNIT** was developed by **Dr.Daniela Ledezma-Tejeida** "https://github.com/user-attachments/assets/38e9fdea-62cb-43c2-aa05-28f5b7004318" (PMID: 28824593 and 31194874).
-- Knowledge extraction using natural language processing has been performed by the group of **Dr. Carlos Francisco-Méndez** (PMID: 33306798; 35584008).
-- Lisen & Curate: A platform to facilitate gathering textual evidence for curation of regulation of transcription initiation in bacteria   by the group of **Dr. Carlos Francisco-Méndez** (https://doi.org/10.1016/j.bbagrm.2021.194753)
-- Gold Standards Datasets: Flexible gold standards for transcription factor regulatory interactions in Escherichia coli K-12: architecture of evidence types by  Paloma Lara.
+- The tool and concept that integrates metabolism and transcriptional regulation of transcription factors called **GENSOR UNIT** was developed by **Dr. Daniela Ledezma-Tejeida** (PMID: 28824593 and 31194874).
+- Knowledge extraction using natural language processing has been performed by the group of **Dr. Carlos-Francisco Méndez-Cruz** (PMID: 33306798; 35584008).
+- Lisen & Curate: A platform to facilitate gathering textual evidence for curation of regulation of transcription initiation in bacteria, by the group of **Dr. Carlos-Francisco Méndez-Cruz** (https://doi.org/10.1016/j.bbagrm.2021.194753)
+- Gold Standards Datasets: Flexible gold standards for transcription factor regulatory interactions in Escherichia coli K-12: architecture of evidence types, by Dr. Paloma Lara.
 
 ### Ontology Development
 
 - Ontology of Bacterial Gene Regulation (OBAGER) developed by Citlalli Mejía-Almonte.
-- Microbial Condition Ontology (MCO)  developed by Citlalli Mejía-Almonte and Victor Tierrafria  (PMCID: PMC7963087  PMID: 30137210).
+- Microbial Condition Ontology (MCO)  developed by Citlalli Mejía-Almonte and Victor Tierrafria (PMCID: PMC7963087  PMID: 30137210).
 
 
 ## Acknowledgments
@@ -100,7 +81,7 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 - The initial set of global regulators came from **Dr. Agustino Martínez-Antonio** (PMID: 16311037).
 - The initial set of active and inactive Transcription Factor Conformations was provided by [**Dr. Yalbi Balderas Martínez**](https://mx.linkedin.com/in/yalbi-i-balderas-martinez) (PMID:23776535).
 - The coexpression matrix of genes and the coexpresion browser is a contribution of **Dr. Lucie Pannier** (see  PMID: [28419102](https://pubmed.ncbi.nlm.nih.gov/28419102/)).
-- A set of promoters with evidence "High-throughput transcription initiation mapping" wee provided by the laboratory of **Dr. Enrique Morett**. (PMID: 19838305).
+- A set of promoters with evidence "High-throughput transcription initiation mapping" were provided by the laboratory of **Dr. Enrique Morett**. (PMID: 19838305).
 - [ChIP-seq Datasets and PipeLine](https://github.com/PGC-CCG/SnakeChunks). A library based on the snakemake workflow management system, which was used to design a generalizable workflow to perform reproducible ChIP-seq analyses was developed by **Dr. Claire Rioualen**.  (PMID: 30786165) 
    
 
@@ -118,25 +99,14 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 
 #### Other collaborators
 
-- **Dr. Salvador Capella-Gutierrez and Dr.Josep Lluis Gelpe** from the Barcelona Supercomputing Center were instrumental in the FAIRification of RegulonDB (PMID 37971353).
-- [Jair García Sotelo](https://orcid.org/0000-0002-9462-2737) mantainer of the [RegulonDB mirror site at LIIGH Laboratory](https://regulondb.liigh.unam.mx/).   
-- **Claire Rioualen** designed the "Bacteria and the operon regulation image"  shown on the main page of RegulonDB. The image is licesed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
+- **Dr. Salvador Capella-Gutierrez and Dr. Josep Lluís Gelpí** from the Barcelona Supercomputing Center were instrumental in the FAIRification of RegulonDB (PMID 37971353).
+- [Jair García Sotelo](https://orcid.org/0000-0002-9462-2737) maintainer of the [RegulonDB mirror site at LIIGH Laboratory](https://regulondb.liigh.unam.mx/).   
+- **Claire Rioualen** designed the "Bacteria and the operon regulation image"  shown on the main page of RegulonDB. The image is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
 
 
 <hr>
 
 ### PAST contributors
-
-#### Past Advisors in Gene Regulation
-
-- Dr. Sankar Adhya (National Institute of Health)
-- Dr. Tyrrell Conway (Advanced Center for Genome Technology, Oklahoma University)
-- Dr. Rick Gourse (University of Wisconsin)
-- Dr. Jay Gralla (UCLA)
-- Dr. Rob Gunsalus (University of California, Los Angeles)
-- Dr. Jim Hu (Texas A&M University)
-- Dr. Enrique Merino (Institute of Biotechnology, UNAM, Mexico)
-
 
 #### Past Biocurators
 
@@ -176,10 +146,7 @@ Each release RegulonDB updates data on functional annotation and coordinates of 
 - Dr. Luis Gerardo Treviño
 - Dr. Verena Weiss
 
+## Last Review
 
-
-
-
-
-
-
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

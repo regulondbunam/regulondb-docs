@@ -28,13 +28,14 @@ These evidence annotations provide traceability and support confidence assessmen
 
 ### Confidence Classification System
 
-Regulatory objects (for example, interactions and operons) are assigned confidence levels (weak, strong, confirmed) based on supporting evidence.
+Promoters, regulatory interactions, binding sites, and transcription units are assigned confidence levels (weak, strong, confirmed) based on their supporting evidence. Current counts by confidence level are in [Data Volume](data_volume.md).
 
-See the local guide: [Evidence Classification Guide](../04_curation/evidence_classification.md).
+See the [Evidence Classification Document](https://regulondb.ccg.unam.mx/manual/help/evidenceclassification) for details.
 
-Key reference:
+Key references:
 
 - Weiss, V., Medina-Rivera, A., Huerta, A. M., Santos-Zavaleta, A., Salgado, H., Morett, E., & Collado-Vides, J. (2013). Evidence classification of high-throughput protocols and confidence integration in RegulonDB. Database: The Journal of Biological Databases and Curation, bas059. [https://doi.org/10.1093/database/bas059](https://doi.org/10.1093/database/bas059)
+- Lara, P., Gama-Castro, S., Salgado, H., Rioualen, C., Tierrafría, V. H., Muñiz-Rascado, L. J., Bonavides-Martínez, C., & Collado-Vides, J. (2024). Flexible gold standards for transcription factor regulatory interactions in *Escherichia coli* K-12: architecture of evidence types. Frontiers in Genetics, 15, 1353553. [https://doi.org/10.3389/fgene.2024.1353553](https://doi.org/10.3389/fgene.2024.1353553)
 
 ## 3. Microbial Conditions Ontology (MCO)
 
@@ -45,7 +46,7 @@ For datasets derived from experimental evidence (for example, ChIP-seq), metadat
 - Aeration: 95% N2 / 5% CO2.
 - Temperature: 37 C.
 
-This supports reproducibility of experimental context and cross-dataset integration.
+This supports reproducibility of experimental context and integration with the original records in GEO (for example, sample GSM1010219).
 
 Additional context:
 
@@ -54,9 +55,10 @@ Additional context:
 
 ## 4. File and Format Standards
 
-- **Sequence formats**: FASTA and GenBank.
-- **Tabular exports**: TSV and CSV.
-- **Data dumps**: object-level and database-level exports (for example RI sets, regulator sets, promoters).
+- **Sequence formats**: FASTA and GenBank (for example, from gene pages).
+- **Tabular datasets**: TSV files for regulatory interactions, regulators, networks, genes, and operon structure (see [Dataset Downloads](../02_data_access/dataset_downloads.md)).
+- **Database dumps**: complete MongoDB dump of each release (see [Database Dumps](../02_data_access/database_dumps.md)).
+- **Programmatic access**: JSON responses from the GraphQL API (see [API Access](../02_data_access/api_access.md)).
 
 See also: [Data Access Portal](../02_data_access/README.md).
 
@@ -78,6 +80,6 @@ These links support interoperability and citation traceability.
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team
 

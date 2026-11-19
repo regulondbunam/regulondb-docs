@@ -28,7 +28,7 @@ Each of these objects can be searched individually, and search results often inc
   Simple form-based searches by name, ID, function, or associated regulator.
 
 - **Advanced Search Using Logical Operators:**  
-  Combine multiple criteria using logical operators (`AND`, `OR`, `NOT`) to refine your search results.  
+  Combine terms with logical operators (`AND`, `OR`, `NOT`) and use quotation marks for exact phrases to refine your search results.  
   ➡️ See [Using Logical Operators](logical_operators_search.md) for more details.
 
 - **Exploration Through Links:**  
@@ -73,14 +73,17 @@ Each of these objects can be searched individually, and search results often inc
 
 ## 📬 Need Help?
 
-If you encounter any difficulties or need guidance, please visit our [Contact Us](../00_about_policies/contact_us.md) page or consult the detailed guides for each search type listed below:
+If you encounter any difficulties or need guidance, please visit our [Contact Us](../00_about_policies/contact_us.md) page or consult the detailed guides for each search type:
 
 - [Gene Search Guide](gene_search.md)
 - [Operon Search Guide](operon_search.md)
 - [Regulon Search Guide](regulon_search.md)
-- [Sigmulon Search Guide](sigmulon_search.md)
-- [GENSOR Unit Search Guide](gensor_unit_search.md)
 
 ---
 
 Happy exploring! 🌟
+
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

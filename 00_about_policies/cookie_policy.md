@@ -1,6 +1,6 @@
 # 🍪 Cookie Policy
 
-_Last updated: 2026-02-10_
+_Last updated: 2026-11-18_
 
 ---
 
@@ -9,7 +9,7 @@ _Last updated: 2026-02-10_
 At RegulonDB, we are committed to protecting your privacy.  
 This Cookie Policy explains how and why cookies are used on our website and how you can control them.
 
-Cookies help us enhance your browsing experience, analyze site usage, and improve our services.
+Cookies help us analyze site usage and improve our services.
 
 
 
@@ -24,25 +24,17 @@ Cookies allow us to recognize your device and store certain information about yo
 
 ## 3. How We Use Cookies
 
-RegulonDB uses cookies for the following purposes:
+RegulonDB uses only **analytics cookies** set by Google Analytics. They help us understand how visitors use the site (for example, which pages are visited and for how long) by collecting information in anonymized and aggregated form.
 
-- **Essential Cookies:** Necessary for the website to function properly (e.g., page navigation, secure areas).
-- **Analytics Cookies:** Help us understand how visitors interact with our site by collecting and reporting information anonymously.
-- **Preference Cookies:** Remember your settings and preferences to enhance your experience.
+We **do not** use cookies for advertising, and we do not use cookies to identify individual users.
 
-We **do not** use cookies for advertising purposes.
+## 4. Cookies We Use
 
+| Type | Provider | Purpose | Duration |
+|:-----|:---------|:--------|:---------|
+| Analytics cookies (e.g., `_ga`) | Google Analytics | Aggregate anonymous usage statistics | Persistent (up to 2 years) |
 
-
-## 4. Types of Cookies We Use
-
-| Type         | Purpose                                   | Duration        |
-|:-------------|:------------------------------------------|:----------------|
-| Session Cookies | Maintain session state while browsing | Deleted after session ends |
-| Analytics Cookies | Aggregate anonymous usage statistics | Persistent (up to 2 years) |
-| Preference Cookies | Store language or view preferences | Persistent (up to 1 year) |
-
-
+You can opt out of Google Analytics tracking with the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout). For more information on how we handle data, see our [Privacy Policy](privacy_policy.md).
 
 ## 5. Managing Cookies
 
@@ -53,7 +45,7 @@ You can choose to:
 - Reject all cookies,
 - Receive a notification when a cookie is set.
 
-Please note that disabling cookies may affect the functionality of the site.
+Disabling analytics cookies does not affect the functionality of RegulonDB.
 
 For more information on how to manage cookies on different browsers, visit:
 

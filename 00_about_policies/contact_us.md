@@ -15,6 +15,8 @@ To help us address technical issues effectively, please include the following in
 - **Description:** A detailed description of the problem, including any steps taken before the issue arose.
 - **Screenshot:** If possible, attach an image that captures the error or unexpected behavior.
 
+To learn how the team receives, routes, and follows up on your message, see our [User Support Protocol](helpdesk-protocol.md).
+
 ## Collaboration Opportunities
 
 We are open to collaborative proposals and opportunities to expand our research and tools. If you're interested in collaborating with us, please indicate your area of interest and how you envision working together in your message.
@@ -25,6 +27,11 @@ We are open to collaborative proposals and opportunities to expand our research 
 Programa de Genómica computacional  
 Centro de Ciencias Genómicas  
 Avenida Universidad s/n
-Col. Chamilpa   
+Col. Chamilpa, C.P. 62210  
 Universidad Nacional Autónoma de México    
 Cuernavaca, Morelos, México.
+
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

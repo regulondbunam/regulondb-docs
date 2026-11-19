@@ -43,14 +43,13 @@ RegulonDB maintains routine operational monitoring to detect service degradation
 
 Response coordination is handled by software and infrastructure teams, in alignment with governance and continuity priorities.
 
-## Public Indicator Model (Template)
+## Alternative Access
 
-| Indicator | Public reporting format | Disclosure level |
-|---|---|---|
-| Service availability | Periodic qualitative/aggregated summary | Aggregated |
-| Service interruptions | Event note when relevant | Public summary |
-| Recovery handling | Process-level statement | Non-sensitive |
-| Release-related technical changes | Release notes entries | Public |
+If the main site is not available, users can still access RegulonDB through:
+
+- The **mirror site** at LIIGH-UNAM: [regulondb.liigh.unam.mx](https://regulondb.liigh.unam.mx/).
+- A **local instance** of any release, deployed with Docker: [How to Install a Local Instance of RegulonDB](rdb_docker_instance.md).
+- The **release dump** (MongoDB) of each version: [Database Dumps](../02_data_access/database_dumps.md).
 
 ## Related Pages
 
@@ -60,5 +59,5 @@ Response coordination is handled by software and infrastructure teams, in alignm
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team

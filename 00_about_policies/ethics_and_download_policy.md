@@ -1,5 +1,5 @@
 
-# RegulonDB – Ethical Use and Data Responsibility Statement
+# RegulonDB – Ethics Policy (Ethical Use and Data Responsibility Statement)
 
 **Version 1.0 – April 2025**
 
@@ -19,7 +19,7 @@ We support the **FAIR guiding principles**:
 
 - **Findability** through persistent identifiers,
 - **Accessibility** via open APIs and downloads,
-- **Interoperability** via standard formats (e.g., JSON, GFF), and the use of several ontologies such as: ECO, MCO, the Ontology of Bacterial Gene Expression and Regulation (OBAGRE) under development.
+- **Interoperability** via standard formats (e.g., TSV, CSV, JSON), and the use of several ontologies such as: ECO, MCO, the Ontology of Bacterial Gene Regulation (OBAGER), currently under development.
 - **Reusability** via clear licensing and metadata.
 
 For additional details see section "RegulonDB FAIRification" in PMID: 37971353. https://doi.org/10.1093/nar/gkad1072
@@ -46,13 +46,9 @@ We ask users of RegulonDB to:
 
 This policy is maintained by the RegulonDB governance team and will be reviewed annually. We welcome feedback from the community to improve our ethical standards and practices.
 
-## 8. Website Analytics and User Tracking
+## 8. Website Analytics
 
-We use **Google Analytics** to monitor traffic, usage patterns, and user engagement with the RegulonDB website. These data help us improve the resource and prioritize features. The information collected is anonymized and aggregated; we do not collect personal identifiers.
-
-By using this site, users consent to this type of data collection. You can opt out of Google Analytics tracking using [this browser add-on](https://tools.google.com/dlpage/gaoptout).
-
-All data collected via analytics are used **exclusively for internal evaluation and improvement** of RegulonDB and are **not shared with third parties**.
+We use Google Analytics to understand how the RegulonDB website is used and to prioritize improvements. Data are collected in anonymized and aggregated form. For details, see our [Privacy Policy](privacy_policy.md) and [Cookie Policy](cookie_policy.md).
 
 ---
 
@@ -60,23 +56,7 @@ All data collected via analytics are used **exclusively for internal evaluation 
 **Citation policy:** [How to Cite RegulonDB](how_to_cite.md)  
 **Versioned access:** [Version History](../05_releases_updates/version_history.md) and [Release Notes](../05_releases_updates/release_notes.md)
 
+## Last Review
 
-## 9. Data Download Policy and User Identification
-
-To better understand and report the scientific impact of RegulonDB, we ask users to provide basic information when downloading curated datasets:
-
-- **Full name**
-- **Institution or organization**
-- **Intended use of the data**
-
-This information helps us:
-
-- Track the reach and application of RegulonDB in research and education.
-- Prioritize improvements based on use cases.
-- Demonstrate value to funders and supporting institutions.
-
-All data collected through the download form is used **exclusively for internal purposes**. It will not be sold, shared, or used for marketing. Submission of this form is a condition for data download, but users may opt out of communications.
-
-We appreciate your collaboration in helping us sustain and improve RegulonDB.
-
-If you have questions or concerns, please contact us at: [regulondb@ccg.unam.mx]
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

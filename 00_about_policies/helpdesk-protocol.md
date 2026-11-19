@@ -25,8 +25,8 @@ This protocol applies to all members of the RegulonDB team involved in user supp
   - The software project leader assesses the likely cause.
   - The issue is redirected to the appropriate developer or handled internally.
 
-- If it is an issue related to **licencing, collaboration or alike**:<img width="442" height="15" alt="image" src="https://github.com/user-attachments/assets/89a07744-a26d-4994-939f-5d2939f6e9a4" />
- - The issue is redirected to the project leader and to the administrative support.
+- If it is an issue related to **licensing, collaboration, or similar matters**:
+  - The issue is redirected to the project leader and to the administrative support.
 
 ### 4.3 User response
 - The assigned person must draft a clear and complete reply.
@@ -46,3 +46,7 @@ This protocol applies to all members of the RegulonDB team involved in user supp
 ## 6. Contact and continuous improvement
 This protocol may be updated as the support system evolves. Suggestions and improvements should be sent to the software project leader.
 
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

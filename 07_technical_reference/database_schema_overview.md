@@ -1,6 +1,17 @@
 # Database Schema Overview
 
-This page provides a public technical overview of the RegulonDB MongoDB-oriented data model using the exported JSON collections available in this repository.
+This page provides a public technical overview of the RegulonDB MongoDB-oriented data model. The collection pages in this section describe the **core collections**, from which the datamarts used by the web interface and the API are generated.
+
+## Two Data Layers: Core Collections and Datamarts
+
+RegulonDB data are organized in two layers:
+
+| Layer | Database | What it contains | Used by |
+|:------|:---------|:-----------------|:--------|
+| **Core collections** | `regulondbmultigenomic` | One collection per biological object (for example, `genes`, `operons`, `promoters`, `regulatoryInteractions`, `evidences`). This is the source database. | Generation of the datamarts. |
+| **Datamarts** | `regulondbdatamarts` (and `regulondbht` for high-throughput data) | View-like collections aligned with the web interface (for example, `geneDatamart`, `operonDatamart`, `regulonDatamart`), generated from the core collections. | The web application and the GraphQL API. |
+
+The datamarts are documented in [Datamarts (Release Dump)](datamarts/README.md).
 
 ## Scope
 
@@ -10,8 +21,8 @@ This page provides a public technical overview of the RegulonDB MongoDB-oriented
 
 ## Data Source Used for This Overview
 
-- Path: `context/MongoDB/`
-- Dataset prefix: `regulondbmultigenomic.*.json`
+- Core collections: JSON export of `regulondbmultigenomic` for release 14.5.1, with the JSON Schemas used to validate each collection.
+- Datamarts: MongoDB dump of release 14.5.1 (`regulondbdatamarts`, `regulondbht`).
 
 ## Identifier Conventions
 
@@ -52,16 +63,16 @@ Relationships are represented through fields like:
 
 ## Related Pages
 
-- [Database Collections Index](database_collections_index.md)
-- [Collection: Genes](collection_genes.md)
-- [Collection: Regulators](collection_regulators.md)
-- [Collection: Regulatory Interactions](collection_regulatory_interactions.md)
-- [Collection: Operons](collection_operons.md)
-- [Collection: Promoters](collection_promoters.md)
-- [Collection: Transcription Units](collection_transcription_units.md)
-- [Collection: Evidences](collection_evidences.md)
+- [Database Collections Index](core_collections/README.md)
+- [Collection: Genes](core_collections/collection_genes.md)
+- [Collection: Regulators](core_collections/collection_regulators.md)
+- [Collection: Regulatory Interactions](core_collections/collection_regulatory_interactions.md)
+- [Collection: Operons](core_collections/collection_operons.md)
+- [Collection: Promoters](core_collections/collection_promoters.md)
+- [Collection: Transcription Units](core_collections/collection_transcription_units.md)
+- [Collection: Evidences](core_collections/collection_evidences.md)
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team

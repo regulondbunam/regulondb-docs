@@ -69,7 +69,7 @@ This guide explains how you can propose changes, suggest new content, or help ma
 ## 📜 License and Attribution
 
 By contributing to this repository, you agree that your contributions will be published under the  
-[Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+[Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
 
 You will be acknowledged appropriately as a contributor in our [Credits](00_about_policies/credits.md) section.
 

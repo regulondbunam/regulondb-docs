@@ -1,1228 +1,725 @@
-
 # RegulonDB Glossary
 
+This glossary defines the concepts used in RegulonDB to describe the regulation of gene expression in *Escherichia coli* K-12, and explains how each concept is represented in the RegulonDB data model and web interface.
 
-## Introduction to Gene Expression
+**Sources.** The definitions follow the Ontology of Bacterial Gene Regulation, OBAGER (Mejía-Almonte *et al.*, forthcoming), and the definitions of transcription initiation concepts proposed by a group of experts (Mejía-Almonte *et al.*, 2020), complemented with the references cited in each entry. The representation of each concept corresponds to the data model of RegulonDB version 12.0. When the data do not yet follow a definition, usually because of missing information, this is indicated under **Notes on the data**.
 
-Gene expression in bacteria is controlled through a wide variety of regulatory mechanisms that allow cells to respond rapidly to environmental and physiological signals. Classical studies of bacterial gene regulation established that transcription initiation is frequently controlled by transcription factors (TFs) that bind specific DNA sequences near promoters and modulate the activity of RNA polymerase. These regulatory interactions form the basis of transcriptional regulatory networks that coordinate the expression of multiple genes.
-Over the past decades, extensive experimental and computational efforts have produced large collections of regulatory knowledge describing TFs, promoters, transcription units, and regulatory interactions in bacterial genomes. 
+**How to read each entry.** Each entry gives the definition, acronyms and synonyms, a description, a graphical representation when available, how the concept is represented in RegulonDB (**In RegulonDB**: collection, main fields, required fields according to the validation schema, and allowed values), notes on the data, an example, and references.
 
-Bacterial gene expression is regulated not only at the level of transcription but also at later stages of gene expression. In particular, regulatory RNAs have emerged as important regulators of gene expression, frequently acting at the level of translation initiation through interactions with messenger RNAs (mRNAs). Trans-acting small RNAs often regulate gene expression by base pairing with target mRNAs near the ribosome binding site, thereby altering ribosome access and translation efficiency. In addition, cis-acting RNA elements such as riboswitches can alter transcription termination or translation initiation through ligand-induced structural rearrangements of the RNA molecule. Regulation also occur by direct interaction of regulatory metabolites interacting with RNA polymerase.
+**OBAGER column.** In the **In RegulonDB** tables, *Required (schema)* indicates what the validation schema of the collection requires, and *OBAGER* indicates what the ontology requires: `required`, the definition cannot be met without the property; `required (complete)`, needed only for the complete form of the object; `optional`, the ontology explicitly allows the property to be absent; empty, not addressed by the ontology. The data model does not enforce the OBAGER requirements; the column serves to verify the data.
 
+<!--
+Internal notes for editors (not rendered):
+- Entries, fields, or values that are defined in the data model but have no data yet are kept as HTML comments, to be published when data are available.
+- Do not add counts or totals: this is a permanent glossary.
+- Identifiers in examples must be checked at each release.
+- Field names are those of the core collections (database regulondbmultigenomic); see 07_technical_reference/core_collections.
+-->
 
-Databases such as RegulonDB have played a central role in organizing this knowledge and providing curated representations of transcriptional regulatory networks.
+## Contents
 
+**Background**
+ 
+- [Regulation of Gene Expression](#regulation-of-gene-expression)
 
+**Genomic elements**
+   
+- [Gene](#gene)
+- [Primary Transcript](#primary-transcript)
+- [Transcription Unit](#transcription-unit)
+- [Promoter](#promoter)
+- [Terminator](#terminator)
+- [Operon](#operon)
+- [Binding Site and Regulatory Site](#binding-site-and-regulatory-site)
 
+**Gene products and regulators**
 
-# Gene (Gen)
+- [Gene Product](#gene-product)
+- [Regulator](#regulator)
+- [Transcription Factor](#transcription-factor)
+- [Regulatory Complex and Conformation](#regulatory-complex-and-conformation)
+- [Sigma Factor](#sigma-factor)
+- [Small RNA](#small-rna)
+- [Regulatory Continuant and Effector](#regulatory-continuant-and-effector)
 
-## 2. Definición simple
+**Regulatory relationships**
 
-Un **gen** es una región continua de ADN que contiene la información necesaria para producir al menos un producto funcional, como un RNA o una proteína.
+- [Regulatory Interaction](#regulatory-interaction)
 
-## 3. Definición extendida
+**Derived sets**
 
-En RegulonDB, un **gen** es una región de ADN mayor a cero nucleótidos que codifica uno o más productos funcionales. Estos productos pueden incluir RNAs funcionales (tRNA, rRNA, sRNA, etc.) o proteínas. La definición contempla casos complejos como:
+- [Regulon](#regulon)
+- [Simple and Complex Regulon](#simple-and-complex-regulon)
+- [Sigmulon](#sigmulon)
+- [GENSOR Unit](#gensor-unit)
 
-* inicio de traducción alternativo,
-* marcos de lectura alternativos,
-* cambios de marco (frameshifting),
-* procesamiento de RNA.
+**Evidence and annotation**
 
-RegulonDB también registra genes sin productos funcionales actuales (pseudogenes o phantom genes) para preservar coherencia histórica.
+- [Evidence and Confidence Level](#evidence-and-confidence-level)
+- [Position Weight Matrix and Alignment](#position-weight-matrix-and-alignment)
+- [Growth Condition](#growth-condition)
 
-## 4. Acrónimos y sinónimos relevantes
+**Functional classes (Mejía-Almonte et al., forthcoming)**
 
-* gene
-* genetic locus (histórico, no recomendado)
-* ORF (relacionado, pero no equivalente)
-
-## 5. Propiedades mínimas del objeto
-
-| Propiedad      | Descripción                            | Requerida | Ejemplo      |
-| -------------- | -------------------------------------- | --------- | ------------ |
-| position left  | posición absoluta inicial en el genoma | sí        | 190          |
-| position right | posición absoluta final en el genoma   | sí        | 255          |
-| strand         | hebra del ADN donde se ubica el gen    | sí        | forward      |
-| sequence       | secuencia del gen                      | sí        | ATGAAACGC... |
-| synonyms       | otros nombres asociados                | no        | EG11277      |
-
-## 6. Representación gráfica del objeto
-
-En RegulonDB, un gen se visualiza como un rectángulo orientado según la hebra (forward/reverse). La dirección indica el sentido de transcripción. Los genes suelen mostrarse contiguos dentro de operones o aislados.
-
-![](./images/gene.png).  
-Figure. Graphical representation of DNA region with a gene. RegulonDB´s Drawing Traces Tool [image].
-
-
-## 7. Comments (Notas importantes)
-
-* Un gen es una unidad informacional del genoma.
-* No todos los genes pertenecen a operones.
-* La regulación no ocurre a nivel de gen, sino a nivel de promotores, TUs y operones.
-* Genes con múltiples productos representan adecuadamente fenómenos como isoformas proteicas o RNAs procesados.
-
-## 8. Ejemplos
-
-**Ejemplo simple:** un gen proteico típico con un único producto.
-
-**Ejemplo complejo:** *dnaX*, que produce las proteínas tau y gamma mediante frameshifting.
-
-## 9. Conexiones conceptuales
-
-* **Gene → Product:** un gen genera uno o más productos.
-* **Gene → Transcription Unit:** el gen puede estar contenido en una o varias TUs.
-* **Gene ≠ CDS:** un gen puede tener varias CDS asociadas si produce isoformas.
-* **Gene ≠ Regulador:** un gen puede codificar un regulador, pero el concepto no es equivalente.
-
-## 10. Errores comunes o confusiones del usuario
-
-* Confundir gen con CDS.
-* Asumir que todos los genes están regulados por un único promotor.
-* Pensar que el gen es la unidad de regulación. No lo es.
-
-## 11. Referencias
-
-* Mejía-Almonte et al., 2020. Redefining fundamental concepts of transcription initiation in bacteria.
-
-
-## 12. Useful links
-
-- Gene product (Wikipedia): https://en.wikipedia.org/wiki/Gene_product
-- Biology Online – Gene Product: https://www.biologyonline.com/dictionary/gene-product
-- UniProt (proteins): https://www.uniprot.org
-- Rfam (functional RNAs): https://rfam.org
-
-## 13. Historial del concepto
-
-La definición se ha mantenido estable, pero RegulonDB ha extendido su representación para capturar:
-
-* genes con múltiples productos,
-* pseudogenes,
-* phantom genes.
-
+- [Expression Machinery Component and Regulator Classes](#expression-machinery-component-and-regulator-classes)
 
 ---
 
-# Product (Producto Génico)
+## Regulation of Gene Expression
 
-## 2. Definición simple
+**Definition.** Regulation of gene expression is the capability of the cell to modify the amount of its gene products. Transcriptional regulation refers to the mechanisms that control gene expression at the level of transcription; regulation of transcription initiation controls the ability of RNA polymerase to start transcribing genes.
 
-Un **producto génico** es la molécula funcional derivada de un gen: un RNA funcional o una proteína.
+**Scope of RegulonDB.** RegulonDB focuses on the regulation of transcription initiation, and also represents post-transcriptional regulation by small RNAs and regulation that acts on proteins.
 
-## 3. Definición extendida
+**Description.** The RNA polymerase (RNAP) holoenzyme (Eσ) is formed by the core RNAP (subunits α₂, β, β′ and ω) and a σ factor, and initiates transcription at specific DNA positions. σ interacts with promoter elements to position Eσ and unwind the DNA around the transcription start site (TSS), the first base of the transcript. Eσ first binds the promoter in a closed complex (RPc), covering approximately −55 to +15 relative to the TSS, and then forms an open complex (RPo) in which the DNA strands are separated. Promoter elements determine the intrinsic activity of a promoter, and promoters are regulated indirectly (for example, through changes in Eσ or substrate concentrations) or directly by specific regulators such as transcription factors (TFs). Transcription continues with elongation and ends at terminators, which can be intrinsic (Rho-independent) or Rho-dependent.
 
-En RegulonDB, un **product** es la molécula final funcional generada durante la expresión de un gen. Puede ser:
+![The regulation of bacterial transcription initiation](./images/fig_transcription_initiation.png)
 
-* Un **RNA funcional** (tRNA, rRNA, sRNA, tmRNA, etc.)
-* Una **proteína**, incluyendo isoformas originadas por:
+*Figure. The regulation of bacterial transcription initiation. From Mejía-Almonte C, et al. (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet 21:699–714. https://doi.org/10.1038/s41576-020-0254-8*
 
-  * codones de inicio alternativos,
-  * marcos alternativos de lectura,
-  * procesamiento postraduccional.
+![Bacterial transcription process](./images/fig_transcription_process.png)
 
-**Importante:** El **mRNA no se considera un producto funcional**, sino un intermediario. Solo los RNAs con función propia se consideran productos.
+*Figure. Bacterial transcription process. From Abril AG, Rama JLR, Sánchez-Pérez A, Villa TG (2020) Role of the σ factor in the transcription process. Appl Microbiol Biotechnol. https://doi.org/10.1007/s00253-020-10577-0*
 
-## 4. Acrónimos y sinónimos relevantes
-
-* gene product
-* protein product
-* RNA product
-
-## 5. Propiedades mínimas del objeto
-
-| Propiedad         | Descripción                            | Requerida | Ejemplo           |
-| ----------------- | -------------------------------------- | --------- | ----------------- |
-| product name      | nombre del producto                    | no        | ApaG              |
-| gene id           | identificador del gen que lo produce   | sí        | RDBECOLIGNC00043  |
-| sequence          | secuencia proteica o RNA funcional     | sí        | MKRISTTIT...      |
-| product type      | tipo de producto (protein, sRNA, tRNA) | no        | small RNA         |
-| molecular weight  | peso molecular estimado                | no        | 13.867 kDa        |
-| cellular location | localización celular                   | no        | periplasmic space |
-
-## 6. Representación gráfica del objeto
-
-En RegulonDB, los productos no se visualizan directamente en el mapa genómico, pero aparecen como:
-
-* entidades en paneles de información del gen,
-* participantes en reacciones,
-* componentes de complejos,
-* elementos dentro de los GENSOR Units.
-
-
-![](./images/product.png).   
-Figure. Gene Definition. Biology Online of Digital Ventures Corporation URL: https://www.biologyonline.com/dictionary/gene.
-
-## 7. Comments (Notas importantes)
-
-* Un mismo gen puede producir múltiples productos.
-* La versatilidad de un producto depende de su secuencia y modificaciones.
-* Algunos productos funcionan como **reguladores** (TFs, sRNAs), pero no todos.
-* Los productos proteicos pueden incluir isoformas no triviales.
-
-## 8. Ejemplos
-
-**Ejemplo simple:** Producto proteico único derivado de un gen típico.
-
-**Ejemplo complejo:** *dnaX* → tau y gamma mediante frameshift.
-
-## 9. Conexiones conceptuales
-
-* **Product → Function:** cada producto tiene funciones moleculares.
-* **Product → Complex:** los productos son componentes de complejos.
-* **Product → GENSOR Unit:** los productos participan en reacciones y respuestas.
-* **Product ≠ mRNA:** el mRNA no es producto final.
-
-## 10. Errores comunes
-
-* Creer que mRNA es un producto funcional.
-* Pensar que un gen siempre produce un solo producto.
-* Confundir producto con gen, CDS o regulador.
-
-## 11. Referencias
-
-* Gene product. Wikipedia.
-* Gama-Castro et al., RegulonDB.
-
-## 12. Useful links
-
-- Gene product (Wikipedia): https://en.wikipedia.org/wiki/Gene_product
-- Biology Online – Gene Product: https://www.biologyonline.com/dictionary/gene-product
-- UniProt (proteins): https://www.uniprot.org
-- Rfam (functional RNAs): https://rfam.org
-
-
-## 13. Historial del concepto
-
-El concepto de producto se amplió para capturar isoformas proteicas y RNAs funcionales adicionales.
-
-La definición se ha mantenido estable, pero RegulonDB ha extendido su representación para capturar:
-
-* genes con múltiples productos,
-* pseudogenes,
-* phantom genes.
-
+**References.** Mejía-Almonte *et al.* (2020), PMID: 32665585.
 
 ---
 
+# Genomic Elements
 
-# Promoter (Promotor)
+## Gene
 
-## 2. Definición simple
-Un **promotor** es una región específica del ADN donde la ARN polimerasa holoenzima (Eσ) se une para iniciar la transcripción. Define el punto donde comienza un RNA (TSS) y determina qué genes o unidades transcripcionales pueden expresarse.
+**Definition.** A bacterial gene is a continuous genomic DNA region carrying the information for at least one non-coding RNA or polypeptide chain, or a non-functional copy thereof (pseudogene). A gene represents a genomic locus rather than a one-to-one specification of a gene product. (Mejía-Almonte *et al.*, forthcoming)
 
-## 3. Definición extendida
-En RegulonDB, un **promoter** es una región de ADN reconocida por una holoenzima compuesta por la ARN polimerasa y un factor sigma específico. Su función es guiar a la enzima hacia el sitio donde se inicia la transcripción, definido por el nucleótido +1 o **Transcription Start Site (TSS)**.
+**Acronyms and synonyms.** Locus.
 
-Los promotores presentan elementos característicos, tales como:
-- **Cajas de reconocimiento** (-10 y -35 para σ70, -12/-24 para σ54),
-- **Elementos extendidos**, como la región extendida -10,
-- **Elementos UP**, que potencian la afinidad con la ARN polimerasa,
-- **Regiones discriminadoras**, asociadas a respuestas específicas como la limitación de aminoácidos.
+**Description.**
 
-Un mismo TSS puede estar asociado a **diferentes promotores**, cuando distintos sigma factores reconocen elementos superpuestos (ej. glmY). A la inversa, un promotor puede presentar múltiples TSS dentro de una ventana de ±5 nucleótidos debido a la variabilidad natural en la apertura del complejo de iniciación.
+- A single gene can give rise to several products through overlapping coding sequences expressed by frameshifting or by alternative transcriptional or translational events. For example, *dnaX* produces both the τ and γ subunits of DNA polymerase III by frameshifting; other *E. coli* genes with several products are *yibX*, *mcrB*, *cheA*, *copA*, and *infB*. (Mejía-Almonte *et al.*, forthcoming)
+- Cistrons that code for subunits of heteromultimeric proteins are different genes; for example, *ihfA* and *ihfB*, which code for the two subunits of IHF.
+- This view is consistent with GenBank, where genes are annotated as continuous loci even when the associated coding sequence is disrupted or spans several disjoint regions. (Mejía-Almonte *et al.*, forthcoming)
+- RegulonDB keeps genes that were previously considered functional and are now classified as pseudogenes or phantom genes.
 
-En RegulonDB, el nombre del promotor deriva del **primer gen transcrito**, seguido de una “p”.
+![Graphical representation of a gene](./images/fig_gene_dtt.png)
 
-## 4. Acrónimos y sinónimos relevantes
-- promoter
-- promoter region
-- transcription initiation site (a veces usado de forma imprecisa)
-- sigma factor recognition site
+*Figure. Graphical representation of a DNA region with a gene. RegulonDB Drawing Traces Tool.*
 
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| promoter name | Nombre asignado por RegulonDB | sí | caiFp |
-| sigma factor | Factor sigma que reconoce el promotor | sí | sigma70 |
-| TSS | Posición genómica del sitio de inicio de transcripción (+1) | sí | 34218 |
-| sequence | Secuencia del promotor, con el +1 en mayúsculas | sí | gatgacata...Atccacaa |
-| strand | Hebra del ADN donde se localiza el promotor | sí | forward |
-| boxes | Elementos de reconocimiento sigma (-10, -35, etc.) | no | ctcaca / tactat |
+**In RegulonDB.** Collection `genes`.
 
-## 6. Representación gráfica del objeto
-En RegulonDB, un promotor se muestra como un pequeño símbolo triangular o una marca direccional indicando el sitio de inicio de transcripción. Se representa inmediatamente antes de las unidades transcripcionales y genes regulados.
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB gene identifier | yes |  | `RDBECOLIGNC01250` |
+| `name` | Gene name |  |  | `thrL` |
+| `bnumber` | Blattner number |  |  | `b0001` |
+| `leftEndPosition`, `rightEndPosition` | Absolute positions in the genome |  | required | 190, 255 |
+| `strand` | DNA strand: `forward` or `reverse` |  | required | `forward` |
+| `sequence` | Gene sequence |  |  | `ATGAAACGCATTAGC...` |
+| `type` | Gene type: `pseudo`, `phantom` (no value for regular genes) |  |  | `pseudo` |
+| `fragments`, `interrupted` | Coordinates of the segments of an interrupted gene |  | optional |  |
+| `synonyms` | Other names |  |  | `EG11277` |
 
-Los sitios -10, -35 y otros elementos pueden visualizarse en paneles detallados. Los promotores superpuestos se representan como múltiples símbolos en la misma posición genómica con diferentes identificadores de sigma factor.
+<!-- The schema also allows type = "truncated" and type = "gene"; no gene uses them yet. -->
 
-![](./images/promoter.png).  
-Figure: Graphical representation of a promoter. RegulonDB´s Drawing Traces Tool.
+**Notes on the data.**
 
-## 7. Comments (Notas importantes)
-- Un promotor regula **una unidad transcripcional (TU)**, no necesariamente un solo gen.
-- Diferentes promotores pueden compartir el mismo TSS.
-- Un gen puede tener múltiples promotores, lo que permite expresión diferencial.
-- Los promotores pueden estar superpuestos o incluso ubicarse dentro de operones complejos.
-- No todos los promotores presentan motivo -10/-35 canónicos.
-- Factores sigma alternativos definen clases funcionales de promotores.
+- A **phantom gene** is a gene that was annotated in the past and is no longer supported as a gene; this term is not defined in OBAGER.
+- Interrupted genes are stored as one gene with `fragments`, which is consistent with a gene being a single locus.
+- A few genes have no coordinates or sequence.
 
-## 8. Ejemplos
-**Ejemplo simple (σ70):**  
-Promotor bien definido con cajas -10 y -35 conservadas y un único TSS predominante.
+**Examples.** *thrL* (`RDBECOLIGNC01250`, 190–255, forward); *dnaX* (`RDBECOLIGNC00239`), with two products: DNA polymerase III subunit τ (`RDBECOLIPDC00442`) and subunit γ (`RDBECOLIPDC03556`); pseudogene *rhsE* (`RDBECOLIGNC00008`).
 
-**Ejemplo complejo (promotores superpuestos):**  
-El gen glmY presenta promotores reconocidos por σ70 y σ54 que comparten el mismo TSS, definiéndose como promotores distintos.
+**References.** Mejía-Almonte *et al.* (forthcoming); Mejía-Almonte *et al.* (2020).
 
-## 9. Conexiones conceptuales
-- **Promoter → TU:** determina el inicio de la unidad transcripcional.
-- **Promoter ↔ Sigma factor:** cada promotor está asociado a un sigma específico.
-- **Promoter ↔ Regulatory Sites (TFRS):** los promotores pueden ser blanco de activadores o represores.
-- **Promoter → Operon:** un operón puede tener varios promotores que generan transcritos alternativos.
-- **Promoter ≠ TSS:** el TSS es parte del promotor, pero no es el promotor.
+## Primary Transcript
 
-## 10. Errores comunes
-- Confundir el promotor con la región upstream del gen.
-- Asumir que un promotor regula un único gen.
-- Pensar que todos los promotores tienen cajas -10/-35 perfectamente conservadas.
-- Igualar TSS a promotor.
+**Definition.** A primary transcript is the unedited RNA produced directly by transcription, extending from the first to the last templated base. It excludes post-transcriptionally added sequences, such as poly(A) tails and bases introduced by RNA editing. Nucleotides incorporated during transcription are part of the primary transcript, including those generated by reiterative transcription at the 5′ or 3′ ends or during elongation, and transcripts initiated with non-canonical nucleotides such as NAD⁺, NADH, dephospho-CoA, and FAD. (Mejía-Almonte *et al.*, forthcoming)
 
-## 11. Referencias
-- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. Nature Reviews Genetics. https://doi.org/10.1038/s41576-020-0254-8
+**Description.** The primary transcript is the basis for the definition of the transcription unit: the genomic boundaries of a transcription unit are inferred from its primary transcript.
 
-## 12. Useful links
-- Wikipedia – Promoter: https://en.wikipedia.org/wiki/Promoter_(genetics)
-- Biology Online – Promoter: https://www.biologyonline.com/dictionary/promoter
-- RegulonDB – Ejemplos de promotores: https://regulondb.ccg.unam.mx
+**In RegulonDB.** There is no collection for transcripts. The ends of a primary transcript are represented by the transcription start site of the promoter (`promoters.transcriptionStartSite`) and the transcription termination site of the terminator (`terminators.transcriptionTerminationSite`).
 
-## 13. Historial del concepto
-- Originalmente se definía solo por cajas -10/-35.
-- A partir de 2020, incorporó nuevas regiones funcionales y la posibilidad de múltiples TSS.
-- Se oficializó la distinción entre promotores que comparten TSS pero reconocen distintos sigma factores.
+**References.** Mejía-Almonte *et al.* (forthcoming).
 
+## Transcription Unit
+
+**Definition.** A transcription unit (TU) is a DNA segment that serves as a template for producing a primary transcript; it starts at a transcription start site (TSS) and ends at a transcription termination site (TTS). Strictly speaking, a TU is not necessarily transcribed into a gene. (Mejía-Almonte *et al.*, forthcoming)
+
+**Acronyms and synonyms.** TU.
+
+**Description.**
+- When different TSSs of the same promoter are not differentially regulated, they form a single TU, limited by (but not including) a single promoter and a single terminator.
+- This definition was proposed by RegulonDB and is included in the Sequence Ontology. Transcripts are the RNA molecules produced by RNA polymerase from TUs.
+- An operon can contain several TUs, for example when it has alternative promoters or internal terminators (see [Operon](#operon)).
+
+![Graphical representation of a transcription unit](./images/fig_tu_dtt.png)
+
+*Figure. Graphical representation of a transcription unit (fliDST). RegulonDB Drawing Traces Tool.*
+
+![Transcription unit and operon schematic](./images/fig_tu_operon_schematic.jpg)
+
+*Figure. Transcription unit and operon schematic: (a) a TU limited by a promoter and a terminator; (b) the complex operon gadAXW with several overlapping TUs. From Mejía-Almonte C, et al. (2020) Nat Rev Genet 21:699–714.*
+
+**In RegulonDB.** Collection `transcriptionUnits`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB TU identifier | yes |  | `RDBECOLITUC03282` |
+| `name` | TU name (the transcribed genes) |  |  | `thrLABC` |
+| `genes_ids` | Genes transcribed in the TU | yes | optional |  |
+| `operons_id` | Operon that contains the TU | yes | required | `RDBECOLIOPC02642` |
+| `promoters_id` | Promoter where the TU starts (one) |  | required | `RDBECOLIPMC03512` |
+| `terminators_ids` | Terminator(s) where the TU ends |  | required | `RDBECOLITMC00230` |
+
+**Notes on the data.** The promoter and the terminator of a TU are recorded only when they are known; many TUs have no known promoter or terminator. A TU is named after its genes; different TUs of the same operon can have the same name when they differ only in their promoter.
+
+**Example.** `thrLABC` (`RDBECOLITUC03282`), transcribed from promoter `RDBECOLIPMC03512` and ending at terminator `RDBECOLITMC00230`.
+
+**References.** Mejía-Almonte *et al.* (2020); Mejía-Almonte *et al.* (forthcoming).
+
+## Promoter
+
+**Definition.** A promoter is a DNA segment essential for the specific initiation of transcription at a defined location in a DNA molecule, although this location might not be one single base. It is recognized by a specific RNA polymerase holoenzyme (Eσ), and this recognition is not necessarily autonomous. (Mejía-Almonte *et al.*, 2020) In OBAGER, a promoter is both a component of the expression machinery and a cis-acting transcriptional regulator: it establishes the transcription start point and contributes to determining transcriptional output. (Mejía-Almonte *et al.*, forthcoming)
+
+**Acronyms and synonyms.** Promoter region.
+
+**Description.**
+- Promoter sequences are specific to the different σ factors. A promoter is represented as a stretch of 60 nucleotides upstream and 20 downstream of the transcription start site (TSS, +1), shown in upper case; the σ-binding motifs are marked as boxes (−10 and −35 for σ70; −12 and −24 for σ54).
+- Promoter names inherit the name of the first transcribed gene, followed by "p".
+- A single promoter can have several TSSs within a 5-bp region, reflecting the flexibility of TSS selection in the open complex; a main TSS is kept when known.
+- Different σ factors initiating at the same TSS define different promoters. For example, *glmY* is transcribed from two overlapping promoters, one recognized by σ54 and the other by σ70.
+- Promoters associated with NAD⁺ capping have been experimentally characterized. (Mejía-Almonte *et al.*, forthcoming)
+
+![Graphical representation of a promoter](./images/fig_promoter_dtt.png)
+
+*Figure. Graphical representation of a promoter. RegulonDB Drawing Traces Tool.*
+
+**In RegulonDB.** Collection `promoters`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB promoter identifier | yes |  | `RDBECOLIPMC03962` |
+| `name` | Promoter name |  |  | `caiFp` |
+| `transcriptionStartSite` | TSS (+1): `leftEndPosition`, `rightEndPosition`, `range`, and `type` (`primary`, `secondary`, `tertiary`) |  | required | 34218 |
+| `bindsSigmaFactor` | σ factor that recognizes the promoter |  | required | `RDBECOLISFC00003` (σ70) |
+| `boxes` | σ-binding motifs; `type`: `minus10`, `minus35`, `minus12`, `minus24` |  |  |  |
+| `sequence` | Promoter sequence (+1 in upper case) |  |  |  |
+| `strand` | DNA strand |  |  | `forward` |
+
+**Notes on the data.** The σ factor is not recorded for every promoter.
+
+**Examples.** `caiFp` (`RDBECOLIPMC03962`, TSS 34218, σ70). The two overlapping promoters of *glmY*: `glmYp1` (`RDBECOLIPMC03121`, σ54) and `glmYp2` (`RDBECOLIPMC00323`, σ70), both with TSS 2691340.
+
+**References.** Mejía-Almonte *et al.* (2020); Mejía-Almonte *et al.* (forthcoming).
+
+## Terminator
+
+**Definition.** A terminator is a nucleotide segment at which transcription ends and RNA polymerase releases the transcript; the terminator is the segment, not the termination process itself. (Mejía-Almonte *et al.*, forthcoming)
+
+**Acronyms and synonyms.** TTS: transcription termination site.
+
+**Description.**
+- Bacterial transcription termination can occur through intrinsic mechanisms, factor-dependent mechanisms, or combinations of both. Intrinsic (Rho-independent) termination relies on nucleic-acid features: a GC-rich hairpin in the nascent RNA followed by a run of U residues. Rho-dependent termination requires the Rho protein, an RNA helicase that disrupts the elongation complex. (Mejía-Almonte *et al.*, forthcoming)
+- Termination does not always occur at a defined sequence: Mfd terminates transcription at sites of DNA damage by recognizing stalled RNA polymerase, a mechanism of termination without a defined terminator. (Mejía-Almonte *et al.*, forthcoming)
+- Collision-driven termination between convergent TUs, promoted by hairpin structures at overlapping termination regions, may be considered a non-canonical intrinsic terminator. Intrinsic and Rho-dependent termination can occur sequentially or at overlapping sites, so some regions may represent a single hybrid signal or several overlapping terminators. (Mejía-Almonte *et al.*, forthcoming)
+- A terminator marks the end of a transcription unit; it can be shared by several TUs.
+
+![Graphical representation of a terminator](./images/fig_terminator_dtt.png)
+
+*Figure. Graphical representation of a terminator in RegulonDB. RegulonDB Drawing Traces Tool.*
+
+![Intrinsic and Rho-dependent terminators](./images/terminator2.png)
+
+*Figure. Intrinsic (top) and Rho-dependent (bottom) termination. Adapted from "Prokaryotic terminators", Wikimedia Commons.*
+
+**In RegulonDB.** Collection `terminators`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB terminator identifier | yes |  | `RDBECOLITMC00001` |
+| `class` | `rho-independent` or `rho-dependent` | yes | required | `rho-independent` |
+| `transcriptionTerminationSite` | TTS: `leftEndPosition`, `rightEndPosition`, `type` | yes | required | 3407286–3407302 |
+| `sequence` | Terminator sequence | yes |  |  |
+
+**Notes on the data.** The data model distinguishes only two classes, Rho-independent and Rho-dependent; hybrid, overlapping, and non-canonical terminators are not yet classified. The terminator does not store its strand or its TUs; each TU points to its terminators (`transcriptionUnits.terminators_ids`).
+
+**References.** Mejía-Almonte *et al.* (forthcoming); Mejía-Almonte *et al.* (2020).
+
+## Operon
+
+**Definition.** An operon is a genomic organization unit comprising adjacent genes whose transcription is coordinated by overlapping transcription units and their associated cis-regulatory elements. A region of a monocistronic TU that does not overlap any other TU is considered a single-gene operon. (Mejía-Almonte *et al.*, forthcoming)
+
+**Description.**
+- The definition retains the classical concept of Jacob and Monod and explicitly incorporates the promoter and other cis-regulatory elements that determine transcript initiation and its regulation. It is consistent with the etymology of *operon* (from *opus*, a work or construction): the operon is the genomic "construction platform" that includes the promoter and the transcription factor binding sites. (Mejía-Almonte *et al.*, forthcoming)
+- In RegulonDB, an operon extends from the most upstream regulatory site to the termination site of the last TU, and can contain internal promoters and transcription factor regulatory sites. Because promoters are cis-acting regulators, the definition also applies to bacteria with reduced reliance on transcription factors. (Mejía-Almonte *et al.*, forthcoming)
+- A **simple operon** is one whose genes are transcribed through a single TU; a **complex operon** is one whose transcription is coordinated through several overlapping TUs transcribed in the same direction and sharing at least one gene.
+- The classical definition, "a group of genes transcribed as a single polycistronic mRNA controlled by an operator and a promoter", does not cover current knowledge; for instance, operons are frequently regulated by several operators.
+
+![Operon region](./images/fig_operon_deo_dtt.png)
+
+*Figure. deoCABD operon region: 4 genes, 4 promoters, 4 transcription units. RegulonDB Drawing Traces Tool.*
+
+**In RegulonDB.** Collection `operons`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB operon identifier | yes |  | `RDBECOLIOPC02642` |
+| `name` | Operon name | yes |  | `thrLABC` |
+| `regulationPositions` | Left and right ends of the operon, including its regulatory region | yes | required | 148–5086 |
+| `strand` | DNA strand |  | required | `forward` |
+
+**Notes on the data.** The genes and TUs of an operon are obtained through its TUs (`transcriptionUnits.operons_id`).
+
+**Examples.** `thrLABC` (`RDBECOLIOPC02642`), `lacZYA` (`RDBECOLIOPC02880`), `deoCABD` (`RDBECOLIOPC02832`).
+
+**References.** Mejía-Almonte *et al.* (forthcoming); Mejía-Almonte *et al.* (2020); Jacob F (1966) Genetics of the bacterial cell. Science 152:1470–1478.
+
+## Binding Site and Regulatory Site
+
+**Definitions.** (Mejía-Almonte *et al.*, 2020; Mejía-Almonte *et al.*, forthcoming)
+1. **Transcription factor binding site (TFBS):** a DNA site where a TF binds specifically.
+2. **Transcription factor regulatory site (TFRS):** the subset of TFBSs involved in transcription regulation. In OBAGER, the TFRS is part of a complete regulatory interaction.
+3. **Regulator binding site (R-BS):** a site where regulators such as small RNAs and metabolites bind.
+4. **Regulator regulatory site (R-RS):** the subset of R-BSs involved in regulation.
+
+**Acronyms and synonyms.** Operator; BS: binding site; RS: regulatory site; TFBS, TFRS; sRNA-BS: small RNA binding site; sRNA-RS: small RNA regulatory site.
+
+**Description.** Since RegulonDB version 12.0, binding sites with an effect on the regulated promoter are called TFRSs, unlike TFBSs, which may or may not have an effect. The distinction matters because high-throughput binding methods identify TFBSs, most of which lack evidence of a regulatory role. RNA regulatory binding sites in the mRNA are cis-acting post-transcriptional regulators. (Mejía-Almonte *et al.*, forthcoming)
+
+![Graphical representation of binding sites](./images/fig_sites_dtt.png)
+
+*Figure. Graphical representation of binding sites (NhaR). RegulonDB Drawing Traces Tool.*
+
+**In RegulonDB.** Collection `regulatorySites`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB site identifier | yes |  |  |
+| `leftEndPosition`, `rightEndPosition` | Absolute positions in the genome |  | required | 70110, 70126 |
+| `sequence` | Site sequence |  |  | `TCAGGTAGGATCCGCTA` |
+| `length` | Site length |  |  | 17 |
+| `regulationType` | `Transcription`, `sRNA-Regulation`, or `Protein-Regulation` |  |  |  |
+
+**Notes on the data.** One collection holds all sites, including the sites of small RNAs. The data do not flag whether a site is a binding or a regulatory site, and the site does not store its regulator or strand: both are obtained from the regulatory interaction that uses the site (`regulatoryInteractions.regulatorySites_id`).
+
+**References.** Mejía-Almonte *et al.* (2020); Mejía-Almonte *et al.* (forthcoming).
+
+<!--
+## Attenuator
+
+**Definition.** A control region at the promoter end, usually of repressible amino acid operons, that exerts transcriptional control based on the translation of a small leader peptide gene.
+
+**Description.** Attenuation is a regulatory mechanism that results in premature termination of transcription. For example, the attenuator adjacent to the structural genes of the trp operon reduces transcription in the presence of tryptophan. Attenuators in RegulonDB were predicted computationally: for each predicted operon, the upstream region of the first gene is scanned for runs of Us; a stable structure is searched for in the adjacent region and, if a terminator is found, an anti-terminator and an anti-antiterminator are searched for.
+
+![Attenuator](./images/fig_attenuator_icon.png)
+![Attenuator mechanism](./images/fig_attenuator_mechanism.png)
+![Computational prediction of attenuators](./images/fig_attenuator_prediction.png)
+
+**In RegulonDB.** Not included in the current data model. Keep commented until attenuators are available again.
+-->
+
+<!--
+## Riboswitch
+
+**Definition.** Riboswitches are gene control elements, mostly found in the 5′-UTR of bacterial mRNAs, that directly bind specific ligands (usually metabolites) to regulate gene expression without the need for proteins.
+
+**Description.** Riboswitches regulate transcription (through terminator/anti-terminator structures) or translation (by blocking the ribosome-binding site upon ligand binding).
+
+![Riboswitch](./images/fig_riboswitch_icon.png)
+![Riboswitch mechanisms](./images/fig_riboswitch_mechanisms.jpg)
+Figure. Two main regulatory mechanisms of riboswitches. From Xu J, et al. (2023) Riboswitches, from cognition to transformation. Synth Syst Biotechnol 8:357-370. PMID: 37325181.
+
+**In RegulonDB.** Not included in the current data model (the schema defines a collection "rfams" that is not exported). Keep commented until riboswitches are available.
+-->
 
 ---
 
-# Terminator (Terminador)
+# Gene Products and Regulators
 
-## 2. Definición simple
-Un **terminador** es una región del ADN donde la ARN polimerasa detiene la transcripción y libera el RNA recién sintetizado. Marca el final de una unidad transcripcional.
+## Gene Product
 
-## 3. Definición extendida
-En RegulonDB, un **terminator** es una región genómica que provoca la terminación de la transcripción por uno de dos mecanismos principales:
+**Definition.** A gene product is a functional biomacromolecule produced by transcription, or by transcription followed by translation, from a gene, including complexes formed from such biomacromolecules. Messenger RNAs, whose primary role is to carry genetic information between DNA and the ribosome, are not gene products. Gene products are **simple** when derived from a continuous DNA sequence, and **complex** when formed from two or more simple gene products, such as multisubunit proteins and RNA–protein complexes like the ribosome. (Mejía-Almonte *et al.*, forthcoming)
 
-- **Terminadores independientes de Rho (rho-independent o intrínsecos)**: contienen una secuencia invertida rica en GC que forma una horquilla en el RNA, seguida de una cola de U en la molécula de RNA, lo que desestabiliza el complejo de transcripción.
-- **Terminadores dependientes de Rho (rho-dependent)**: requieren la acción de la proteína Rho, una helicasa que persigue al RNA polimerasa y promueve la disociación del complejo.
+**Description.** Functional RNAs (tRNAs, rRNAs, small regulatory RNAs) are gene products. The relationship between a gene and its products is not one-to-one: a gene can have several products, as in *infB* and *copA*, which generate protein isoforms from alternative or internal start codons; conversely, a polypeptide can participate in several complexes. (Mejía-Almonte *et al.*, forthcoming)
 
-Los terminadores delimitan el final de una **unidad transcripcional (TU)**, pero no necesariamente del último gen transcrito. Un terminador puede estar asociado a más de una TU, especialmente en operones complejos.
+![Gene product](./images/product.png)
 
-## 4. Acrónimos y sinónimos relevantes
-- terminator
-- TTS (Transcription Termination Site)
-- intrinsic terminator (rho-independent)
-- rho-dependent terminator
+*Figure. From gene to gene products.*
 
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| left position | inicio de la región del terminador | sí | 274 |
-| right position | fin de la región del terminador | sí | 310 |
-| strand | hebra donde ocurre la terminación | sí | forward |
-| sequence | secuencia del terminador | sí | ggaaacacagAAAAAAG..GGCTTTTTTTTTcgaccaaagg |
-| type | tipo de terminación | sí | rho-independent |
-| transcriptionUnit(s) | TU(s) afectadas | no | thrLABC |
+**In RegulonDB.** Collection `products` (simple gene products); complexes with a regulatory role are in `regulatoryComplexes` (see [Regulatory Complex and Conformation](#regulatory-complex-and-conformation)).
 
-## 6. Representación gráfica del objeto
-En RegulonDB, los terminadores se muestran como un símbolo de "T" invertida o figura similar que indica el final de una TU. Pueden aparecer:
-- como límites finales de un operón,
-- como terminadores internos en operones complejos,
-- asociados a múltiples unidades transcripcionales.
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB product identifier | yes |  | `RDBECOLIPDC00388` |
+| `genes_id` | Gene that codes for the product | yes | required | `RDBECOLIGNC00043` |
+| `name` | Product name |  |  | DUF525 domain-containing protein ApaG |
+| `type` | Product type for RNAs: `small RNA`, `tRNAs`, `rRNA`, `tmRNA` (no value for proteins) |  |  | `small RNA` |
+| `sequence` | Amino acid or RNA sequence |  |  |  |
+| `molecularWeight`, `locations` | Molecular weight and cellular location |  |  |  |
 
-![](./images/terminator.png)
+**Notes on the data.** Only complexes with a regulatory role are represented as complex gene products. Proteins have no `type` value.
 
+**Example.** Gene *infB* (`RDBECOLIGNC00497`) has three products: translation initiation factor IF-2 (`RDBECOLIPDC00529`), IF-2β (`RDBECOLIPDC03803`), and IF-2β′ (`RDBECOLIPDC03804`).
 
-## 7. Comments (Notas importantes)
-- Un terminador no está asociado a un solo gen, sino a **una o más TUs**.
-- Existen terminadores internos que generan transcritos alternativos en operones complejos.
-- La eficiencia de terminación puede variar; algunos terminadores permiten **readthrough**.
-- Los terminadores intrínsecos son los más fácilmente predecibles computacionalmente.
-- Los terminadores dependientes de Rho requieren evidencia experimental o inferencias basadas en características de secuencia.
-- Los atenuadores son un caso especial de terminadores regulados por traducción de un péptido líder.
+**References.** Mejía-Almonte *et al.* (forthcoming); Mejía-Almonte *et al.* (2020).
 
-## 8. Ejemplos
-**Ejemplo simple:** 
-Un terminador rho-independent con horquilla GC y cola de U.
+## Regulator
 
-**Ejemplo complejo:** 
-El terminador asociado al operón *thrLABC*, que funciona como límite para múltiples TUs.
+**Definition.** A regulator is a material entity observed to influence the activity of another regulator or of a component of the expression machinery, or to affect the expression of a unit of expression, within a signal–effector response circuit. (Mejía-Almonte *et al.*, forthcoming) Any gene product that increases or decreases the expression of a specific set of genes is a regulatory gene product. (Mejía-Almonte *et al.*, 2020)
 
-## 9. Conexiones conceptuales
-- **Promoter → Terminator:** ambos delimitan una TU.
-- **Terminator → TU:** determina dónde termina una unidad transcripcional.
-- **Terminator → Operon:** un operón puede tener múltiples terminadores internos.
-- **Terminator vs Attenuator:** el atenuador es un terminador regulado cuyo funcionamiento depende de la traducción del péptido líder.
-- **Terminator ≠ sitio regulatorio:** no media unión de factores, aunque su estructura influye en la regulación.
+**Acronyms and synonyms.** Regulatory gene product; TF: transcription factor; sRNA: small RNA.
 
-## 10. Errores comunes
-- Creer que el terminador corresponde a un gen específico.
-- Pensar que el terminador está siempre al final de un operón.
-- Asumir que todos los terminadores son intrínsecos.
-- Considerar el terminador como un único nucleótido en lugar de una región.
+**Description.**
+- Regulatory gene products are RNA regulators or regulatory proteins, further divided by the level at which they act and their mechanism. Among regulatory proteins, the DNA-binding regulators of transcription initiation include transcription factors and σ factors; the RNAP-centered regulatory proteins, such as DksA, regulate initiation through their interaction with the RNAP holoenzyme instead of binding DNA.
+- The RegulonDB conceptual model represents regulators in three classes: gene products, regulatory elements not encoded in the DNA (such as ppGpp), and their combinations in regulatory complexes. These, with their active and inactive conformations, are the regulators in regulatory interactions.
+- In OBAGER, regulator subclasses are inferred from the chemical identity of the entity and the regulatory interactions in which it participates (see [Expression Machinery Component and Regulator Classes](#expression-machinery-component-and-regulator-classes)).
 
-## 11. Referencias
-- Terminación de la transcripción. *Biology Online*: https://www.biologyonline.com/dictionary/termination
-- O'Neill et al., 2020. *Mechanisms of bacterial transcription termination*. Trends in Microbiology. https://doi.org/10.1016/j.tim.2020.02.002
+| Small RNA | Transcription factor |
+|:---:|:---:|
+| ![Small RNA](./images/fig_regulator_srna_icon.png) | ![Transcription factor](./images/fig_regulator_tf_icon.png) |
 
-## 12. Useful links
-- Terminator (Wikipedia): https://en.wikipedia.org/wiki/Terminator_(genetics)
-- RegulonDB: Ejemplos de terminadores https://regulondb.ccg.unam.mx
+![Classification of regulators](./images/fig_regulator_classification.png)
 
-## 13. Historial del concepto
-- La identificación de terminadores intrínsecos se estableció inicialmente mediante predicción de estructuras secundarias.
-- Con el tiempo, se reconoció la importancia de los terminadores dependientes de Rho.
-- RegulonDB incorpora ambos tipos cuando existe evidencia experimental o computacional sólida.
+*Figure. Classification of regulators.*
+
+**In RegulonDB.** Collection `regulators`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | Identifier (a TF identifier, or the product identifier for small RNAs) | yes |  | `RDBECOLITFC00220` |
+| `type` | `transcriptionFactor`, `small RNA`, or `regulatoryContinuant` | yes | required | `transcriptionFactor` |
+| `name`, `abbreviatedName` | Full and short name |  |  | AraC |
+| `regulatorClass` | Chemical class (for example, polypeptides, regulatory RNAs) |  |  |  |
+| `conformations` | Conformations of the regulator |  |  |  |
+
+**Notes on the data.** Regulators are transcription factors, small RNAs, and one regulatory continuant, ppGpp. The effect of a regulator (activator, repressor) is a property of each regulatory interaction; the overall effect of a TF is in `transcriptionFactors.globalFunction`.
+
+**References.** Mejía-Almonte *et al.* (forthcoming); Mejía-Almonte *et al.* (2020).
+
+## Transcription Factor
+
+**Definition.** A transcription factor (TF) is a trans-acting regulator that recognizes specific DNA sites, its transcription factor regulatory sites, and inherits its transcriptional regulatory role through that recognition. (Mejía-Almonte *et al.*, forthcoming)
+
+**Acronyms and synonyms.** TF.
+
+**Description.** TFs are usually allosteric proteins that bind their operator sites, generally near promoters, in a holo or apo conformation. A TF acts in a **holo** conformation when it binds DNA as a complex with an effector, either a non-covalently bound small molecule or a covalent modification (for example, phosphorylation in two-component systems); it acts in an **apo** conformation when it binds DNA without an effector. The activity of most TFs is linked to external signals, which makes gene expression highly sensitive to environmental changes. Activators compensate for the intrinsic weakness of promoters; repressors reduce promoter activity.
+
+![Holo and apo conformations of transcription factors](./images/fig_tf_holo_apo.jpg)
+
+*Figure. Holo and apo conformations of transcription factors. From Balderas-Martínez YI, et al. (2013) Predicted gene control circuits for simple cases. PLoS One. https://doi.org/10.1371/journal.pone.0065723*
+
+**In RegulonDB.** Collection `transcriptionFactors`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB TF identifier | yes |  | `RDBECOLITFC00220` |
+| `name`, `abbreviatedName` | Full and short name |  |  | DNA-binding transcriptional dual regulator AraC |
+| `activeConformations`, `inactiveConformations` | Conformations of the TF (products or regulatory complexes) |  | required (complete): active conformation |  |
+| `globalFunction` | Overall effect: `activator`, `repressor`, or `dual` |  |  | `dual` |
+| `products_ids` | Products that form the TF |  | required |  |
+| `family`, `symmetry`, `siteLength` | TF family, symmetry and length of its sites |  |  |  |
+
+**Example.** AraC (`RDBECOLITFC00220`, global function dual) has two active conformations, `RDBECOLIRCC00202` (AraC) and `RDBECOLIRCC00007` (AraC–α-L-arabinopyranose), and one inactive conformation, `RDBECOLIRCC00149` (AraC–D-fucose).
+
+**References.** Mejía-Almonte *et al.* (forthcoming); Mejía-Almonte *et al.* (2020); Balderas-Martínez *et al.* (2013).
+
+## Regulatory Complex and Conformation
+
+**Definition.** A regulatory complex is a complex gene product, or a complex of a gene product with a regulatory continuant, that participates as a regulator in regulatory interactions. A conformation is a structural state of a regulator; an **active conformation** is the state that regulates its targets, and an **inactive conformation** is a state that does not. (Mejía-Almonte *et al.*, forthcoming)
+
+**Description.** Molecular complexes are classified by their participation in regulatory interactions; for example, a protein bound to a DNA site is recognized as a biomacromolecular regulator. Several TFs can act either as part of a heteromeric complex or independently, as in the MazE–MazF system. (Mejía-Almonte *et al.*, forthcoming)
+
+**In RegulonDB.** Collection `regulatoryComplexes`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB complex identifier | yes |  | `RDBECOLIRCC00004` |
+| `name` | Complex name |  |  | RhaS-L-rhamnose DNA-binding transcriptional activator |
+| `type` | `active` or `inactive` |  |  | `active` |
+| `products` | Products in the complex |  | required | `RDBECOLIPDC03938` (RhaS) |
+| `regulatoryContinuants_ids` | Effectors or other continuants in the complex |  |  | `RDBECOLICNC00086` (L-rhamnose) |
+
+**Notes on the data.** Only complexes with a regulatory role are represented, in their active and inactive conformations.
+
+**References.** Mejía-Almonte *et al.* (forthcoming).
+
+## Sigma Factor
+
+**Definition.** A σ factor is the RNA polymerase subunit that, in the holoenzyme (Eσ), directs promoter recognition. In OBAGER, σ factors are both essential components of the transcription machinery and regulators that determine promoter selectivity and transcriptional output. (Mejía-Almonte *et al.*, forthcoming)
+
+**Description.** Most bacteria rely on different σ factors to take Eσ to different sets of promoters in response to changes in growth conditions. σ70-related factors contain up to four domains (σ1–σ4): σ2 recognizes the −10 element and σ4 the −35 element; σ3 interacts with the extended −10 element. The evolution of σ factors increased the efficiency and specificity of transcription by facilitating DNA opening, promoter selection, and stabilization of initiation complexes; promoters become functional only when recognized by the transcription machinery, and σ factors derive their regulatory role through promoter recognition. (Mejía-Almonte *et al.*, forthcoming)
+
+**In RegulonDB.** Collection `sigmaFactors`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB σ factor identifier | yes |  | `RDBECOLISFC00003` |
+| `name` | Full name | yes |  | RNA polymerase sigma factor RpoD |
+| `abbreviatedName` | Short name |  |  | `sigma70` |
+| `genes_id` | Gene that codes for the σ factor | yes | required |  |
+
+**Notes on the data.** The σ factors represented are σ70 (RpoD), σ54 (RpoN), σ38 (RpoS), σ32 (RpoH), σ28 (FliA), σ24 (RpoE), and σ19 (FecI). The promoters recognized by each σ factor are recorded in `promoters.bindsSigmaFactor`.
+
+**References.** Mejía-Almonte *et al.* (forthcoming); Mejía-Almonte *et al.* (2020).
+
+## Small RNA
+
+**Definition.** A small regulatory RNA (sRNA) is a trans-acting regulator that inherits its post-transcriptional regulatory role through the recognition of its target binding sites in the mRNA. (Mejía-Almonte *et al.*, forthcoming)
+
+**Acronyms and synonyms.** sRNA; small RNA; regulatory RNA.
+
+**Description.** sRNAs usually modulate the stability or translation of their target mRNAs, frequently with the help of chaperones such as Hfq. Their target sites are small RNA binding sites (sRNA-BS) and, when involved in regulation, small RNA regulatory sites (sRNA-RS). (Mejía-Almonte *et al.*, forthcoming)
+
+**In RegulonDB.** sRNAs are regulators of type `small RNA` (collection `regulators`) whose identifier is that of their gene product. Their interactions have `regulationType` = `sRNA-Regulation`.
+
+**Example.** CyaR (`RDBECOLIPDC04264`); MicA (`RDBECOLIPDC04311`).
+
+**References.** Mejía-Almonte *et al.* (forthcoming).
+
+## Regulatory Continuant and Effector
+
+**Definitions.**
+- A **regulatory continuant** is a regulatory entity that is not encoded in the DNA, typically a small molecule, that participates in regulation either by binding a regulator or by acting as a regulator itself.
+- An **effector** is the precise metabolite that binds to a TF, altering its conformation and switching its binding or unbinding to its sites. Most effectors are metabolites that bind non-covalently to an allosteric site of the TF; covalent modifications, such as the phosphorylation of two-component TFs, are also considered effectors.
+
+**Description.**
+- An effector is distinct from a **signal**. Signals act at the physiological level by initiating the flow of information within the cell; effectors act at the mechanistic level by interacting with regulators. In some cases the signal is the effector (see [GENSOR Unit](#gensor-unit)).
+- Some continuants regulate without a TF. The alarmone ppGpp binds two sites of the RNAP holoenzyme: site 1 affects elongation and pausing, and site 2, together with DksA, affects transcription initiation and promoter selectivity. (Mejía-Almonte *et al.*, forthcoming)
+
+**In RegulonDB.** Collection `regulatoryContinuants`.
+
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB continuant identifier | yes |  | `RDBECOLICNC00086` |
+| `name` | Name | yes |  | L-rhamnose |
+| `type` | `metabolite` |  |  | `metabolite` |
+| `isRegulator` | `true` when the continuant acts as a regulator itself |  |  | `true` (ppGpp) |
+
+<!-- The schema also allows type = "protein"; no continuant uses it yet. -->
+
+**Notes on the data.** Regulatory continuants are mostly metabolites. Covalent modifications are not stored as continuants: phosphorylated forms of a TF are represented as conformations of the TF (regulatory complexes), for example OmpR-phosphorylated (`RDBECOLIRCC00220`).
+
+**Examples.** L-rhamnose (`RDBECOLICNC00086`), the effector of RhaS; ppGpp (`RDBECOLICNC00080`), a regulatory continuant that acts as a regulator.
+
+**References.** Mejía-Almonte *et al.* (2020); Mejía-Almonte *et al.* (forthcoming).
 
 ---
 
-# Transcription Unit (TU) — Unidad Transcripcional
+# Regulatory Relationships
 
-## 2. Definición simple
-Una **unidad transcripcional (TU)** es un segmento del ADN que se transcribe como una sola molécula de RNA, iniciando en un **promotor** específico y terminando en un **terminador** específico.
+## Regulatory Interaction
 
-## 3. Definición extendida
-En RegulonDB, una **TU** se define como la región del genoma transcrita por la ARN polimerasa a partir de un promotor identificado y que finaliza en un terminador anotado. Una TU puede incluir:
-- uno o varios genes (monocistrónica o policistrónica),
-- regiones UTR 5’ y 3’,
-- elementos intergénicos,
-- sRNAs,
-- e incluso terminadores internos cuando existe evidencia de readthrough.
+**Definition.** A regulatory interaction (RI) is a quadruple (T, R, R-RS, F), where T is the target of regulation, R is the regulator, R-RS is the site where the regulator binds and participates in the regulation, and F is the regulatory effect on the target. (Mejía-Almonte *et al.*, 2020) A complete RI specifies the active TF, its transcription factor regulatory site (TFRS), the promoter, and the regulatory effect (activation or repression), because the effect depends on the specific context in which the TF binds DNA. (Mejía-Almonte *et al.*, forthcoming)
 
-Un mismo operón puede dar lugar a **múltiples TUs**, dependiendo de qué promotor(es) se utilicen y de si existen terminadores alternativos. La TU representa la **unidad funcional de expresión transcripcional**, a diferencia del gen, que es una unidad informacional.
+**Acronyms and synonyms.** RI.
 
-## 4. Acrónimos y sinónimos relevantes
-- TU
-- transcription unit
-- unidad transcripcional
-- transcrito primario (no recomendado como sinónimo estricto)
+**Description.**
+- Some experiments identify regulatory relationships without enough evidence to reconstruct the full molecular context. For this reason, since version 12.0 RegulonDB represents three types of RI according to how well the regulated entity is characterized: **TF–promoter** (best characterized; the target genes are those transcribed from the regulated promoter), **TF–TU** (the regulated promoter is unknown, but the regulated genes belong to a known TU), and **TF–gene** (only an effect on the downstream gene is known). (Mejía-Almonte *et al.*, forthcoming)
+- In OBAGER, RIs are classes with a regulator and a regulated entity; the most detailed RIs have a TF bound to its TFRS as regulator. There are also RI classes with small RNAs as trans-acting regulators. (Mejía-Almonte *et al.*, forthcoming)
+- Each RI has one effect: activation or repression. When a regulator activates a target under some conditions and represses it under others, this is represented as two RIs; the **dual** effect appears only when the RIs are grouped, for example in a regulon.
 
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| TU name | nombre asignado según convención RegulonDB | sí | thrLABC-TU1 |
-| promoter(s) | promotor(es) que inician la TU | sí | thrLp |
-| terminator(s) | terminador(es) donde finaliza la TU | sí | thrLt |
-| genes | genes contenidos en la TU | sí | thrL, thrA, thrB, thrC |
-| strand | hebra donde se transcribe la TU | sí | forward |
-| operon | operón al que pertenece la TU | no | thrLABC |
+![Three types of regulators](./images/fig_regulator_types_dtt.png)
 
-## 6. Representación gráfica del objeto
-En RegulonDB, la TU aparece como una **flecha larga** que se extiende desde su promotor hasta su terminador. Las TUs de un mismo operón pueden visualizarse como flechas paralelas o superpuestas, mostrando las variantes transcripcionales.
+*Figure. Three types of regulators: transcription factors, RNAP-centered regulatory gene products, and small RNA regulators. RegulonDB Drawing Traces Tool.*
 
-![](./images/tu.png)
+![Mechanisms of repression and activation](./images/fig_ri_mechanisms.jpg)
 
-## 7. Comments (Notas importantes)
-- Una TU puede ser **monocistrónica** (un solo gene) o **policistrónica** (varios genes).
-- Un mismo gene puede aparecer en **múltiples TUs**, dependiendo de los promotores alternativos.
-- La TU es la **unidad funcional** sobre la cual actúan la mayoría de los mecanismos regulatorios.
-- Las TUs pueden cambiar con nueva evidencia experimental que redefina sus promotores o terminadores.
-- En operones complejos, la existencia de terminadores internos crea TUs parciales.
+*Figure. Mechanisms of repression and activation by transcription factors at bacterial promoters. From Browning DF, Butala M, Busby SJW (2019) J Mol Biol. https://doi.org/10.1016/j.jmb.2019.04.011*
 
-## 8. Ejemplos
+**In RegulonDB.** Collection `regulatoryInteractions`.
 
-**Ejemplo simple:** TU monocistrónica que expresa únicamente un sRNA.
+| Field | Description | Required (schema) | OBAGER | Example |
+|---|---|:---:|:---:|---|
+| `_id` | RegulonDB RI identifier | yes |  | `RDBECOLIRIC00001` |
+| `regulator` | Regulator: `_id`, `name`, `type` (`regulatoryComplex`, `product`, `regulatoryContinuant`) |  | required | GadW (`product`) |
+| `regulatedEntity` | Target: `_id`, `name`, `type` (`promoter`, `transcriptionUnit`, `gene`) |  | required | `slpp` (`promoter`) |
+| `function` | Effect: `activator` or `repressor` |  | required | `repressor` |
+| `regulatorySites_id` | Regulatory site of the interaction |  | required (complete) |  |
+| `relativeDistSitePromoter` | Distance from the center of the site to the TSS |  |  | −60.5 |
+| `regulationType` | `Transcription`, `sRNA-Regulation`, or `Protein-Regulation` |  |  | `Transcription` |
+| `confidenceLevel` | `C`, `S`, or `W` (see [Evidence and Confidence Level](#evidence-and-confidence-level)) |  |  | `W` |
 
-**Ejemplo policistrónico:** TU del operón *lacZYA*, que incluye tres genes.
+<!--
+Fields and values defined in the schema without data yet (keep commented):
+- regulatedEntity.type = "srna" (an sRNA as the regulated entity).
+- type = "mechanistic" or "physiological".
+- function = "dual" is allowed by the schema but is not used in individual RIs (dual RIs were split into two RIs); "dual" is used only when RIs are grouped in a regulon.
+-->
 
-**Ejemplo complejo:** Operón *thrLABC*, con múltiples TUs derivadas de promotores alternativos y terminadores compartidos.
+**Notes on the data.** The regulated entity can be a promoter, a gene, or a TU, depending on how well the interaction is characterized. The site and the distance to the promoter are recorded only when known.
 
-## 9. Conexiones conceptuales
-- **Promoter → TU → Terminator:** forma la unidad básica de transcripción.
-- **TU → Operon:** un operón puede contener varias TUs.
-- **TU → Genes:** define qué genes se expresan juntos.
-- **TU y Regulación:** activadores y represores actúan sobre el promotor y, por extensión, sobre la TU.
+**Example.** `RDBECOLIRIC00001`: GadW represses promoter `slpp` (`RDBECOLIPMC03434`); the site is centered 60.5 bp upstream of the TSS; confidence level weak.
 
-## 10. Errores comunes
-- Confundir TU con operón.
-- Asumir que un gen pertenece a una sola TU.
-- Pensar que todas las TUs se expresan necesariamente de forma continua.
-- Igualar TU con “lo que se observa en RNA-seq”; RegulonDB usa evidencia curada específica.
-
-## 11. Referencias
-- Browning & Busby. 2004. *The regulation of bacterial transcription initiation*. Nature Reviews Microbiology. https://doi.org/10.1038/nrmicro820
-- Cho et al. 2014. *Transcription unit architecture in bacteria*. Microbiology Spectrum. https://doi.org/10.1128/microbiolspec.MDNA3-0012-2014
-
-## 12. Useful links
-- Wikipedia – Transcription unit: https://en.wikipedia.org/wiki/Transcription_unit
-- Biology Online – Transcription unit: https://www.biologyonline.com/dictionary/transcription-unit
-- RegulonDB – Lista de TUs: https://regulondb.ccg.unam.mx/
-
-## 13. Historial del concepto
-- En definiciones clásicas, una TU se describía simplemente como “uno o más genes transcritos juntos”.
-- Con evidencia moderna (TSS, terminadores, RNA-seq), la definición pasó a ser una entidad basada en evidencia experimental precisa.
-- RegulonDB adoptó el modelo de múltiples TUs por operón para reflejar la complejidad real de la transcripción bacteriana.
-
-
+**References.** Mejía-Almonte *et al.* (2020); Mejía-Almonte *et al.* (forthcoming); Browning *et al.* (2019).
 
 ---
 
-# Operon (Operón)
+# Derived Sets
 
-## 2. Definición simple
-Un **operón** es un conjunto de uno o más genes consecutivos en la misma hebra del ADN que pueden transcribirse coordinadamente como parte de una o más unidades transcripcionales (TUs).
+## Regulon
 
-## 3. Definición extendida
-En RegulonDB, un **operón** es una entidad genómica compuesta por genes contiguos orientados en la misma hebra y que están funcionalmente relacionados. Estos genes pueden ser expresados por una o varias **unidades transcripcionales (TUs)** iniciadas desde promotores asociados al operón.
+**Definition.** A regulon is a set of expression units, which may be distributed throughout the genome, whose expression is co-regulated by the same trans-acting regulator or regulatory complex through a common, target-specific mechanism. The specificity may arise, for example, from direct recognition of a cis-regulatory element or from modulation of the affinity of RNA polymerase or the ribosome for different sites. A regulon can therefore include transcriptional and translational targets. (Mejía-Almonte *et al.*, forthcoming)
 
-A diferencia de definiciones clásicas, un operón puede contener **múltiples TUs**, debido a la presencia de:
-- promotores alternativos,
-- terminadores internos,
-- regulación diferencial dependiente de condiciones.
+**Description.**
+- The classical concept of a regulon refers to genes controlled by a common trans-acting regulator (Maas, 1964). OBAGER broadens it to include regulatory mechanisms that do not involve encoded molecules, such as the alarmone ppGpp. (Mejía-Almonte *et al.*, forthcoming)
+- For a regulatory mechanism to define a regulon, its action must confer specificity for a defined set of targets; effects that alter gene expression globally do not define a regulon. For example, the effects of ppGpp on RNAP and on translation acquire target specificity from promoter or mRNA features and define regulons, whereas its effects on ribosome assembly do not. (Mejía-Almonte *et al.*, forthcoming)
+- A regulon is different from a **stimulon**, the set of all genes whose expression changes in response to a common stimulus, regardless of mechanism, including direct and indirect effects. (Mejía-Almonte *et al.*, forthcoming)
+- Although regulons are often treated as functionally coherent groups, their members are rarely homogeneous with respect to biological processes. (Mejía-Almonte *et al.*, forthcoming)
 
-El operón es por lo tanto una estructura **genómica y organizacional**, mientras que la TU es una estructura **transcripcional**.
+**In RegulonDB.** The regulon is a derived object: it is built at each release from the regulators and their regulatory interactions, and is shown on the regulon pages and in the regulon catalog of the web interface (datamart `regulonDatamart`). It includes every target of the regulator, even when the target is also regulated by other regulators. In the regulon, the effect of the regulator on each gene can be activator, repressor, or dual (when different RIs of the same regulator have opposite effects).
 
-## 4. Acrónimos y sinónimos relevantes
-- operon
-- operón
-- transcriptional cluster (término histórico, no recomendado)
+<!-- OBAGER distinguishes ppGpp regulons by mechanism (ppGpp–RNAP, DksA–RNAP, and ppGpp–DksA–RNAP). RegulonDB currently has a single ppGpp regulon. Publish when the regulons by mechanism are available. -->
 
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| operon name | nombre del operón | sí | thrLABC |
-| genes | genes consecutivos en la misma hebra | sí | thrL, thrA, thrB, thrC |
-| strand | hebra en la que están los genes | sí | forward |
-| TUs | unidades transcripcionales asociadas | sí | thrLABC-TU1, thrLABC-TU2 |
-| first gene | primer gen del operón | sí | thrL |
+**Example.** The AraC regulon (`RDBECOLITFC00220`) includes genes activated, genes repressed, and genes with dual regulation by AraC.
 
-## 6. Representación gráfica del objeto
-En RegulonDB, el operón aparece como un marco o región que contiene los genes orientados en la misma dirección. Debajo o encima se representan las **TUs**, que pueden depender de diferentes promotores y terminadores. Los promotores y terminadores se muestran como símbolos específicos conectados a las TUs.
+**References.** Mejía-Almonte *et al.* (forthcoming); Maas WK (1964) PMID: 14168690.
 
-Los operones complejos muestran múltiples TUs superpuestas, reflejando su arquitectura transcripcional real.
+<!--
+## Stimulon
 
-## 7. Comments (Notas importantes)
-- Un operón puede tener **uno o múltiples promotores**.
-- Un operón puede tener **uno o múltiples terminadores**, incluso **internos**.
-- Un operón puede contener **varias TUs**, que expresan distintos subconjuntos de genes.
-- El operón NO es equivalente a un regulón.
-- Un operón no garantiza que todos sus genes se expresen juntos en todas las condiciones.
+**Definition.** A stimulon comprises all genes whose expression changes in response to a common stimulus, regardless of mechanism, and therefore includes both direct and indirect effects. For example, the ppGpp stimulon contains genes affected through multiple direct and indirect mechanisms, while distinct regulons can be defined by the regulatory components and mechanisms involved.
 
-## 8. Ejemplos
-**Ejemplo simple:** Operón monocistrónico con un solo gen, un promotor y un terminador.
+**In RegulonDB.** Not represented yet. Publish when stimulons are available.
+-->
 
-**Ejemplo clásico:** Operón *lacZYA*, con tres genes regulados juntos bajo el control del represor LacI.
+## Simple and Complex Regulon
 
-**Ejemplo complejo:** Operón *thrLABC*, con múltiples promotores, terminadores internos y varias TUs alternativas.
+**Definitions.**
+1. **Simple regulon:** a set of genes subject to regulation by one and only one regulator. The initial definition of regulon (Maas, 1964) was derived from studies of the arginine biosynthetic genes, which, unlike operons, are scattered in the chromosome of *E. coli*.
+2. **Complex regulon:** a group of genes subject to regulation by two or more regulators, where all genes are regulated by exactly the same transcription factors.
+3. **Strict complex regulon:** a complex regulon in which the effect of each regulator (activator or repressor) is the same for all the regulated genes.
 
-## 9. Conexiones conceptuales
-- **Operon → Genes:** conjunto de genes consecutivos y orientados.
-- **Operon → TUs:** puede originar múltiples unidades transcripcionales.
-- **Operon → Regulación:** los factores reguladores actúan sobre los promotores que controlan las TUs del operón.
-- **Operon ≠ TUs:** una TU es un transcrito, el operón es una organización genómica.
-- **Operon ≠ Regulon:** un regulón es un conjunto de genes regulados por un mismo TF.
+**Description.** Simple and complex regulons are subsets of the regulons defined above: they group the targets of a regulator according to the combination of regulators that control them.
 
-## 10. Errores comunes
-- Asumir que un operón tiene una sola TU.
-- Pensar que todos los genes del operón siempre se expresan juntos.
-- Confundir operón con regulón.
-- Interpretar que el operón termina automáticamente después del último gen (puede haber terminadores externos o internos).
+<!-- In RegulonDB: simple and complex regulons will be an independent collection, derived from the regulatory interactions and the regulons. Not available yet. -->
 
-## 11. Referencias
-- Jacob F. & Monod J., 1961. *Genetic regulatory mechanisms in the synthesis of proteins*. Journal of Molecular Biology. https://doi.org/10.1016/S0022-2836(61)80072-7
-- Browning & Busby. 2004. *The regulation of bacterial transcription initiation*. Nature Reviews Microbiology.
+**References.** Maas WK (1964).
 
-## 12. Useful links
-- Operon (Wikipedia): https://en.wikipedia.org/wiki/Operon
-- Biology Online – Operon: https://www.biologyonline.com/dictionary/operon
-- RegulonDB – Lista de operones: https://regulondb.ccg.unam.mx
+## Sigmulon
 
-## 13. Historial del concepto
-- En su definición original por Jacob y Monod, un operón representaba un conjunto de genes transcritos juntos.
-- Con evidencia moderna (TSS, terminadores, RNA-seq), se reconoce que los operones pueden tener **múltiples TUs**.
-- RegulonDB expandió el concepto para capturar operones complejos con promotores alternativos y terminadores internos.
+**Definition.** A sigmulon is the set of promoters, transcription units, and genes transcribed by RNA polymerase holoenzymes containing the same σ factor.
 
+**In RegulonDB.** The sigmulon is a derived object, shown on the sigmulon pages and in the sigmulon catalog of the web interface (datamart `sigmulonDatamart`), with one sigmulon per σ factor.
 
----- 
-A revisar porque fue generada por IA basada en el contexto de los articulos de regulonDB y definicions de Citlalli, tomando las colecciones de RegulonDB de mongo.
----- 
+**Example.** The σ70 sigmulon (`RDBECOLISFC00003`).
 
-# Regulatory Interaction (Interacción Regulatoria)
+## GENSOR Unit
 
-## 2. Definición simple
-Una **interacción regulatoria** es la relación entre un regulador activo y una entidad regulada, donde el regulador modifica la transcripción (activación, represión o efecto dual).
+**Definition.** A genetic sensory response unit (GENSOR unit, GU) contains the cascade of information processing that begins with the appearance of a signal, its transformation into the metabolite that binds the TF (the effector), the genetic switch formed by the TF binding to its TFRSs, and the response, which includes all the gene products and reactions regulated by the TF.
 
-## 3. Definición extendida
-En RegulonDB, una **regulatory interaction** representa el vínculo causal curado entre una conformación reguladora activa (por ejemplo, un TF o complejo regulador) y un objetivo regulado (promotor, TU, operón o gen, según el contexto curado). La interacción se caracteriza por una función regulatoria, dirección y soporte de evidencia.
+**Acronyms and synonyms.** GU; Gensor Unit; genetic sensory-response unit.
 
-Siguiendo el marco conceptual actualizado de RegulonDB, las interacciones regulatorias se separan de la definición estructural del promotor y se describen como relaciones funcionales entre entidades regulatorias y entidades reguladas.
+**Description.** A cell's response to changes inside the cell or in its environment starts when a signal is sensed and transmitted through a series of reactions (signal transduction), which act on genetic switches that modify gene expression. A **simple GU** groups all the target genes of a regulon, including its TF; a **complex GU** groups the TFs and target genes of a complex regulon.
 
-## 4. Acrónimos y sinónimos relevantes
-- regulatory interaction
-- RI
-- interacción TF-objetivo (uso informal)
+![GENSOR unit components](./images/fig_gensor_components.png)
 
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| active conformation | forma activa del regulador que ejecuta la interacción | sí | RhaS-L-rhamnose |
-| regulatory function | efecto sobre la transcripción | sí | activator |
-| regulated entity name | nombre de la entidad regulada | sí | rhaBAD promoter |
-| regulated entity type | tipo de entidad regulada | sí | promoter |
-| distance to promoter/first gene | distancia reportada en la interfaz de regulón | no | -61 |
-| RBS coordinates | coordenadas del sitio de unión regulatorio (si disponible) | no | 112345-112360 |
+*Figure. GENSOR unit components and their graphical representation.*
 
-## 6. Representación gráfica del objeto
+![AraC GENSOR unit](./images/fig_gensor_arac.jpg)
 
+*Figure. The AraC–arabinose GU. In the presence of L-arabinose, AraC activates the transcription of genes for the utilization and transport of L-arabinose; in the absence of glucose, CRP co-regulates with AraC.*
 
+**In RegulonDB.** GUs are derived objects, searchable in the web interface and shown on the GU pages (datamart `gensorUnitDatamart`).
 
-## 7. Comments (Notas importantes)
-- Una interacción no es equivalente a un sitio de unión aislado.
-- La existencia de unión (binding) no siempre implica regulación funcional.
-- Una misma conformación activa puede participar en múltiples interacciones.
+| Property | Description | Example |
+|---|---|---|
+| Name | GU name, inherited from the name of the regulator | AraC |
+| Description | Description of the process, from the signal to the response | |
+| Signal | Signal that triggers the processes in the GU | L-arabinose |
+| Reactions | Reactions in the GU | |
+| Components | Components in the GU | |
+| Group | Functional groups to which the GU belongs | Carbohydrate transport and metabolism |
 
-## 8. Ejemplos
-**Ejemplo simple:** un regulador activo reprime un promotor específico.
+**Example.** The AraC GU (`RDBECOLITFC00220`).
 
-**Ejemplo complejo:** una misma conformación activa regula distintos promotores con funciones diferentes según condición.
-
-## 9. Conexiones conceptuales
-- **Regulatory interaction ↔ Regulator:** requiere un regulador/conformación activa.
-- **Regulatory interaction ↔ Binding site:** puede estar respaldada por uno o más sitios.
-- **Regulatory interaction → Regulon:** las interacciones definen el alcance del regulón.
-
-## 10. Errores comunes
-- Confundir unión física con regulación validada.
-- Asumir que toda interacción aplica a todas las condiciones de crecimiento.
-- Tratar interacción y regulón como sinónimos.
-
-## 11. Referencias
-- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. Nat Rev Genet. https://doi.org/10.1038/s41576-020-0254-8
-- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. Microbial Genomics. https://doi.org/10.1099/mgen.0.000833
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- Regulon search guide (repo): ../01_search_browse/regulon_search.md
-
-## 13. Historial del concepto
-- En modelos clásicos se describía de forma implícita dentro de promotores/operones.
-- En marcos actuales se formaliza como relación regulador-objetivo con evidencia.
+**References.** Gama-Castro S, *et al.* (2011) RegulonDB version 7.0: transcriptional regulation of *Escherichia coli* K-12 integrated within genetic sensory response units (Gensor Units). Nucleic Acids Res 39:D98–D105. PMID: 21051347.
 
 ---
 
-# Transcription Factor Binding Site (TFBS)
+# Evidence and Annotation
 
-## 2. Definición simple
-Un **binding site** es una región de ADN reconocida por un regulador, como un factor de transcripción o una holoenzima con sigma.
+## Evidence and Confidence Level
 
-## 3. Definición extendida
-En RegulonDB, un **binding site** es una secuencia genómica donde una molécula reguladora se une de forma específica o preferencial. Para TFs, suele distinguirse entre:
-- **TFBS** (transcription factor binding site): sitio con evidencia de unión.
-- **TFRS** (transcription factor regulatory site): subconjunto de TFBS con evidencia funcional de cambio regulatorio.
+**Definitions.**
+- An **evidence** is the experimental or computational method that supports a curated object or interaction, with the publication where it was reported. Each evidence type is classified as **strong (S)** or **weak (W)**.
+- The **confidence level** of an object is computed from its supporting evidence: **weak (W)**, **strong (S)**, or **confirmed (C)**. **Additive evidence** is the combination of independent evidence types that raises the confidence level, for example to confirmed.
 
-El marco conceptual de RegulonDB separa los sitios regulatorios de la definición del promotor: no todo sitio de unión forma parte estructural del promotor ni toda unión implica efecto regulatorio.
+**In RegulonDB.** Collections `evidences` (catalog of evidence types, with `code`, `name`, and `type` S or W) and `additiveEvidences`; objects store their evidence in `citations` (evidence and publication) and their level in `confidenceLevel`.
 
-## 4. Acrónimos y sinónimos relevantes
-- binding site
-- TFBS
-- TFRS
-- regulatory site
+**Example.** Evidence type `COMP-AINF-SIMILAR-TO-CONSENSUS` (automated inference based on similarity to consensus sequences) is weak.
 
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| left position | inicio del sitio en el genoma | sí | 345210 |
-| right position | fin del sitio en el genoma | sí | 345225 |
-| strand | hebra del ADN | sí | reverse |
-| sequence | secuencia del sitio | no | TTGACATTTAGTAA |
-| regulator/conformation | entidad que reconoce el sitio | sí | CRP-cAMP |
-| evidence type | tipo de evidencia (binding/regulatory) | no | ChIP-seq |
+**References.** Weiss V, *et al.* (2013) Database bas059. https://doi.org/10.1093/database/bas059. Lara P, *et al.* (2024) Front Genet 15:1353553. https://doi.org/10.3389/fgene.2024.1353553
 
-## 6. Representación gráfica del objeto
-En RegulonDB se representa como una marca corta sobre el ADN, asociada al regulador. En vistas de red, se expresa como parte del soporte de una interacción regulatoria.
+## Position Weight Matrix and Alignment
 
-## 7. Comments (Notas importantes)
-- Un TFBS puede no ser un TFRS.
-- Sitios intragénicos pueden ser funcionales o no funcionales.
-- El contexto experimental condiciona su interpretación.
+**Definitions.**
+- A **matrix** (weight matrix or position weight matrix, PWM) represents a collection of aligned binding sequences for the same transcriptional regulator. It derives from a multiple alignment of such sites: each row corresponds to one letter of the alphabet (four rows for DNA) and each column to one position within the aligned sites. A frequency matrix contains the frequency of the four nucleotides at each position.
+- A **multiple alignment** of the binding sites of a regulatory protein is generated from initially extended binding sites. RegulonDB alignments were generated with the Wconsensus program (Hertz GZ, Comput Appl Biosci 1990;6:81–92) and, more recently, with the MEME suite.
 
-## 8. Ejemplos
-**Ejemplo simple:** sitio upstream de un promotor reconocido por un activador.
+**Acronyms and synonyms.** PWM; PSSM (position-specific scoring matrix).
 
-**Ejemplo complejo:** sitio intragénico con evidencia de unión sin efecto claro en expresión.
+## Growth Condition
 
-## 9. Conexiones conceptuales
-- **Binding site ↔ TF/sigma factor:** define reconocimiento molecular.
-- **Binding site ↔ Regulatory interaction:** soporte físico potencial.
-- **Binding site ≠ Promoter:** conceptos relacionados pero no equivalentes.
+**Definition.** Growth conditions are the experimental conditions in which a strain is grown in a particular experiment performed to study changes in gene expression.
 
-## 10. Errores comunes
-- Llamar regulatorio a cualquier sitio de unión.
-- Asumir que todo sitio está en región intergénica.
-- Igualar sitio de unión con promotor completo.
+**Description.** The accurate annotation of growth conditions is essential to interpret gene expression data and to compare experiments. RegulonDB uses the Microbial Conditions Ontology (MCO), a controlled vocabulary that defines the minimal elements for reproducible experiments in bacteria: genetic background, culture medium, medium supplements, aeration, temperature, pH, pressure, optical density, growth phase, and growth rate. Not all publications report all these elements.
 
-## 11. Referencias
-- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
-- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
+**In RegulonDB.** MCO terms are in the `terms` and `ontologies` collections. Growth conditions of high-throughput datasets, extracted with natural language processing, are in the HT collection `nlpGrowthConditions`.
 
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- Sequence Ontology: http://www.sequenceontology.org
+<!-- The core collections growthConditionContrasts and growthConditionPhrasesCatalogs have no data yet. -->
 
-## 13. Historial del concepto
-- Inicialmente se usó como sinónimo funcional de control regulatorio.
-- Actualmente se diferencia explícitamente unión física y efecto regulatorio.
+**References.** Tierrafría VH, *et al.* (2019) MCO: towards an ontology and unified vocabulary for a framework-based annotation of microbial growth conditions. Bioinformatics 35:856–864. https://doi.org/10.1093/bioinformatics/bty689
 
 ---
 
-# Regulon (Regulón)
+# Functional Classes
 
-## 2. Definición simple
-Un **regulón** es el conjunto de entidades reguladas por un mismo regulador o por una misma conformación reguladora activa.
+## Expression Machinery Component and Regulator Classes
 
-## 3. Definición extendida
-En RegulonDB, un **regulon** agrupa genes, unidades transcripcionales, promotores u operones bajo control de una entidad reguladora común en un nivel de regulación específico (aquí, principalmente transcripcional). El criterio de pertenencia está definido por interacciones regulatorias curadas, no por proximidad genómica.
+**Description.** OBAGER classifies material entities from two complementary perspectives: their chemical identity (DNA segment, RNA, protein, or small molecule) and their functional role. Functional classes are inferred from formally defined relationships. (Mejía-Almonte *et al.*, forthcoming)
 
-En este sentido, un regulón no equivale a operón ni a TU: cruza distintas regiones del genoma y puede incluir blancos heterogéneos.
+- An **expression machinery component** is any material entity required for the transcription or translation of a nucleotide segment. It includes cis and trans elements, such as the ribosome, RNA polymerase, promoters, transcription terminators, and ribosome binding sites.
+- A **regulator** is an entity observed to influence the activity of another regulator or of an expression machinery component, or to affect the expression of a unit of expression.
+- The two classes are intentionally not disjoint: several components of the expression machinery acquired regulatory functions during evolution. For example, σ factors are both essential components of the transcription machinery and regulators of promoter selectivity.
 
-## 4. Acrónimos y sinónimos relevantes
-- regulon
-- regulón
-- TF regulon
+Regulator subclasses are inferred with a few general rules:
 
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| regulator name | regulador que define el regulón | sí | TrpR |
-| regulator type | tipo de regulador | sí | transcription factor |
-| regulated genes count | número de genes regulados | no | 34 |
-| regulated operons count | número de operones regulados | no | 12 |
-| regulated TUs count | número de TUs reguladas | no | 18 |
-| regulatory interactions count | número de interacciones regulatorias | no | 42 |
+1. **Cis-acting and trans-acting regulators.** Regulatory nucleotide segments are cis-acting regulators; gene products and their structural states are trans-acting regulators.
+2. **Regulatory stage.** The type of regulatory interaction distinguishes transcriptional from post-transcriptional regulation. Together with rule 1, promoters and transcription factor regulatory sites are cis-acting transcriptional regulators, and RNA regulatory binding sites in the mRNA are cis-acting post-transcriptional regulators.
+3. **Inherited regulatory function.** Trans-acting regulators inherit their role by recognizing a regulatory site: TFs, σ factors, and the RNAP holoenzyme are transcriptional regulators through promoter recognition, and small RNAs are post-transcriptional regulators through recognition of their target sites in the mRNA.
+4. **Complexes.** Molecular complexes are classified by their participation in regulatory interactions; for example, a protein bound to a DNA site is a biomacromolecular regulator.
 
-## 6. Representación gráfica del objeto
-En RegulonDB se visualiza como una red centrada en un regulador con múltiples blancos distribuidos en el genoma.
-
-## 7. Comments (Notas importantes)
-- Un regulón puede incluir entidades no contiguas.
-- Un gen puede pertenecer a varios regulones.
-- El tamaño del regulón depende de evidencia y condiciones curadas.
-
-## 8. Ejemplos
-**Ejemplo simple:** regulón de un regulador con pocos promotores blanco.
-
-**Ejemplo complejo:** regulón global con decenas de genes y funciones mixtas.
-
-## 9. Conexiones conceptuales
-- **Regulon ↔ Regulatory interactions:** el regulón emerge de estas interacciones.
-- **Regulon ≠ Operon:** operón es organización local; regulón es control distribuido.
-- **Regulon ↔ GENSOR Unit:** puede mapearse a respuestas sistémicas.
-
-## 10. Errores comunes
-- Confundir regulón con operón.
-- Asumir un único modo regulatorio para todos los blancos.
-- Ignorar conformaciones activas/inactivas del regulador.
-
-## 11. Referencias
-- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
-- Salgado H, et al. RegulonDB resources (varias versiones).
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- Regulon search guide (repo): ../01_search_browse/regulon_search.md
-
-## 13. Historial del concepto
-- Originalmente asociado casi exclusivamente a genes controlados por un TF.
-- Se amplió para reflejar blancos múltiples, tipos de entidades reguladas y estados regulatorios.
+**References.** Mejía-Almonte *et al.* (forthcoming).
 
 ---
 
-
-# Simple Regulon (Regulón simple)
-
-## 2. Definición simple
-Un **regulón simple** es el conjunto de genes o unidades reguladas directamente por un único regulador.
-
-## 3. Definición extendida
-En la práctica de RegulonDB, un **simple regulon** agrupa blancos regulados por un solo regulador (TF o, en algunos contextos, su forma funcional principal), sin exigir combinaciones obligatorias de múltiples reguladores para definir la pertenencia al conjunto.
-
-Este tipo de regulón facilita el análisis de alcance regulatorio directo de una entidad reguladora en condiciones específicas.
-
-## 4. Acrónimos y sinónimos relevantes
-- simple regulon
-- regulón simple
-- single-regulator regulon
-
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| regulator | regulador que define el regulón | sí | CRP |
-| regulator type | tipo de regulador | sí | transcription factor |
-| regulated entities | genes/TUs/operones/promotores incluidos | sí | lacZYA TU |
-| interaction evidence | evidencia de interacciones regulatorias | no | HT + curación |
-| regulatory effect profile | activación/represión/dual en blancos | no | mixed |
-| growth condition scope | condición(es) donde aplica | no | glucose limitation |
-
-## 6. Representación gráfica del objeto
-En RegulonDB se visualiza como una red centrada en un único regulador con conexiones hacia sus blancos regulados.
-
-## 7. Comments (Notas importantes)
-- “Simple” se refiere al criterio del regulador definitorio, no a baja complejidad biológica.
-- Un blanco puede pertenecer a más de un regulón simple.
-- El contenido puede variar con nueva evidencia y condición experimental.
-
-## 8. Ejemplos
-**Ejemplo simple:** genes controlados directamente por un solo TF en una condición definida.
-
-**Ejemplo complejo:** regulón simple grande de un regulador global con cientos de blancos potenciales.
-
-## 9. Conexiones conceptuales
-- **Simple regulon ↔ Regulatory interaction:** se construye a partir de interacciones curadas.
-- **Simple regulon ↔ Transcription factor:** depende de un único regulador definitorio.
-- **Simple regulon ≠ Operon:** puede incluir múltiples loci no contiguos.
-
-## 10. Errores comunes
-- Confundir “simple” con “pocos genes”.
-- Suponer que todos los genes del regulón responden igual en toda condición.
-- Usar regulón simple como sinónimo de vía metabólica.
-
-## 11. Referencias
-- Santos-Zavaleta A, et al. 2018. *RegulonDB version 10.0*. BMC Biology. https://doi.org/10.1186/s12915-018-0555-y
-- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- Regulon search guide (repo): ../01_search_browse/regulon_search.md
-
-## 13. Historial del concepto
-- Surge de la clasificación curatorial de regulones en RegulonDB.
-- Se mantiene como categoría operativa para análisis de control directo por regulador único.
-
----
-
-# Complex Regulon (Regulón complejo)
-
-## 2. Definición simple
-Un **regulón complejo** es el conjunto de genes o unidades cuya regulación se define por la combinación de más de un regulador.
-
-## 3. Definición extendida
-En el contexto de RegulonDB, un **complex regulon** organiza blancos que dependen de lógica combinatoria de regulación (cooperación, antagonismo o integración de múltiples reguladores/conformaciones). Esta categoría captura el hecho de que la respuesta regulatoria no siempre puede atribuirse a un único regulador aislado.
-
-El regulón complejo es útil para representar control integrativo de redes regulatorias y respuestas dependientes de contexto.
-
-## 4. Acrónimos y sinónimos relevantes
-- complex regulon
-- regulón complejo
-- combinatorial regulon
-
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| defining regulators | conjunto de reguladores definitorios | sí | CRP + FNR |
-| regulated entities | genes/TUs/operones/promotores incluidos | sí | genes de respiración alternativa |
-| regulatory logic | lógica combinatoria principal | no | AND / OR / condition-dependent |
-| supporting interactions | interacciones que soportan la pertenencia | no | múltiples RIs |
-| condition dependency | condiciones donde emerge la combinación | no | anaerobiosis |
-| evidence integration level | grado de integración de evidencia | no | curated mixed evidence |
-
-## 6. Representación gráfica del objeto
-En redes, se visualiza como módulos donde múltiples reguladores convergen sobre subconjuntos de blancos compartidos o parcialmente compartidos.
-
-## 7. Comments (Notas importantes)
-- “Complejo” describe arquitectura regulatoria, no necesariamente tamaño.
-- La definición depende de evidencia de regulación combinatoria.
-- Puede superponerse con regulones simples de cada regulador componente.
-
-## 8. Ejemplos
-**Ejemplo simple:** un conjunto de genes cuya activación requiere dos reguladores.
-
-**Ejemplo complejo:** red con regulación combinatoria condición-dependiente y efectos opuestos según promotor.
-
-## 9. Conexiones conceptuales
-- **Complex regulon ↔ Regulatory interactions:** integra interacciones de múltiples reguladores.
-- **Complex regulon ↔ Network modules:** refleja control combinatorio en la red.
-- **Complex regulon ↔ Simple regulon:** puede derivarse de su intersección o combinación funcional.
-
-## 10. Errores comunes
-- Pensar que todo regulón con muchos genes es complejo.
-- Ignorar el criterio de combinación regulatoria explícita.
-- Asumir una lógica regulatoria fija para todas las condiciones.
-
-## 11. Referencias
-- Santos-Zavaleta A, et al. 2018. *RegulonDB version 10.0*. BMC Biology. https://doi.org/10.1186/s12915-018-0555-y
-- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- Search overview (repo): ../01_search_browse/search_overview.md
-
-## 13. Historial del concepto
-- Se consolidó para representar regulación combinatoria no reducible a un solo regulador.
-- Permite organizar mejor evidencias de integración de señales en la curación de redes.
-
----
-
-
-# Transcription Factor (Factor de Transcripción)
-
-## 2. Definición simple
-Un **factor de transcripción (TF)** es un regulador que modifica la transcripción al reconocer sitios específicos en el ADN.
-
-## 3. Definición extendida
-En RegulonDB, un **transcription factor** es una entidad reguladora (usualmente proteica, pero no limitada a una sola arquitectura) capaz de activar, reprimir o modular transcripción mediante unión a regiones regulatorias y/o interacción con la maquinaria de transcripción.
-
-Un TF puede presentar diferentes conformaciones funcionales (por ejemplo, libre, unido a efector, complejo activo/inactivo), lo cual determina su función regulatoria en condiciones específicas.
-
-## 4. Acrónimos y sinónimos relevantes
-- TF
-- transcription factor
-- regulador transcripcional
-
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| _id | identificador único en RegulonDB | sí | RDBECOLITFC00001 |
-| name | nombre completo del regulador | sí | DNA-binding transcriptional repressor ExuR |
-| abbreviatedName | nombre corto | sí | ExuR |
-| type | clase de regulador | sí | transcriptionFactor |
-| regulationType | tipo de regulación asociada | no | Transcription-Factor-Binding |
-| conformations | conformaciones asociadas (producto/complejo) | no | active, inactive |
-
-## 6. Representación gráfica del objeto
-En redes de RegulonDB, el TF se representa como nodo regulador conectado con sus blancos y, cuando aplica, con complejos/conformaciones activas.
-
-## 7. Comments (Notas importantes)
-- No toda proteína que une ADN es necesariamente regulador funcional en todas las condiciones.
-- La función puede cambiar según efector, estado oligomérico o complejación.
-- Un TF puede participar en múltiples regulones.
-
-## 8. Ejemplos
-**Ejemplo simple:** represor que bloquea el acceso de RNAP.
-
-**Ejemplo complejo:** regulador dual con activación de algunos promotores y represión de otros.
-
-## 9. Conexiones conceptuales
-- **TF ↔ Binding site:** reconocimiento de secuencia objetivo.
-- **TF ↔ Regulatory interaction:** define función sobre blancos.
-- **TF ↔ Regulon:** determina el conjunto regulado.
-
-## 10. Errores comunes
-- Asumir que TF implica siempre proteína monomérica.
-- Igualar presencia de unión con cambio de expresión.
-- Ignorar la importancia de conformaciones activas.
-
-## 11. Referencias
-- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
-- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- Transcription factor (Wikipedia): https://en.wikipedia.org/wiki/Transcription_factor
-
-## 13. Historial del concepto
-- El concepto clásico enfatizaba activadores/represores proteicos.
-- Se formalizó con mayor precisión sobre estados conformacionales y evidencia funcional.
-
----
-
-# Regulatory Complexes (Complejos Regulatorios)
-
-## 2. Definición simple
-Un **complejo regulatorio** es una entidad formada por uno o más componentes moleculares que actúa como unidad funcional en regulación génica.
-
-## 3. Definición extendida
-En RegulonDB, los **regulatory complexes** incluyen complejos activos o inactivos que pueden estar compuestos por proteínas reguladoras y, en ciertos casos, efectores pequeños. Estos complejos definen el estado funcional real de la regulación (por ejemplo, unión/ausencia de cofactor).
-
-Los complejos reguladores son clave para representar cambio de función entre conformaciones y para conectar señales ambientales con control transcripcional.
-
-## 4. Acrónimos y sinónimos relevantes
-- regulatory complex
-- complex conformation
-- complejo activo/inactivo
-
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| _id | identificador del complejo | sí | RDBECOLIRCC00004 |
-| name | nombre del complejo | no | RhaS-L-rhamnose DNA-binding transcriptional activator |
-| type | estado funcional del complejo | sí | active |
-| products | componentes (productos) del complejo | sí | RDBECOLIPDC03926 |
-| regulatoryContinuants_ids | efectores/cofactores regulatorios asociados | no | RDBECOLICNC00069 |
-| organisms_id | organismo asociado | sí | RDBECOLIORC00001 |
-
-## 6. Representación gráfica del objeto
-En RegulonDB, se representa como estado/conformación del regulador, enlazado a sus componentes y a las interacciones regulatorias correspondientes.
-
-## 7. Comments (Notas importantes)
-- Un mismo regulador puede tener más de un complejo funcional.
-- El estado activo/inactivo depende del contexto molecular.
-- No todo complejo con unión molecular implica regulación efectiva en todas las condiciones.
-
-## 8. Ejemplos
-**Ejemplo simple:** regulador unido a su efector que activa transcripción.
-
-**Ejemplo complejo:** regulador con estados activo e inactivo según metabolito.
-
-## 9. Conexiones conceptuales
-- **Regulatory complex ↔ TF:** representa conformación funcional.
-- **Regulatory complex ↔ Regulatory interaction:** define qué estado ejecuta la interacción.
-- **Regulatory complex ↔ Regulatory continuant:** integra señales químicas.
-
-## 10. Errores comunes
-- Tratar complejo y regulador como idénticos sin estados.
-- Ignorar componentes no proteicos del estado regulatorio.
-- Asumir que solo existe conformación activa.
-
-## 11. Referencias
-- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
-- RegulonDB / EcoCyc curation framework.
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- EcoCyc: https://ecocyc.org
-
-## 13. Historial del concepto
-- Inicialmente se documentaban principalmente reguladores “libres”.
-- Se consolidó la representación explícita de conformaciones y complejos en curación moderna.
-
----
-
-# Sigma Factor (Factor sigma)
-
-## 2. Definición simple
-Un **factor sigma** es la subunidad de especificidad de la ARN polimerasa que dirige el reconocimiento de promotores.
-
-## 3. Definición extendida
-En RegulonDB y en el marco conceptual actualizado, un **sigma factor** forma parte de la holoenzima RNAP (E sigma) y determina subconjuntos de promotores reconocidos en función de condiciones celulares. Bacterias como *E. coli* poseen familias sigma (por ejemplo sigma70 y sigma54) y factores alternativos que redistribuyen programas transcripcionales.
-
-El sigma no solo participa en reconocimiento basal de elementos promotores, también condiciona arquitectura de promotores y respuestas globales.
-
-## 4. Acrónimos y sinónimos relevantes
-- sigma factor
-- sigma
-- factor sigma
-- RpoX (según gen)
-
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| _id | identificador en RegulonDB | sí | RDBECOLISFC00001 |
-| name | nombre completo | sí | RNA polymerase sigma factor FliA |
-| abbreviatedName | nombre corto | sí | sigma28 |
-| genes_id | gen que codifica el sigma | sí | RDBECOLIGNC01323 |
-| synonyms | nombres alternativos | no | RpoF, sigma 28 |
-| organisms_id | organismo asociado | sí | RDBECOLIORC00001 |
-
-## 6. Representación gráfica del objeto
-En diagramas funcionales aparece asociado a RNAP holoenzima y a clases de promotores que reconoce.
-
-## 7. Comments (Notas importantes)
-- Un sigma define programas transcripcionales dependientes de condición.
-- Distintos sigma pueden iniciar en el mismo TSS y definir promotores distintos.
-- La competencia entre sigma afecta expresión global.
-
-## 8. Ejemplos
-**Ejemplo simple:** sigma70 en promotores housekeeping.
-
-**Ejemplo complejo:** sigma alternativos (sigma28, sigma54, sigma38) con regulones especializados.
-
-## 9. Conexiones conceptuales
-- **Sigma factor ↔ Promoter:** reconocimiento de elementos promotores.
-- **Sigma factor ↔ RNAP core:** formación de E sigma.
-- **Sigma factor ↔ Regulon/Sigmulon:** conjuntos de genes bajo su control.
-
-## 10. Errores comunes
-- Considerar sigma como TF clásico de sitio fijo.
-- Asumir que cada promotor tiene un único sigma posible.
-- Ignorar sigma alternativos en respuestas ambientales.
-
-## 11. Referencias
-- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
-- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- Sigma factor (Wikipedia): https://en.wikipedia.org/wiki/Sigma_factor
-
-## 13. Historial del concepto
-- Se pasó de una visión centrada en sigma70 a una visión multsigma dependiente de contexto.
-- La curación moderna distingue familias sigma y su impacto regulatorio específico.
-
----
-
-# GENSOR Unit (GU)
-
-## 2. Definición simple
-Una **GENSOR Unit (GU)** es una unidad conceptual que integra regulación genética y respuesta funcional en red.
-
-## 3. Definición extendida
-En RegulonDB, **GU (GENetic SENsory Response Unit)** conecta un regulador, sus interacciones regulatorias y las consecuencias funcionales aguas abajo (genes, productos y procesos). Sirve para representar cómo una señal se traduce en una respuesta fisiológica coordinada.
-
-La GU no reemplaza entidades básicas (gen, promotor, TU, operón, regulón), sino que las integra en una capa sistémica para interpretación funcional.
-
-## 4. Acrónimos y sinónimos relevantes
-- GU
-- GENSOR Unit
-- Genetic Sensory Response Unit
-
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| name | nombre de la GU | no |  |
-| regulator(s) | regulador(es) centrales | no |  |
-| regulated entities | genes/TUs/operones integrados | no |  |
-| functional outcome | proceso o respuesta asociada | no |  |
-| supporting interactions | interacciones regulatorias vinculadas | no |  |
-| evidence/references | soporte documental | no |  |
-
-## 6. Representación gráfica del objeto
-En RegulonDB, una GU suele representarse como un diagrama funcional que conecta regulación, genes objetivo, rutas y efecto fisiológico.
-
-## 7. Comments (Notas importantes)
-- Se usa para integrar conocimiento curado en una vista funcional.
-- Puede abarcar varios niveles de organización biológica.
-- Su granularidad depende de la disponibilidad de evidencia.
-
-## 8. Ejemplos
-**Ejemplo simple:** GU centrada en un regulador y una ruta metabólica principal.
-
-**Ejemplo complejo:** GU que integra múltiples ramas funcionales y regulación combinatoria.
-
-## 9. Conexiones conceptuales
-- **GU ↔ Regulon:** usa regulones como módulo de entrada.
-- **GU ↔ Metabolic/functional context:** conecta regulación con fenotipo.
-- **GU ≠ Regulon:** regulón es conjunto regulado; GU incluye respuesta funcional.
-
-## 10. Errores comunes
-- Usar GU como sinónimo de regulón.
-- Asumir que toda GU representa una sola vía lineal.
-- Ignorar que es una capa integrativa, no solo transcripcional.
-
-## 11. Referencias
-- RegulonDB documentation and GENSOR framework resources.
-- Mejía-Almonte C, et al. 2020. https://doi.org/10.1038/s41576-020-0254-8
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- Standards in this repo: ../07_technical_reference/standards_ontologies.md
-
-## 13. Historial del concepto
-- Fue introducido para integrar regulación y función en modelos de sistema.
-- Ha evolucionado como recurso visual y conceptual dentro de RegulonDB.
-
----
-
-# sRNA (small RNA / RNA pequeño)
-
-## 2. Definición simple
-Un **sRNA** es un RNA pequeño no codificante que regula la expresión génica, generalmente a nivel postranscripcional.
-
-## 3. Definición extendida
-En RegulonDB, un **sRNA** es una entidad reguladora de tipo RNA (frecuentemente anotada como `small RNA`) que modula estabilidad y/o traducción de mRNAs blanco, muchas veces con ayuda de chaperonas como Hfq. Algunos sRNAs participan también en redes transcripcionales al afectar reguladores.
-
-La curación distingue el sRNA como regulador funcional y no como simple intermediario de expresión.
-
-## 4. Acrónimos y sinónimos relevantes
-- sRNA
-- small RNA
-- small regulatory RNA
-- ncRNA (relacionado, más amplio)
-
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| _id | identificador en RegulonDB | sí | RDBECOLI... |
-| name | nombre del sRNA | sí | CyaR |
-| type | tipo de regulador | sí | small RNA |
-| synonyms | nombres alternativos | no | ryeE |
-| note | descripción funcional curada | no | regula degradación de ompX |
-| confidenceLevel | nivel de confianza curatorial | no | W |
-
-## 6. Representación gráfica del objeto
-En redes regulatorias se representa como nodo RNA regulador conectado a sus genes/transcritos objetivo.
-
-## 7. Comments (Notas importantes)
-- Muchos sRNAs requieren proteínas accesorias (por ejemplo Hfq).
-- Un sRNA puede tener múltiples blancos.
-- Su efecto puede depender de condición y contexto celular.
-
-## 8. Ejemplos
-**Ejemplo simple:** sRNA que reprime traducción de un mRNA de membrana.
-
-**Ejemplo complejo:** sRNA con múltiples blancos y competencia por Hfq.
-
-## 9. Conexiones conceptuales
-- **sRNA ↔ Target mRNA:** regulación postranscripcional.
-- **sRNA ↔ Regulatory network:** puede modular reguladores globales.
-- **sRNA ↔ Product concept:** es producto funcional RNA.
-
-## 10. Errores comunes
-- Tratar todos los RNAs pequeños como equivalentes funcionales.
-- Asumir que su acción siempre es represión.
-- Omitir dependencia de proteínas chaperonas.
-
-## 11. Referencias
-- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
-- RegulonDB curated regulator notes for small RNAs.
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- sRNA (Wikipedia): https://en.wikipedia.org/wiki/Small_RNA
-
-## 13. Historial del concepto
-- Inicialmente se documentaban pocos sRNAs con blancos puntuales.
-- Con evidencia de alto rendimiento y curación continua se expandió su cobertura en redes regulatorias.
-
----
-
-
-# Effector (Efector)
-
-## 2. Definición simple
-Un **efector** es una molécula que modifica la actividad de un regulador al unirse a él, cambiando su estado funcional.
-
-## 3. Definición extendida
-En RegulonDB, un **effector** es típicamente una molécula pequeña (por ejemplo, metabolito, nucleótido o ion) que altera la conformación o la capacidad regulatoria de un factor de transcripción o complejo regulatorio. Su unión puede activar, inhibir o modular afinidad por ADN, especificidad de blanco o función regulatoria final.
-
-El efector no es, por sí mismo, el regulador transcripcional principal; actúa como señal molecular que conecta el estado fisiológico con la respuesta regulatoria.
-
-## 4. Acrónimos y sinónimos relevantes
-- effector
-- coregulator (en algunos contextos)
-- small-molecule effector
-- molécula efectora
-
-## 5. Propiedades mínimas del objeto
-| Propiedad | Descripción | Requerida | Ejemplo |
-|-----------|-------------|-----------|---------|
-| _id | identificador de la molécula en base de datos | sí | RDBECOLICNC00069 |
-| name | nombre del efector | sí | L-rhamnose |
-| type | tipo químico/funcional | sí | metabolite |
-| synonyms | nombres alternativos | no | rhamnose |
-| associated regulator/complex | regulador o complejo modulado | no | RhaS-L-rhamnose |
-| functional effect | efecto regulatorio reportado | no | activation |
-
-## 6. Representación gráfica del objeto
-En RegulonDB, los efectores suelen aparecer asociados a conformaciones regulatorias o complejos (por ejemplo, `Regulator-effector`) que representan estados activos o inactivos.
-
-## 7. Comments (Notas importantes)
-- Un mismo regulador puede responder a distintos efectores.
-- El efecto del efector depende del contexto fisiológico y de concentración.
-- No todo ligando reportado implica cambio regulatorio funcional confirmado.
-
-## 8. Ejemplos
-**Ejemplo simple:** una molécula que activa un regulador al promover su conformación activa.
-
-**Ejemplo complejo:** una molécula que cambia selectivamente función activadora/represora según promotor.
-
-## 9. Conexiones conceptuales
-- **Effector ↔ Regulatory complex:** define estados activo/inactivo de complejos.
-- **Effector ↔ Transcription factor:** modula afinidad por ADN o función regulatoria.
-- **Effector ↔ Regulatory interaction:** condiciona si una interacción ocurre o cambia de signo.
-
-## 10. Errores comunes
-- Confundir efector con regulador principal.
-- Asumir que todo efector siempre activa.
-- Ignorar dependencia de condición experimental para observar efecto.
-
-## 11. Referencias
-- Mejía-Almonte C, et al. 2020. *Redefining fundamental concepts of transcription initiation in bacteria*. https://doi.org/10.1038/s41576-020-0254-8
-- Tierrafría VH, et al. 2022. *RegulonDB 11.0*. https://doi.org/10.1099/mgen.0.000833
-
-## 12. Useful links
-- RegulonDB: https://regulondb.ccg.unam.mx
-- EcoCyc (ligandos/regulación): https://ecocyc.org
-
-## 13. Historial del concepto
-- En definiciones clásicas, el rol del efector se describía de forma implícita dentro de regulación por TFs.
-- En modelos actuales, se explicita su papel como modulador de conformaciones y estado regulatorio.
-
----
+## References
+
+- Mejía-Almonte C, Busby SJW, Wade JT, van Helden J, Arkin AP, Stormo GD, Eilbeck K, Palsson BO, Galagan JE, Collado-Vides J (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet 21:699–714. PMID: 32665585. https://doi.org/10.1038/s41576-020-0254-8
+- Mejía-Almonte C, *et al.* OBAGER: Ontology of Bacterial Gene Regulation (forthcoming).
+- Salgado H, *et al.* (2024) RegulonDB v12.0: a comprehensive resource of transcriptional regulation in *E. coli* K-12. Nucleic Acids Res 52(D1):D255–D264. https://doi.org/10.1093/nar/gkad1072
+- Gama-Castro S, *et al.* (2011) RegulonDB version 7.0. Nucleic Acids Res 39:D98–D105. PMID: 21051347.
+- Maas WK (1964) Studies on the mechanism of repression of arginine biosynthesis in *Escherichia coli*. PMID: 14168690.
+- Jacob F (1966) Genetics of the bacterial cell. Science 152:1470–1478.
+- Balderas-Martínez YI, *et al.* (2013) Predicted gene control circuits for simple cases. PLoS One. https://doi.org/10.1371/journal.pone.0065723
+- Browning DF, Butala M, Busby SJW (2019) Mechanisms of repression and activation by transcription factors at bacterial promoters. J Mol Biol. https://doi.org/10.1016/j.jmb.2019.04.011
+- Abril AG, Rama JLR, Sánchez-Pérez A, Villa TG (2020) Role of the σ factor in the transcription process. Appl Microbiol Biotechnol. https://doi.org/10.1007/s00253-020-10577-0
+- Weiss V, *et al.* (2013) Evidence classification of high-throughput protocols and confidence integration in RegulonDB. Database bas059. https://doi.org/10.1093/database/bas059
+- Lara P, *et al.* (2024) Flexible gold standards for transcription factor regulatory interactions in *Escherichia coli* K-12: architecture of evidence types. Front Genet 15:1353553. https://doi.org/10.3389/fgene.2024.1353553
+- Tierrafría VH, *et al.* (2019) MCO: towards an ontology and unified vocabulary for a framework-based annotation of microbial growth conditions. Bioinformatics 35:856–864. https://doi.org/10.1093/bioinformatics/bty689
+
+<!--
+Figure sources to review before publication (reuse permissions):
+- fig_transcription_initiation.png and fig_tu_operon_schematic.jpg: Mejía-Almonte et al. (2020) Nat Rev Genet (Springer Nature).
+- fig_transcription_process.png: Abril et al. (2020) Appl Microbiol Biotechnol (Springer).
+- fig_ri_mechanisms.jpg: Browning et al. (2019) J Mol Biol (Elsevier).
+- fig_tf_holo_apo.jpg: Balderas-Martínez et al. (2013) PLoS One (CC BY).
+- terminator2.png: derived from "Prokaryotic terminators", Wikimedia Commons (check license).
+- product.png: source to be confirmed.
+- fig_riboswitch_mechanisms.jpg (commented entry): Xu et al. (2023) Synth Syst Biotechnol.
+- Figures from the RegulonDB Drawing Traces Tool and RegulonDB diagrams (gene, promoter, terminator, TU, operon, sites, regulators, GENSOR) are RegulonDB's own.
+-->
+
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

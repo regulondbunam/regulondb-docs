@@ -14,12 +14,12 @@ To provide transparent evidence of operational sustainability for curation, soft
 
 ## Annual Staff Effort by Function
 
-| Function | 2020 | 2021 | 2022 | 2023 | 2024 |
-|---|---:|---:|---:|---:|---:|
-| Leadership and coordination | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
-| Biocuration | 2.0 | 2.0 | 2.0 | 3.0 | 3.0 |
-| Software and infrastructure | 4.65 | 4.65 | 4.65 | 4.65 | 4.65 |
-| **Total FTEs** | **7.65** | **7.65** | **7.65** | **8.65** | **8.65** |
+| Function | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Leadership and coordination | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+| Biocuration | 2.0 | 2.0 | 2.0 | 3.0 | 3.0 | 3.0 | 3.0 |
+| Software and infrastructure | 4.65 | 4.65 | 4.65 | 4.65 | 4.65 | 4.65 | 4.65 |
+| **Total FTEs** | **7.65** | **7.65** | **7.65** | **8.65** | **8.65** | **8.65** | **8.65** |
 
 ## Methodology
 
@@ -34,7 +34,7 @@ The annual total is calculated as the sum of the functional components for each 
 ## Interpretation Notes
 
 - A stable baseline was maintained across 2020-2022.
-- Total effort increased in 2023-2024 due to growth in biocuration capacity.
+- Total effort increased from 2023 onward due to growth in biocuration capacity, and has remained stable through 2026.
 - The distribution reflects a sustained technical and curation backbone for continuous service.
 
 ## Related Pages
@@ -45,5 +45,5 @@ The annual total is calculated as the sum of the functional components for each 
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team

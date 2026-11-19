@@ -1,25 +1,23 @@
 # RegulonDB Funding
 
+## Current Support
 
-The development of RegulonDB is currently funded by:
+RegulonDB is currently supported by the National Autonomous University of Mexico (UNAM) through the Center for Genomic Sciences (CCG). UNAM provides institutional positions for the project leader and three technical staff members, and the institutional setting in which the resource is developed, maintained, and hosted.
 
-- The National Autonomous University of Mexico (UNAM) at the Center for Genomic Sciences.
+## Past Funding
 
-Through the years it has been funded by:
+Over the years, RegulonDB has been funded by:
 
-- The National Autonomous University of Mexico (UNAM) at the Center for Genomic Sciences.  It has also indirectly benefited from  fellowships to students and posdocs supported by UNAM.
+- **National Autonomous University of Mexico (UNAM)**, Center for Genomic Sciences. RegulonDB has also benefited indirectly from UNAM fellowships for students and postdocs.
 
-- The National Institutes of Health (NIH) National Center of General Medical Sciences:  
- 
-   - RegulonDB Development: GM071962,   
-   - RegulonDB Curation: RegulonDB grant GM071962 and EcoCyc grant GM077678.  
-   - Additional NIH grants: GM077678 and 5RO1GM131643.   
+- **National Institutes of Health (NIH)**, National Institute of General Medical Sciences (NIGMS):
+   - RegulonDB development and curation: GM071962.
+   - EcoCyc grant supporting RegulonDB curation: GM077678.
+   - Additional NIH grant: R01GM131643.
 
-- Consejo Nacional de Ciencia y Tecnologia (CONACyT), Mexico (83686 G.I., CB2008-103686-Q, PROINNOVA-134817) and Funding for open access charge: Consejo Nacional de Ciencia y Tecnologia (CONACyT), Mexico (CB2008-103686-Q). RegulonDB has also benefited from fellowships to Ph.D. and posdocs by CONACyT.
-
+- **Consejo Nacional de Ciencia y Tecnología (CONACyT; now SECIHTI), Mexico**: grants 83686 G.I., CB2008-103686-Q and PROINNOVA-134817, including open-access publication charges (CB2008-103686-Q). RegulonDB has also benefited from CONACyT fellowships for Ph.D. students and postdocs.
 
 <br>
-
 
  <table style="border:0px">
   <tr>
@@ -27,6 +25,9 @@ Through the years it has been funded by:
     <th><img src="./assets/img/nihlogo.gif" alt="drawing" width="90"/></th>
     <th><img src="./assets/img/unam_logo.gif" alt="drawing" width="110"/></th>
   </tr>
- </table> 
+ </table>
 
+## Last Review
 
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

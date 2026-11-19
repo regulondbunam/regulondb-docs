@@ -129,3 +129,7 @@ If you have questions or need assistance with the gene search or navigation, ple
 
 📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

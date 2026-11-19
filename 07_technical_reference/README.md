@@ -8,16 +8,13 @@ This section provides public technical reference documentation for interoperabil
 - [Relationships with External Data Resources](db_relationships.md)
 - [Technical Performance](technical_performance.md)
 - [Database Schema Overview](database_schema_overview.md)
-- [Database Collections Index](database_collections_index.md)
-- [Collection: Genes](collection_genes.md)
-- [Collection: Regulators](collection_regulators.md)
-- [Collection: Regulatory Interactions](collection_regulatory_interactions.md)
-- [Collection: Operons](collection_operons.md)
-- [Collection: Promoters](collection_promoters.md)
-- [Collection: Transcription Units](collection_transcription_units.md)
-- [Collection: Evidences](collection_evidences.md)
+- [Data Volume](data_volume.md)
+- [Core Database Collections](core_collections/README.md)
+- [Datamarts (Release Dump)](datamarts/README.md)
 
-For the complete set of collection-level pages (including additional support collections), use the [Database Collections Index](database_collections_index.md).
+For the complete set of collection-level pages, use the [Core Database Collections](core_collections/README.md) index. These pages describe the **core collections** (`regulondbmultigenomic`).
+
+For the collections included in the release download, which the web interface and the GraphQL API read from, see [Datamarts (Release Dump)](datamarts/README.md).
 
 ## Purpose
 
@@ -27,5 +24,5 @@ For the complete set of collection-level pages (including additional support col
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team

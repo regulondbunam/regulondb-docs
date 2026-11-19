@@ -6,14 +6,14 @@ Although operations are primarily based in Mexico, the resource has sustained in
 
 ## International Scientific Role
 
-RegulonDB functions as a reference knowledge base for transcriptional regulation in *Escherichia coli* K-12 and supports researchers across multiple domains ofknowledge and disciplines, including microbiology, systems biology, bioinformatics, and computational biology, with a strong reference as the best mechanistically known gene regulation network in biology.
+RegulonDB functions as a reference knowledge base for transcriptional regulation in *Escherichia coli* K-12 and supports researchers across multiple domains of knowledge and disciplines, including microbiology, systems biology, bioinformatics, and computational biology, with a strong reference as the best mechanistically known gene regulation network in biology.
 
 Its impact extends beyond local use through:
 
 - Broad international citation in scientific literature.
 - Reuse of curated knowledge in external analytical workflows and tools.
 - Continuous use in education, training, and methods benchmarking.
-- Major regulatory network reference used for instance: i) in the assessment for experimental novel methods, ii) for modeling with diverse formal (mathematical, computational, logic..) and predictive methods and pipelines, including inference and artificial intelligence methods, iii) as the place of emergence for new concepts like network motifs or logical gates, iv)for conceptual and ontology novel frameworks, among others.
+- Major regulatory network reference used for instance: i) in the assessment for experimental novel methods, ii) for modeling with diverse formal (mathematical, computational, logic..) and predictive methods and pipelines, including inference and artificial intelligence methods, iii) as the place of emergence for new concepts like network motifs or logical gates, iv) for conceptual and ontology novel frameworks, among others.
 
 ## International Collaboration and Interoperability
 
@@ -26,6 +26,19 @@ Examples include:
 - Alignment with FAIR-oriented documentation and access practices.
 
 These connections support data discoverability, reuse, and integration across platforms.
+
+### Long-standing International Collaborations
+
+- **Barcelona Supercomputing Center (BSC), Spain:** Dr. Salvador Capella-Gutiérrez and Dr. Josep Lluís Gelpí were instrumental in the FAIRification of RegulonDB (RegulonDB v12.0; PMID 37971353).
+- **SRI International, USA (EcoCyc):** shared curation practices and exchange of knowledge with EcoCyc; each RegulonDB release updates the functional annotation and coordinates of genes, and the functional annotation of products, from EcoCyc.
+- **Boston University and Wadsworth Center (New York State Department of Health), USA:** the groups of Dr. James Galagan and Dr. Joseph T. Wade contributed to the high-throughput datasets on transcriptional regulation integrated in RegulonDB (RegulonDB 11.0; PMID 35584008).
+
+### International Registries
+
+RegulonDB is registered in international resources that support its findability and long-term preservation:
+
+- **FAIRsharing**, the registry of data standards, databases, and policies: [doi:10.25504/FAIRsharing.f0awr5](https://fairsharing.org/10.25504/FAIRsharing.f0awr5/).
+- **Zenodo**, where RegulonDB releases are registered with DOIs (for example, RegulonDB v12.0.0: [doi:10.5281/zenodo.8346680](https://doi.org/10.5281/zenodo.8346680)).
 
 ## Funding and Institutional Context
 
@@ -63,5 +76,5 @@ Global relevance is maintained by:
 
 ## Last Review
 
-- Last updated: 2026-04-14
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team

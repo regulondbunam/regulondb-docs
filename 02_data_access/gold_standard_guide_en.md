@@ -59,7 +59,7 @@ The **Confidence Level Calculator Tool** lets users exclude one or more of these
    > **Figure 3.** Entry point to the Browse & Filter tool from the TF-RISet interface.
 
 4. In the interactive table:
-    - Locate column "20) confidenceLevel".
+    - Locate the `confidenceLevel` column.
     - Filter by value "C" (Confirmed).
 
 5. (Optional) Add more filters:
@@ -84,7 +84,7 @@ The **Confidence Level Calculator Tool** lets users exclude one or more of these
 4. Uncheck the evidence types you want to exclude (e.g., **EXP-CHIP-SEQ-MANUAL**).
 5. Click **CONTINUE TO TABLE RESULT**.
 6. In the resulting table:
-    - Filter column "20) confidenceLevel" by "C".
+    - Filter the `confidenceLevel` column by "C".
     - (Optional) Add more filters.
 7. Click the **Download** button to export the data.
 
@@ -96,9 +96,9 @@ Before choosing a tool, consider these guiding questions. The table below presen
 
 | Subset Name               | Tool Used           | Filters Applied                                  | Question Answered                                    |
 |--------------------------|---------------------|--------------------------------------------------|-------------------------------------------------------|
-| Confirmed RIs            | Browse & Filter     | Column 20 = C                                     | Do I want only the highest-confidence interactions?   |
-| Strong + Confirmed       | Browse & Filter + merge | Column 20 = S or C                             | Should I include strong and confirmed RIs too?    |
-| Confirmed excluding ChIP-seq | Confidence Calculator | Uncheck ChIP-seq + Column 20 = C             | Do I want to exclude HT evidence like ChIP-seq?       |
+| Confirmed RIs            | Browse & Filter     | confidenceLevel = C                               | Do I want only the highest-confidence interactions?   |
+| Strong + Confirmed       | Browse & Filter + merge | confidenceLevel = S or C                       | Should I include strong and confirmed RIs too?    |
+| Confirmed excluding ChIP-seq | Confidence Calculator | Uncheck ChIP-seq + confidenceLevel = C       | Do I want to exclude HT evidence like ChIP-seq?       |
 | Classical method RIs     | Browse & Filter     | Use columns 21/22                                 | Do I want only manually curated/classical methods?    |
 | Custom-defined confidence| Confidence Calculator | Customize evidence selection                    | Do I have my own criteria for experimental reliability?|
 
@@ -116,3 +116,7 @@ Before choosing a tool, consider these guiding questions. The table below presen
 
 Lara P, Gama-Castro S, Salgado H, et al. (2024). Flexible gold standards for transcription factor regulatory interactions in *E. coli* K-12: architecture of evidence types. *Front Genet*, 15:1353553. [PMCID: PMC10949920](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10949920/).
 
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

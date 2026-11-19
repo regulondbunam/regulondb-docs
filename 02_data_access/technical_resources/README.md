@@ -4,10 +4,10 @@ This section contains operational guides for users who need programmatic or loca
 
 ## Contents
 
-- [Docker Installation Guide](docker_installation.md)
+- [Docker Installation Guide](../../07_technical_reference/rdb_docker_instance.md)
 - [MongoDB Local Installation Guide](mongodb_installation.md)
-- [Web Services Usage Guide](web_services_usage.md)
-- [Database Collections Structure](database_collections/README.md)
+- [API Access (GraphQL)](../api_access.md)
+- [Core Database Collections (Technical Reference)](../../07_technical_reference/core_collections/README.md)
 
 ## Purpose
 
@@ -17,5 +17,5 @@ This section contains operational guides for users who need programmatic or loca
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team

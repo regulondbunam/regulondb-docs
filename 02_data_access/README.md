@@ -10,13 +10,13 @@ It is intended for researchers, data scientists, and developers who wish to work
 ## 📚 Contents
 
 - **[Dataset Downloads](dataset_downloads.md):** How to download experimental and curated datasets.
+- **[Creating Gold Standard Datasets](gold_standard_guide_en.md):** How to build high-confidence subsets of regulatory interactions with the Browse & Filter and Confidence Level Calculator tools.
 - **[Database Dumps (MongoDB, Docker)](database_dumps.md):** Instructions for downloading and using RegulonDB database snapshots.
-- **[API Access (GraphQL and REST)](api_access.md):** How to query RegulonDB programmatically via web services.
+- **[API Access (GraphQL)](api_access.md):** How to query RegulonDB programmatically through its GraphQL web services.
 - **Technical Resources:**
-  - [Docker Installation Guide](technical_resources/docker_installation.md)
+  - [Docker Installation Guide](../07_technical_reference/rdb_docker_instance.md)
   - [MongoDB Local Installation Guide](technical_resources/mongodb_installation.md)
-  - [Web Services Usage Guide](technical_resources/web_services_usage.md)
-  - [Database Collections Structure](technical_resources/database_collections/README.md)
+  - [Core Database Collections (Technical Reference)](../07_technical_reference/core_collections/README.md)
 
 ---
 
@@ -40,5 +40,9 @@ The purpose of this guide is to:
 
 ---
 
-Thank you for choosing RegulonDB for your research!  
-Feel free to explore our [Tutorials and Videos](../06_tutorials_videos/README.md) for practical demonstrations. 🎥
+Thank you for choosing RegulonDB for your research!
+
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

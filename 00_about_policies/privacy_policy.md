@@ -11,8 +11,10 @@ This privacy policy outlines how RegulonDB collects, uses, and protects personal
 
 We collect the following types of data:
 
-- **Basic user information** (name, institution, and intended use) when users download curated datasets.
 - **Website analytics data**, such as anonymized IP addresses, browser type, visited pages, and duration of visits, through Google Analytics.
+- **Information you send us by email**, such as your name, email address, and the content of your message, when you contact our helpdesk at regulondb@ccg.unam.mx.
+
+RegulonDB does not require registration or personal information to browse, search, or download data.
 
 ## 3. Why We Collect This Information
 
@@ -21,7 +23,7 @@ We use this information to:
 - Understand how the resource is being used in the scientific and educational community.
 - Improve the website and prioritize development based on usage patterns.
 - Report aggregate statistics to funders and stakeholders.
-- Contact users with important updates (if they consent).
+- Answer questions, requests, and issue reports sent to our helpdesk.
 
 ## 4. Data Use and Sharing
 
@@ -39,14 +41,18 @@ Users have the right to:
 
 ## 6. Data Retention
 
-We retain user-submitted information for up to 5 years for reporting purposes. Analytics data is stored according to Google’s default retention policy.
+Information sent to our helpdesk is retained only as long as needed to address the request and to keep a record of user support. Analytics data is stored according to Google’s default retention policy.
 
-## 7. Contact
+## 7. Institutional Framework
+
+RegulonDB is a resource of the National Autonomous University of Mexico (UNAM). The handling of personal data is also subject to UNAM's institutional privacy notices: [Avisos de Privacidad – Secretaría General, UNAM](https://secretariageneral.unam.mx/aviso/).
+
+## 8. Contact
 
 For any questions or concerns about this privacy policy or how your data is handled, please contact:  
 **[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)**
 
 ---
 
-**Last updated:** 2026-02-10  
+**Last updated:** 2026-11-18  
 **Responsible area:** RegulonDB Documentation and Governance Team

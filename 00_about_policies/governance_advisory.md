@@ -32,9 +32,9 @@ The SAB provides external expert guidance on scientific quality, strategic direc
 ### Current Members
 
 - [Dr. Steve Busby](https://research.birmingham.ac.uk/en/persons/steve-busby) (University of Birmingham, UK)
-- [Dr. Jacques van Helden](https://tagc.univ-amu.fr/fr/annuaire/van-helden-jacques) (Aix-Marseille Universite, France)
+- [Dr. Jacques van Helden](https://tagc.univ-amu.fr/fr/annuaire/van-helden-jacques) (Aix-Marseille Université, France)
 - [Dr. James Galagan](https://www.galaganlab.org/) (Boston University, USA)
-- [Dr. Daniela Ledezma Tejeida](https://www.ccg.unam.mx/daniela-elizabeth-ledezma-tejeida/) (Center for Genomic Sciences, Mexico)
+- [Dr. Daniela Ledezma Tejeida](https://www.ccg.unam.mx/daniela-elizabeth-ledezma-tejeida/) (Center for Genomic Sciences, UNAM, Mexico)
 - [Dr. Ernesto Perez Rueda](https://pcyt.unam.mx/index.php/erueda/) (UNAM, Mexico)
 
 ### Core Functions
@@ -46,7 +46,7 @@ The SAB provides external expert guidance on scientific quality, strategic direc
 
 ### Working Modality
 
-- The SAB meets at least twice per year in structured review sessions.
+- The SAB meets at least once per year in a structured review session.
 - Additional ad hoc consultations may be held when needed.
 - Recommendations are reviewed by the RegulonDB leadership and operational teams for implementation planning.
 
@@ -76,5 +76,5 @@ RegulonDB seeks objective, science-driven advisory input. When relevant, potenti
 
 ## Last Review
 
-- Last updated: 2026-02-10
+- Last updated: 2026-11-18
 - Responsible area: RegulonDB Documentation and Governance Team

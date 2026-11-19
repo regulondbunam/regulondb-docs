@@ -25,11 +25,16 @@ You can search using full names or partial matches.
 
 1. Open the RegulonDB homepage.
 2. Enter a query in the **Search Bar** (for example, TF name, synonym, TF ID, or coding gene name).
+
+![Search bar on the RegulonDB homepage with the query AraC](./assets/img/regulon_home_search.png)
+
 3. Click **Search**.
 4. Review categorized results and locate the **Regulon** section.
 5. Click the regulon entry to open the detailed regulon page.
 
 The unified result view may also show related matches in **Gene**, **Operon**, **Sigmulon**, and **GENSOR Unit** categories.
+
+![Search results for AraC grouped by Gene, Operon, Regulon, Sigmulon, and GENSOR Unit](./assets/img/regulon_results.png)
 
 
 
@@ -50,6 +55,8 @@ In the regulon catalog table, you can:
 ## 📄 Information Available on a Regulon Page
 
 When you open a regulon entry, you will find structured sections such as:
+
+![AraC regulon page: network view and tables of regulated genes and operons](./assets/img/regulon_page.png)
 
 ### 🧬 Regulator Section
 
@@ -96,7 +103,7 @@ When you open a regulon entry, you will find structured sections such as:
 | Search Term | Expected Result |
 |:------------|:----------------|
 | `AraC` | Regulon entry controlled by AraC. |
-| `RDBECOLITFC00022` | Direct match to a specific TF/regulon record. |
+| `RDBECOLITFC00220` | Direct match to the AraC TF/regulon record. |
 | `araC` | Regulon associated with the gene encoding AraC. |
 | `XylR` | Regulon controlled by XylR. |
 
@@ -116,3 +123,8 @@ When you open a regulon entry, you will find structured sections such as:
 If you have questions or need assistance with regulon search or navigation, please contact:
 
 📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

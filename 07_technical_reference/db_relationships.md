@@ -1,6 +1,8 @@
 # External Database Relationships in RegulonDB
 
-This document summarizes how **RegulonDB** connects with other biodata resources through curated hyperlinks and data dependencies, based on visual evidence from several internal web pages.
+This document summarizes how **RegulonDB** connects with other biodata resources through cross-references, hyperlinks, and data dependencies, with examples from RegulonDB web pages.
+
+In release 14.5.1, RegulonDB objects have **32,475 cross-references** to external records and **132,921 links** to external database records (EcoCyc 59,395; RefSeq 8,943; ASAP 4,458; EcoliWiki 4,433; UniProt 4,407; other sources 51,285). See [Data Volume](data_volume.md).
 
 <br>
 
@@ -15,7 +17,7 @@ Each gene entry in RegulonDB includes a panel of outbound links to major protein
 - **RefSeq** (e.g., `NP_414606`): for nucleotide and protein sequences
 - **ECOLIWIKI**, **EcoCyc**, **MODBASE**, **PFAM**, **SMART**, **InterPro**, **PROSITE**, **DIP**, **PDB**, and others
 
-These links are manually curated to ensure each gene or protein record in RegulonDB remains synchronized with corresponding entities across specialized databases.
+These links are updated at each release, together with the gene and product annotation imported from EcoCyc, so that each gene or protein record in RegulonDB stays synchronized with the corresponding entries in specialized databases.
 
 
 <br>
@@ -77,9 +79,7 @@ Most curated biological objects in RegulonDB (operons, promoters, regulons, regu
 
 ## 5. Community Engagement and Collaboration
 
-If your database or resource contains regulatory information that could be linked from RegulonDB, we welcome collaboration. Please contact us through the official **RegulonDB contact form** or email to suggest integration:
-
-👉 https://regulondb.ccg.unam.mx/manual/aboutUs/contact-us
+If your database or resource contains regulatory information that could be linked from RegulonDB, we welcome collaboration. Please contact us to suggest an integration: see [Contact Us](../00_about_policies/contact_us.md).
 
 We are committed to expanding our interoperability network and enriching the regulatory landscape in microbial genomics.
 
@@ -91,6 +91,11 @@ We are committed to expanding our interoperability network and enriching the reg
 RegulonDB is deeply integrated into the global network of biological databases. It:
 - Reuses curated knowledge from authoritative external resources
 - Provides persistent links back to those sources
-- Offers its own structured, curated content to be reused in platforms like **EcoCyc**, **UniProt**, **GO**, and **GEO**
+- Offers its own structured, curated content for reuse by other resources, such as **EcoCyc** and **FunCoup**, and by more than 70 databases that cite it (see [Impact Stories](../05_releases_updates/impact_stories.md) and [Research Usage](../05_releases_updates/research_usage.md))
 
 These relationships support **FAIR data principles**, enhance **interoperability**, and position RegulonDB as a reliable node in the ecosystem of biodata resources.
+
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

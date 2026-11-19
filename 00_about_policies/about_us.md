@@ -1,7 +1,8 @@
-
 # What is RegulonDB?
 
-**RegulonDB** is a comprehensive and expertly curated knowledge base dedicated to the **transcriptional regulatory network of *Escherichia coli* K-12**, a model organism in molecular biology and systems biology. It has been developed and maintained by the *Program of Computational Genomics* at the **Centro de Ciencias Genómicas (UNAM)** for over three decades.
+**RegulonDB** is a comprehensive and expertly curated knowledge base dedicated to the **transcriptional regulatory network of *Escherichia coli* K-12**, a model organism in molecular biology and systems biology. It has been developed and maintained by the *Program of Computational Genomics* at the **Centro de Ciencias Genómicas (UNAM)** for over 25 years (since 1998).
+
+The current release is **RegulonDB v14.5.1** (November 11, 2026). The most recent reference publication is **RegulonDB v12.0** (Salgado *et al.*, *Nucleic Acids Research*, 2024; [doi:10.1093/nar/gkad1072](https://doi.org/10.1093/nar/gkad1072)). See [How to Cite RegulonDB](how_to_cite.md).
 
 <br>
 
@@ -18,11 +19,20 @@ Its **mission is to organize and disseminate high-quality regulatory knowledge**
 
 <br>
 
+## Resource Type
+
+In terms of the Global Core Biodata Resource (GCBR) criteria, RegulonDB is:
+
+- **Knowledge base: YES.** RegulonDB is an expert-curated knowledge base. Its content is extracted, interpreted, and integrated by biocurators from peer-reviewed literature and selected high-throughput datasets.
+- **Deposition database: NO.** RegulonDB is not a public submission repository for primary data. Datasets and contributions from collaborators are incorporated only after expert curation.
+
+<br>
+
 ## What It Contains
 
 RegulonDB integrates detailed information on:
 
-- **Genes, operons, transcription units, operons and regulons**, organized into functional transcriptional modules
+- **Genes, operons, transcription units and regulons**, organized into functional transcriptional modules
 
 - **Promoters and transcription start sites (TSSs)**, annotated with experimental evidence, and their associated sigma factors
 
@@ -53,7 +63,7 @@ The database distinguishes between classical and high-throughput (HT) data, inte
 
 ## Scientific and Technological Impact
 
-With over **2,600 citations** in **more than 450 journals**, RegulonDB is a cornerstone in:
+With over **2,900 citations** to its database publications (Scopus, October 2026), and citing documents published in **more than 600 journals** (see [Research Usage](../05_releases_updates/research_usage.md)), RegulonDB is a cornerstone in:
 
 - Systems biology and network inference  
 - Gene expression and promoter analysis  
@@ -65,7 +75,7 @@ With over **2,600 citations** in **more than 450 journals**, RegulonDB is a corn
 
 It is used globally by researchers in **microbiology**, **bioinformatics**, **computational biology**, **data science**, and **education**, and it plays a central role in validating tools, training models, and benchmarking pipelines.
 
-In recent years its been widely used as the source for reliable knowledge **to assess novel HT methods**. Users can filter the desired methodological sources, for instance excluding all HT- methodologies, or specfic ones-, apply the confidence calculator, and get the high and low confidence level sets. This prevents circularity in the testing vs validating methods.
+In recent years it has been widely used as the source for reliable knowledge **to assess novel HT methods**. Users can filter the desired methodological sources, for instance excluding all HT methodologies or specific ones, apply the confidence calculator, and get the high and low confidence level sets. This prevents circularity in the testing vs validating methods.
 
 <br>
 
@@ -82,7 +92,7 @@ RegulonDB provides:
 
 The database is maintained with frequent updates and remains aligned with community standards.
 
+## Last Review
 
-
-
-
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

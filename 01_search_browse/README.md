@@ -1,8 +1,8 @@
-# 🔎 Navigation and Data Download Guide
+# 🔎 Search and Browse Guide
 
-Welcome to the **Navigation and Data Download Guide** of RegulonDB.
+Welcome to the **Search and Browse Guide** of RegulonDB.
 
-This section provides detailed instructions on how to search for biological entities, explore regulatory relationships, navigate collections, and download curated datasets directly from the RegulonDB platform.
+This section provides detailed instructions on how to search for biological entities, explore regulatory relationships, and navigate the RegulonDB catalogs. To download datasets, see [Data Access](../02_data_access/README.md).
 
 Whether you are a new visitor, a researcher, or a student, this guide will help you effectively find and retrieve the information you need.
 
@@ -10,11 +10,11 @@ Whether you are a new visitor, a researcher, or a student, this guide will help 
 
 ## 📚 Contents
 
+- **[Overview of Search and Navigation](search_overview.md):** Searchable objects, search functionalities, and example use cases.
+- **[Using Logical Operators](logical_operators_search.md):** How to combine terms with AND, OR, NOT and search exact phrases.
 - **[Gene Search](gene_search.md):** How to search for genes and interpret results.
+- **[Operon Search](operon_search.md):** How to search operons and explore their transcription units, promoters, regulation, and terminators.
 - **[Regulon Search](regulon_search.md):** How to search regulons by TF name, synonyms, TF ID, or coding gene.
-- **[Catalog Navigation](catalog_navigation.md):** Exploring RegulonDB entities (Genes, Operons, Regulons, Sigmulons, GENSOR Units).
-- **[Special Collections](collections.md):** Accessing curated High-Throughput and Coexpression datasets.
-- **[Ontologies - Microbial Condition Ontology (MCO)](ontologies_mco.md):** Using controlled vocabularies to describe experimental conditions.
 
 
 
@@ -23,7 +23,7 @@ Whether you are a new visitor, a researcher, or a student, this guide will help 
 The purpose of this guide is to:
 - Facilitate efficient access to RegulonDB's core biological data.
 - Enable users to browse curated relationships such as transcriptional regulation networks.
-- Support reproducibility by allowing users to download ready-to-use datasets.
+- Support reproducibility by allowing users to export result tables (for example, from regulon pages) for further analysis.
 - Promote good practices in data discovery and retrieval according to FAIR principles.
 
 
@@ -37,4 +37,9 @@ The purpose of this guide is to:
 
 
 Thank you for exploring RegulonDB!  
-If you need further assistance, visit our [Help and FAQs](../00_about_policies/contact_us.md) page. 🌟
+If you need further assistance, visit our [Contact Us](../00_about_policies/contact_us.md) page. 🌟
+
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

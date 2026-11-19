@@ -12,8 +12,8 @@ RegulonDB uses a **unified search system** where operons can be queried using di
 
 | Field             | Description |
 |:------------------|:------------|
-| **Operon Name**      | Commonly accepted name (e.g., `lac`, `araBAD`). |
-| **RegulonDB ID**     | Unique operon identifier (e.g., `RDBECOLIOPC03373`). |
+| **Operon Name**      | Commonly accepted name (e.g., `lacZYA`, `araBAD`). |
+| **RegulonDB ID**     | Unique operon identifier (e.g., `RDBECOLIOPC02880` for `lacZYA`). |
 | **Promoter Name**    | Associated promoter names (e.g., `lacZp1`, `araBp`). |
 | **Transcription Unit Name** | TU name in the format: `genes - promoter` (e.g., `lacZYA - lacZp1`). |
 | **Gene Name**        | Any gene within the operon (e.g., `lacZ`, `araB`). |
@@ -40,7 +40,7 @@ You may use exact matches or combine fields using logical operators.
 
 ## 📋 Information Available on an Operon Page
 
-When selecting an operon from the results (e.g., `lac`), you will find detailed, structured sections:
+When selecting an operon from the results (e.g., `lacZYA`), you will find detailed, structured sections:
 
 ### 🧬 Basic Operon Information
 
@@ -105,19 +105,26 @@ All references supporting the annotations of the operon, promoters, and regulato
 
 | Search Term                  | Expected Result                              |
 |-----------------------------|----------------------------------------------|
-| `lac operon`                | Full lac operon entry                        |
-| `lacZp1 operon`             | Operon associated with promoter `lacZp1`     |
-| `lacZYA - lacZp3 operon`    | Operon from TU `lacZYA - lacZp3`             |
-| `lacA operon`               | Operon containing gene `lacA`                |
-| `RDBECOLIOPC03373`          | Specific operon by RegulonDB ID              |
-| `_operon_`                  | Full list of operons in the catalog          |
+| `lac`                       | lacZYA operon entry                          |
+| `lacZp1`                    | Operon associated with promoter `lacZp1`     |
+| `"lacZYA - lacZp3"`         | Operon from TU `lacZYA - lacZp3`             |
+| `lacA`                      | Operon containing gene `lacA`                |
+| `RDBECOLIOPC02880`          | Specific operon by RegulonDB ID (`lacZYA`)   |
+
+Because words without an operator are combined with `OR`, avoid adding the word *operon* to your query; it would also return every object that mentions "operon". See [Using Logical Operators](logical_operators_search.md).
+
+## 📋 Operon Catalog
+
+To see the full list of operons as a table, click the **Operon** link below the search bar on the RegulonDB homepage.
+
+![Links to the Genes, Operon, Regulon, Sigmulon, GENSOR Unit, and High Throughput catalogs below the search bar](./assets/img/home_catalog_links.png)
 
 ---
 
 ## 🛠️ Tips for Effective Operon Searches
 
 - If you're unsure of the exact name, try searching by associated gene or promoter.
-- You can explore the **Operon Catalog** to browse all available entries.
+- Use the **Operon** link below the search bar to browse the full operon catalog.
 - Combine keywords with logical operators to refine your query.
 
 ---
@@ -127,3 +134,8 @@ All references supporting the annotations of the operon, promoters, and regulato
 If you have questions or need assistance with the operon search or navigation, please contact:
 
 📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+
+## Last Review
+
+- Last updated: 2026-11-18
+- Responsible area: RegulonDB Documentation and Governance Team

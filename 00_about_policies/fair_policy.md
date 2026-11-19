@@ -1,6 +1,6 @@
 # 📖 FAIR Data Policy
 
-_Last updated: 2026-02-10_
+_Last updated: 2026-11-18_
 
 ---
 
@@ -27,12 +27,12 @@ We ensure that all data and metadata managed by RegulonDB adhere to the followin
 - **Accessible:**
   - Datasets, APIs, and database dumps are openly available through our [Data Access Portal](../02_data_access/README.md).
   - No authentication is required for basic data access.
-  - Programmatic access is enabled via RESTful and GraphQL APIs.
+  - Programmatic access is enabled via a GraphQL API.
 
 - **Interoperable:**
   - Data is structured using standard ontologies such as the [Microbial Condition Ontology (MCO)](../01_search_browse/ontologies_mco.md).
   - Metadata and schemas are designed for compatibility with external systems (e.g., BioCyc, EcoCyc, UniProt).
-  - Common data formats (JSON, CSV, MongoDB dumps) are provided.
+  - Common data formats (TSV, CSV, JSON, and MongoDB dumps) are provided.
 
 - **Reusable:**
   - Clear licensing terms are published ([License](license.md)).
@@ -46,11 +46,11 @@ We ensure that all data and metadata managed by RegulonDB adhere to the followin
 We offer access to RegulonDB content via:
 
 - **Web Portal:** Interactive search, browse, and visualization.
-- **API Access:** GraphQL and REST endpoints for programmatic querying.
-- **Downloadable Datasets:** CSV, JSON files, and full MongoDB database dumps.
+- **API Access:** a GraphQL endpoint for programmatic querying.
+- **Downloadable Datasets:** TSV, CSV, and JSON files, and full MongoDB database dumps.
 - **Dockerized Instances:** For local deployment and offline analysis.
 
-All resources are versioned and publicly released with detailed changelogs.
+All resources are versioned and publicly released, with changes documented in the [Release Notes](../05_releases_updates/release_notes.md).
 
 ---
 
@@ -66,9 +66,9 @@ RegulonDB metadata complies with:
 
 ## 5. Reuse and Licensing
 
-Unless otherwise specified, RegulonDB data is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+Unless otherwise specified, RegulonDB data is distributed under a [Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). Commercial use requires a separate agreement (see [License](license.md)).
 
-Users are encouraged to reuse, adapt, and integrate the data, provided appropriate credit is given to RegulonDB and its contributors.
+Users are encouraged to reuse, adapt, and integrate the data for non-commercial purposes, provided appropriate credit is given to RegulonDB and its contributors.
 
 Proper citation guidelines are provided in our [How to Cite](how_to_cite.md) page.
 
