@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "{{ '/' | absolute_url }}#documentation",
+  "name": "RegulonDB Documentation",
+  "description": "Documentation of RegulonDB: policies, search and browse, data access, glossary, evidence classification, releases, and technical reference.",
+  "url": "{{ '/' | absolute_url }}",{% if site.doi != "" %}
+  "identifier": "https://doi.org/{{ site.doi }}",{% endif %}
+  "isBasedOn": "https://github.com/regulondbunam/regulondb-docs",
+  "version": "{{ site.rdb_version }}",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
+  "keywords": ["RegulonDB", "transcriptional regulation", "Escherichia coli K-12", "gene regulatory network", "documentation"],
+  "author": {
+    "@type": "Organization",
+    "name": "RegulonDB Team",
+    "url": "{{ '/00_about_policies/credits.html' | absolute_url }}",
+    "email": "regulondb@ccg.unam.mx"
+  },
+  "maintainer": {
+    "@type": "Organization",
+    "name": "RegulonDB Team",
+    "email": "regulondb@ccg.unam.mx"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México",
+    "url": "https://www.ccg.unam.mx/"
+  },
+  "about": {
+    "@type": "DataCatalog",
+    "@id": "https://regulondb.ccg.unam.mx/#catalog",
+    "name": "RegulonDB",
+    "url": "https://regulondb.ccg.unam.mx/"
+  },
+  "citation": "https://doi.org/10.1093/nar/gkad1072"
+}

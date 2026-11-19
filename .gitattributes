@@ -1,0 +1,11 @@
+# Material that is not part of the published documentation.
+# export-ignore keeps it out of the release archives deposited in Zenodo.
+context/ export-ignore
+docs/ export-ignore
+to_delete/ export-ignore
+style_sheet/ export-ignore
+03_tools_visualizations/ export-ignore
+06_tutorials_videos/ export-ignore
+04_curation/glossary/glossary_v1.md export-ignore
+04_curation/glossary/glossary_v2.md export-ignore
+.DS_Store export-ignore

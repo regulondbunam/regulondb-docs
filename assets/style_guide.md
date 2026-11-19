@@ -68,6 +68,8 @@ End each page with a list of related pages, before the review block:
 
 ## For the Web Team
 
+The GitHub Pages site of this repository already applies these rules in `_layouts/default.html`; the RegulonDB web application can follow the same logic.
+
 The viewer converts markdown to HTML and then applies [`assets/css/regulondb-docs.css`](css/regulondb-docs.css).
 
 ### Palette
@@ -98,7 +100,7 @@ The viewer converts markdown to HTML and then applies [`assets/css/regulondb-doc
    <div class="rdb-doc-body"> … rest of the page … </div>
    ```
 
-3. **Important notes.** Add the class `rdb-important` to block quotes that start with `<strong>Important.</strong>`.
+3. **Important notes.** Add the class `rdb-important` to the paragraph that starts with `<strong>Important.</strong>`; the style sheet colors its block quote.
 4. **Related content.** Wrap the `h2` "Related Content" and the list that follows it in `<div class="rdb-related">`.
 5. Pages without an icon are shown with the same style, without the header.
 

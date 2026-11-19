@@ -1,0 +1,85 @@
+{%- comment -%}
+  RegulonDB documentation layout (GitHub Pages).
+  - Inserts the JSON-LD description of the documentation (_includes/regulondb_documentation.jsonld).
+  - Applies assets/css/regulondb-docs.css.
+  - Builds the page header from the section icon and the first title, and the
+    "Related Content" box, as described in assets/style_guide.md.
+{%- endcomment -%}
+{%- assign dir_parts = page.dir | split: '/' -%}
+{%- assign top = dir_parts[1] -%}
+{%- assign section = site.rdb_sections[top] | default: "RegulonDB Documentation" -%}
+{%- assign has_header = false -%}
+{%- assign body = content | replace: '<p><strong>Important.</strong>', '<p class="rdb-important"><strong>Important.</strong>' -%}
+{%- if body contains '</h1>' -%}
+  {%- assign h_parts = body | split: '</h1>' -%}
+  {%- assign head_html = h_parts | first -%}
+  {%- if head_html contains 'assets/icons/' -%}
+    {%- assign has_header = true -%}
+    {%- assign hp = head_html | split: '<h1' -%}
+    {%- assign icon_html = hp | first -%}
+    {%- assign h1_html = '<h1' | append: hp[1] | append: '</h1>' -%}
+    {%- assign page_title = h1_html | strip_html | strip -%}
+    {%- assign body = body | remove_first: head_html | remove_first: '</h1>' -%}
+  {%- else -%}
+    {%- assign page_title = head_html | split: '<h1' | last | prepend: '<h1' | strip_html | strip -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if body contains '<h2 id="related-content">' -%}
+  {%- assign r_parts = body | split: '<h2 id="related-content">' -%}
+  {%- assign r_before = r_parts | first -%}
+  {%- assign r_after = body | remove_first: r_before | remove_first: '<h2 id="related-content">' -%}
+  {%- assign r_box = r_after | split: '<h2' | first -%}
+  {%- assign r_tail = r_after | remove_first: r_box -%}
+  {%- assign body = r_before | append: '<div class="rdb-related"><h2 id="related-content">' | append: r_box | append: '</div>' | append: r_tail -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page_title and page_title != "" %}{{ page_title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description | strip_newlines | strip }}">
+  <meta name="theme-color" content="#32617D">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">
+  <link rel="describedby" type="application/ld+json" href="{{ '/assets/metadata/regulondb_documentation.jsonld' | relative_url }}">
+  {%- if site.doi != "" %}
+  <link rel="cite-as" href="https://doi.org/{{ site.doi }}">
+  {%- endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/regulondb-docs.css' | relative_url }}">
+  <script type="application/ld+json">
+{% include regulondb_documentation.jsonld %}
+  </script>
+</head>
+<body>
+  <div class="rdb-topbar">
+    <a class="rdb-topbar-home" href="{{ '/' | relative_url }}">RegulonDB Documentation</a>
+    <nav>
+      <a href="https://regulondb.ccg.unam.mx/">RegulonDB</a>
+      <a href="https://github.com/regulondbunam/regulondb-docs">GitHub</a>
+    </nav>
+  </div>
+  <article class="rdb-doc">
+    {%- if has_header %}
+    <header class="rdb-doc-header">
+      {{ icon_html }}
+      <div>
+        <div class="rdb-eyebrow">{{ section }}</div>
+        {{ h1_html }}
+      </div>
+    </header>
+    {%- endif %}
+    <div class="rdb-doc-body">
+{{ body }}
+    </div>
+  </article>
+  <footer class="rdb-footer">
+    RegulonDB Team, Centro de Ciencias Genómicas, UNAM ·
+    Version {{ site.rdb_version }} ·
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> ·
+    <a href="{{ '/00_about_policies/credits.html' | relative_url }}">Credits</a> ·
+    <a href="{{ '/00_about_policies/how_to_cite.html' | relative_url }}">How to cite</a>{% if site.doi != "" %} ·
+    <a href="https://doi.org/{{ site.doi }}">doi:{{ site.doi }}</a>{% endif %}
+  </footer>
+</body>
+</html>

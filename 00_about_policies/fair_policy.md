@@ -39,7 +39,7 @@ We ensure that all data and metadata managed by RegulonDB adhere to the followin
 - **Reusable:**
   - Clear licensing terms are published ([License](license.md)).
   - Full provenance is documented, including sources and evidence codes.
-  - Detailed curation protocols are available in the [Curation Manual](../04_curation/README.md).
+  - Evidence types and confidence levels are described in [Evidence Classification](../04_curation/evidenceclassification.md), and the concepts in the [RegulonDB Glossary](../04_curation/glossary/glossary.md).
 
 ---
 

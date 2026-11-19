@@ -1,0 +1,36 @@
+{
+  "title": "RegulonDB Documentation",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "description": "<p>Documentation of RegulonDB, the database on transcriptional regulation in <i>Escherichia coli</i> K-12: policies, search and browse, data access, glossary, evidence classification, releases, and technical reference.</p><p>Each version corresponds to a RegulonDB release; release notes are available at <a href=\"https://regulondb.ccg.unam.mx/releasesNote\">https://regulondb.ccg.unam.mx/releasesNote</a>. The people who contribute to RegulonDB are listed at <a href=\"https://regulondbunam.github.io/regulondb-docs/00_about_policies/credits.html\">Credits</a>.</p>",
+  "creators": [
+    {
+      "name": "RegulonDB Team",
+      "affiliation": "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-nc-4.0",
+  "language": "eng",
+  "version": "14.5.1",
+  "keywords": [
+    "RegulonDB",
+    "transcriptional regulation",
+    "Escherichia coli K-12",
+    "gene regulatory network",
+    "documentation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://regulondb.ccg.unam.mx/",
+      "relation": "documents",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.1093/nar/gkad1072",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ]
+}

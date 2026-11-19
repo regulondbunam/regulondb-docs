@@ -132,3 +132,34 @@
   font-weight: 400;
 }
 .rdb-related ul { list-style: none; margin: 0; padding: 6px 14px 10px; line-height: 2; }
+
+/* Notes marked as Important: the viewer adds class "rdb-important" to the
+   paragraph that starts with <strong>Important.</strong> */
+.rdb-doc blockquote:has(> p.rdb-important) { border-left-color: var(--rdb-red); background: #FBEEEB; }
+
+/* Header details */
+.rdb-doc-header p { margin: 0; }
+
+/* Page frame used by the GitHub Pages layout (_layouts/default.html) */
+body { margin: 0; }
+.rdb-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--rdb-blue);
+  padding: 12px 40px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+.rdb-topbar a { color: #FFFFFF; text-decoration: none; }
+.rdb-topbar .rdb-topbar-home { font-weight: 600; }
+.rdb-topbar nav a { margin-left: 20px; }
+.rdb-footer {
+  border-top: 4px solid var(--rdb-blue);
+  padding: 16px 40px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: var(--rdb-gray-600);
+  text-align: center;
+}
+.rdb-footer a { color: var(--rdb-blue); }

@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: >-
+  If you use the RegulonDB documentation, please cite it as below.
+  To cite RegulonDB data, cite the reference publication listed under references.
+title: RegulonDB Documentation
+abstract: >-
+  Documentation of RegulonDB, the database on transcriptional regulation in
+  Escherichia coli K-12: policies, search and browse, data access, glossary,
+  evidence classification, releases, and technical reference.
+authors:
+  - name: RegulonDB Team
+    address: Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México
+    city: Cuernavaca
+    country: MX
+    email: regulondb@ccg.unam.mx
+    website: https://regulondbunam.github.io/regulondb-docs/00_about_policies/credits.html
+version: 14.5.1
+date-released: 2026-11-19
+license: CC-BY-NC-4.0
+url: https://regulondbunam.github.io/regulondb-docs/
+repository-code: https://github.com/regulondbunam/regulondb-docs
+keywords:
+  - RegulonDB
+  - transcriptional regulation
+  - Escherichia coli K-12
+  - gene regulatory network
+  - documentation
+references:
+  - type: article
+    title: >-
+      RegulonDB v12.0: a comprehensive resource of transcriptional
+      regulation in E. coli K-12
+    authors:
+      - family-names: Salgado
+        given-names: Heladia
+      - family-names: Gama-Castro
+        given-names: Socorro
+      - family-names: Lara
+        given-names: Paloma
+      - name: et al.
+    journal: Nucleic Acids Research
+    volume: 52
+    issue: D1
+    start: D255
+    end: D264
+    year: 2024
+    doi: 10.1093/nar/gkad1072

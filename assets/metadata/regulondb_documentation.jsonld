@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /assets/metadata/regulondb_documentation.jsonld
+---
+{% include regulondb_documentation.jsonld %}

@@ -1,0 +1,76 @@
+# GitHub Pages configuration for the RegulonDB documentation.
+# The site is published at https://regulondbunam.github.io/regulondb-docs/
+# The RegulonDB web application keeps reading the markdown files through docs.config.json.
+
+title: RegulonDB Documentation
+description: >-
+  Documentation of RegulonDB, the database on transcriptional regulation in
+  Escherichia coli K-12.
+url: "https://regulondbunam.github.io"
+baseurl: "/regulondb-docs"
+lang: en
+
+# Release of RegulonDB documented by this version (see https://regulondb.ccg.unam.mx/releasesNote)
+rdb_version: "14.5.1"
+# Zenodo concept DOI, without the https://doi.org/ prefix. Fill in after the first Zenodo release.
+doi: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+relative_links:
+  enabled: true
+  collections: false
+
+readme_index:
+  enabled: true
+  with_frontmatter: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Section names shown above the page title (folder -> name).
+rdb_sections:
+  00_about_policies: About and Policies
+  01_search_browse: Search and Browse
+  02_data_access: Data Access
+  04_curation: Curation
+  05_releases_updates: Releases and Updates
+  07_technical_reference: Technical Reference
+
+# Material that is not part of the published documentation.
+exclude:
+  - context/
+  - docs/
+  - to_delete/
+  - style_sheet/
+  - 03_tools_visualizations/
+  - 06_tutorials_videos/
+  - 04_curation/README.md
+  - 04_curation/manual_index.md
+  - 04_curation/appendices.md
+  - 04_curation/classical_curation.md
+  - 04_curation/curation_tools.md
+  - 04_curation/curation_workflow.md
+  - 04_curation/ht_data_curation.md
+  - 04_curation/mco_usage_curation.md
+  - 04_curation/quality_control.md
+  - 04_curation/glossary/glossary_v1.md
+  - 04_curation/glossary/glossary_v2.md
+  - SUMMARY.md
+  - docs.config.json
+  - CODE_OF_CONDUCT.md
+  - LICENSE
+  - CITATION.cff
+  - .zenodo.json
