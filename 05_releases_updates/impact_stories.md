@@ -1,3 +1,5 @@
+<img src="../assets/icons/releases.svg" alt="" width="48">
+
 # Impact Stories
 
 This page summarizes public impact cases that illustrate how RegulonDB accelerates research, enables reproducible analysis, and supports the broader life sciences community.
@@ -104,8 +106,7 @@ RegulonDB provides curated binding sites and position-specific scoring matrices 
 - This page reports public impact narratives based on citable references and reproducible resource usage patterns.
 - Quantitative citation metrics are documented separately when available in dedicated usage reports.
 
-## Related Pages
-
+## Related Content
 - [How to Cite RegulonDB](../00_about_policies/how_to_cite.md)
 - [Version History](version_history.md)
 - [Release Notes](release_notes.md)

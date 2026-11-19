@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Collection: Regulatory Complexes (`regulatoryComplexes`)
 
 - **Database:** `regulondbmultigenomic` (core collections)
@@ -72,8 +74,7 @@ Data types, required fields, and identifier patterns come from the JSON Schema u
 - `products[].products_id` -> products collection
 - `organisms_id` -> organisms collection
 
-## Related Pages
-
+## Related Content
 - [Core Database Collections](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [Data Volume](../data_volume.md)

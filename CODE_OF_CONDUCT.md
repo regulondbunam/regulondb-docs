@@ -1,4 +1,4 @@
-# 💊 Code of Conduct for RegulonDB Documentation
+# Code of Conduct for RegulonDB Documentation
 
 
 ## 1. Purpose
@@ -13,19 +13,19 @@ We are committed to providing a collaborative environment where everyone can con
 
 We expect all participants to:
 
-- ✅ Be respectful and considerate.
-- ✅ Value diverse opinions and experiences.
-- ✅ Use welcoming and inclusive language.
-- ✅ Provide constructive feedback.
-- ✅ Acknowledge and respect the work of others.
-- ✅ Gracefully accept criticism.
+- Be respectful and considerate.
+- Value diverse opinions and experiences.
+- Use welcoming and inclusive language.
+- Provide constructive feedback.
+- Acknowledge and respect the work of others.
+- Gracefully accept criticism.
 
 Behavior that will not be tolerated:
 
-- ❌ Harassment, intimidation, or discrimination.
-- ❌ Personal attacks, insults, or derogatory comments.
-- ❌ Unwelcome sexual attention or advances.
-- ❌ Disruptive behavior that impedes collaboration.
+- Harassment, intimidation, or discrimination.
+- Personal attacks, insults, or derogatory comments.
+- Unwelcome sexual attention or advances.
+- Disruptive behavior that impedes collaboration.
 
 ---
 
@@ -43,7 +43,7 @@ This Code of Conduct applies to all spaces managed by the RegulonDB Documentatio
 
 If you experience or witness unacceptable behavior, please report it by contacting the RegulonDB team at:
 
-📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
 All reports will be handled confidentially and reviewed promptly.
 
@@ -63,6 +63,6 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 ---
 
-Thank you for helping us build a respectful and collaborative community! 🌟
+Thank you for helping us build a respectful and collaborative community!
 
 

@@ -1,4 +1,6 @@
-# 🧬 Operon Search Guide
+<img src="../assets/icons/search.svg" alt="" width="48">
+
+# Operon Search Guide
 
 Welcome to the **Operon Search Guide** of RegulonDB.
 
@@ -6,7 +8,7 @@ This guide explains how to retrieve operon-related information using the **globa
 
 
 
-## 📚 How Operon Search Works
+## How Operon Search Works
 
 RegulonDB uses a **unified search system** where operons can be queried using different fields. When a term matches an operon (by name, ID, associated gene, promoter, or transcription unit), the result will be listed under the **Operon** category.
 
@@ -20,11 +22,11 @@ RegulonDB uses a **unified search system** where operons can be queried using di
 
 You may use exact matches or combine fields using logical operators.
 
-➡️ See [Using Logical Operators](logical_operators_search.md) for advanced search techniques.
+See [Using Logical Operators](logical_operators_search.md) for advanced search techniques.
 
 
 
-## 🔎 How to Perform an Operon Search
+## How to Perform an Operon Search
 
 ![](./assets/img/operon_search.png)
 
@@ -38,11 +40,11 @@ You may use exact matches or combine fields using logical operators.
 ![](./assets/img/operon_result.png)
 
 
-## 📋 Information Available on an Operon Page
+## Information Available on an Operon Page
 
 When selecting an operon from the results (e.g., `lacZYA`), you will find detailed, structured sections:
 
-### 🧬 Basic Operon Information
+### Basic Operon Information
 
 ![](./assets/img/operon_summary.png)
 
@@ -54,7 +56,7 @@ When selecting an operon from the results (e.g., `lacZYA`), you will find detail
 
 
 
-### 🧬 Transcription Units (TUs)
+### Transcription Units (TUs)
 Each operon may include one or more transcription units with this structure:
 
 - TU Name: `genes - promoter`
@@ -71,14 +73,14 @@ Examples of TUs in the lac operon:
 - `lacYA - lacYp`
 - `lacZYA - lacZp1`, `lacZp2`, `lacZp3`, `lacZp4`
 
-#### 🎯 Promoter Details
+#### Promoter Details
 - Promoter name and synonyms
 - Sigma factor
 - TSS and core promoter sequences (-10, -35 boxes)
 - Confidence level and supporting evidence
 - Downloadable sequence
 
-#### ⚙️ Regulatory Interactions
+#### Regulatory Interactions
 
 ![](./assets/img/operon_ris.png)
 
@@ -88,7 +90,7 @@ Table showing:
 - Position relative to promoter
 - Binding site sequence
 
-#### ⛔ Terminators
+#### Terminators
 
 ![](./assets/img/operon_terminator.png)
 
@@ -96,12 +98,12 @@ Table showing:
 - Coordinates and stem-loop structure
 - Termination sequence
 
-### 📚 Citations
+### Citations
 All references supporting the annotations of the operon, promoters, and regulatory elements.
 
 ---
 
-## 🧪 Operon Search Examples
+## Operon Search Examples
 
 | Search Term                  | Expected Result                              |
 |-----------------------------|----------------------------------------------|
@@ -113,7 +115,7 @@ All references supporting the annotations of the operon, promoters, and regulato
 
 Because words without an operator are combined with `OR`, avoid adding the word *operon* to your query; it would also return every object that mentions "operon". See [Using Logical Operators](logical_operators_search.md).
 
-## 📋 Operon Catalog
+## Operon Catalog
 
 To see the full list of operons as a table, click the **Operon** link below the search bar on the RegulonDB homepage.
 
@@ -121,7 +123,7 @@ To see the full list of operons as a table, click the **Operon** link below the 
 
 ---
 
-## 🛠️ Tips for Effective Operon Searches
+## Tips for Effective Operon Searches
 
 - If you're unsure of the exact name, try searching by associated gene or promoter.
 - Use the **Operon** link below the search bar to browse the full operon catalog.
@@ -129,11 +131,11 @@ To see the full list of operons as a table, click the **Operon** link below the 
 
 ---
 
-## 📬 Need Help?
+## Need Help?
 
 If you have questions or need assistance with the operon search or navigation, please contact:
 
-📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
 ## Last Review
 

@@ -1,3 +1,5 @@
+<img src="../assets/icons/about.svg" alt="" width="48">
+
 # Governance and Scientific Advisory
 
 This page describes the public governance framework of RegulonDB and the role of its Scientific Advisory Board (SAB).
@@ -67,8 +69,7 @@ The SAB provides external expert guidance on scientific quality, strategic direc
 
 RegulonDB seeks objective, science-driven advisory input. When relevant, potential conflicts of interest in advisory participation are expected to be declared and managed by the project leadership according to institutional good-practice standards.
 
-## Related Pages
-
+## Related Content
 - [Credits](credits.md)
 - [Staff Effort (FTE)](staff_effort_fte.md)
 - [Funding Sources](funding_credits.md)

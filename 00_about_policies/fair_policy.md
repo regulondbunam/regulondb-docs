@@ -1,4 +1,6 @@
-# 📖 FAIR Data Policy
+<img src="../assets/icons/about.svg" alt="" width="48">
+
+# FAIR Data Policy
 
 _Last updated: 2026-11-18_
 
@@ -86,8 +88,8 @@ Feedback from users is welcome and actively encouraged.
 
 If you have questions, suggestions, or require assistance regarding our FAIR implementation, please contact us at:
 
-📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
-Thank you for supporting open, FAIR data science! 🌟
+Thank you for supporting open, FAIR data science!
 
 ---

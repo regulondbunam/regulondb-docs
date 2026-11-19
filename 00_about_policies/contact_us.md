@@ -1,3 +1,5 @@
+<img src="../assets/icons/about.svg" alt="" width="48">
+
 # Contact Us
 
 We appreciate your interest in RegulonDB. Your feedback and inquiries are crucial for enhancing our database and services. Please contact us for any suggestions, comments, or to report issues.
@@ -5,7 +7,7 @@ We appreciate your interest in RegulonDB. Your feedback and inquiries are crucia
 ## General Inquiries and Feedback
 
 For questions, suggestions, or feedback, please reach out to us at:  
-📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
 ## Reporting Issues
 

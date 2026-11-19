@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Datamart: Phrases (`phrases`)
 
 - **Database:** `regulondbdatamarts`
@@ -20,8 +22,7 @@ Curation phrases. *(to be validated by the software team)*
 
 This collection is empty in release 14.5.1, so its structure cannot be documented from the dump.
 
-## Related Pages
-
+## Related Content
 - [Datamarts Index](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [API Access (GraphQL)](../../02_data_access/api_access.md)

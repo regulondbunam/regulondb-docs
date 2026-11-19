@@ -1,3 +1,5 @@
+<img src="../assets/icons/releases.svg" alt="" width="48">
+
 # Releases and Updates
 
 This section provides public documentation about version evolution, release communication, and resource impact summaries.

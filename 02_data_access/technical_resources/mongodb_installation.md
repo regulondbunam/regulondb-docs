@@ -1,3 +1,5 @@
+<img src="../../assets/icons/data_access.svg" alt="" width="48">
+
 # MongoDB Local Installation Guide
 
 This guide explains how to restore a RegulonDB release in a local MongoDB server, so you can query its collections directly.
@@ -75,8 +77,7 @@ mongosh regulondbdatamarts --eval "db.databaseInfo.find().limit(1)"
 - Read the release note before replacing a release in an existing pipeline, since collection structures can change.
 - If you also need the web application and the GraphQL API, use the [Docker Installation Guide](../../07_technical_reference/rdb_docker_instance.md) instead.
 
-## Related Pages
-
+## Related Content
 - [Database Dumps](../database_dumps.md)
 - [API Access (GraphQL)](../api_access.md)
 - [Core Database Collections (Technical Reference)](../../07_technical_reference/core_collections/README.md)

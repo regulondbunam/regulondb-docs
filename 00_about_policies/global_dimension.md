@@ -1,3 +1,5 @@
+<img src="../assets/icons/about.svg" alt="" width="48">
+
 # Global Dimension
 
 RegulonDB is developed and maintained at the Center for Genomic Sciences, National Autonomous University of Mexico (UNAM), and serves a global scientific community.

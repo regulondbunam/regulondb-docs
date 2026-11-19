@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Core Database Collections
 
 This index summarizes the **core collections** (database `regulondbmultigenomic`): one collection per type of biological object. They are the source from which the datamarts used by the web interface and the API are generated; for the collections included in the release download, see [Datamarts (Release Dump)](../datamarts/README.md).

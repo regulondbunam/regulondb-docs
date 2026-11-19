@@ -1,3 +1,5 @@
+<img src="../assets/icons/technical.svg" alt="" width="48">
+
 # External Database Relationships in RegulonDB
 
 This document summarizes how **RegulonDB** connects with other biodata resources through cross-references, hyperlinks, and data dependencies, with examples from RegulonDB web pages.

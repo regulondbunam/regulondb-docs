@@ -1,3 +1,5 @@
+<img src="../assets/icons/technical.svg" alt="" width="48">
+
 # Technical Performance
 
 This page provides a public summary of technical performance practices for RegulonDB, aligned with transparent service stewardship and continuity goals.
@@ -51,8 +53,7 @@ If the main site is not available, users can still access RegulonDB through:
 - A **local instance** of any release, deployed with Docker: [How to Install a Local Instance of RegulonDB](rdb_docker_instance.md).
 - The **release dump** (MongoDB) of each version: [Database Dumps](../02_data_access/database_dumps.md).
 
-## Related Pages
-
+## Related Content
 - [Data Preservation and Continuity Policy](../00_about_policies/data_preservation_policy.md)
 - [Governance and Scientific Advisory](../00_about_policies/governance_advisory.md)
 - [Release Notes](../05_releases_updates/release_notes.md)

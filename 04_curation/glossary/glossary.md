@@ -1,3 +1,5 @@
+<img src="../../assets/icons/curation.svg" alt="" width="48">
+
 # RegulonDB Glossary
 
 This glossary defines the concepts used in RegulonDB to describe the regulation of gene expression in *Escherichia coli* K-12, and explains how each concept is represented in the RegulonDB data model and web interface.
@@ -719,7 +721,13 @@ Figure sources to review before publication (reuse permissions):
 - Figures from the RegulonDB Drawing Traces Tool and RegulonDB diagrams (gene, promoter, terminator, TU, operon, sites, regulators, GENSOR) are RegulonDB's own.
 -->
 
+## Related Content
+
+- [Curation Manual](../README.md)
+- [Core Database Collections](../../07_technical_reference/core_collections/README.md)
+- [Database Schema Overview](../../07_technical_reference/database_schema_overview.md)
+
 ## Last Review
 
-- Last updated: 2026-11-18
+- Last updated: 2026-11-19
 - Maintained by: RegulonDB Team

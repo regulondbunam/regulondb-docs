@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="About and policies">
+  <!-- RegulonDB section icon. Glyph: Tabler Icons "info-circle" (MIT License, https://tabler.io/icons) -->
+  <circle cx="24" cy="24" r="24" fill="#32617D"/>
+  <g transform="translate(12 12)" fill="none" stroke="#FFFFFF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 9h.01" />
+    <path d="M11 12h1v4h1" />
+  </g>
+</svg>

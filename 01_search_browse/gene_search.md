@@ -1,4 +1,6 @@
-# 🧬 Gene Search Guide
+<img src="../assets/icons/search.svg" alt="" width="48">
+
+# Gene Search Guide
 
 Welcome to the **Gene Search Guide** of RegulonDB.
 
@@ -6,7 +8,7 @@ This guide explains how to retrieve gene-related information using the **global 
 
 
 
-## 📚 How Gene Search Works
+## How Gene Search Works
 
 RegulonDB uses a **unified search bar** that allows users to search across multiple biological entities simultaneously.
 
@@ -31,11 +33,11 @@ If your search term matches a gene (by name, synonym, locus tag, or product name
 
 You can search using partial matches, full terms, or combine multiple fields using logical operators.
 
-➡️ See [Using Logical Operators](logical_operators_search.md) for advanced search techniques.
+See [Using Logical Operators](logical_operators_search.md) for advanced search techniques.
 
 
 
-## 🔎 How to Perform a Gene Search
+## How to Perform a Gene Search
 
 
 1. Open the RegulonDB homepage.
@@ -51,11 +53,11 @@ You can search using partial matches, full terms, or combine multiple fields usi
 
 
 
-## 📋 Information Available on a Gene Page
+## Information Available on a Gene Page
 
 When selecting a gene from the search results, you will see the following sections:
 
-### 🧬 Basic Gene Information
+### Basic Gene Information
 - **Gene Name** (linked to internal resources)
 - **Product Description** (e.g., DNA-binding transcriptional regulator)
 - **Synonyms** (alternative names and IDs)
@@ -69,7 +71,7 @@ When selecting a gene from the search results, you will see the following sectio
   - GC content
   - Genomic centisome position
 
-### 🧬 Gene Context and Navigation
+### Gene Context and Navigation
 - **Graphical View:**  
   Visualization of the gene, nearby promoters, transcription units, and neighbor genes.
 - **Navigation Links:**  
@@ -79,43 +81,43 @@ When selecting a gene from the search results, you will see the following sectio
 
 
 
-## 📑 Detailed Sections in the Gene Page
+## Detailed Sections in the Gene Page
 
-### 📄 Description
+### Description
 - Basic data about the gene and its sequence.
 - Download options in different formats (FASTA, GenBank).
 - Centisome position and sequence properties.
 
-### 🏷️ Multifun Terms
+### Multifun Terms
 - Functional categorization according to Multifun ontology.
 
-### ⚙️ Regulation
+### Regulation
 - Overview of regulatory elements:
   - **Operons** including the gene
   - **Promoters** regulating the gene
   - **Regulators** (transcription factors) acting on the gene
 
-### 🧬 Product Information
+### Product Information
 - Detailed description of the protein product.
 - Molecular weight.
 - Cellular location.
 - Sequence with annotations.
 
-### 🧬 Gene Ontology (GO) Terms
+### Gene Ontology (GO) Terms
 - **Cellular Component**, **Molecular Function**, and **Biological Process** terms associated with the gene.
 
-### 🧬 Motifs
+### Motifs
 - Functional motifs, conserved domains.
 
-### 🔗 External Cross-References
+### External Cross-References
 - Links to external databases like UniProt, PDB, AlphaFold, EcoCyc, and others.
 
-### 📚 Citations
+### Citations
 - Scientific references supporting the gene annotation.
 
 
 
-## 🛠️ Tips for Effective Gene Searches
+## Tips for Effective Gene Searches
 
 - Use exact gene names when possible.
 - Try synonyms or functional keywords if the primary name does not yield results.
@@ -123,11 +125,11 @@ When selecting a gene from the search results, you will see the following sectio
 
 
 
-## 📬 Need Help?
+## Need Help?
 
 If you have questions or need assistance with the gene search or navigation, please contact:
 
-📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
 ## Last Review
 

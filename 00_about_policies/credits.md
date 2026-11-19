@@ -1,3 +1,5 @@
+<img src="../assets/icons/about.svg" alt="" width="48">
+
 # Credits
 
 This page provides recognition to the individuals and teams who have contributed to the development, maintenance, and continued success of the RegulonDB project. Their collaborative work spans biocuration, software development, scientific guidance, and infrastructure support.

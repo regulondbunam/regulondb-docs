@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Datamart: HT Gene Expression (`geneExpression`)
 
 - **Database:** `regulondbht`
@@ -59,8 +61,7 @@ Field presence is computed over 3,000 documents (the first 3,000 of 8,606,088).
 }
 ```
 
-## Related Pages
-
+## Related Content
 - [Datamarts Index](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [API Access (GraphQL)](../../02_data_access/api_access.md)

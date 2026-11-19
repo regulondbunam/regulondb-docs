@@ -1,3 +1,5 @@
+<img src="../assets/icons/about.svg" alt="" width="48">
+
 # Data Preservation and Continuity Policy
 
 This page defines the public policy framework used by RegulonDB to preserve data integrity, ensure long-term availability, and support continuity of service.

@@ -1,4 +1,6 @@
 
+<img src="../assets/icons/about.svg" alt="" width="48">
+
 # RegulonDB – Privacy Policy
 
 **Version 1.0 – April 2025**

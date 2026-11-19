@@ -1,3 +1,5 @@
+<img src="../assets/icons/releases.svg" alt="" width="48">
+
 # Release Notes
 
 Release notes are generated with each RegulonDB release and published on the RegulonDB website. Open the release history and select a version to read its note:

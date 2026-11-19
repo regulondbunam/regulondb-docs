@@ -1,4 +1,6 @@
 
+<img src="../../assets/icons/curation.svg" alt="" width="48">
+
 # RegulonDB Glossary
 
 

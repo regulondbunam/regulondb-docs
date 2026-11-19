@@ -1,4 +1,6 @@
-# 📂 Data Access and Technical Resources Guide
+<img src="../assets/icons/data_access.svg" alt="" width="48">
+
+# Data Access and Technical Resources Guide
 
 Welcome to the **Data Access and Technical Resources** section of RegulonDB.
 
@@ -7,7 +9,7 @@ It is intended for researchers, data scientists, and developers who wish to work
 
 ---
 
-## 📚 Contents
+## Contents
 
 - **[Dataset Downloads](dataset_downloads.md):** How to download experimental and curated datasets.
 - **[Creating Gold Standard Datasets](gold_standard_guide_en.md):** How to build high-confidence subsets of regulatory interactions with the Browse & Filter and Confidence Level Calculator tools.
@@ -20,7 +22,7 @@ It is intended for researchers, data scientists, and developers who wish to work
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The purpose of this guide is to:
 - Enable users to retrieve data for offline analysis or large-scale integration.
@@ -30,7 +32,7 @@ The purpose of this guide is to:
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - Internet connection for downloads.
 - Basic knowledge of biological databases and web services.

@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Datamart: Regulon (`regulonDatamart`)
 
 - **Database:** `regulondbdatamarts`
@@ -115,8 +117,7 @@ Field presence is computed over 290 documents (all documents).
 |---|---|
 | `regulator_name_1` | `{"regulator.name": {"$numberInt": "1"}}` |
 
-## Related Pages
-
+## Related Content
 - [Datamarts Index](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [API Access (GraphQL)](../../02_data_access/api_access.md)

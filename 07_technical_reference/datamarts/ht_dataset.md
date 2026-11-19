@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Datamart: HT Dataset (`dataset`)
 
 - **Database:** `regulondbht`
@@ -73,8 +75,7 @@ Field presence is computed over 2,445 documents (all documents).
 }
 ```
 
-## Related Pages
-
+## Related Content
 - [Datamarts Index](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [API Access (GraphQL)](../../02_data_access/api_access.md)

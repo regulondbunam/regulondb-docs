@@ -1,4 +1,6 @@
-# ℹ️ About & Policies
+<img src="../assets/icons/about.svg" alt="" width="48">
+
+# About & Policies
 
 Welcome to the **About & Policies** section of the RegulonDB documentation.
 
@@ -7,7 +9,7 @@ This section is intended to ensure transparency, promote FAIR data principles, a
 
 ---
 
-## 📚 Contents
+## Contents
 
 - **[About RegulonDB](about_us.md):** Learn about the history, mission, and scientific scope of the database.
 - **[Global Dimension](global_dimension.md):** International scope, collaborations, and global positioning of RegulonDB.
@@ -27,7 +29,7 @@ This section is intended to ensure transparency, promote FAIR data principles, a
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The purpose of this section is to:
 
@@ -38,7 +40,7 @@ The purpose of this section is to:
 
 We encourage all users, curators, and collaborators to review this section carefully.
 
-Thank you for using and supporting RegulonDB! 🌟
+Thank you for using and supporting RegulonDB!
 
 ---
 

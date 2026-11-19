@@ -1,3 +1,5 @@
+<img src="../../assets/icons/data_access.svg" alt="" width="48">
+
 # Technical Resources
 
 This section contains operational guides for users who need programmatic or local technical access to RegulonDB data.

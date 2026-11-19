@@ -1,3 +1,5 @@
+<img src="../assets/icons/about.svg" alt="" width="48">
+
 # User Support Protocol - RegulonDB Helpdesk
 
 ## 1. Objective

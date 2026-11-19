@@ -1,3 +1,5 @@
+<img src="../assets/icons/technical.svg" alt="" width="48">
+
 # Data Volume
 
 This page reports the volume of curated data in RegulonDB, by object type and confidence level. Counts correspond to release **14.5.1** (2026-11-11) and are taken from the release statistics stored in the release database (`databaseInfo` collection). The counts of each release are also published in its release note (see the [release history](https://regulondb.ccg.unam.mx/summaryHistory)).
@@ -46,8 +48,7 @@ Links to external database records by source: EcoCyc 59,395; RefSeq 8,943; ASAP 
 
 The high-throughput (HT) collections of release 14.5.1 contain 2,445 datasets, with 3,142 transcription factor binding records, 20,990 peaks, 68,044 transcription start sites, 5,326 transcription termination sites, 12,329 transcription units, and 8,606,088 gene expression values. See [Datamarts (Release Dump)](datamarts/README.md).
 
-## Related Pages
-
+## Related Content
 - [Database Schema Overview](database_schema_overview.md)
 - [Core Database Collections](core_collections/README.md)
 - [Version History](../05_releases_updates/version_history.md)

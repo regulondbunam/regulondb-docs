@@ -1,4 +1,6 @@
-# 🔎 Search and Browse Guide
+<img src="../assets/icons/search.svg" alt="" width="48">
+
+# Search and Browse Guide
 
 Welcome to the **Search and Browse Guide** of RegulonDB.
 
@@ -8,7 +10,7 @@ Whether you are a new visitor, a researcher, or a student, this guide will help 
 
 
 
-## 📚 Contents
+## Contents
 
 - **[Overview of Search and Navigation](search_overview.md):** Searchable objects, search functionalities, and example use cases.
 - **[Using Logical Operators](logical_operators_search.md):** How to combine terms with AND, OR, NOT and search exact phrases.
@@ -18,7 +20,7 @@ Whether you are a new visitor, a researcher, or a student, this guide will help 
 
 
 
-## 🎯 Purpose
+## Purpose
 
 The purpose of this guide is to:
 - Facilitate efficient access to RegulonDB's core biological data.
@@ -28,7 +30,7 @@ The purpose of this guide is to:
 
 
 
-## 🛠️ Requirements
+## Requirements
 
 - A standard web browser (Chrome, Firefox, Safari, Edge).
 - Basic knowledge of biological terms (genes, promoters, operons, transcription factors).
@@ -37,7 +39,7 @@ The purpose of this guide is to:
 
 
 Thank you for exploring RegulonDB!  
-If you need further assistance, visit our [Contact Us](../00_about_policies/contact_us.md) page. 🌟
+If you need further assistance, visit our [Contact Us](../00_about_policies/contact_us.md) page.
 
 ## Last Review
 

@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Datamart: Gene Coexpressions (`geneCoexpressions`)
 
 - **Database:** `regulondbdatamarts`
@@ -64,8 +66,7 @@ Field presence is computed over 3,000 documents (the first 3,000 of 9,316,077).
 | `gene_name_1` | `{"gene.name": {"$numberInt": "1"}}` |
 | `gene_id_1` | `{"gene.id": {"$numberInt": "1"}}` |
 
-## Related Pages
-
+## Related Content
 - [Datamarts Index](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [API Access (GraphQL)](../../02_data_access/api_access.md)

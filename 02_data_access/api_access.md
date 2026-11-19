@@ -1,3 +1,5 @@
+<img src="../assets/icons/data_access.svg" alt="" width="48">
+
 # API Access (GraphQL Web Services)
 
 RegulonDB provides programmatic access to its data through **GraphQL web services**. This guide describes the endpoint, the available queries, and a basic workflow.
@@ -82,8 +84,7 @@ See the documentation page for the arguments and return fields of each query.
 - Check field names against the documentation after each new release.
 - For heavy offline processing, use the downloadable datasets or a local Docker instance instead of many API calls.
 
-## Related Pages
-
+## Related Content
 - [Dataset Downloads](dataset_downloads.md)
 - [Database Dumps](database_dumps.md)
 - [Docker Installation Guide](../07_technical_reference/rdb_docker_instance.md)

@@ -1,3 +1,5 @@
+<img src="../assets/icons/technical.svg" alt="" width="48">
+
 # Standards and Ontologies Used in RegulonDB
 
 This document summarizes the standards, ontologies, and controlled vocabularies adopted by **RegulonDB** to support metadata consistency, interoperability, and FAIR-aligned reuse.

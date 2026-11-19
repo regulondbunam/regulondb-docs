@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Collection: Terms (`terms`)
 
 - **Database:** `regulondbmultigenomic` (core collections)
@@ -84,8 +86,7 @@ Data types, required fields, and identifier patterns come from the JSON Schema u
 - `ontologies_id` -> ontologies collection
 - `members` links to products and potentially other object types.
 
-## Related Pages
-
+## Related Content
 - [Core Database Collections](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [Data Volume](../data_volume.md)

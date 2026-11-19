@@ -1,8 +1,8 @@
 # Summary
 
-- 🏠 [Home](README.md)
+- [Home](README.md)
 
-- 🔎 Search & Browse
+- Search & Browse
   - [Search and Browse Guide](01_search_browse/README.md)
   - [Overview of Search and Navigation](01_search_browse/search_overview.md)
   - [Using Logical Operators](01_search_browse/logical_operators_search.md)
@@ -10,7 +10,7 @@
   - [Operon Search](01_search_browse/operon_search.md)
   - [Regulon Search](01_search_browse/regulon_search.md)
 
-- 📂 Data Access
+- Data Access
   - Downloads
       - [Dataset Downloads](02_data_access/dataset_downloads.md)
       - [Creating Gold Standard Datasets](02_data_access/gold_standard_guide_en.md)
@@ -22,7 +22,7 @@
       - [MongoDB Local Installation Guide](02_data_access/technical_resources/mongodb_installation.md)
       - [Core Database Collections (Technical Reference)](07_technical_reference/core_collections/README.md)
 
-- 🛠️ Tools & Visualizations
+- Tools & Visualizations
   - [Tools and Visualizations Guide](03_tools_visualizations/README.md)
   - [Drawing Traces Tool](03_tools_visualizations/drawing_traces_tool.md)
   - [IGV Genome Browser](03_tools_visualizations/igv_browser.md)
@@ -35,7 +35,7 @@
     - [Start Sites](03_tools_visualizations/ht_query_builder/start_sites.md)
     - [Gene Expression](03_tools_visualizations/ht_query_builder/gene_expression.md)
 
-- 📑 Curation Manual
+- Curation Manual
   - [Curation Manual Overview](04_curation/README.md)
   - [RegulonDB Glossary](04_curation/glossary/glossary.md)
   - [Manual Structure (Extended TOC)](04_curation/manual_index.md)
@@ -47,7 +47,7 @@
   - [Using Microbial Condition Ontology (MCO) for Curation](04_curation/mco_usage_curation.md)
   - [Quality Control in Curation](04_curation/quality_control.md)
 
-- 🗓️ Releases & Updates
+- Releases & Updates
   - [Overview](05_releases_updates/README.md)
   - [Release Notes](05_releases_updates/release_notes.md)
   - [Version History](05_releases_updates/version_history.md)
@@ -56,7 +56,7 @@
   - [Impact Stories](05_releases_updates/impact_stories.md)
   - [Counterfactual Scenario](05_releases_updates/counterfactual.md)
 
-- 🧩 Technical Reference
+- Technical Reference
   - [Overview](07_technical_reference/README.md)
   - [Standards and Ontologies Used in RegulonDB](07_technical_reference/standards_ontologies.md)
   - [Relationships with External Data Resources](07_technical_reference/db_relationships.md)
@@ -119,7 +119,7 @@
     - [HT Datamart: HT Transcription Start Sites](07_technical_reference/datamarts/ht_transcription_start_site.md)
     - [HT Datamart: HT Transcription Termination Sites](07_technical_reference/datamarts/ht_transcription_termination_site.md)
     - [HT Datamart: HT Transcription Units](07_technical_reference/datamarts/ht_transcription_unit.md)
-- ℹ️ About & Policies
+- ℹAbout & Policies
   - [Introduction](00_about_policies/README.md)
   - [About RegulonDB](00_about_policies/about_us.md)
   - [Global Dimension](00_about_policies/global_dimension.md)

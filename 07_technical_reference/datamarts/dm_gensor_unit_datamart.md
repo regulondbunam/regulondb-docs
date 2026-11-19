@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Datamart: GENSOR Unit (`gensorUnitDatamart`)
 
 - **Database:** `regulondbdatamarts`
@@ -107,8 +109,7 @@ Field presence is computed over 240 documents (all documents).
 |---|---|
 | `gensorUnit_name_1` | `{"gensorUnit.name": {"$numberInt": "1"}}` |
 
-## Related Pages
-
+## Related Content
 - [Datamarts Index](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [API Access (GraphQL)](../../02_data_access/api_access.md)

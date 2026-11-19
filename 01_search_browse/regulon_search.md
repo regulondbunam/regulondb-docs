@@ -1,4 +1,6 @@
-# 🧬 Regulon Search Guide
+<img src="../assets/icons/search.svg" alt="" width="48">
+
+# Regulon Search Guide
 
 Welcome to the **Regulon Search Guide** of RegulonDB.
 
@@ -6,7 +8,7 @@ This guide explains how to retrieve regulon-related information using the **glob
 
 
 
-## 📚 How Regulon Search Works
+## How Regulon Search Works
 
 RegulonDB uses a **unified search system** where regulons can be queried using different fields. When a term matches a regulon, the result appears under the **Regulon** category.
 
@@ -21,7 +23,7 @@ You can search using full names or partial matches.
 
 
 
-## 🔎 How to Perform a Regulon Search
+## How to Perform a Regulon Search
 
 1. Open the RegulonDB homepage.
 2. Enter a query in the **Search Bar** (for example, TF name, synonym, TF ID, or coding gene name).
@@ -38,7 +40,7 @@ The unified result view may also show related matches in **Gene**, **Operon**, *
 
 
 
-## 📋 Regulon Catalog Navigation
+## Regulon Catalog Navigation
 
 Below the global search bar, use the **Regulon** link to open the catalog of regulons.
 
@@ -52,13 +54,13 @@ In the regulon catalog table, you can:
 
 
 
-## 📄 Information Available on a Regulon Page
+## Information Available on a Regulon Page
 
 When you open a regulon entry, you will find structured sections such as:
 
 ![AraC regulon page: network view and tables of regulated genes and operons](./assets/img/regulon_page.png)
 
-### 🧬 Regulator Section
+### Regulator Section
 
 - Regulator name and type.
 - Synonyms.
@@ -67,7 +69,7 @@ When you open a regulon entry, you will find structured sections such as:
 - Conformations (if available).
 - References and evidence.
 
-### 🧩 Regulon Summary Section
+### Regulon Summary Section
 
 - Network view of regulated entities.
 - Counts and tables of:
@@ -75,7 +77,7 @@ When you open a regulon entry, you will find structured sections such as:
   - Regulated operons
   - Regulated transcription units
 
-### ⚙️ Regulatory Interactions Section
+### Regulatory Interactions Section
 
 - Detailed interaction table including:
   - Active conformation name
@@ -85,20 +87,20 @@ When you open a regulon entry, you will find structured sections such as:
   - Regulated genes
   - RBS coordinates (when available)
 
-### 🧬 GO Terms of Regulated Genes
+### GO Terms of Regulated Genes
 
 - Cellular Component
 - Molecular Function
 - Biological Process
 
-### 📚 All References and Evidence
+### All References and Evidence
 
 - Curated literature references supporting regulon annotation.
 - Linked evidence labels and traceability.
 
 
 
-## 🧪 Regulon Search Examples
+## Regulon Search Examples
 
 | Search Term | Expected Result |
 |:------------|:----------------|
@@ -109,7 +111,7 @@ When you open a regulon entry, you will find structured sections such as:
 
 
 
-## 🛠️ Tips for Effective Regulon Searches
+## Tips for Effective Regulon Searches
 
 - If no direct regulon result appears, check the **Gene** result and navigate from regulator-related links.
 - Use the **Regulon catalog** for discovery when exact naming is uncertain.
@@ -118,11 +120,11 @@ When you open a regulon entry, you will find structured sections such as:
 
 
 
-## 📬 Need Help?
+## Need Help?
 
 If you have questions or need assistance with regulon search or navigation, please contact:
 
-📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
 ## Last Review
 

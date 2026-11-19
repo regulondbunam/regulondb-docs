@@ -1,3 +1,5 @@
+<img src="../assets/icons/data_access.svg" alt="" width="48">
+
 # Creating Gold Standard Datasets Using RegulonDB Tools
 
 ## Introduction
@@ -69,7 +71,7 @@ The **Confidence Level Calculator Tool** lets users exclude one or more of these
 
 6. Click the **Download** button to save the filtered dataset.
 
-> **Note**: To include both **Strong (S)** and **Confirmed (C)** interactions, repeat the steps and merge the resulting files manually.
+> **Note.** To include both **Strong (S)** and **Confirmed (C)** interactions, repeat the steps and merge the resulting files manually.
 
 ---
 

@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Collection: Genes (`genes`)
 
 - **Database:** `regulondbmultigenomic` (core collections)
@@ -79,8 +81,7 @@ Data types, required fields, and identifier patterns come from the JSON Schema u
 - `organisms_id` -> organisms collection
 - `externalCrossReferences[].externalCrossReferences_id` -> external cross-reference catalog
 
-## Related Pages
-
+## Related Content
 - [Core Database Collections](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [Data Volume](../data_volume.md)

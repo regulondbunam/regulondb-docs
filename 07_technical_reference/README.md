@@ -1,3 +1,5 @@
+<img src="../assets/icons/technical.svg" alt="" width="48">
+
 # Technical Reference
 
 This section provides public technical reference documentation for interoperability, standards, and service-oriented practices.

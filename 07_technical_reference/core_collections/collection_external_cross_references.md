@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Collection: External Cross References (`externalCrossReferences`)
 
 - **Database:** `regulondbmultigenomic` (core collections)
@@ -38,8 +40,7 @@ Data types, required fields, and identifier patterns come from the JSON Schema u
 
 - Referenced as `externalCrossReferences_id` from multiple collections.
 
-## Related Pages
-
+## Related Content
 - [Core Database Collections](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [Data Volume](../data_volume.md)

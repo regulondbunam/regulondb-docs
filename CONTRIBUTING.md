@@ -1,4 +1,4 @@
-# 🤝 Contributing to RegulonDB Documentation
+# Contributing to RegulonDB Documentation
 
 Thank you for considering contributing to the **RegulonDB Documentation**!  
 We welcome contributions that improve the clarity, accuracy, accessibility, and completeness of our materials.
@@ -7,7 +7,7 @@ This guide explains how you can propose changes, suggest new content, or help ma
 
 
 
-## 📚 What You Can Contribute
+## What You Can Contribute
 
 - Fix typos, grammar, or spelling errors.
 - Improve formatting for better readability.
@@ -18,7 +18,7 @@ This guide explains how you can propose changes, suggest new content, or help ma
 
 
 
-## 🛠️ How to Contribute
+## How to Contribute
 
 1. **Fork the Repository**  
    Create your own copy of the repository under your GitHub account.
@@ -55,7 +55,7 @@ This guide explains how you can propose changes, suggest new content, or help ma
 
 
 
-## ✍️ Content Style Guidelines
+## Content Style Guidelines
 
 - Use **American English** spelling and grammar.
 - Keep sentences **short and direct**.
@@ -66,7 +66,7 @@ This guide explains how you can propose changes, suggest new content, or help ma
 
 
 
-## 📜 License and Attribution
+## License and Attribution
 
 By contributing to this repository, you agree that your contributions will be published under the  
 [Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -75,10 +75,10 @@ You will be acknowledged appropriately as a contributor in our [Credits](00_abou
 
 
 
-## 📬 Questions and Support
+## Questions and Support
 
 If you have questions before contributing or need help, please contact:
 
-📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
-We appreciate your interest and efforts in improving RegulonDB Documentation! 🌟
+We appreciate your interest and efforts in improving RegulonDB Documentation!

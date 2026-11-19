@@ -1,0 +1,134 @@
+/*
+ * RegulonDB documentation style
+ * Applies the RegulonDB palette to documentation rendered from markdown.
+ * The viewer must wrap the rendered page in <article class="rdb-doc"> and
+ * build the header and the related-content box as described in
+ * docs/style_guide.md.
+ */
+
+:root {
+  --rdb-navy: #1F3D4F;
+  --rdb-blue: #32617D;
+  --rdb-blue-mid: #3F7AA0;
+  --rdb-blue-light: #72A6CA;
+  --rdb-blue-tint: #EEF4F8;
+  --rdb-gold: #C99A06;
+  --rdb-red: #C93A20;
+  --rdb-gray-900: #3A3A3A;
+  --rdb-gray-600: #6B6B6B;
+  --rdb-gray-400: #9B9B9B;
+  --rdb-gray-200: #D5D5D5;
+  --rdb-gray-100: #F3F3F3;
+  --rdb-gray-50: #F8F8F8;
+}
+
+.rdb-doc {
+  color: var(--rdb-gray-900);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+/* Page header: section icon, section name and page title */
+.rdb-doc-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--rdb-gray-100);
+  padding: 22px 40px 18px;
+}
+.rdb-doc-header img { width: 48px; height: 48px; }
+.rdb-doc-header .rdb-eyebrow {
+  color: var(--rdb-gold);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.rdb-doc .rdb-doc-header h1 {
+  margin: 2px 0 0;
+  padding: 0;
+  border: none;
+  color: var(--rdb-blue);
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.rdb-doc-body { max-width: 980px; padding: 10px 40px 60px; }
+
+/* Headings */
+.rdb-doc h1 {
+  color: var(--rdb-blue);
+  font-size: 22px;
+  border-bottom: 2px solid var(--rdb-blue);
+  padding-bottom: 4px;
+  margin-top: 36px;
+}
+.rdb-doc h2 {
+  color: var(--rdb-blue);
+  font-size: 19px;
+  border-bottom: 1px solid var(--rdb-gray-200);
+  padding-bottom: 3px;
+  margin-top: 30px;
+}
+.rdb-doc h3 { color: var(--rdb-navy); font-size: 16px; }
+.rdb-doc h4 { color: var(--rdb-navy); font-size: 15px; }
+
+/* Links */
+.rdb-doc a { color: var(--rdb-blue); }
+.rdb-doc a:hover { color: var(--rdb-navy); }
+
+/* Tables */
+.rdb-doc table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 13.5px; }
+.rdb-doc th {
+  background: var(--rdb-blue-light);
+  color: #FFFFFF;
+  font-weight: 600;
+  text-align: left;
+  padding: 7px 10px;
+}
+.rdb-doc td { padding: 6px 10px; border-bottom: 1px solid var(--rdb-gray-200); vertical-align: top; }
+.rdb-doc tr:nth-child(even) td { background: var(--rdb-gray-50); }
+
+/* Code */
+.rdb-doc code {
+  background: var(--rdb-gray-100);
+  color: var(--rdb-navy);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 90%;
+}
+.rdb-doc pre {
+  background: var(--rdb-gray-100);
+  border: 1px solid var(--rdb-gray-200);
+  padding: 10px 14px;
+  overflow-x: auto;
+}
+.rdb-doc pre code { background: none; padding: 0; }
+
+/* Notes: "> **Note.** ..." and "> **Important.** ..." */
+.rdb-doc blockquote {
+  margin: 12px 0;
+  padding: 8px 14px;
+  border-left: 4px solid var(--rdb-blue-mid);
+  background: var(--rdb-blue-tint);
+  color: var(--rdb-navy);
+}
+.rdb-doc blockquote p { margin: 4px 0; }
+.rdb-doc blockquote.rdb-important { border-left-color: var(--rdb-red); background: #FBEEEB; }
+
+/* Images and figures */
+.rdb-doc img { max-width: 100%; }
+
+/* Related content box (the "## Related Content" section) */
+.rdb-related { border: 1px solid var(--rdb-gray-400); max-width: 320px; margin-top: 10px; }
+.rdb-related h2 {
+  margin: 0;
+  padding: 10px 14px;
+  border: none;
+  background: var(--rdb-gray-100);
+  color: var(--rdb-gray-900);
+  font-size: 17px;
+  font-weight: 400;
+}
+.rdb-related ul { list-style: none; margin: 0; padding: 6px 14px 10px; line-height: 2; }

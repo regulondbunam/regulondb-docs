@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Collection: Sequences (`sequences`)
 
 - **Database:** `regulondbmultigenomic` (core collections)
@@ -38,8 +40,7 @@ Data types, required fields, and identifier patterns come from the JSON Schema u
 }
 ```
 
-## Related Pages
-
+## Related Content
 - [Core Database Collections](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [Data Volume](../data_volume.md)

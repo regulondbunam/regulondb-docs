@@ -1,4 +1,6 @@
-# 🔎 Overview of Search and Navigation in RegulonDB
+<img src="../assets/icons/search.svg" alt="" width="48">
+
+# Overview of Search and Navigation in RegulonDB
 
 Welcome to the **Search and Navigation Guide** of RegulonDB.
 
@@ -6,7 +8,7 @@ This guide provides an introduction to the main biological entities available fo
 
 ---
 
-## 📚 Searchable Objects in RegulonDB
+## Searchable Objects in RegulonDB
 
 The primary biological entities that can be searched individually are:
 
@@ -22,21 +24,21 @@ Each of these objects can be searched individually, and search results often inc
 
 ---
 
-## 🛠️ Search Functionalities
+## Search Functionalities
 
 - **Basic Search:**  
   Simple form-based searches by name, ID, function, or associated regulator.
 
 - **Advanced Search Using Logical Operators:**  
   Combine terms with logical operators (`AND`, `OR`, `NOT`) and use quotation marks for exact phrases to refine your search results.  
-  ➡️ See [Using Logical Operators](logical_operators_search.md) for more details.
+  See [Using Logical Operators](logical_operators_search.md) for more details.
 
 - **Exploration Through Links:**  
   Search results allow you to navigate easily between related objects (e.g., from a gene to its operon, regulatory interactions, or promoters).
 
 ---
 
-## 📖 What You Can Find for Each Object
+## What You Can Find for Each Object
 
 - **Gene Search:**  
   Name, locus tag, synonyms, associated operons, transcription units, regulatory interactions.
@@ -55,7 +57,7 @@ Each of these objects can be searched individually, and search results often inc
 
 ---
 
-## 🧩 Example Use Cases
+## Example Use Cases
 
 - **Find all genes regulated by CRP:**  
   Search by regulator name in the Regulon search form.
@@ -71,7 +73,7 @@ Each of these objects can be searched individually, and search results often inc
 
 ---
 
-## 📬 Need Help?
+## Need Help?
 
 If you encounter any difficulties or need guidance, please visit our [Contact Us](../00_about_policies/contact_us.md) page or consult the detailed guides for each search type:
 
@@ -81,7 +83,7 @@ If you encounter any difficulties or need guidance, please visit our [Contact Us
 
 ---
 
-Happy exploring! 🌟
+Happy exploring!
 
 ## Last Review
 

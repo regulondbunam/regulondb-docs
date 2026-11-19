@@ -1,3 +1,5 @@
+<img src="../assets/icons/releases.svg" alt="" width="48">
+
 # Counterfactual Scenario
 
 This page describes a public counterfactual analysis: what scientific and technical capacity would be reduced if RegulonDB were unavailable or discontinued.
@@ -55,8 +57,7 @@ RegulonDB mitigates these risks by providing:
 - This counterfactual is a public narrative analysis based on observed usage patterns, published reuse examples, and known dependency of regulatory workflows on curated references.
 - Quantitative indicators are reported in complementary public pages when available.
 
-## Related Pages
-
+## Related Content
 - [Impact Stories](impact_stories.md)
 - [How to Cite RegulonDB](../00_about_policies/how_to_cite.md)
 - [Data Preservation and Continuity Policy](../00_about_policies/data_preservation_policy.md)

@@ -1,3 +1,5 @@
+<img src="../assets/icons/about.svg" alt="" width="48">
+
 # RegulonDB – License and Terms of Use
 
 **Version 1.1 – November 2026**
@@ -31,7 +33,7 @@ This includes but is not limited to:
 
 If you represent a company or institution interested in using RegulonDB for commercial purposes, please contact us:
 
-📧 **regulondb@ccg.unam.mx**
+**regulondb@ccg.unam.mx**
 
 We are open to partnerships and collaborations that support the sustainable development of the resource.
 
@@ -65,13 +67,20 @@ In line with Open Science and FAIR data principles, we ask that any reuse, redis
 - **Proper attribution** to RegulonDB and the original source publication.
 - **Direct hyperlinks** to the corresponding objects in the RegulonDB interface (e.g., promoters, transcription factors, regulatory interactions).
 
-These are requests for good practice; they help maintain transparency, traceability, and data provenance for the benefit of the wider research community.
+> **Note.** These are requests for good practice; they help maintain transparency, traceability, and data provenance for the benefit of the wider research community.
 
 ## 6. Disclaimer
 
 While we strive to maintain high-quality curated data, RegulonDB is provided "as is" without warranties. Users are responsible for validating the data before use in critical applications.
 
+## Related Content
+
+- [How to Cite RegulonDB](how_to_cite.md)
+- [Ethics and Download Policy](ethics_and_download_policy.md)
+- [FAIR Policy](fair_policy.md)
+- [Contact Us](contact_us.md)
+
 ## Last Review
 
-- Last updated: 2026-11-18
+- Last updated: 2026-11-19
 - Maintained by: RegulonDB Team

@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Collection: Promoters (`promoters`)
 
 - **Database:** `regulondbmultigenomic` (core collections)
@@ -100,8 +102,7 @@ Data types, required fields, and identifier patterns come from the JSON Schema u
 - `citations[].evidences_id` -> evidences collection
 - `citations[].publications_id` -> publications collection
 
-## Related Pages
-
+## Related Content
 - [Core Database Collections](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [Data Volume](../data_volume.md)

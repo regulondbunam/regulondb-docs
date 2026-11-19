@@ -1,3 +1,5 @@
+<img src="../assets/icons/technical.svg" alt="" width="48">
+
 # How to Install a Local Instance of RegulonDB
 
 This guide explains how to run a complete local instance of RegulonDB (database, web application, and GraphQL API) with Docker.
@@ -48,10 +50,9 @@ When a new version of RegulonDB is released:
 docker system prune -a
 ```
 
-**Warning:** this command removes **all** Docker images on your computer. If you use Docker for other projects, remove the old RegulonDB images one by one with `docker rmi`.
+> **Important.** This command removes **all** Docker images on your computer. If you use Docker for other projects, remove the old RegulonDB images one by one with `docker rmi`.
 
-## Related Pages
-
+## Related Content
 - [Database Dumps](../02_data_access/database_dumps.md)
 - [MongoDB Local Installation Guide](../02_data_access/technical_resources/mongodb_installation.md)
 - [API Access (GraphQL)](../02_data_access/api_access.md)

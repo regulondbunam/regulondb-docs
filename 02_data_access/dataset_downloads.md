@@ -1,3 +1,5 @@
+<img src="../assets/icons/data_access.svg" alt="" width="48">
+
 # Downloadable Datasets Guide
 
 This guide explains how to access and download public datasets from RegulonDB.
@@ -55,8 +57,7 @@ Each file has up to three options in the **Options** column:
 - Use filtered exports when building focused subsets.
 - Record the dataset name, RegulonDB release (for example, v14.5.1), download date, and source URL for traceability (see [How to Cite RegulonDB](../00_about_policies/how_to_cite.md)).
 
-## Related Pages
-
+## Related Content
 - [Creating Gold Standard Datasets](gold_standard_guide_en.md)
 - [Database Dumps](database_dumps.md)
 - [API Access](api_access.md)

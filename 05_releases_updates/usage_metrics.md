@@ -1,3 +1,5 @@
+<img src="../assets/icons/releases.svg" alt="" width="48">
+
 # Usage Metrics
 
 This page reports public, aggregated web-usage indicators for RegulonDB based on Google Analytics 4 (GA4).
@@ -47,8 +49,7 @@ To provide transparent, reproducible, and non-sensitive usage indicators that su
 - This page intentionally reports aggregate metrics.
 - User-level, device-level, and other potentially sensitive data are not published.
 
-## Related Pages
-
+## Related Content
 - [Research Usage](research_usage.md)
 - [Impact Stories](impact_stories.md)
 - [Privacy Policy](../00_about_policies/privacy_policy.md)

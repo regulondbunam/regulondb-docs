@@ -1,3 +1,5 @@
+<img src="../assets/icons/technical.svg" alt="" width="48">
+
 # Database Schema Overview
 
 This page provides a public technical overview of the RegulonDB MongoDB-oriented data model. The collection pages in this section describe the **core collections**, from which the datamarts used by the web interface and the API are generated.
@@ -61,8 +63,7 @@ Relationships are represented through fields like:
 - `regulators` include conformations and citations.
 - `evidences` define evidence codes and categories used across annotations.
 
-## Related Pages
-
+## Related Content
 - [Database Collections Index](core_collections/README.md)
 - [Collection: Genes](core_collections/collection_genes.md)
 - [Collection: Regulators](core_collections/collection_regulators.md)

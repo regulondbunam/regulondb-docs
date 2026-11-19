@@ -1,3 +1,5 @@
+<img src="../assets/icons/releases.svg" alt="" width="48">
+
 # Version History
 
 The complete history of RegulonDB releases is published and kept up to date on the RegulonDB website:

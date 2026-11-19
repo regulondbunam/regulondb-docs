@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Collection: Growth Condition Contrasts (`growthConditionContrasts`)
 
 - **Database:** `regulondbmultigenomic` (core collections)
@@ -27,8 +29,7 @@ Data types and required fields come from the JSON Schema used to validate the co
 |---|---|
 | `results` | `identifiers_id`, `identifiers_type`, `effect`, `note` |
 
-## Related Pages
-
+## Related Content
 - [Core Database Collections](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [Data Volume](../data_volume.md)

@@ -1,4 +1,6 @@
-# 📚 RegulonDB Documentation
+<img src="assets/icons/home.svg" alt="" width="48">
+
+# RegulonDB Documentation
 
 Welcome to the **RegulonDB Documentation** repository.
 
@@ -10,53 +12,36 @@ Our goal is to provide clear, structured, and FAIR-aligned documentation to supp
 
 ## Documentation Structure
 
-The documentation is organized into the following main sections:
-
-- **About & Policies:**  
-  Institutional information, contact details, citation guidelines, FAIR data policies, licensing, privacy, and terms of use.
-
-- **Search & Browse:**  
-  Guides on how to search for genes, operons, regulatory elements, and explore special datasets and ontologies.
-
-- **Data Access & Technical Resources:**  
-  Instructions for downloading datasets, using database dumps, accessing APIs, and deploying local instances with Docker.
-
-- **Tools & Visualizations:**  
-  Manuals for using RegulonDB’s online tools, browsers, query builders, and visual resources.
-
-- **Curation Manual:**  
-  Detailed description of the curation workflows, tools, evidence classification, and quality control processes used to maintain RegulonDB.
-
-- **Releases & Updates:**  
-  Historical release notes and version histories of RegulonDB data and platforms.
-
-- **Tutorials & Videos:**  
-  Multimedia resources including video tutorials demonstrating how to use RegulonDB features and services.
+- **[About and Policies](00_about_policies/README.md)**: institutional information, contact, citation, licensing, FAIR, privacy, and data preservation policies.
+- **[Search and Browse](01_search_browse/README.md)**: how to search for genes, operons, regulons, and other objects, including logical operators.
+- **[Data Access](02_data_access/README.md)**: dataset downloads, database dumps, the GraphQL API, and local installation.
+- **[Glossary](04_curation/glossary/glossary.md)**: definitions of the concepts used in RegulonDB and how they are represented in the data.
+- **[Releases and Updates](05_releases_updates/README.md)**: release history, research usage, and impact stories.
+- **[Technical Reference](07_technical_reference/README.md)**: data model, core collections, datamarts, Docker instance, and standards.
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - Enable efficient navigation and usage of RegulonDB data.
 - Foster transparency and reproducibility in curation practices.
-- Promote data interoperability and compliance with FAIR principles.
 - Support new curators, developers, and users with clear and updated guides.
 
 ---
 
-## 🛠️ Contributions
+## Contributions
 
 We welcome feedback and contributions to improve the documentation.
 
 If you are interested in contributing, please contact the RegulonDB team at:
 
-📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
-Guidelines for contributing to the documentation will soon be available.
+See [Contributing to RegulonDB Documentation](CONTRIBUTING.md) for the contribution guidelines.
 
 ---
 
-## 📜 License
+## License
 
 All documentation materials are distributed under the  
 [Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -65,4 +50,4 @@ Please cite RegulonDB appropriately when using data or documentation resources.
 
 ---
 
-Thank you for using and supporting RegulonDB! 🌟
+Thank you for using and supporting RegulonDB!

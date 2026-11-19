@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Datamarts (Release Dump Collections)
 
 The datamarts are view-like collections aligned with the RegulonDB web interface. The web application and the GraphQL API read from them, and they are the collections included in the release download (MongoDB dump). They are generated at each release from the **core collections** (database `regulondbmultigenomic`); see [Database Schema Overview](../database_schema_overview.md).

@@ -1,3 +1,5 @@
+<img src="../assets/icons/data_access.svg" alt="" width="48">
+
 # Database Dumps and Full Exports
 
 This guide explains how to obtain complete copies of RegulonDB, by release, for local analysis and reproducible pipelines.
@@ -31,8 +33,7 @@ The list of releases, with their dates, release notes, and download links, is av
 4. Load the data into your local analysis environment (for example, with the [MongoDB Local Installation Guide](technical_resources/mongodb_installation.md) or a Docker instance).
 5. Read the release note for schema or content changes before updating an existing pipeline.
 
-## Related Pages
-
+## Related Content
 - [Dataset Downloads](dataset_downloads.md)
 - [API Access (GraphQL)](api_access.md)
 - [Docker Installation Guide](../07_technical_reference/rdb_docker_instance.md)

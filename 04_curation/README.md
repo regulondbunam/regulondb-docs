@@ -1,4 +1,4 @@
-# 📑 Curation Manual for Transcriptional Regulation and High-Throughput Data
+# Curation Manual for Transcriptional Regulation and High-Throughput Data
 
 Welcome to the **Curation Manual** of RegulonDB.
 
@@ -7,7 +7,7 @@ It is designed for curators, scientists, and contributors who participate in the
 
 
 
-## 📚 Contents
+## Contents
 
 - **[General Curation Workflow](curation_workflow.md):** Overview of the standard annotation process.
 - **[Classical (Literature-Based) Curation](classical_curation.md):** How data is extracted and curated from scientific publications.
@@ -21,7 +21,7 @@ It is designed for curators, scientists, and contributors who participate in the
 
 
 
-## 🎯 Purpose
+## Purpose
 
 The purpose of this manual is to:
 - Maintain consistency and high standards across all curated entries.
@@ -31,7 +31,7 @@ The purpose of this manual is to:
 
 
 
-## 🛠️ Requirements
+## Requirements
 
 - Background knowledge in molecular biology, particularly transcriptional regulation.
 - Familiarity with experimental techniques such as EMSA, footprinting, RNA-seq, and ChIP-seq.
@@ -39,6 +39,6 @@ The purpose of this manual is to:
 
 
 
-Thank you for contributing to the excellence and sustainability of RegulonDB! 🌟  
+Thank you for contributing to the excellence and sustainability of RegulonDB!
 Your work ensures that the scientific community has access to accurate, curated regulatory information.
 

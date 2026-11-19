@@ -1,4 +1,6 @@
-# 🔣 Using Logical Operators in RegulonDB Search
+<img src="../assets/icons/search.svg" alt="" width="48">
+
+# Using Logical Operators in RegulonDB Search
 
 The RegulonDB **search bar** accepts logical operators and exact phrases, so you can broaden or narrow a query without leaving the homepage.
 
@@ -35,8 +37,7 @@ Notes:
 - Use quotation marks for multi-word names or descriptions.
 - Use the result groups on the left side of the results page to jump to the object type you need.
 
-## Related Guides
-
+## Related Content
 - [Overview of Search and Navigation](search_overview.md)
 - [Gene Search](gene_search.md)
 - [Operon Search](operon_search.md)

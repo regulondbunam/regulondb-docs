@@ -1,3 +1,5 @@
+<img src="../assets/icons/about.svg" alt="" width="48">
+
 # Staff Effort (FTE)
 
 This page summarizes annual staff effort dedicated to RegulonDB, reported as Full-Time Equivalents (FTEs) in an aggregated public format.
@@ -37,8 +39,7 @@ The annual total is calculated as the sum of the functional components for each 
 - Total effort increased from 2023 onward due to growth in biocuration capacity, and has remained stable through 2026.
 - The distribution reflects a sustained technical and curation backbone for continuous service.
 
-## Related Pages
-
+## Related Content
 - [Credits](credits.md)
 - [Funding Sources](funding_credits.md)
 - [Global Dimension](global_dimension.md)

@@ -1,3 +1,5 @@
+<img src="../../assets/icons/technical.svg" alt="" width="48">
+
 # Collection: Growth Condition Phrases Catalogs (`growthConditionPhrasesCatalogs`)
 
 - **Database:** `regulondbmultigenomic` (core collections)
@@ -25,8 +27,7 @@ Data types and required fields come from the JSON Schema used to validate the co
 |---|---|
 | `terms` | `terms_id`, `termType` |
 
-## Related Pages
-
+## Related Content
 - [Core Database Collections](README.md)
 - [Database Schema Overview](../database_schema_overview.md)
 - [Data Volume](../data_volume.md)

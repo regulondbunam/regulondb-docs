@@ -1,4 +1,6 @@
-# 🍪 Cookie Policy
+<img src="../assets/icons/about.svg" alt="" width="48">
+
+# Cookie Policy
 
 _Last updated: 2026-11-18_
 
@@ -67,7 +69,7 @@ We encourage you to review this page periodically.
 
 If you have any questions about our use of cookies, please contact us at:
 
-📧 [regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
+[regulondb@ccg.unam.mx](mailto:regulondb@ccg.unam.mx)
 
 ---
 

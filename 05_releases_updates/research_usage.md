@@ -1,3 +1,5 @@
+<img src="../assets/icons/releases.svg" alt="" width="48">
+
 # Research Usage
 
 This page summarizes how RegulonDB is used in scientific research, based on citations of the RegulonDB database publications and on documented reuse.
@@ -129,8 +131,7 @@ Representative examples are described in [Impact Stories](impact_stories.md).
 - The profile of citing documents (types, journals, countries, research areas) comes from the Scopus export of 31 March 2025.
 - Reuse examples are taken from peer-reviewed publications.
 
-## Related Pages
-
+## Related Content
 - [How to Cite RegulonDB](../00_about_policies/how_to_cite.md)
 - [Usage Metrics](usage_metrics.md)
 - [Impact Stories](impact_stories.md)
