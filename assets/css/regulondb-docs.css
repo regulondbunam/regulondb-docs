@@ -163,3 +163,22 @@ body { margin: 0; }
   text-align: center;
 }
 .rdb-footer a { color: var(--rdb-blue); }
+
+/* Collapsible blocks: <details markdown="1"><summary>…</summary> … </details> */
+.rdb-doc details {
+  margin: 10px 0 16px;
+  border: 1px solid var(--rdb-gray-200);
+  border-radius: 4px;
+}
+.rdb-doc details > summary {
+  cursor: pointer;
+  padding: 8px 14px;
+  background: var(--rdb-gray-100);
+  color: var(--rdb-blue);
+  font-weight: 600;
+  font-size: 14px;
+}
+.rdb-doc details > summary:hover { color: var(--rdb-navy); }
+.rdb-doc details[open] > summary { border-bottom: 1px solid var(--rdb-gray-200); }
+.rdb-doc details > table { margin: 0; }
+.rdb-doc details { overflow-x: auto; }

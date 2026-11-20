@@ -60,6 +60,23 @@ End each page with a list of related pages, before the review block:
 - Maintained by: RegulonDB Team
 ```
 
+### Collapsible Tables
+
+Long tables can be collapsed so the page is easier to scan. Leave a blank line after `<summary>` and before `</details>`:
+
+```markdown
+<details markdown="1">
+<summary>Show the evidence types</summary>
+
+| Column | Column |
+|---|---|
+| … | … |
+
+</details>
+```
+
+The attribute `markdown="1"` lets the GitHub Pages site render the table inside the block; GitHub and other viewers ignore it.
+
 ### Other Conventions
 
 - Titles in Title Case; one `#` title per page.

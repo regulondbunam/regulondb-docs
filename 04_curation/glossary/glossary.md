@@ -75,11 +75,11 @@ Internal notes for editors (not rendered):
 
 **Description.** The RNA polymerase (RNAP) holoenzyme (Eσ) is formed by the core RNAP (subunits α₂, β, β′ and ω) and a σ factor, and initiates transcription at specific DNA positions. σ interacts with promoter elements to position Eσ and unwind the DNA around the transcription start site (TSS), the first base of the transcript. Eσ first binds the promoter in a closed complex (RPc), covering approximately −55 to +15 relative to the TSS, and then forms an open complex (RPo) in which the DNA strands are separated. Promoter elements determine the intrinsic activity of a promoter, and promoters are regulated indirectly (for example, through changes in Eσ or substrate concentrations) or directly by specific regulators such as transcription factors (TFs). Transcription continues with elongation and ends at terminators, which can be intrinsic (Rho-independent) or Rho-dependent.
 
-![The regulation of bacterial transcription initiation](./images/fig_transcription_initiation.png)
+<img src="./images/fig_transcription_initiation.png" alt="The regulation of bacterial transcription initiation" width="280">
 
 *Figure. The regulation of bacterial transcription initiation. From Mejía-Almonte C, et al. (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet 21:699–714. https://doi.org/10.1038/s41576-020-0254-8*
 
-![Bacterial transcription process](./images/fig_transcription_process.png)
+<img src="./images/fig_transcription_process.png" alt="Bacterial transcription process" width="420">
 
 *Figure. Bacterial transcription process. From Abril AG, Rama JLR, Sánchez-Pérez A, Villa TG (2020) Role of the σ factor in the transcription process. Appl Microbiol Biotechnol. https://doi.org/10.1007/s00253-020-10577-0*
 
@@ -102,7 +102,7 @@ Internal notes for editors (not rendered):
 - This view is consistent with GenBank, where genes are annotated as continuous loci even when the associated coding sequence is disrupted or spans several disjoint regions. (Mejía-Almonte *et al.*, forthcoming)
 - RegulonDB keeps genes that were previously considered functional and are now classified as pseudogenes or phantom genes.
 
-![Graphical representation of a gene](./images/fig_gene_dtt.png)
+<img src="./images/fig_gene_dtt.png" alt="Graphical representation of a gene" width="600">
 
 *Figure. Graphical representation of a DNA region with a gene. RegulonDB Drawing Traces Tool.*
 

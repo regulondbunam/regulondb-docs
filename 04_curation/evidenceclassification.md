@@ -41,6 +41,9 @@ A TSS is the precise first nucleotide that is transcribed, different methods ide
 
 <br>
 
+<details markdown="1">
+<summary>Show the evidence types</summary>
+
 | Confidence Level | Evidence Name                                           | EvidenceCode                        | Evidence Category          | Evidence Group | Object Type                                                                 |
 |------------------|---------------------------------------------------------|-------------------------------------|----------------------------|:----------------:|-----------------------------------------------------------------------------|
 | S                | RNA polymerase footprinting                             | EXP-IDA-RNA-POLYMERASE-FOOTPRINTING | Classical experiment       | 9              | Promoter                                                                    |
@@ -66,6 +69,8 @@ A TSS is the precise first nucleotide that is transcribed, different methods ide
 | W                | Traceable author statement to experimental support      | EXP-TAS                             | non-experimental           |                | Promoter;Transcription Units;Regulatory Interactions                        |
 | W                | Inferred by curator                                     | IC                                  | non-experimental           |                | Promoter;Transcription Units;Regulatory Interactions                        |
 
+</details>
+
 
 <br>
 <br>
@@ -73,6 +78,9 @@ A TSS is the precise first nucleotide that is transcribed, different methods ide
 #### 2. Regulatory Interactions
 
 A regulatory interaction is defined, depending on the type of evidence, as the transcription factor (TF)-regulated gene interaction (TF-gene), or more specifically as the TF-DNA binding site interaction.
+
+<details markdown="1">
+<summary>Show the evidence types</summary>
 
 | Confidence Level | Evidence Name                                                                                                        | Evidence Code                             | Evidence Category          | Evidence Group | Object Type                                                                     |
 |------------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------|----------------------------|:----------------:|---------------------------------------------------------------------------------|
@@ -126,12 +134,17 @@ A regulatory interaction is defined, depending on the type of evidence, as the t
 | W                | High-throughput DNA affinity purification (DAP) sequencing                                                           | HTP-HDA-DAP-SEQ                           | High-throughput binding    | 6              | DNA-Binding-Sites,mRNA-Binding-Sites,Promoters,Proteins, Regulatory Interaction |
 | W                | Inferred by curator                                                                                                  | IC                                        | non-experimental           |                | Promoter;Transcription Units;Regulatory Interactions                            |
 
+</details>
+
 
 #### 3. Transcription Factor
 
 Most dedicated TFs have usually two conformations, one with a non-covalent bound allosteric metabolite, or a covalent phosphorylation (holo conformation), and one as a free protein or multimer (the apo conformation). There are exceptions to this statement. We call functional conformation the one that is capable of binding to its specific binding sites and perform its activation or repression activity. For the sake of functional conformation evidence the experiments below have to be considered with and without effector. 
 
 <br>
+
+<details markdown="1">
+<summary>Show the evidence types</summary>
 
 | Confidence Level | Evidence Name                                                                                                  | Evidence Code                             | Evidence Category    | Evidence Group | Object Type                                                                 |
 |------------------|----------------------------------------------------------------------------------------------------------------|-------------------------------------------|----------------------|:----------------:|-----------------------------------------------------------------------------|
@@ -166,12 +179,17 @@ Most dedicated TFs have usually two conformations, one with a non-covalent bound
 | W                | Inferred from physical interaction                                                                             | EXP-IPI                                   | Classical experiment |                | Promoter;Regulatory Interactions;Transcription Factors                      |
 |                  | Electrophoretic mobility shift assay with purified protein evidence                                            | EXP-IDA-BINDING-OF-PURIFIED-PROTEINS-EMSA | Classical binding    | 2              | Regulatory Interactions;Transcription Factors                               |
 
+</details>
+
 <br>
 <br>
 
 
 #### 4. Transcription Units
 
+
+<details markdown="1">
+<summary>Show the evidence types</summary>
 
 | Confidence Level | Evidence Name                                                            | Evidence Code                                 | Evidence Category          | Evidence Group | Object Type                                                                 |
 |------------------|--------------------------------------------------------------------------|-----------------------------------------------|----------------------------|:----------------:|-----------------------------------------------------------------------------|
@@ -199,6 +217,8 @@ Most dedicated TFs have usually two conformations, one with a non-covalent bound
 | W                | No biological data available                                             | ND                                            | non-experimental           |                | Transcription Units                                                         |
 |                  | Northern blot for transcription unit length determination evidence       | EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN |                            | 11             | Transcription Units                         |
 
+</details>
+
 
 <br>
 <br>
@@ -219,6 +239,9 @@ The downloadable datasets contain all the individual evidence types so users can
 
 #### 1. Promoters and transcription start sites (TSSs)
 
+<details markdown="1">
+<summary>Show the additive evidence rules</summary>
+
 | Additive Evidence Rule  | Evidences|
 |:--      |:--       |
 | **Confirmed Evidence** |    |
@@ -231,9 +254,14 @@ The downloadable datasets contain all the individual evidence types so users can
 | **Strong Evidence** | |
 | Additive Evidence (7/10) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-AINF-POSITIONAL-IDENTIFICATION, COMP-HINF-POSITIONAL-IDENTIFICATION, COMP-HINF, COMP, COMP-AINF)  <br>  10: (EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP)|
 
+</details>
+
 <br>
 
 #### 2. Regulatory interactions
+
+<details markdown="1">
+<summary>Show the additive evidence rules</summary>
 
 | Additive Evidence Rule  | Evidences|
 |:--      |:--       |
@@ -276,9 +304,14 @@ The downloadable datasets contain all the individual evidence types so users can
 | Additive Evidence(5/7/8) | 5: (EXP-GSELEX) <br>  7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 8: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) |
 | Additive Evidence (6/7/8) | 6: (HTP-HDA-DAP-SEQ) <br> 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br>  8: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY)  |
 
+</details>
+
 <br>
 
 #### 3. Transcription Units
+
+<details markdown="1">
+<summary>Show the additive evidence rules</summary>
 
 | Additive Evidence Rule  | Evidences|
 |:--      |:--       |
@@ -286,6 +319,8 @@ The downloadable datasets contain all the individual evidence types so users can
 | Additive Evidence (11/12)| 11: (EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION, EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN) <br> 12: (EV-EXP-IMP-POLAR-MUTATION) |
 | **Strong Evidence** 	| |
 |Additive Evidence (13/14)| 13: (EV-COMP-AINF-SINGLE-DIRECTON) <br> 14: (EV-EXP-IDA-BOUNDARIES-DEFINED)|
+
+</details>
 
 ## References
 
