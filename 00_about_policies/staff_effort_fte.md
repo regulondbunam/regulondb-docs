@@ -18,9 +18,9 @@ To provide transparent evidence of operational sustainability for curation, soft
 
 | Function | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Leadership and coordination | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
-| Biocuration | 2.0 | 2.0 | 2.0 | 3.0 | 3.0 | 3.0 | 3.0 |
-| Software and infrastructure | 4.65 | 4.65 | 4.65 | 4.65 | 4.65 | 4.65 | 4.65 |
+| Leadership and coordination | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 |
+| Biocuration | 1.8 | 1.8 | 1.8 | 2.8 | 2.8 | 2.8 | 2.8 |
+| Software and infrastructure | 4.35 | 4.35 | 4.35 | 4.35 | 4.35 | 4.35 | 4.35 |
 | **Total FTEs** | **7.65** | **7.65** | **7.65** | **8.65** | **8.65** | **8.65** | **8.65** |
 
 ## Methodology
@@ -32,6 +32,18 @@ FTE values are reported as nominal annual means, aggregated by function:
 - Software and infrastructure.
 
 The annual total is calculated as the sum of the functional components for each year.
+
+One FTE (Full-Time Equivalent) corresponds to one person working full time on RegulonDB during the whole year; a person who dedicates half of their time counts as 0.5 FTE.
+
+Effort is assigned by activity, not by job title:
+
+- **Leadership and coordination:** overall direction of the resource (scientific direction, priorities, funding, and advisory board) and participation in project-wide decisions.
+- **Biocuration:** curation of the literature and of high-throughput data, and coordination of the curation team.
+- **Software and infrastructure:** development, maintenance, and operation of the software and infrastructure, including technical coordination of the development team.
+
+When a person contributes to more than one function, their FTE is split accordingly.
+
+For example, the person who coordinates the development team also takes part in project-wide decisions (0.3 FTE in Leadership and coordination, the rest in Software and infrastructure), and the person who coordinates the curation team also curates (0.2 FTE in Leadership and coordination, the rest in Biocuration).
 
 ## Interpretation Notes
 
@@ -46,5 +58,5 @@ The annual total is calculated as the sum of the functional components for each 
 
 ## Last Review
 
-- Last updated: 2026-11-18
+- Last updated: 2026-11-20
 - Maintained by: RegulonDB Team

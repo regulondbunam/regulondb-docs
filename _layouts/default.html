@@ -37,7 +37,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page_title and page_title != "" %}{{ page_title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if page_title and page_title != "" and page_title != site.title %}{{ page_title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description | strip_newlines | strip }}">
   <meta name="theme-color" content="#32617D">
   <link rel="canonical" href="{{ page.url | absolute_url }}">

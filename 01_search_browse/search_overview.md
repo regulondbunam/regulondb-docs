@@ -26,6 +26,10 @@ Each of these objects can be searched individually, and search results often inc
 
 ## Search Functionalities
 
+Searches start from the search bar on the RegulonDB home page; the links below it open the catalogs of genes, operons, regulons, sigmulons, GENSOR units, and high-throughput datasets.
+
+![RegulonDB home page with the search bar and the links to the catalogs](./assets/img/regulondb_search.png)
+
 - **Basic Search:**  
   Simple form-based searches by name, ID, function, or associated regulator.
 
