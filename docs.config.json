@@ -1,652 +1,608 @@
 {
-  "_description": "Configuration for the RegulonDB documentation site.",
-  "_note": "Each section points to a Markdown page in the repository.",
+  "_description": "This document is a configuration file for the automation of the manual application on the regulonDB site.",
+  "_note": "Before committing please validate the json structure, https://jsonformatter.curiousconcept.com/ ",
   "sites": [
     {
       "_url": "help",
       "title": "Help",
-      "description": "RegulonDB documentation and help resources.",
-      "keyWords": "RegulonDB documentation help data access curation",
+      "description": "Help and documentation for RegulonDB.",
+      "keyWords": "RegulonDB documentation",
+      "index": "README.md",
       "imgUrl": "https://source.unsplash.com/random?wallpapers",
       "sections": [
         {
           "_url": "README.md",
           "title": "RegulonDB Documentation",
           "rawUrl": "/main/README.md"
-        },
+        }
+      ]
+    },
+    {
+      "_url": "00_about_policies",
+      "title": "about policies",
+      "description": "RegulonDB documentation for about policies.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
         {
-          "_url": "00_about_policies/README.md",
+          "_url": "README.md",
           "title": "About and Policies",
           "rawUrl": "/main/00_about_policies/README.md"
         },
         {
-          "_url": "00_about_policies/about_us.md",
+          "_url": "about_us.md",
           "title": "About RegulonDB",
           "rawUrl": "/main/00_about_policies/about_us.md"
         },
         {
-          "_url": "00_about_policies/global_dimension.md",
+          "_url": "global_dimension.md",
           "title": "Global Dimension",
           "rawUrl": "/main/00_about_policies/global_dimension.md"
         },
         {
-          "_url": "00_about_policies/contact_us.md",
+          "_url": "contact_us.md",
           "title": "Contact Us",
           "rawUrl": "/main/00_about_policies/contact_us.md"
         },
         {
-          "_url": "00_about_policies/helpdesk-protocol.md",
+          "_url": "helpdesk-protocol.md",
           "title": "User Support Protocol",
           "rawUrl": "/main/00_about_policies/helpdesk-protocol.md"
         },
         {
-          "_url": "00_about_policies/credits.md",
+          "_url": "credits.md",
           "title": "Credits",
           "rawUrl": "/main/00_about_policies/credits.md"
         },
         {
-          "_url": "00_about_policies/staff_effort_fte.md",
+          "_url": "staff_effort_fte.md",
           "title": "Staff Effort (FTE)",
           "rawUrl": "/main/00_about_policies/staff_effort_fte.md"
         },
         {
-          "_url": "00_about_policies/governance_advisory.md",
+          "_url": "governance_advisory.md",
           "title": "Governance and Scientific Advisory",
           "rawUrl": "/main/00_about_policies/governance_advisory.md"
         },
         {
-          "_url": "00_about_policies/data_preservation_policy.md",
+          "_url": "data_preservation_policy.md",
           "title": "Data Preservation and Continuity Policy",
           "rawUrl": "/main/00_about_policies/data_preservation_policy.md"
         },
         {
-          "_url": "00_about_policies/funding_credits.md",
+          "_url": "funding_credits.md",
           "title": "Funding Sources",
           "rawUrl": "/main/00_about_policies/funding_credits.md"
         },
         {
-          "_url": "00_about_policies/how_to_cite.md",
+          "_url": "how_to_cite.md",
           "title": "How to Cite RegulonDB",
           "rawUrl": "/main/00_about_policies/how_to_cite.md"
         },
         {
-          "_url": "00_about_policies/fair_policy.md",
+          "_url": "fair_policy.md",
           "title": "FAIR Data Policy",
           "rawUrl": "/main/00_about_policies/fair_policy.md"
         },
         {
-          "_url": "00_about_policies/ethics_and_download_policy.md",
+          "_url": "ethics_and_download_policy.md",
           "title": "Ethics Policy",
           "rawUrl": "/main/00_about_policies/ethics_and_download_policy.md"
         },
         {
-          "_url": "00_about_policies/license.md",
+          "_url": "license.md",
           "title": "License",
           "rawUrl": "/main/00_about_policies/license.md"
         },
         {
-          "_url": "00_about_policies/privacy_policy.md",
+          "_url": "privacy_policy.md",
           "title": "Privacy Policy",
           "rawUrl": "/main/00_about_policies/privacy_policy.md"
         },
         {
-          "_url": "00_about_policies/cookie_policy.md",
+          "_url": "cookie_policy.md",
           "title": "Cookie Policy",
           "rawUrl": "/main/00_about_policies/cookie_policy.md"
-        },
+        }
+      ]
+    },
+    {
+      "_url": "01_search_browse",
+      "title": "search browse",
+      "description": "RegulonDB documentation for search browse.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
         {
-          "_url": "01_search_browse/README.md",
-          "title": "Search and Browse Guide",
+          "_url": "README.md",
+          "title": "Search and Browse",
           "rawUrl": "/main/01_search_browse/README.md"
         },
         {
-          "_url": "01_search_browse/search_overview.md",
+          "_url": "search_overview.md",
           "title": "Overview of Search and Navigation",
           "rawUrl": "/main/01_search_browse/search_overview.md"
         },
         {
-          "_url": "01_search_browse/logical_operators_search.md",
+          "_url": "logical_operators_search.md",
           "title": "Using Logical Operators",
           "rawUrl": "/main/01_search_browse/logical_operators_search.md"
         },
         {
-          "_url": "01_search_browse/gene_search.md",
+          "_url": "gene_search.md",
           "title": "Gene Search",
           "rawUrl": "/main/01_search_browse/gene_search.md"
         },
         {
-          "_url": "01_search_browse/operon_search.md",
+          "_url": "operon_search.md",
           "title": "Operon Search",
           "rawUrl": "/main/01_search_browse/operon_search.md"
         },
         {
-          "_url": "01_search_browse/regulon_search.md",
+          "_url": "regulon_search.md",
           "title": "Regulon Search",
           "rawUrl": "/main/01_search_browse/regulon_search.md"
-        },
+        }
+      ]
+    },
+    {
+      "_url": "02_data_access",
+      "title": "data access",
+      "description": "RegulonDB documentation for data access.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
         {
-          "_url": "02_data_access/README.md",
-          "title": "Data Access and Technical Resources Guide",
+          "_url": "README.md",
+          "title": "Data Access",
           "rawUrl": "/main/02_data_access/README.md"
         },
         {
-          "_url": "02_data_access/dataset_downloads.md",
+          "_url": "dataset_downloads.md",
           "title": "Dataset Downloads",
           "rawUrl": "/main/02_data_access/dataset_downloads.md"
         },
         {
-          "_url": "02_data_access/gold_standard_guide_en.md",
+          "_url": "gold_standard_guide_en.md",
           "title": "Creating Gold Standard Datasets",
           "rawUrl": "/main/02_data_access/gold_standard_guide_en.md"
         },
         {
-          "_url": "02_data_access/database_dumps.md",
+          "_url": "database_dumps.md",
           "title": "Database Dumps (MongoDB, Docker)",
           "rawUrl": "/main/02_data_access/database_dumps.md"
         },
         {
-          "_url": "02_data_access/api_access.md",
+          "_url": "api_access.md",
           "title": "API Access (GraphQL)",
           "rawUrl": "/main/02_data_access/api_access.md"
-        },
+        }
+      ]
+    },
+    {
+      "_url": "04_curation\\glossary",
+      "title": "curation\\glossary",
+      "description": "RegulonDB documentation for curation\\glossary.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
         {
-          "_url": "07_technical_reference/rdb_docker_instance.md",
-          "title": "Docker Installation Guide",
-          "rawUrl": "/main/07_technical_reference/rdb_docker_instance.md"
-        },
-        {
-          "_url": "02_data_access/technical_resources/README.md",
-          "title": "Technical Resources",
-          "rawUrl": "/main/02_data_access/technical_resources/README.md"
-        },
-        {
-          "_url": "02_data_access/technical_resources/mongodb_installation.md",
-          "title": "MongoDB Local Installation Guide",
-          "rawUrl": "/main/02_data_access/technical_resources/mongodb_installation.md"
-        },
-        {
-          "_url": "03_tools_visualizations/README.md",
-          "title": "Tools and Visualizations Guide",
-          "rawUrl": "/main/03_tools_visualizations/README.md"
-        },
-        {
-          "_url": "03_tools_visualizations/drawing_traces_tool.md",
-          "title": "Drawing Traces Tool",
-          "rawUrl": "/main/03_tools_visualizations/drawing_traces_tool.md"
-        },
-        {
-          "_url": "03_tools_visualizations/igv_browser.md",
-          "title": "IGV Genome Browser",
-          "rawUrl": "/main/03_tools_visualizations/igv_browser.md"
-        },
-        {
-          "_url": "03_tools_visualizations/mco_browser.md",
-          "title": "Microbial Condition Ontology Browser",
-          "rawUrl": "/main/03_tools_visualizations/mco_browser.md"
-        },
-        {
-          "_url": "03_tools_visualizations/ht_query_builder/README.md",
-          "title": "High Throughput Query Builder",
-          "rawUrl": "/main/03_tools_visualizations/ht_query_builder/README.md"
-        },
-        {
-          "_url": "03_tools_visualizations/ht_query_builder/tf_binding_sites.md",
-          "title": "TF Binding Sites",
-          "rawUrl": "/main/03_tools_visualizations/ht_query_builder/tf_binding_sites.md"
-        },
-        {
-          "_url": "03_tools_visualizations/ht_query_builder/transcription_units.md",
-          "title": "Transcription Units",
-          "rawUrl": "/main/03_tools_visualizations/ht_query_builder/transcription_units.md"
-        },
-        {
-          "_url": "03_tools_visualizations/ht_query_builder/termination_sites.md",
-          "title": "Termination Sites",
-          "rawUrl": "/main/03_tools_visualizations/ht_query_builder/termination_sites.md"
-        },
-        {
-          "_url": "03_tools_visualizations/ht_query_builder/start_sites.md",
-          "title": "Start Sites",
-          "rawUrl": "/main/03_tools_visualizations/ht_query_builder/start_sites.md"
-        },
-        {
-          "_url": "03_tools_visualizations/ht_query_builder/gene_expression.md",
-          "title": "Gene Expression",
-          "rawUrl": "/main/03_tools_visualizations/ht_query_builder/gene_expression.md"
-        },
-        {
-          "_url": "04_curation/README.md",
-          "title": "Curation Manual Overview",
-          "rawUrl": "/main/04_curation/README.md"
-        },
-        {
-          "_url": "04_curation/glossary/glossary.md",
-          "title": "RegulonDB Glossary",
+          "_url": "glossary.md",
+          "title": "Glossary",
           "rawUrl": "/main/04_curation/glossary/glossary.md"
-        },
+        }
+      ]
+    },
+    {
+      "_url": "04_curation",
+      "title": "curation",
+      "description": "RegulonDB documentation for curation.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
         {
-          "_url": "04_curation/manual_index.md",
-          "title": "Manual Structure (Extended TOC)",
-          "rawUrl": "/main/04_curation/manual_index.md"
-        },
-        {
-          "_url": "04_curation/curation_workflow.md",
-          "title": "General Curation Workflow",
-          "rawUrl": "/main/04_curation/curation_workflow.md"
-        },
-        {
-          "_url": "04_curation/classical_curation.md",
-          "title": "Classical (Literature-Based) Curation",
-          "rawUrl": "/main/04_curation/classical_curation.md"
-        },
-        {
-          "_url": "04_curation/ht_data_curation.md",
-          "title": "High-Throughput Data Curation",
-          "rawUrl": "/main/04_curation/ht_data_curation.md"
-        },
-        {
-          "_url": "04_curation/curation_tools.md",
-          "title": "Curation Tools (Lisen and Curate, EcoCyc)",
-          "rawUrl": "/main/04_curation/curation_tools.md"
-        },
-        {
-          "_url": "04_curation/evidenceclassification.md",
-          "title": "Evidence Classification Guide",
+          "_url": "evidenceclassification.md",
+          "title": "Evidence Classification",
           "rawUrl": "/main/04_curation/evidenceclassification.md"
-        },
+        }
+      ]
+    },
+    {
+      "_url": "05_releases_updates",
+      "title": "releases updates",
+      "description": "RegulonDB documentation for releases updates.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
         {
-          "_url": "04_curation/mco_usage_curation.md",
-          "title": "Using Microbial Condition Ontology (MCO) for Curation",
-          "rawUrl": "/main/04_curation/mco_usage_curation.md"
-        },
-        {
-          "_url": "04_curation/quality_control.md",
-          "title": "Quality Control in Curation",
-          "rawUrl": "/main/04_curation/quality_control.md"
-        },
-        {
-          "_url": "04_curation/appendices.md",
-          "title": "Appendices",
-          "rawUrl": "/main/04_curation/appendices.md"
-        },
-        {
-          "_url": "05_releases_updates/README.md",
+          "_url": "README.md",
           "title": "Releases and Updates",
           "rawUrl": "/main/05_releases_updates/README.md"
         },
         {
-          "_url": "05_releases_updates/release_notes.md",
+          "_url": "release_notes.md",
           "title": "Release Notes",
           "rawUrl": "/main/05_releases_updates/release_notes.md"
         },
         {
-          "_url": "05_releases_updates/version_history.md",
+          "_url": "version_history.md",
           "title": "Version History",
           "rawUrl": "/main/05_releases_updates/version_history.md"
         },
         {
-          "_url": "05_releases_updates/usage_metrics.md",
+          "_url": "usage_metrics.md",
           "title": "Usage Metrics",
           "rawUrl": "/main/05_releases_updates/usage_metrics.md"
         },
         {
-          "_url": "05_releases_updates/research_usage.md",
+          "_url": "research_usage.md",
           "title": "Research Usage",
           "rawUrl": "/main/05_releases_updates/research_usage.md"
         },
         {
-          "_url": "05_releases_updates/impact_stories.md",
+          "_url": "impact_stories.md",
           "title": "Impact Stories",
           "rawUrl": "/main/05_releases_updates/impact_stories.md"
         },
         {
-          "_url": "05_releases_updates/counterfactual.md",
+          "_url": "counterfactual.md",
           "title": "Counterfactual Scenario",
           "rawUrl": "/main/05_releases_updates/counterfactual.md"
-        },
+        }
+      ]
+    },
+    {
+      "_url": "07_technical_reference",
+      "title": "technical reference",
+      "description": "RegulonDB documentation for technical reference.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
         {
-          "_url": "06_tutorials_videos/README.md",
-          "title": "Tutorials and Videos",
-          "rawUrl": "/main/06_tutorials_videos/README.md"
-        },
-        {
-          "_url": "06_tutorials_videos/search_navigation.md",
-          "title": "Search Navigation Tutorial",
-          "rawUrl": "/main/06_tutorials_videos/search_navigation.md"
-        },
-        {
-          "_url": "06_tutorials_videos/other_tutorials.md",
-          "title": "Other Tutorials",
-          "rawUrl": "/main/06_tutorials_videos/other_tutorials.md"
-        },
-        {
-          "_url": "06_tutorials_videos/docker_installation.md",
-          "title": "Docker Installation Tutorial",
-          "rawUrl": "/main/06_tutorials_videos/docker_installation.md"
-        },
-        {
-          "_url": "06_tutorials_videos/curation_process.md",
-          "title": "Curation Process Tutorial",
-          "rawUrl": "/main/06_tutorials_videos/curation_process.md"
-        },
-        {
-          "_url": "06_tutorials_videos/data_downloads.md",
-          "title": "Data Downloads Tutorial",
-          "rawUrl": "/main/06_tutorials_videos/data_downloads.md"
-        },
-        {
-          "_url": "06_tutorials_videos/api_usage.md",
-          "title": "API Usage Tutorial",
-          "rawUrl": "/main/06_tutorials_videos/api_usage.md"
-        },
-        {
-          "_url": "07_technical_reference/README.md",
+          "_url": "README.md",
           "title": "Technical Reference",
           "rawUrl": "/main/07_technical_reference/README.md"
         },
         {
-          "_url": "07_technical_reference/standards_ontologies.md",
+          "_url": "rdb_docker_instance.md",
+          "title": "Docker Installation Guide",
+          "rawUrl": "/main/07_technical_reference/rdb_docker_instance.md"
+        },
+        {
+          "_url": "standards_ontologies.md",
           "title": "Standards and Ontologies Used in RegulonDB",
           "rawUrl": "/main/07_technical_reference/standards_ontologies.md"
         },
         {
-          "_url": "07_technical_reference/db_relationships.md",
+          "_url": "db_relationships.md",
           "title": "Relationships with External Data Resources",
           "rawUrl": "/main/07_technical_reference/db_relationships.md"
         },
         {
-          "_url": "07_technical_reference/technical_performance.md",
+          "_url": "technical_performance.md",
           "title": "Technical Performance",
           "rawUrl": "/main/07_technical_reference/technical_performance.md"
         },
         {
-          "_url": "07_technical_reference/database_schema_overview.md",
+          "_url": "database_schema_overview.md",
           "title": "Database Schema Overview",
           "rawUrl": "/main/07_technical_reference/database_schema_overview.md"
         },
         {
-          "_url": "07_technical_reference/data_volume.md",
+          "_url": "data_volume.md",
           "title": "Data Volume",
           "rawUrl": "/main/07_technical_reference/data_volume.md"
-        },
+        }
+      ]
+    },
+    {
+      "_url": "02_data_access\\technical_resources",
+      "title": "data access\\technical resources",
+      "description": "RegulonDB documentation for data access\\technical resources.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
         {
-          "_url": "07_technical_reference/core_collections/README.md",
-          "title": "Core Database Collections",
+          "_url": "mongodb_installation.md",
+          "title": "MongoDB Local Installation Guide",
+          "rawUrl": "/main/02_data_access/technical_resources/mongodb_installation.md"
+        }
+      ]
+    },
+    {
+      "_url": "07_technical_reference\\core_collections",
+      "title": "technical reference\\core collections",
+      "description": "RegulonDB documentation for technical reference\\core collections.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
+        {
+          "_url": "README.md",
+          "title": "Core Database Collections (Technical Reference)",
           "rawUrl": "/main/07_technical_reference/core_collections/README.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/README.md",
+          "_url": "collection_additive_evidences.md",
+          "title": "Additive Evidences",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_additive_evidences.md"
+        },
+        {
+          "_url": "collection_evidences.md",
+          "title": "Evidences",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_evidences.md"
+        },
+        {
+          "_url": "collection_external_cross_references.md",
+          "title": "External Cross References",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_external_cross_references.md"
+        },
+        {
+          "_url": "collection_genes.md",
+          "title": "Genes",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_genes.md"
+        },
+        {
+          "_url": "collection_growth_condition_contrasts.md",
+          "title": "Growth Condition Contrasts",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_growth_condition_contrasts.md"
+        },
+        {
+          "_url": "collection_growth_condition_phrases_catalogs.md",
+          "title": "Growth Condition Phrases Catalogs",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_growth_condition_phrases_catalogs.md"
+        },
+        {
+          "_url": "collection_motifs.md",
+          "title": "Motifs",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_motifs.md"
+        },
+        {
+          "_url": "collection_ontologies.md",
+          "title": "Ontologies",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_ontologies.md"
+        },
+        {
+          "_url": "collection_operons.md",
+          "title": "Operons",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_operons.md"
+        },
+        {
+          "_url": "collection_organisms.md",
+          "title": "Organisms",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_organisms.md"
+        },
+        {
+          "_url": "collection_products.md",
+          "title": "Products",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_products.md"
+        },
+        {
+          "_url": "collection_promoters.md",
+          "title": "Promoters",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_promoters.md"
+        },
+        {
+          "_url": "collection_publications.md",
+          "title": "Publications",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_publications.md"
+        },
+        {
+          "_url": "collection_regulators.md",
+          "title": "Regulators",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulators.md"
+        },
+        {
+          "_url": "collection_regulatory_complexes.md",
+          "title": "Regulatory Complexes",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulatory_complexes.md"
+        },
+        {
+          "_url": "collection_regulatory_continuants.md",
+          "title": "Regulatory Continuants",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulatory_continuants.md"
+        },
+        {
+          "_url": "collection_regulatory_interactions.md",
+          "title": "Regulatory Interactions",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulatory_interactions.md"
+        },
+        {
+          "_url": "collection_regulatory_sites.md",
+          "title": "Regulatory Sites",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulatory_sites.md"
+        },
+        {
+          "_url": "collection_segments.md",
+          "title": "Segments",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_segments.md"
+        },
+        {
+          "_url": "collection_sequences.md",
+          "title": "Sequences",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_sequences.md"
+        },
+        {
+          "_url": "collection_sigma_factors.md",
+          "title": "Sigma Factors",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_sigma_factors.md"
+        },
+        {
+          "_url": "collection_terminators.md",
+          "title": "Terminators",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_terminators.md"
+        },
+        {
+          "_url": "collection_terms.md",
+          "title": "Terms",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_terms.md"
+        },
+        {
+          "_url": "collection_transcription_factors.md",
+          "title": "Transcription Factors",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_transcription_factors.md"
+        },
+        {
+          "_url": "collection_transcription_units.md",
+          "title": "Transcription Units",
+          "rawUrl": "/main/07_technical_reference/core_collections/collection_transcription_units.md"
+        }
+      ]
+    },
+    {
+      "_url": "07_technical_reference\\datamarts",
+      "title": "technical reference\\datamarts",
+      "description": "RegulonDB documentation for technical reference\\datamarts.",
+      "keyWords": "RegulonDB documentation",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
+        {
+          "_url": "README.md",
           "title": "Datamarts (Release Dump)",
           "rawUrl": "/main/07_technical_reference/datamarts/README.md"
         },
         {
-          "_url": "07_technical_reference/core_collections/collection_additive_evidences.md",
-          "title": "dditive vidences",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_additive_evidences.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_evidences.md",
-          "title": "vidences",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_evidences.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_external_cross_references.md",
-          "title": "xternal ross eferences",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_external_cross_references.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_genes.md",
-          "title": "enes",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_genes.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_growth_condition_contrasts.md",
-          "title": "rowth ondition ontrasts",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_growth_condition_contrasts.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_growth_condition_phrases_catalogs.md",
-          "title": "rowth ondition hrases atalogs",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_growth_condition_phrases_catalogs.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_motifs.md",
-          "title": "otifs",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_motifs.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_ontologies.md",
-          "title": "ntologies",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_ontologies.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_operons.md",
-          "title": "perons",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_operons.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_organisms.md",
-          "title": "rganisms",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_organisms.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_products.md",
-          "title": "roducts",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_products.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_promoters.md",
-          "title": "romoters",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_promoters.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_publications.md",
-          "title": "ublications",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_publications.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_regulators.md",
-          "title": "egulators",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulators.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_regulatory_complexes.md",
-          "title": "egulatory omplexes",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulatory_complexes.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_regulatory_continuants.md",
-          "title": "egulatory ontinuants",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulatory_continuants.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_regulatory_interactions.md",
-          "title": "egulatory nteractions",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulatory_interactions.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_regulatory_sites.md",
-          "title": "egulatory ites",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_regulatory_sites.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_segments.md",
-          "title": "egments",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_segments.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_sequences.md",
-          "title": "equences",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_sequences.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_sigma_factors.md",
-          "title": "igma actors",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_sigma_factors.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_terminators.md",
-          "title": "erminators",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_terminators.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_terms.md",
-          "title": "erms",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_terms.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_transcription_factors.md",
-          "title": "ranscription actors",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_transcription_factors.md"
-        },
-        {
-          "_url": "07_technical_reference/core_collections/collection_transcription_units.md",
-          "title": "ranscription nits",
-          "rawUrl": "/main/07_technical_reference/core_collections/collection_transcription_units.md"
-        },
-        {
-          "_url": "07_technical_reference/datamarts/dm_database_info.md",
-          "title": "atabase nfo",
+          "_url": "dm_database_info.md",
+          "title": "Database Info",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_database_info.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_dna_features.md",
-          "title": "na eatures",
+          "_url": "dm_dna_features.md",
+          "title": "DNA Features",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_dna_features.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_downloadable_files_datamart.md",
-          "title": "ownloadable iles atamart",
+          "_url": "dm_downloadable_files_datamart.md",
+          "title": "Downloadable Files",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_downloadable_files_datamart.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_evidences_datamart.md",
-          "title": "vidences atamart",
+          "_url": "dm_evidences_datamart.md",
+          "title": "Evidences",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_evidences_datamart.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_gene_coexpressions.md",
-          "title": "ene oexpressions",
+          "_url": "dm_gene_coexpressions.md",
+          "title": "Gene Coexpressions",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_gene_coexpressions.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_gene_datamart.md",
-          "title": "ene atamart",
+          "_url": "dm_gene_datamart.md",
+          "title": "Gene",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_gene_datamart.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_gensor_unit_datamart.md",
-          "title": "ensor nit atamart",
+          "_url": "dm_gensor_unit_datamart.md",
+          "title": "GENSOR Unit",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_gensor_unit_datamart.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_growth_condition.md",
-          "title": "rowth ondition",
+          "_url": "dm_growth_condition.md",
+          "title": "Growth Condition",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_growth_condition.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_list_page.md",
-          "title": "ist age",
+          "_url": "dm_list_page.md",
+          "title": "List Page",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_list_page.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_mco_tree.md",
-          "title": "co ree",
+          "_url": "dm_mco_tree.md",
+          "title": "MCO Tree",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_mco_tree.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_operon_datamart.md",
-          "title": "peron atamart",
+          "_url": "dm_operon_datamart.md",
+          "title": "Operon",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_operon_datamart.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_overviews.md",
-          "title": "verviews",
+          "_url": "dm_overviews.md",
+          "title": "Overviews",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_overviews.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_phrases.md",
-          "title": "hrases",
+          "_url": "dm_phrases.md",
+          "title": "Phrases",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_phrases.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_recent_queries.md",
-          "title": "ecent ueries",
+          "_url": "dm_recent_queries.md",
+          "title": "Recent Queries",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_recent_queries.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_regulatory_network_datamart.md",
-          "title": "egulatory etwork atamart",
+          "_url": "dm_regulatory_network_datamart.md",
+          "title": "Regulatory Network",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_regulatory_network_datamart.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_regulon_datamart.md",
-          "title": "egulon atamart",
+          "_url": "dm_regulon_datamart.md",
+          "title": "Regulon",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_regulon_datamart.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_sigmulon_datamart.md",
-          "title": "igmulon atamart",
+          "_url": "dm_sigmulon_datamart.md",
+          "title": "Sigmulon",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_sigmulon_datamart.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/dm_srna_datamart.md",
-          "title": "rna atamart",
+          "_url": "dm_srna_datamart.md",
+          "title": "Small RNA",
           "rawUrl": "/main/07_technical_reference/datamarts/dm_srna_datamart.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_authors_data.md",
-          "title": "T uthors ata",
+          "_url": "ht_authors_data.md",
+          "title": "HT Authors Data",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_authors_data.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_dataset_collections.md",
-          "title": "T ataset ollections",
-          "rawUrl": "/main/07_technical_reference/datamarts/ht_dataset_collections.md"
-        },
-        {
-          "_url": "07_technical_reference/datamarts/ht_dataset.md",
-          "title": "T ataset",
+          "_url": "ht_dataset.md",
+          "title": "HT Dataset",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_dataset.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_gene_expression.md",
-          "title": "T ene xpression",
+          "_url": "ht_gene_expression.md",
+          "title": "HT Gene Expression",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_gene_expression.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_metadata.md",
-          "title": "T etadata",
+          "_url": "ht_dataset_collections.md",
+          "title": "HT Dataset Collections",
+          "rawUrl": "/main/07_technical_reference/datamarts/ht_dataset_collections.md"
+        },
+        {
+          "_url": "ht_metadata.md",
+          "title": "HT Metadata",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_metadata.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_nlp_growth_conditions.md",
-          "title": "T lp rowth onditions",
+          "_url": "ht_nlp_growth_conditions.md",
+          "title": "HT NLP Growth Conditions",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_nlp_growth_conditions.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_peaks.md",
-          "title": "T eaks",
+          "_url": "ht_peaks.md",
+          "title": "HT Peaks",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_peaks.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_tf_binding.md",
-          "title": "T f inding",
+          "_url": "ht_tf_binding.md",
+          "title": "HT TF Binding",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_tf_binding.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_transcription_start_site.md",
-          "title": "T ranscription tart ite",
+          "_url": "ht_transcription_start_site.md",
+          "title": "HT Transcription Start Sites",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_transcription_start_site.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_transcription_termination_site.md",
-          "title": "T ranscription ermination ite",
+          "_url": "ht_transcription_termination_site.md",
+          "title": "HT Transcription Termination Sites",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_transcription_termination_site.md"
         },
         {
-          "_url": "07_technical_reference/datamarts/ht_transcription_unit.md",
-          "title": "T ranscription nit",
+          "_url": "ht_transcription_unit.md",
+          "title": "HT Transcription Units",
           "rawUrl": "/main/07_technical_reference/datamarts/ht_transcription_unit.md"
         }
       ]
