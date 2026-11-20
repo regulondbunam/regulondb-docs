@@ -157,7 +157,7 @@ Internal notes for editors (not rendered):
 
 *Figure. Graphical representation of a transcription unit (fliDST). RegulonDB Drawing Traces Tool.*
 
-![Transcription unit and operon schematic](./images/fig_tu_operon_schematic.jpg)
+<img src="./images/fig_tu_operon_schematic.jpg" alt="Transcription unit and operon schematic" width="320">
 
 *Figure. Transcription unit and operon schematic: (a) a TU limited by a promoter and a terminator; (b) the complex operon gadAXW with several overlapping TUs. From Mejía-Almonte C, et al. (2020) Nat Rev Genet 21:699–714.*
 
@@ -229,7 +229,7 @@ Internal notes for editors (not rendered):
 
 *Figure. Graphical representation of a terminator in RegulonDB. RegulonDB Drawing Traces Tool.*
 
-![Intrinsic and Rho-dependent terminators](./images/terminator2.png)
+<img src="./images/terminator2.png" alt="Intrinsic and Rho-dependent terminators" width="280">
 
 *Figure. Intrinsic (top) and Rho-dependent (bottom) termination. Adapted from "Prokaryotic terminators", Wikimedia Commons.*
 
@@ -314,7 +314,7 @@ Internal notes for editors (not rendered):
 
 ![Attenuator](./images/fig_attenuator_icon.png)
 ![Attenuator mechanism](./images/fig_attenuator_mechanism.png)
-![Computational prediction of attenuators](./images/fig_attenuator_prediction.png)
+<img src="./images/fig_attenuator_prediction.png" alt="Computational prediction of attenuators" width="450">
 
 **In RegulonDB.** Not included in the current data model. Keep commented until attenuators are available again.
 -->
@@ -327,7 +327,7 @@ Internal notes for editors (not rendered):
 **Description.** Riboswitches regulate transcription (through terminator/anti-terminator structures) or translation (by blocking the ribosome-binding site upon ligand binding).
 
 ![Riboswitch](./images/fig_riboswitch_icon.png)
-![Riboswitch mechanisms](./images/fig_riboswitch_mechanisms.jpg)
+<img src="./images/fig_riboswitch_mechanisms.jpg" alt="Riboswitch mechanisms" width="500">
 Figure. Two main regulatory mechanisms of riboswitches. From Xu J, et al. (2023) Riboswitches, from cognition to transformation. Synth Syst Biotechnol 8:357-370. PMID: 37325181.
 
 **In RegulonDB.** Not included in the current data model (the schema defines a collection "rfams" that is not exported). Keep commented until riboswitches are available.
@@ -343,7 +343,7 @@ Figure. Two main regulatory mechanisms of riboswitches. From Xu J, et al. (2023)
 
 **Description.** Functional RNAs (tRNAs, rRNAs, small regulatory RNAs) are gene products. The relationship between a gene and its products is not one-to-one: a gene can have several products, as in *infB* and *copA*, which generate protein isoforms from alternative or internal start codons; conversely, a polypeptide can participate in several complexes. (Mejía-Almonte *et al.*, forthcoming)
 
-![Gene product](./images/product.png)
+<img src="./images/product.png" alt="Gene product" width="450">
 
 *Figure. From gene to gene products.*
 
@@ -379,7 +379,7 @@ Figure. Two main regulatory mechanisms of riboswitches. From Xu J, et al. (2023)
 |:---:|:---:|
 | ![Small RNA](./images/fig_regulator_srna_icon.png) | ![Transcription factor](./images/fig_regulator_tf_icon.png) |
 
-![Classification of regulators](./images/fig_regulator_classification.png)
+<img src="./images/fig_regulator_classification.png" alt="Classification of regulators" width="700">
 
 *Figure. Classification of regulators.*
 
@@ -405,7 +405,7 @@ Figure. Two main regulatory mechanisms of riboswitches. From Xu J, et al. (2023)
 
 **Description.** TFs are usually allosteric proteins that bind their operator sites, generally near promoters, in a holo or apo conformation. A TF acts in a **holo** conformation when it binds DNA as a complex with an effector, either a non-covalently bound small molecule or a covalent modification (for example, phosphorylation in two-component systems); it acts in an **apo** conformation when it binds DNA without an effector. The activity of most TFs is linked to external signals, which makes gene expression highly sensitive to environmental changes. Activators compensate for the intrinsic weakness of promoters; repressors reduce promoter activity.
 
-![Holo and apo conformations of transcription factors](./images/fig_tf_holo_apo.jpg)
+<img src="./images/fig_tf_holo_apo.jpg" alt="Holo and apo conformations of transcription factors" width="700">
 
 *Figure. Holo and apo conformations of transcription factors. From Balderas-Martínez YI, et al. (2013) Predicted gene control circuits for simple cases. PLoS One. https://doi.org/10.1371/journal.pone.0065723*
 
@@ -519,11 +519,11 @@ Figure. Two main regulatory mechanisms of riboswitches. From Xu J, et al. (2023)
 - In OBAGER, RIs are classes with a regulator and a regulated entity; the most detailed RIs have a TF bound to its TFRS as regulator. There are also RI classes with small RNAs as trans-acting regulators. (Mejía-Almonte *et al.*, forthcoming)
 - Each RI has one effect: activation or repression. When a regulator activates a target under some conditions and represses it under others, this is represented as two RIs; the **dual** effect appears only when the RIs are grouped, for example in a regulon.
 
-![Three types of regulators](./images/fig_regulator_types_dtt.png)
+<img src="./images/fig_regulator_types_dtt.png" alt="Three types of regulators" width="700">
 
 *Figure. Three types of regulators: transcription factors, RNAP-centered regulatory gene products, and small RNA regulators. RegulonDB Drawing Traces Tool.*
 
-![Mechanisms of repression and activation](./images/fig_ri_mechanisms.jpg)
+<img src="./images/fig_ri_mechanisms.jpg" alt="Mechanisms of repression and activation" width="380">
 
 *Figure. Mechanisms of repression and activation by transcription factors at bacterial promoters. From Browning DF, Butala M, Busby SJW (2019) J Mol Biol. https://doi.org/10.1016/j.jmb.2019.04.011*
 
@@ -612,11 +612,11 @@ Fields and values defined in the schema without data yet (keep commented):
 
 **Description.** A cell's response to changes inside the cell or in its environment starts when a signal is sensed and transmitted through a series of reactions (signal transduction), which act on genetic switches that modify gene expression. A **simple GU** groups all the target genes of a regulon, including its TF; a **complex GU** groups the TFs and target genes of a complex regulon.
 
-![GENSOR unit components](./images/fig_gensor_components.png)
+<img src="./images/fig_gensor_components.png" alt="GENSOR unit components" width="600">
 
 *Figure. GENSOR unit components and their graphical representation.*
 
-![AraC GENSOR unit](./images/fig_gensor_arac.jpg)
+<img src="./images/fig_gensor_arac.jpg" alt="AraC GENSOR unit" width="520">
 
 *Figure. The AraC–arabinose GU. In the presence of L-arabinose, AraC activates the transcription of genes for the utilization and transport of L-arabinose; in the absence of glucose, CRP co-regulates with AraC.*
 
