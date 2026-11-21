@@ -1,6 +1,6 @@
 {%- comment -%}
   RegulonDB documentation layout (GitHub Pages).
-  - Inserts the JSON-LD description of the documentation (_includes/regulondb_documentation.jsonld).
+  - Inserts the JSON-LD description of the documentation (_includes/structured-data.html).
   - Applies assets/css/regulondb-docs.css.
   - Builds the page header from the section icon and the first title, and the
     "Related Content" box, as described in assets/style_guide.md.
@@ -47,9 +47,7 @@
   <link rel="cite-as" href="https://doi.org/{{ site.doi }}">
   {%- endif %}
   <link rel="stylesheet" href="{{ '/assets/css/regulondb-docs.css' | relative_url }}">
-  <script type="application/ld+json">
-{% include regulondb_documentation.jsonld %}
-  </script>
+  {% include structured-data.html %}
 </head>
 <body>
   <div class="rdb-topbar">

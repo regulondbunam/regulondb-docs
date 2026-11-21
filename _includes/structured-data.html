@@ -1,0 +1,9 @@
+{%- comment -%}
+  Structured data (schema.org JSON-LD) describing the RegulonDB documentation as a CreativeWork.
+  The JSON-LD itself is kept in _includes/regulondb_documentation.jsonld, which is also
+  published as /assets/metadata/regulondb_documentation.jsonld.
+  Included in the <head> of _layouts/default.html, so it is part of the static HTML of every page.
+{%- endcomment -%}
+<script type="application/ld+json">
+{% include regulondb_documentation.jsonld %}
+</script>
